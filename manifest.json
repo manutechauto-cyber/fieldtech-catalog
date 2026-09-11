@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "packs": [
+    {"packId":"siemens_g120","manufacturer":"Siemens","family":"SINAMICS G120","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/siemens/g120.json"},
+    {"packId":"siemens_g120c","manufacturer":"Siemens","family":"SINAMICS G120C","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/siemens/g120c.json"},
+    {"packId":"siemens_s120","manufacturer":"Siemens","family":"SINAMICS S120","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/siemens/s120.json"},
+    {"packId":"siemens_v90","manufacturer":"Siemens","family":"SINAMICS V90","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/siemens/v90.json"},
+    {"packId":"rockwell_pf525","manufacturer":"Allen-Bradley","family":"PowerFlex 525","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf525.json"},
+    {"packId":"rockwell_pf527","manufacturer":"Allen-Bradley","family":"PowerFlex 527","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf527.json"},
+    {"packId":"rockwell_pf753","manufacturer":"Allen-Bradley","family":"PowerFlex 753","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf753.json"},
+    {"packId":"rockwell_pf755","manufacturer":"Allen-Bradley","family":"PowerFlex 755","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf755.json"},
+    {"packId":"danfoss_fc280","manufacturer":"Danfoss","family":"VLT Midi Drive FC 280","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/danfoss/fc280.json"},
+    {"packId":"danfoss_fc302","manufacturer":"Danfoss","family":"VLT AutomationDrive FC 302","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/danfoss/fc302.json"},
+    {"packId":"weg_cfw500","manufacturer":"WEG","family":"CFW500","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/weg/cfw500.json"},
+    {"packId":"weg_cfw700","manufacturer":"WEG","family":"CFW700","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/weg/cfw700.json"},
+    {"packId":"weg_cfw900","manufacturer":"WEG","family":"CFW900","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/weg/cfw900.json"},
+    {"packId":"sew_movifit","manufacturer":"SEW-EURODRIVE","family":"MOVIFIT","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/sew/movifit.json"},
+    {"packId":"sew_movidrive","manufacturer":"SEW-EURODRIVE","family":"MOVIDRIVE","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/sew/movidrive.json"},
+    {"packId":"abb_acs355","manufacturer":"ABB","family":"ACS355","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs355.json"},
+    {"packId":"abb_acs580","manufacturer":"ABB","family":"ACS580","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs580.json"},
+    {"packId":"abb_acs880","manufacturer":"ABB","family":"ACS880","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs880.json"},
+    {"packId":"schneider_atv320","manufacturer":"Schneider Electric","family":"Altivar ATV320","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv320.json"},
+    {"packId":"schneider_atv630","manufacturer":"Schneider Electric","family":"Altivar Process ATV630","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv630.json"},
+    {"packId":"schneider_atv930","manufacturer":"Schneider Electric","family":"Altivar Process ATV930","version":1,"url":"https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv930.json"}
+  ]
+}
