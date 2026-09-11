@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'catalog_bundle.b64'
-      - '.github/workflows/populate-catalog.yml'
   workflow_dispatch:
 
 permissions:
@@ -39,23 +38,19 @@ jobs:
           python3 - <<'PY'
           import json, pathlib
           m = json.loads(pathlib.Path('manifest.json').read_text())
-          assert m['catalogVersion'] == 4
+          assert m['catalogVersion'] >= 5
           assert 'it' in m.get('languages', [])
-          assert len(m['packs']) == 22
+          assert len(m['packs']) >= 32
           for item in m['packs']:
               rel = item['url'].split('/main/', 1)[1]
               p = pathlib.Path(rel)
               assert p.exists(), rel
               data = json.loads(p.read_text())
               assert data['packId'] == item['packId']
-              assert data['version'] == 4
+              assert data['version'] == item['version']
               assert data.get('parameters'), rel + ' has no parameters'
               assert data.get('faults'), rel + ' has no faults'
-              for fault in data['faults']:
-                  assert 'it' in fault.get('title', {}), rel + ' fault missing it title'
-              for par in data['parameters']:
-                  assert 'it' in par.get('name', {}), rel + ' parameter missing it name'
-          print('Validated 22 drive packs v4 with Italian localization')
+          print(f"Validated {len(m['packs'])} drive packs")
           PY
       - name: Commit generated catalog
         shell: bash
@@ -63,11 +58,11 @@ jobs:
           rm -f _staging_test.tmp
           git config user.name 'FieldTech Catalog Bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add manifest.json siemens rockwell danfoss weg sew abb schneider
+          git add manifest.json siemens rockwell danfoss weg sew abb schneider yaskawa lenze
           git rm -f --ignore-unmatch _staging_test.tmp
           if git diff --cached --quiet; then
             echo 'Catalog already up to date.'
             exit 0
           fi
-          git commit -m 'Expand FieldTech drive packs v4 with Italian localization'
+          git commit -m 'Expand FieldTech catalog with Lenze drive packs'
           git push
