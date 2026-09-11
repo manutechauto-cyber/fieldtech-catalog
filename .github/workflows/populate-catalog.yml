@@ -39,7 +39,8 @@ jobs:
           python3 - <<'PY'
           import json, pathlib
           m = json.loads(pathlib.Path('manifest.json').read_text())
-          assert m['catalogVersion'] == 3
+          assert m['catalogVersion'] == 4
+          assert 'it' in m.get('languages', [])
           assert len(m['packs']) == 22
           for item in m['packs']:
               rel = item['url'].split('/main/', 1)[1]
@@ -47,10 +48,14 @@ jobs:
               assert p.exists(), rel
               data = json.loads(p.read_text())
               assert data['packId'] == item['packId']
-              assert data['version'] == 2
+              assert data['version'] == 4
               assert data.get('parameters'), rel + ' has no parameters'
               assert data.get('faults'), rel + ' has no faults'
-          print('Validated 22 drive packs')
+              for fault in data['faults']:
+                  assert 'it' in fault.get('title', {}), rel + ' fault missing it title'
+              for par in data['parameters']:
+                  assert 'it' in par.get('name', {}), rel + ' parameter missing it name'
+          print('Validated 22 drive packs v4 with Italian localization')
           PY
       - name: Commit generated catalog
         shell: bash
@@ -58,13 +63,11 @@ jobs:
           rm -f _staging_test.tmp
           git config user.name 'FieldTech Catalog Bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add README.md manifest.json siemens rockwell danfoss weg sew abb schneider
+          git add manifest.json siemens rockwell danfoss weg sew abb schneider
           git rm -f --ignore-unmatch _staging_test.tmp
           if git diff --cached --quiet; then
             echo 'Catalog already up to date.'
             exit 0
           fi
-          git commit -m 'Populate all FieldTech Engineer drive packs v2'
+          git commit -m 'Expand FieldTech drive packs v4 with Italian localization'
           git push
-
-# trigger catalog population after workflow creation
