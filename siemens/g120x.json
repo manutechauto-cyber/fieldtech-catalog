@@ -1,0 +1,29 @@
+{
+  "packId": "siemens_g120x",
+  "manufacturer": "Siemens",
+  "family": "SINAMICS G120X",
+  "aliases": ["G120X", "SINAMICS G120X"],
+  "models": ["G120X"],
+  "version": 1,
+  "status": "starter",
+  "faults": [],
+  "parameters": [],
+  "quickSetup": [
+    {
+      "title": {
+        "en": "Commissioning checklist",
+        "pt": "Checklist de comissionamento",
+        "es": "Checklist de puesta en marcha",
+        "fr": "Checklist de mise en service",
+        "de": "Inbetriebnahme-Checkliste"
+      },
+      "steps": {
+        "en": ["Verify motor nameplate data", "Set rated voltage/current/frequency/RPM", "Set accel/decel ramps", "Set min/max speed", "Verify direction of rotation", "Perform motor identification/autotune if applicable"],
+        "pt": ["Confirme os dados da placa do motor", "Ajuste tensão/corrente/frequência/RPM nominais", "Ajuste rampas de aceleração/desaceleração", "Ajuste velocidade mínima/máxima", "Confirme o sentido de rotação", "Execute identificação/autotune quando aplicável"],
+        "es": ["Verifique los datos de placa del motor", "Ajuste tensión/corriente/frecuencia/RPM nominales", "Ajuste rampas de aceleración/deceleración", "Ajuste velocidad mínima/máxima", "Verifique el sentido de giro", "Ejecute identificación/autotune cuando aplique"],
+        "fr": ["Vérifiez les données de plaque moteur", "Réglez tension/courant/fréquence/RPM nominaux", "Réglez les rampes accélération/décélération", "Réglez vitesse mini/maxi", "Vérifiez le sens de rotation", "Lancez l'identification/autotune si applicable"],
+        "de": ["Motortypenschild prüfen", "Nennspannung/-strom/-frequenz/-drehzahl einstellen", "Beschleunigungs-/Bremsrampen einstellen", "Min./Max. Drehzahl einstellen", "Drehrichtung prüfen", "Motoridentifikation/Autotune ausführen, falls verfügbar"]
+      }
+    }
+  ]
+}
