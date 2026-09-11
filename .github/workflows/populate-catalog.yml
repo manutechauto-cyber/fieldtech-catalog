@@ -66,3 +66,5 @@ jobs:
           fi
           git commit -m 'Populate all FieldTech Engineer drive packs v2'
           git push
+
+# trigger catalog population after workflow creation
