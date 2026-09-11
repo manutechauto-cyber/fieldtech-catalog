@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "status": "pending-review",
+  "requestedQuery": "atv340",
+  "requestedAt": "2026-09-11T16:13:53.089Z",
+  "requestId": "0ca46caf-862b-483f-995e-e369ae26b698",
+  "requestedBy": "0f95763a-73b2-4839-bace-b0bc750ec855",
+  "bestCandidate": {
+    "manufacturer": "Schneider Electric",
+    "family": "atv340",
+    "sourceUrl": "https://www.se.com/us/en/download/document/NVE61643/",
+    "sourceTitle": "ATV340 Programming Manual | Schneider Electric",
+    "snippet": "The purpose of this document is to:• help you to set up the drive,• show you how to program the drive,• show you the different menus, modes, and ...",
+    "domain": "se.com",
+    "official": true,
+    "confidence": "high"
+  },
+  "evidence": [
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "atv340",
+      "sourceUrl": "https://www.se.com/us/en/download/document/NVE61643/",
+      "sourceTitle": "ATV340 Programming Manual | Schneider Electric",
+      "snippet": "The purpose of this document is to:• help you to set up the drive,• show you how to program the drive,• show you the different menus, modes, and ...",
+      "domain": "se.com",
+      "official": true,
+      "confidence": "high"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "atv340",
+      "sourceUrl": "https://www.watertecna.com/wp-content/uploads/Schneider-ATV340-Programming-Manual.pdf",
+      "sourceTitle": "Altivar Machine ATV340 - Programming Manual - 01/2019",
+      "snippet": "WaterTec is the Pacific North West leader in irrigation system design, installation and maintenance for various agricultural and greenhouse applications.",
+      "domain": "watertecna.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "atv340",
+      "sourceUrl": "https://www.scribd.com/document/453399176/ATV340-Programming-Manual-EN-NVE61643-04",
+      "sourceTitle": "ATV340 Programming Manual EN NVE61643 04 | PDF | Safety | Reliability Engineering",
+      "snippet": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 492 8.44 [Embedded Encoder] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499 [Embedded Encoder] IEE- Menu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499 8.45 [Error/Warning handling] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 502 [Auto fault reset] Atr- Menu .",
+      "domain": "scribd.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "atv340",
+      "sourceUrl": "https://www.scribd.com/document/653957488/ATV340-Programming-Manual",
+      "sourceTitle": "ATV340 Programming Manual | PDF | Electric Motor | Switch",
+      "snippet": "ATV340 Programming Manual - Free download as PDF File (.pdf), Text File (.txt) or read online for free.",
+      "domain": "scribd.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "atv340",
+      "sourceUrl": "https://www.energeia.gr/images/products/documents/manuals/sch-atv340-programmingmanual.pdf",
+      "sourceTitle": "Altivar Machine ATV340 Variable Speed Drives for Asynchronous and",
+      "snippet": "Altivar Machine ATV340 · Variable Speed Drives for Asynchronous and",
+      "domain": "energeia.gr",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "atv340",
+      "sourceUrl": "https://www.scribd.com/document/521071432/6101741b055525aaf79e8e47fe23d7cc-ATV340-Programming-Manual-EN-NVE61643-06",
+      "sourceTitle": "ATV340 - Programming Manual - EN - NVE61643 - 06 | PDF | Electric Motor | Switch",
+      "snippet": "6101741b055525aaf79e8e47fe23d7cc_<strong>ATV340_Programming Manual_EN_NVE61643_06</strong> - Free download as PDF File (.pdf), Text File (.txt) or read online for free.",
+      "domain": "scribd.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "atv340",
+      "sourceUrl": "https://cdn.lsicloud.net/kendall/Resources/AD/Schneider_Electric_ATV930C13N4C_User_Manual.pdf",
+      "sourceTitle": "NHA80757.07 www.schneider-electric.com Altivar Process ATV900 NHA80757 05/2019",
+      "snippet": "The information provided in this documentation contains general descriptions and/or technical character- · Safety Information. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . · About the Book . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ...",
+      "domain": "cdn.lsicloud.net",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "atv340",
+      "sourceUrl": "https://files.climatemaster.com/97B0001N13-VFD-Drive-IOM.pdf",
+      "sourceTitle": "Operation Manual - Variable Frequency Drive (VFD)",
+      "snippet": "Check wiring between unit and VFD terminal F and R. ... F to CC first stage airflow. ... F and R to CC for full stage airflow. ... DC voltage should be present between F, R and CC. ... Ensure the local remote switch at the top of the menu is not green. ... See Fault and Alarm Codes section for more information.",
+      "domain": "files.climatemaster.com",
+      "official": false,
+      "confidence": "low"
+    }
+  ],
+  "verification": {
+    "officialSourceFound": true,
+    "highConfidenceSourceFound": true,
+    "parametersVerified": false,
+    "faultsVerified": false
+  },
+  "note": "Auto-Learn candidate. Do not add to manifest until parameter and fault nomenclature is verified against official manufacturer documentation."
+}
