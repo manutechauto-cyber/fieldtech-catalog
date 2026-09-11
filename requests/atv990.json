@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "status": "verified-ready",
+  "requestedQuery": "atv990",
+  "requestedAt": "2026-09-11T17:14:58.576Z",
+  "requestId": "2f99538f-c6e4-442d-bfc2-3b5501f16c8e",
+  "requestedBy": "0f95763a-73b2-4839-bace-b0bc750ec855",
+  "bestCandidate": {
+    "manufacturer": "Schneider Electric",
+    "family": "ATV990",
+    "sourceUrl": "https://www.haascnc.com/content/dam/haascnc/en/service/reference/spindle-drive/ATV12_user_manual_EN_BBV28581_04.pdf",
+    "sourceTitle": "Schneider - Variable Frequency Drive - User Manual",
+    "snippet": "All pertinent state, regional, and local safety regulations must be observed when installing and using this product · Failure to use Schneider Electric software or approved software with our hardware products may result in injury, · Speed control process regulating enables significant energy ...",
+    "domain": "haascnc.com",
+    "official": false,
+    "confidence": "low"
+  },
+  "evidence": [
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "ATV990",
+      "sourceUrl": "https://www.haascnc.com/content/dam/haascnc/en/service/reference/spindle-drive/ATV12_user_manual_EN_BBV28581_04.pdf",
+      "sourceTitle": "Schneider - Variable Frequency Drive - User Manual",
+      "snippet": "All pertinent state, regional, and local safety regulations must be observed when installing and using this product · Failure to use Schneider Electric software or approved software with our hardware products may result in injury, · Speed control process regulating enables significant energy ...",
+      "domain": "haascnc.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "ATV990",
+      "sourceUrl": "https://files.climatemaster.com/97B0001N13-VFD-Drive-IOM.pdf",
+      "sourceTitle": "Operation Manual - Variable Frequency Drive (VFD)",
+      "snippet": "Check wiring between unit and VFD terminal F and R. ... F to CC first stage airflow. ... F and R to CC for full stage airflow. ... DC voltage should be present between F, R and CC. ... Ensure the local remote switch at the top of the menu is not green. ... See Fault and Alarm Codes section for more information.",
+      "domain": "files.climatemaster.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Delta Electronics",
+      "family": "ATV990",
+      "sourceUrl": "https://deltaacdrives.com/Delta-VFD-V-User-Manual.pdf",
+      "sourceTitle": "Delta-VFD-V-User-Manual.pdf",
+      "snippet": "<strong>When “1” is selected, the oL fault level is 125% of rated drive current</strong>.",
+      "domain": "deltaacdrives.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "ATV990",
+      "sourceUrl": "https://media.distributordatasolutions.com/schneider/2016q2/fef677e41765147443ac338c0ffc3ad128a2d0f9.pdf",
+      "sourceTitle": "NHA80757.01 www.schneider-electric.com Altivar Process NHA80757 08/2015",
+      "snippet": "[Auto fault reset] Atr- Menu. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "domain": "media.distributordatasolutions.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "ATV990",
+      "sourceUrl": "https://store.motorcitywashworks.com/Team360/SupportDocuments/Documents/VFD%20Troubleshooting%20ATV%20212.pdf",
+      "sourceTitle": "Schneider Electric Altivar 212 Variable Frequency Drive (VFD)",
+      "snippet": "supplies the digital screen. If possible, avoid shutting off 120VAC power in order to see the actual fault · code displayed on the face of the VFD’s digital display.)",
+      "domain": "store.motorcitywashworks.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "ATV990",
+      "sourceUrl": "https://www.automatedpt.com/wp-content/uploads/2012/06/VFD-M-User-Manual.pdf",
+      "sourceTitle": "VFD-M-User-Manual.pdf",
+      "snippet": "AutomatedPT is an industrial automation distributor with focus on drives, gearboxes, motors, clutches, brakes, and belts. We carry multiple brands for each of our focus categories to meet a large number of application requirements. Call and a live person will immediately pick up the phone.",
+      "domain": "automatedpt.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "",
+      "family": "ATV990",
+      "sourceUrl": "https://www.instrumart.com/assets/VFD-Manual.pdf",
+      "sourceTitle": "PACMotion VFD AC Variable Speed Drive User Guide 0.75 - 250 kW / 1 - 350 HP",
+      "snippet": "Do not activate the automatic fault reset function on any systems whereby this may cause a potentially ... IP55 and IP66 drives provide their own pollution degree 2 environments. IP20 drives must be installed in a · pollution degree 2 environment, mounted in a cabinet with IP54 or better. PACMotion VFDs are intended for indoor use only.",
+      "domain": "instrumart.com",
+      "official": false,
+      "confidence": "low"
+    },
+    {
+      "manufacturer": "Schneider Electric",
+      "family": "ATV990",
+      "sourceUrl": "https://cdn.lsicloud.net/kendall/Resources/AD/Schneider_Electric_ATV930C13N4C_User_Manual.pdf",
+      "sourceTitle": "NHA80757.07 www.schneider-electric.com Altivar Process ATV900 NHA80757 05/2019",
+      "snippet": "[Auto fault reset] Atr- Menu. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "domain": "cdn.lsicloud.net",
+      "official": false,
+      "confidence": "low"
+    }
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "exactModelOfficialCount": 5,
+    "manualOfficialCount": 1,
+    "parametersVerified": false,
+    "faultsVerified": false,
+    "reason": "Exact model verified against multiple official manufacturer results."
+  },
+  "note": "V24 only publishes to the live manifest after it verifies the exact model plus at least 4 commissioning parameters and 3 fault codes from official manufacturer evidence."
+}
