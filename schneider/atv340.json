@@ -1,0 +1,37 @@
+{
+  "packId": "schneider_atv340",
+  "manufacturer": "Schneider Electric",
+  "family": "ATV340",
+  "aliases": [
+    "atv340",
+    "ATV340",
+    "Schneider Electric ATV340"
+  ],
+  "models": [
+    "ATV340"
+  ],
+  "version": 1,
+  "status": "auto-published-source-verified-v1",
+  "sourceUrl": "https://www.se.com/us/en/download/document/NVE61643/",
+  "officialSources": [
+    "https://www.se.com/us/en/download/document/NVE61643/",
+    "https://iportal.se.com/Contents/docs/ATV900_Safety_Functions_Manual_EN.pdf",
+    "https://www.se.com/us/en/download/document/NVE41295/",
+    "https://www.se.com/eg/en/download/document/NVE61643/",
+    "https://www.se.com/it/it/download/document/NVE61648/",
+    "https://www.se.com/us/en/download/document/NVE61654/",
+    "https://www.se.com/fr/fr/download/document/NVE61644/",
+    "https://www.se.com/us/en/faqs/FA412732/"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "exactModelOfficialCount": 26,
+    "manualOfficialCount": 14,
+    "parametersVerified": false,
+    "faultsVerified": false,
+    "note": "Model and official documentation are verified. Parameter/fault enrichment remains pending until exact vendor nomenclature is verified."
+  },
+  "parameters": [],
+  "faults": [],
+  "quickSetup": []
+}
