@@ -2,6 +2,10 @@
 
 Downloadable field-reference catalog. Catalog version 27 contains 118 published packs across 29 manufacturer directories. These are selected subsets, not complete manufacturer manuals.
 
+## Downloadable cloud database
+
+[Cloud database and integration contract](cloud/README.md): a checksum-verified SQLite snapshot containing published drives, sensor types and research candidates. [Release](cloud/release.json) distinguishes published content from research. This does not assert deployment to an app or live Supabase database.
+
 ## Industrial expansion
 
 [Industrial sensors](industrial/sensors/README.md): research structure for 23 sensor and industrial code-reader types, targeting 20 models per type. No sensor models or worldwide sales ranking are published yet. Sensors use their own taxonomy and future pack/drop contract.

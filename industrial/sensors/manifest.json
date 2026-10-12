@@ -62,7 +62,24 @@
       "lightSource": null,
       "priority": 1,
       "target": 20,
-      "candidates": [],
+      "candidates": [
+        {
+          "manufacturer": "ifm",
+          "model": "O5D100",
+          "status": "model-confirmed",
+          "selectionBasis": "inferred-field-service-priority",
+          "salesRankingConfirmed": false,
+          "evidence": [
+            {
+              "url": "https://www.ifm.com/binaries/content/assets/us/html5-animations/verge-products/o5d100h/index.html",
+              "scope": "Exact model and IO-Link setup referenced by manufacturer"
+            }
+          ],
+          "manualUrl": "https://www.ifm.com/download/files/ifm-000174-20210526-IODD11-en/%24file/ifm-000174-20210526-IODD11-en.pdf",
+          "manualReviewStatus": "pending; retrieval unsuccessful",
+          "published": false
+        }
+      ],
       "publishedPackIds": []
     },
     {

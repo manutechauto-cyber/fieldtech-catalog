@@ -1,0 +1,1275 @@
+{
+  "schemaVersion": 1,
+  "distributionVersion": 1,
+  "drivesCatalogVersion": 27,
+  "counts": {
+    "publishedDrives": 118,
+    "publishedSensors": 0,
+    "sensorTypes": 23,
+    "sensorCandidates": 1
+  },
+  "packs": [
+    {
+      "id": "abb_ach580",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACH580",
+      "version": 1,
+      "path": "abb/ach580.json"
+    },
+    {
+      "id": "abb_acq580",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACQ580",
+      "version": 1,
+      "path": "abb/acq580.json"
+    },
+    {
+      "id": "abb_acs355",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS355",
+      "version": 2,
+      "path": "abb/acs355.json"
+    },
+    {
+      "id": "abb_acs380",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS380",
+      "version": 1,
+      "path": "abb/acs380.json"
+    },
+    {
+      "id": "abb_acs480",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS480",
+      "version": 1,
+      "path": "abb/acs480.json"
+    },
+    {
+      "id": "abb_acs550",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS550",
+      "version": 1,
+      "path": "abb/acs550.json"
+    },
+    {
+      "id": "abb_acs580",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS580",
+      "version": 2,
+      "path": "abb/acs580.json"
+    },
+    {
+      "id": "abb_acs880",
+      "category": "drives",
+      "manufacturer": "ABB",
+      "model": "ACS880",
+      "version": 2,
+      "path": "abb/acs880.json"
+    },
+    {
+      "id": "bonfiglioli_active_cube",
+      "category": "drives",
+      "manufacturer": "Bonfiglioli",
+      "model": "Active Cube",
+      "version": 1,
+      "path": "bonfiglioli/active_cube.json"
+    },
+    {
+      "id": "bonfiglioli_agile",
+      "category": "drives",
+      "manufacturer": "Bonfiglioli",
+      "model": "Agile",
+      "version": 1,
+      "path": "bonfiglioli/agile.json"
+    },
+    {
+      "id": "bonfiglioli_s2u",
+      "category": "drives",
+      "manufacturer": "Bonfiglioli",
+      "model": "S2U",
+      "version": 1,
+      "path": "bonfiglioli/s2u.json"
+    },
+    {
+      "id": "bosch_rexroth_efc3610",
+      "category": "drives",
+      "manufacturer": "Bosch Rexroth",
+      "model": "EFC 3610",
+      "version": 1,
+      "path": "bosch_rexroth/efc3610.json"
+    },
+    {
+      "id": "bosch_rexroth_efc5610",
+      "category": "drives",
+      "manufacturer": "Bosch Rexroth",
+      "model": "EFC 5610",
+      "version": 1,
+      "path": "bosch_rexroth/efc5610.json"
+    },
+    {
+      "id": "control_techniques_unidrive_m200",
+      "category": "drives",
+      "manufacturer": "Control Techniques",
+      "model": "Unidrive M200/M201",
+      "version": 1,
+      "path": "control_techniques/unidrive_m200.json"
+    },
+    {
+      "id": "ct_commander_c200",
+      "category": "drives",
+      "manufacturer": "Control Techniques",
+      "model": "Commander C200",
+      "version": 1,
+      "path": "control_techniques/commander_c200.json"
+    },
+    {
+      "id": "ct_commander_c300",
+      "category": "drives",
+      "manufacturer": "Control Techniques",
+      "model": "Commander C300",
+      "version": 1,
+      "path": "control_techniques/commander_c300.json"
+    },
+    {
+      "id": "ct_digitax_hd",
+      "category": "drives",
+      "manufacturer": "Control Techniques",
+      "model": "Digitax HD",
+      "version": 1,
+      "path": "control_techniques/digitax_hd.json"
+    },
+    {
+      "id": "ct_unidrive_m700",
+      "category": "drives",
+      "manufacturer": "Control Techniques",
+      "model": "Unidrive M700",
+      "version": 1,
+      "path": "control_techniques/unidrive_m700.json"
+    },
+    {
+      "id": "danfoss_fc102",
+      "category": "drives",
+      "manufacturer": "Danfoss",
+      "model": "VLT HVAC Drive FC 102",
+      "version": 1,
+      "path": "danfoss/fc102.json"
+    },
+    {
+      "id": "danfoss_fc202",
+      "category": "drives",
+      "manufacturer": "Danfoss",
+      "model": "VLT Aqua Drive FC 202",
+      "version": 1,
+      "path": "danfoss/fc202.json"
+    },
+    {
+      "id": "danfoss_fc280",
+      "category": "drives",
+      "manufacturer": "Danfoss",
+      "model": "VLT Midi Drive FC 280",
+      "version": 2,
+      "path": "danfoss/fc280.json"
+    },
+    {
+      "id": "danfoss_fc302",
+      "category": "drives",
+      "manufacturer": "Danfoss",
+      "model": "VLT AutomationDrive FC 302",
+      "version": 2,
+      "path": "danfoss/fc302.json"
+    },
+    {
+      "id": "delta_c2000",
+      "category": "drives",
+      "manufacturer": "Delta Electronics",
+      "model": "C2000",
+      "version": 1,
+      "path": "delta/c2000.json"
+    },
+    {
+      "id": "delta_cp2000",
+      "category": "drives",
+      "manufacturer": "Delta Electronics",
+      "model": "CP2000",
+      "version": 1,
+      "path": "delta/cp2000.json"
+    },
+    {
+      "id": "delta_ms300",
+      "category": "drives",
+      "manufacturer": "Delta Electronics",
+      "model": "MS300",
+      "version": 1,
+      "path": "delta/ms300.json"
+    },
+    {
+      "id": "delta_vfd_e",
+      "category": "drives",
+      "manufacturer": "Delta Electronics",
+      "model": "VFD-E",
+      "version": 1,
+      "path": "delta/vfd_e.json"
+    },
+    {
+      "id": "eaton_da1",
+      "category": "drives",
+      "manufacturer": "Eaton",
+      "model": "PowerXL DA1",
+      "version": 1,
+      "path": "eaton/da1.json"
+    },
+    {
+      "id": "eaton_de1",
+      "category": "drives",
+      "manufacturer": "Eaton",
+      "model": "PowerXL DE1",
+      "version": 1,
+      "path": "eaton/de1.json"
+    },
+    {
+      "id": "eaton_dg1",
+      "category": "drives",
+      "manufacturer": "Eaton",
+      "model": "PowerXL DG1",
+      "version": 1,
+      "path": "eaton/dg1.json"
+    },
+    {
+      "id": "eaton_dm1",
+      "category": "drives",
+      "manufacturer": "Eaton",
+      "model": "PowerXL DM1",
+      "version": 1,
+      "path": "eaton/dm1.json"
+    },
+    {
+      "id": "emerson_commander_sk",
+      "category": "drives",
+      "manufacturer": "Emerson / Control Techniques",
+      "model": "Commander SK",
+      "version": 1,
+      "path": "emerson/commander_sk.json"
+    },
+    {
+      "id": "emerson_mentor_mp",
+      "category": "drives",
+      "manufacturer": "Emerson / Control Techniques",
+      "model": "Mentor MP",
+      "version": 1,
+      "path": "emerson/mentor_mp.json"
+    },
+    {
+      "id": "emerson_unidrive_sp",
+      "category": "drives",
+      "manufacturer": "Emerson / Control Techniques",
+      "model": "Unidrive SP",
+      "version": 1,
+      "path": "emerson/unidrive_sp.json"
+    },
+    {
+      "id": "fuji_frenic_ace",
+      "category": "drives",
+      "manufacturer": "Fuji Electric",
+      "model": "FRENIC-Ace",
+      "version": 1,
+      "path": "fuji/frenic_ace.json"
+    },
+    {
+      "id": "fuji_frenic_hvac",
+      "category": "drives",
+      "manufacturer": "Fuji Electric",
+      "model": "FRENIC-HVAC",
+      "version": 1,
+      "path": "fuji/frenic_hvac.json"
+    },
+    {
+      "id": "fuji_frenic_lift_lm1s",
+      "category": "drives",
+      "manufacturer": "Fuji Electric",
+      "model": "FRENIC-Lift LM1S",
+      "version": 1,
+      "path": "fuji/frenic_lift_lm1s.json"
+    },
+    {
+      "id": "fuji_frenic_mega",
+      "category": "drives",
+      "manufacturer": "Fuji Electric",
+      "model": "FRENIC-MEGA",
+      "version": 1,
+      "path": "fuji/frenic_mega.json"
+    },
+    {
+      "id": "fuji_frenic_mini",
+      "category": "drives",
+      "manufacturer": "Fuji Electric",
+      "model": "FRENIC-Mini",
+      "version": 1,
+      "path": "fuji/frenic_mini.json"
+    },
+    {
+      "id": "ge_af600_fp",
+      "category": "drives",
+      "manufacturer": "GE Industrial Solutions",
+      "model": "AF-600 FP",
+      "version": 1,
+      "path": "ge/af600_fp.json"
+    },
+    {
+      "id": "ge_af650_gp",
+      "category": "drives",
+      "manufacturer": "GE Industrial Solutions",
+      "model": "AF-650 GP",
+      "version": 1,
+      "path": "ge/af650_gp.json"
+    },
+    {
+      "id": "hitachi_nes1",
+      "category": "drives",
+      "manufacturer": "Hitachi Industrial Equipment Systems",
+      "model": "NE-S1",
+      "version": 1,
+      "path": "hitachi/nes1.json"
+    },
+    {
+      "id": "hitachi_sj_p1",
+      "category": "drives",
+      "manufacturer": "Hitachi",
+      "model": "SJ-P1",
+      "version": 1,
+      "path": "hitachi/sj_p1.json"
+    },
+    {
+      "id": "hitachi_wj200",
+      "category": "drives",
+      "manufacturer": "Hitachi Industrial Equipment Systems",
+      "model": "WJ200",
+      "version": 1,
+      "path": "hitachi/wj200.json"
+    },
+    {
+      "id": "hitachi_wj_c1",
+      "category": "drives",
+      "manufacturer": "Hitachi Industrial Equipment Systems",
+      "model": "WJ-C1",
+      "version": 1,
+      "path": "hitachi/wj_c1.json"
+    },
+    {
+      "id": "honeywell_smartvfd_compact",
+      "category": "drives",
+      "manufacturer": "Honeywell",
+      "model": "SmartVFD COMPACT",
+      "version": 1,
+      "path": "honeywell/smartvfd_compact.json"
+    },
+    {
+      "id": "invertek_optidrive_coolvert",
+      "category": "drives",
+      "manufacturer": "Invertek Drives",
+      "model": "Optidrive CoolVert",
+      "version": 1,
+      "path": "invertek/optidrive_coolvert.json"
+    },
+    {
+      "id": "invertek_optidrive_e3",
+      "category": "drives",
+      "manufacturer": "Invertek Drives",
+      "model": "Optidrive E3",
+      "version": 1,
+      "path": "invertek/optidrive_e3.json"
+    },
+    {
+      "id": "invertek_optidrive_hvac_eco",
+      "category": "drives",
+      "manufacturer": "Invertek Drives",
+      "model": "Optidrive HVAC Eco",
+      "version": 1,
+      "path": "invertek/optidrive_hvac_eco.json"
+    },
+    {
+      "id": "invertek_optidrive_p2",
+      "category": "drives",
+      "manufacturer": "Invertek Drives",
+      "model": "Optidrive P2",
+      "version": 1,
+      "path": "invertek/optidrive_p2.json"
+    },
+    {
+      "id": "invt_gd20",
+      "category": "drives",
+      "manufacturer": "INVT",
+      "model": "Goodrive20",
+      "version": 1,
+      "path": "invt/gd20.json"
+    },
+    {
+      "id": "invt_gd200a",
+      "category": "drives",
+      "manufacturer": "INVT",
+      "model": "Goodrive200A",
+      "version": 1,
+      "path": "invt/gd200a.json"
+    },
+    {
+      "id": "keb_combivert_f5",
+      "category": "drives",
+      "manufacturer": "KEB Automation",
+      "model": "COMBIVERT F5",
+      "version": 1,
+      "path": "keb/combivert_f5.json"
+    },
+    {
+      "id": "keb_combivert_f6",
+      "category": "drives",
+      "manufacturer": "KEB Automation",
+      "model": "COMBIVERT F6",
+      "version": 1,
+      "path": "keb/combivert_f6.json"
+    },
+    {
+      "id": "lenze_8200_vector",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "8200 Vector",
+      "version": 1,
+      "path": "lenze/8200_vector.json"
+    },
+    {
+      "id": "lenze_8400_highline",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "8400 HighLine",
+      "version": 1,
+      "path": "lenze/8400_highline.json"
+    },
+    {
+      "id": "lenze_8400_stateline",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "8400 StateLine",
+      "version": 1,
+      "path": "lenze/8400_stateline.json"
+    },
+    {
+      "id": "lenze_9300_vector",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "9300 Vector",
+      "version": 1,
+      "path": "lenze/9300_vector.json"
+    },
+    {
+      "id": "lenze_i510",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "i510",
+      "version": 1,
+      "path": "lenze/i510.json"
+    },
+    {
+      "id": "lenze_i550",
+      "category": "drives",
+      "manufacturer": "Lenze",
+      "model": "i550",
+      "version": 1,
+      "path": "lenze/i550.json"
+    },
+    {
+      "id": "ls_g100",
+      "category": "drives",
+      "manufacturer": "LS Electric",
+      "model": "G100",
+      "version": 1,
+      "path": "ls/g100.json"
+    },
+    {
+      "id": "ls_h100",
+      "category": "drives",
+      "manufacturer": "LS Electric",
+      "model": "H100",
+      "version": 1,
+      "path": "ls/h100.json"
+    },
+    {
+      "id": "ls_ic5",
+      "category": "drives",
+      "manufacturer": "LS ELECTRIC",
+      "model": "SV-iC5",
+      "version": 1,
+      "path": "ls/ic5.json"
+    },
+    {
+      "id": "ls_ig5a",
+      "category": "drives",
+      "manufacturer": "LS Electric",
+      "model": "iG5A",
+      "version": 1,
+      "path": "ls/ig5a.json"
+    },
+    {
+      "id": "ls_s100",
+      "category": "drives",
+      "manufacturer": "LS Electric",
+      "model": "S100",
+      "version": 1,
+      "path": "ls/s100.json"
+    },
+    {
+      "id": "mitsubishi_fr_a800",
+      "category": "drives",
+      "manufacturer": "Mitsubishi Electric",
+      "model": "FREQROL FR-A800",
+      "version": 1,
+      "path": "mitsubishi/fr_a800.json"
+    },
+    {
+      "id": "mitsubishi_fr_d700",
+      "category": "drives",
+      "manufacturer": "Mitsubishi Electric",
+      "model": "FREQROL FR-D700",
+      "version": 1,
+      "path": "mitsubishi/fr_d700.json"
+    },
+    {
+      "id": "mitsubishi_fr_e700",
+      "category": "drives",
+      "manufacturer": "Mitsubishi Electric",
+      "model": "FREQROL FR-E700",
+      "version": 1,
+      "path": "mitsubishi/fr_e700.json"
+    },
+    {
+      "id": "mitsubishi_fr_e800",
+      "category": "drives",
+      "manufacturer": "Mitsubishi Electric",
+      "model": "FREQROL FR-E800",
+      "version": 1,
+      "path": "mitsubishi/fr_e800.json"
+    },
+    {
+      "id": "mitsubishi_fr_f800",
+      "category": "drives",
+      "manufacturer": "Mitsubishi Electric",
+      "model": "FREQROL FR-F800",
+      "version": 1,
+      "path": "mitsubishi/fr_f800.json"
+    },
+    {
+      "id": "nord_sk250e_fds",
+      "category": "drives",
+      "manufacturer": "NORD DRIVESYSTEMS",
+      "model": "NORDAC LINK SK 250E-FDS",
+      "version": 1,
+      "path": "nord/sk250e_fds.json"
+    },
+    {
+      "id": "nord_sk500p",
+      "category": "drives",
+      "manufacturer": "NORD DRIVESYSTEMS",
+      "model": "NORDAC PRO SK 500P",
+      "version": 1,
+      "path": "nord/sk500p.json"
+    },
+    {
+      "id": "omron_jx",
+      "category": "drives",
+      "manufacturer": "Omron",
+      "model": "SYSDRIVE JX",
+      "version": 1,
+      "path": "omron/jx.json"
+    },
+    {
+      "id": "omron_mx2_v2",
+      "category": "drives",
+      "manufacturer": "Omron",
+      "model": "3G3MX2-V2",
+      "version": 1,
+      "path": "omron/mx2_v2.json"
+    },
+    {
+      "id": "omron_rx2",
+      "category": "drives",
+      "manufacturer": "Omron",
+      "model": "3G3RX2",
+      "version": 1,
+      "path": "omron/rx2.json"
+    },
+    {
+      "id": "parker_ac10",
+      "category": "drives",
+      "manufacturer": "Parker Hannifin",
+      "model": "AC10",
+      "version": 1,
+      "path": "parker/ac10.json"
+    },
+    {
+      "id": "parker_ac15",
+      "category": "drives",
+      "manufacturer": "Parker Hannifin",
+      "model": "AC15",
+      "version": 1,
+      "path": "parker/ac15.json"
+    },
+    {
+      "id": "parker_ac20",
+      "category": "drives",
+      "manufacturer": "Parker Hannifin",
+      "model": "AC20",
+      "version": 1,
+      "path": "parker/ac20.json"
+    },
+    {
+      "id": "rockwell_pf40",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 40",
+      "version": 1,
+      "path": "rockwell/pf40.json"
+    },
+    {
+      "id": "rockwell_pf523",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 523",
+      "version": 1,
+      "path": "rockwell/pf523.json"
+    },
+    {
+      "id": "rockwell_pf525",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 525",
+      "version": 3,
+      "path": "rockwell/pf525.json"
+    },
+    {
+      "id": "rockwell_pf527",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 527",
+      "version": 2,
+      "path": "rockwell/pf527.json"
+    },
+    {
+      "id": "rockwell_pf753",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 753",
+      "version": 2,
+      "path": "rockwell/pf753.json"
+    },
+    {
+      "id": "rockwell_pf755",
+      "category": "drives",
+      "manufacturer": "Allen-Bradley",
+      "model": "PowerFlex 755",
+      "version": 2,
+      "path": "rockwell/pf755.json"
+    },
+    {
+      "id": "schneider_atv12",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar ATV12",
+      "version": 1,
+      "path": "schneider/atv12.json"
+    },
+    {
+      "id": "schneider_atv320",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar ATV320",
+      "version": 2,
+      "path": "schneider/atv320.json"
+    },
+    {
+      "id": "schneider_atv340",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "ATV340",
+      "version": 2,
+      "path": "schneider/atv340.json"
+    },
+    {
+      "id": "schneider_atv630",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar Process ATV630",
+      "version": 3,
+      "path": "schneider/atv630.json"
+    },
+    {
+      "id": "schneider_atv650",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar Process ATV650",
+      "version": 1,
+      "path": "schneider/atv650.json"
+    },
+    {
+      "id": "schneider_atv930",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar Process ATV930",
+      "version": 3,
+      "path": "schneider/atv930.json"
+    },
+    {
+      "id": "schneider_atv950",
+      "category": "drives",
+      "manufacturer": "Schneider Electric",
+      "model": "Altivar Process ATV950",
+      "version": 1,
+      "path": "schneider/atv950.json"
+    },
+    {
+      "id": "sew_movidrive",
+      "category": "drives",
+      "manufacturer": "SEW-EURODRIVE",
+      "model": "MOVIDRIVE",
+      "version": 2,
+      "path": "sew/movidrive.json"
+    },
+    {
+      "id": "sew_movifit",
+      "category": "drives",
+      "manufacturer": "SEW-EURODRIVE",
+      "model": "MOVIFIT",
+      "version": 2,
+      "path": "sew/movifit.json"
+    },
+    {
+      "id": "sew_movitrac_b",
+      "category": "drives",
+      "manufacturer": "SEW-EURODRIVE",
+      "model": "MOVITRAC B",
+      "version": 1,
+      "path": "sew/movitrac_b.json"
+    },
+    {
+      "id": "siemens_g120",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS G120",
+      "version": 2,
+      "path": "siemens/g120.json"
+    },
+    {
+      "id": "siemens_g120c",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS G120C",
+      "version": 2,
+      "path": "siemens/g120c.json"
+    },
+    {
+      "id": "siemens_g120x",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS G120X",
+      "version": 2,
+      "path": "siemens/g120x.json"
+    },
+    {
+      "id": "siemens_s120",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS S120",
+      "version": 2,
+      "path": "siemens/s120.json"
+    },
+    {
+      "id": "siemens_v20",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS V20",
+      "version": 1,
+      "path": "siemens/v20.json"
+    },
+    {
+      "id": "siemens_v90",
+      "category": "drives",
+      "manufacturer": "Siemens",
+      "model": "SINAMICS V90",
+      "version": 2,
+      "path": "siemens/v90.json"
+    },
+    {
+      "id": "toshiba_vf_as3",
+      "category": "drives",
+      "manufacturer": "Toshiba",
+      "model": "TOSVERT VF-AS3",
+      "version": 1,
+      "path": "toshiba/vf_as3.json"
+    },
+    {
+      "id": "toshiba_vf_mb1",
+      "category": "drives",
+      "manufacturer": "Toshiba",
+      "model": "TOSVERT VF-MB1",
+      "version": 1,
+      "path": "toshiba/vf_mb1.json"
+    },
+    {
+      "id": "toshiba_vf_nc3",
+      "category": "drives",
+      "manufacturer": "Toshiba",
+      "model": "TOSVERT VF-nC3",
+      "version": 1,
+      "path": "toshiba/vf_nc3.json"
+    },
+    {
+      "id": "toshiba_vf_s15",
+      "category": "drives",
+      "manufacturer": "Toshiba",
+      "model": "TOSVERT VF-S15",
+      "version": 1,
+      "path": "toshiba/vf_s15.json"
+    },
+    {
+      "id": "vacon_10",
+      "category": "drives",
+      "manufacturer": "VACON / Danfoss",
+      "model": "VACON 10",
+      "version": 1,
+      "path": "vacon/vacon10.json"
+    },
+    {
+      "id": "vacon_100",
+      "category": "drives",
+      "manufacturer": "VACON / Danfoss",
+      "model": "VACON 100",
+      "version": 1,
+      "path": "vacon/vacon100.json"
+    },
+    {
+      "id": "vacon_20",
+      "category": "drives",
+      "manufacturer": "VACON / Danfoss",
+      "model": "VACON 20",
+      "version": 1,
+      "path": "vacon/vacon20.json"
+    },
+    {
+      "id": "vacon_nxp",
+      "category": "drives",
+      "manufacturer": "VACON / Danfoss",
+      "model": "VACON NXP",
+      "version": 1,
+      "path": "vacon/nxp.json"
+    },
+    {
+      "id": "weg_cfw11",
+      "category": "drives",
+      "manufacturer": "WEG",
+      "model": "CFW-11",
+      "version": 1,
+      "path": "weg/cfw11.json"
+    },
+    {
+      "id": "weg_cfw300",
+      "category": "drives",
+      "manufacturer": "WEG",
+      "model": "CFW300",
+      "version": 1,
+      "path": "weg/cfw300.json"
+    },
+    {
+      "id": "weg_cfw500",
+      "category": "drives",
+      "manufacturer": "WEG",
+      "model": "CFW500",
+      "version": 2,
+      "path": "weg/cfw500.json"
+    },
+    {
+      "id": "weg_cfw700",
+      "category": "drives",
+      "manufacturer": "WEG",
+      "model": "CFW700",
+      "version": 2,
+      "path": "weg/cfw700.json"
+    },
+    {
+      "id": "weg_cfw900",
+      "category": "drives",
+      "manufacturer": "WEG",
+      "model": "CFW900",
+      "version": 2,
+      "path": "weg/cfw900.json"
+    },
+    {
+      "id": "yaskawa_a1000",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "A1000",
+      "version": 1,
+      "path": "yaskawa/a1000.json"
+    },
+    {
+      "id": "yaskawa_ga500",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "GA500",
+      "version": 1,
+      "path": "yaskawa/ga500.json"
+    },
+    {
+      "id": "yaskawa_ga800",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "GA800",
+      "version": 1,
+      "path": "yaskawa/ga800.json"
+    },
+    {
+      "id": "yaskawa_j1000",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "J1000",
+      "version": 1,
+      "path": "yaskawa/j1000.json"
+    },
+    {
+      "id": "yaskawa_u1000",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "U1000 Matrix Drive",
+      "version": 1,
+      "path": "yaskawa/u1000.json"
+    },
+    {
+      "id": "yaskawa_v1000",
+      "category": "drives",
+      "manufacturer": "Yaskawa",
+      "model": "V1000",
+      "version": 1,
+      "path": "yaskawa/v1000.json"
+    }
+  ],
+  "sensorTypes": [
+    {
+      "id": "photoelectric-through-beam",
+      "name": {
+        "pt": "Fotoelétrico emissor/receptor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "through-beam",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-retroreflective",
+      "name": {
+        "pt": "Fotoelétrico com refletor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "retroreflective",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-diffuse",
+      "name": {
+        "pt": "Fotoelétrico difuso"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "diffuse",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-background-suppression",
+      "name": {
+        "pt": "Fotoelétrico com supressão de fundo"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "background-suppression",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [
+        {
+          "manufacturer": "ifm",
+          "model": "O5D100",
+          "status": "model-confirmed",
+          "selectionBasis": "inferred-field-service-priority",
+          "salesRankingConfirmed": false,
+          "evidence": [
+            {
+              "url": "https://www.ifm.com/binaries/content/assets/us/html5-animations/verge-products/o5d100h/index.html",
+              "scope": "Exact model and IO-Link setup referenced by manufacturer"
+            }
+          ],
+          "manualUrl": "https://www.ifm.com/download/files/ifm-000174-20210526-IODD11-en/%24file/ifm-000174-20210526-IODD11-en.pdf",
+          "manualReviewStatus": "pending; retrieval unsuccessful",
+          "published": false
+        }
+      ],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-through-beam",
+      "name": {
+        "pt": "Laser emissor/receptor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "through-beam",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-retroreflective",
+      "name": {
+        "pt": "Laser com refletor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "retroreflective",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-diffuse",
+      "name": {
+        "pt": "Laser de presença/difuso"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "diffuse",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-distance",
+      "name": {
+        "pt": "Laser de distância/deslocamento"
+      },
+      "technology": "distance",
+      "sensingPrinciple": "measurement",
+      "lightSource": "laser",
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-transparent",
+      "name": {
+        "pt": "Detecção de transparentes"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "transparent-object",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "fiber-optic",
+      "name": {
+        "pt": "Fibra óptica e amplificador"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "fiber-optic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "fork",
+      "name": {
+        "pt": "Forquilha e detecção de etiquetas"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "fork",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "contrast",
+      "name": {
+        "pt": "Sensor de contraste"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "contrast",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "inductive",
+      "name": {
+        "pt": "Proximidade indutiva"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "inductive",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "capacitive",
+      "name": {
+        "pt": "Proximidade capacitiva"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "capacitive",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "ultrasonic",
+      "name": {
+        "pt": "Ultrassônico"
+      },
+      "technology": "distance",
+      "sensingPrinciple": "ultrasonic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "magnetic-cylinder",
+      "name": {
+        "pt": "Magnético de cilindro/posição"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "magnetic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "pressure",
+      "name": {
+        "pt": "Pressão/vácuo"
+      },
+      "technology": "process",
+      "sensingPrinciple": "pressure",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "temperature",
+      "name": {
+        "pt": "Temperatura"
+      },
+      "technology": "process",
+      "sensingPrinciple": "temperature",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "level",
+      "name": {
+        "pt": "Nível"
+      },
+      "technology": "process",
+      "sensingPrinciple": "level",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "flow",
+      "name": {
+        "pt": "Vazão"
+      },
+      "technology": "process",
+      "sensingPrinciple": "flow",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "color",
+      "name": {
+        "pt": "Sensor de cor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "color",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "barcode-1d",
+      "name": {
+        "pt": "Leitor industrial de códigos 1D"
+      },
+      "technology": "identification",
+      "sensingPrinciple": "barcode-1d",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "code-reader-2d",
+      "name": {
+        "pt": "Leitor industrial de códigos 2D"
+      },
+      "technology": "identification",
+      "sensingPrinciple": "code-2d",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    }
+  ]
+}

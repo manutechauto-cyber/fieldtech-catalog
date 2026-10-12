@@ -16,6 +16,14 @@ def validate(path):
         assert entry['name']['pt']
         assert isinstance(entry['candidates'], list)
         assert isinstance(entry['publishedPackIds'], list)
+        models = [candidate['model'] for candidate in entry['candidates']]
+        assert len(models) == len(set(models))
+        for candidate in entry['candidates']:
+            assert candidate['manufacturer'] and candidate['published'] is False
+            assert candidate['status'] in ('pending-research', 'model-confirmed', 'manual-verified')
+            assert candidate['salesRankingConfirmed'] is False
+            assert candidate['evidence']
+            assert all(source['url'].startswith('https://') and source['scope'] for source in candidate['evidence'])
         if entry['id'].startswith('laser-'):
             assert entry['lightSource'] == 'laser'
     assert {'contrast', 'color', 'barcode-1d', 'code-reader-2d'} <= set(ids)
