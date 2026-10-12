@@ -60,7 +60,46 @@ def artifacts(root=ROOT):
     release={'schemaVersion':1,'databaseSchemaVersion':1,'drivesCatalogVersion':manifest['catalogVersion'],'counts':index['counts'],'bundle':{'url':'https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/industrial_database.b64','encoding':'base64-zip','sha256':hashlib.sha256(bundle).hexdigest(),'bytes':len(bundle)},'database':{'filename':'fieldtech-industrial.sqlite','sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)},'indexUrl':'https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/index.json','scope':'Downloadable read-only catalog; no live Supabase deployment is asserted'}
     return {'index.json':index_bytes,'release.json':(json.dumps(release,ensure_ascii=False,indent=2)+'\n').encode(),'industrial_database.b64':(base64.b64encode(bundle).decode()+'\n').encode()}
 
+def verify(root=ROOT):
+    expected=artifacts(root)
+    cloud=root/'cloud'
+    if (cloud/'index.json').read_bytes()!=expected['index.json']:
+        raise ValueError('Cloud index stale')
+    release=json.loads((cloud/'release.json').read_text())
+    expected_release=json.loads(expected['release.json'])
+    for key in ('schemaVersion','databaseSchemaVersion','drivesCatalogVersion','counts','indexUrl','scope'):
+        if release[key]!=expected_release[key]:
+            raise ValueError(f'Cloud release stale: {key}')
+    zipped=base64.b64decode((cloud/'industrial_database.b64').read_text().strip(),validate=True)
+    if hashlib.sha256(zipped).hexdigest()!=release['bundle']['sha256'] or len(zipped)!=release['bundle']['bytes']:
+        raise ValueError('Bundle checksum/size mismatch')
+    if release['bundle']['url']!=expected_release['bundle']['url'] or release['bundle']['encoding']!='base64-zip':
+        raise ValueError('Unexpected bundle endpoint/encoding')
+    with zipfile.ZipFile(io.BytesIO(zipped)) as z:
+        if z.testzip() or set(z.namelist())!={'fieldtech-industrial.sqlite','index.json'}:
+            raise ValueError('Invalid database archive')
+        raw=z.read('fieldtech-industrial.sqlite')
+        if z.read('index.json')!=expected['index.json']:
+            raise ValueError('Bundled index stale')
+    if hashlib.sha256(raw).hexdigest()!=release['database']['sha256'] or len(raw)!=release['database']['bytes']:
+        raise ValueError('Database checksum/size mismatch')
+    with tempfile.TemporaryDirectory() as temp:
+        actual=Path(temp)/'actual.sqlite';actual.write_bytes(raw)
+        baseline=Path(temp)/'expected.sqlite'
+        manifest,sensors,records=collect(root)
+        write_database(baseline,manifest,sensors,records)
+        with sqlite3.connect(actual) as db, sqlite3.connect(baseline) as reference:
+            if db.execute('PRAGMA integrity_check').fetchone()[0]!='ok' or db.execute('PRAGMA user_version').fetchone()[0]!=1:
+                raise ValueError('Invalid SQLite integrity/schema version')
+            if list(db.iterdump())!=list(reference.iterdump()):
+                raise ValueError('Cloud database contents/schema stale')
+    print('Cloud database validated')
+
+
 def run(root=ROOT,check=False):
+    if check:
+        verify(root)
+        return
     expected=artifacts(root)
     for name,data in expected.items():
         path=root/'cloud'/name

@@ -35,6 +35,6 @@ python scripts/build_cloud_database.py
 python -m unittest discover -s tests -v
 ```
 
-Commit source and generated artifacts together. CI rejects stale distributions and SQLite snapshots. The builder uses only Python stdlib, creates a new database instead of migrating an existing user's data, and generates deterministic outputs. No credentials are needed to consume this public catalog.
+Commit source and generated artifacts together. CI rejects stale distributions and SQLite snapshots. The builder uses only Python stdlib, creates a new database instead of migrating an existing user's data, and generates repeatable outputs within the same SQLite runtime. CI compares table contents and schema across SQLite versions while checking the published artifact hashes. No credentials are needed to consume this public catalog.
 
 Future sensor publication needs its dedicated pack validator and serialization added to the builder. The current gate deliberately rejects nonempty sensor packs. App import, UI integration and any live Supabase migration remain separate tasks requiring the corresponding project access. This database can already be downloaded and queried without those services.
