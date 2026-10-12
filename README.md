@@ -2,6 +2,10 @@
 
 Downloadable field-reference catalog. Catalog version 27 contains 118 published packs across 29 manufacturer directories. These are selected subsets, not complete manufacturer manuals.
 
+## Industrial expansion
+
+[Industrial sensors](industrial/sensors/README.md): research structure for 20 sensor types, targeting 20 models per type. No sensor models or worldwide sales ranking are published yet. Sensors use their own taxonomy and future pack/drop contract.
+
 ## Validation and evidence
 
 Run `python scripts/validate_catalog.py` and `python -m unittest discover -s tests -v` before publication. CI checks every push and pull request. Published packs must contain English/Portuguese parameter names and fault titles, unique codes, and matching manifest identity/version. Items explicitly marked verified require document, revision, page and source references.

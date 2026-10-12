@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "domain": "industrial",
+  "category": "sensors",
+  "status": "research-structure",
+  "targetModelsPerType": 20,
+  "selectionPolicy": {
+    "goal": "Best-selling worldwide models where comparable sales evidence exists",
+    "fallback": "Qualitative field-service priority, explicitly inferred; not a sales ranking",
+    "salesRankingConfirmed": false,
+    "rankingUnit": "Exact orderable model; transmitter/receiver pair counts once",
+    "deduplication": "One canonical pack per exact model/compatible pair; multiple type listings may reference it",
+    "publicationGate": "Exact model and regional variant, official manual, per-fact evidence and validated downloadable pack"
+  },
+  "types": [
+    {
+      "id": "photoelectric-through-beam",
+      "name": {
+        "pt": "Fotoelétrico emissor/receptor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "through-beam",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-retroreflective",
+      "name": {
+        "pt": "Fotoelétrico com refletor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "retroreflective",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-diffuse",
+      "name": {
+        "pt": "Fotoelétrico difuso"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "diffuse",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-background-suppression",
+      "name": {
+        "pt": "Fotoelétrico com supressão de fundo"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "background-suppression",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-through-beam",
+      "name": {
+        "pt": "Laser emissor/receptor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "through-beam",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-retroreflective",
+      "name": {
+        "pt": "Laser com refletor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "retroreflective",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-diffuse",
+      "name": {
+        "pt": "Laser de presença/difuso"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "diffuse",
+      "lightSource": "laser",
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "laser-distance",
+      "name": {
+        "pt": "Laser de distância/deslocamento"
+      },
+      "technology": "distance",
+      "sensingPrinciple": "measurement",
+      "lightSource": "laser",
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "photoelectric-transparent",
+      "name": {
+        "pt": "Detecção de transparentes"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "transparent-object",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "fiber-optic",
+      "name": {
+        "pt": "Fibra óptica e amplificador"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "fiber-optic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "fork",
+      "name": {
+        "pt": "Forquilha e detecção de etiquetas"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "fork",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "contrast-color",
+      "name": {
+        "pt": "Contraste e cor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "contrast-color",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "inductive",
+      "name": {
+        "pt": "Proximidade indutiva"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "inductive",
+      "lightSource": null,
+      "priority": 1,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "capacitive",
+      "name": {
+        "pt": "Proximidade capacitiva"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "capacitive",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "ultrasonic",
+      "name": {
+        "pt": "Ultrassônico"
+      },
+      "technology": "distance",
+      "sensingPrinciple": "ultrasonic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "magnetic-cylinder",
+      "name": {
+        "pt": "Magnético de cilindro/posição"
+      },
+      "technology": "proximity",
+      "sensingPrinciple": "magnetic",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "pressure",
+      "name": {
+        "pt": "Pressão/vácuo"
+      },
+      "technology": "process",
+      "sensingPrinciple": "pressure",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "temperature",
+      "name": {
+        "pt": "Temperatura"
+      },
+      "technology": "process",
+      "sensingPrinciple": "temperature",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "level",
+      "name": {
+        "pt": "Nível"
+      },
+      "technology": "process",
+      "sensingPrinciple": "level",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "flow",
+      "name": {
+        "pt": "Vazão"
+      },
+      "technology": "process",
+      "sensingPrinciple": "flow",
+      "lightSource": null,
+      "priority": 3,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    }
+  ],
+  "manufacturerResearchPool": [
+    "SICK",
+    "ifm",
+    "Omron",
+    "Keyence",
+    "Banner Engineering",
+    "Pepperl+Fuchs",
+    "Balluff",
+    "Turck",
+    "Baumer",
+    "Leuze",
+    "Panasonic Industry",
+    "Rockwell Automation",
+    "Schneider Electric",
+    "Carlo Gavazzi",
+    "Autonics",
+    "Datalogic",
+    "Contrinex",
+    "Sensopart",
+    "Wenglor",
+    "Microsonic"
+  ],
+  "manufacturerPoolStatus": "Research leads; not a sales ranking or verified model list",
+  "taxonomySources": [
+    {
+      "url": "https://www.sick.com/in/en/photoelectric-sensors-portfolio/s/next-generation",
+      "scope": "Optical principles and light-source distinction"
+    },
+    {
+      "url": "https://www.ifm.com/us/en/category",
+      "scope": "Industrial sensor category scope"
+    }
+  ],
+  "packs": []
+}
