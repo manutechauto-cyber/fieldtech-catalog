@@ -1,1 +1,549 @@
-{"packId":"schneider_atv630","manufacturer":"Schneider Electric","family":"Altivar Process ATV630","aliases":["ATV630","Altivar 630"],"models":["ATV630"],"version":2,"status":"curated-basic-v2","sourceUrl":"https://www.se.com/","parameters":[{"code":"bFr","name":{"en":"Standard motor frequency","pt":"Frequência padrão do motor","es":"Frecuencia estándar del motor","fr":"Fréquence moteur standard","de":"Standard-Motorfrequenz"},"unit":"Hz"},{"code":"UnS","name":{"en":"Motor nominal voltage","pt":"Tensão nominal do motor","es":"Tensión nominal del motor","fr":"Tension nominale du moteur","de":"Motornennspannung"},"unit":"V"},{"code":"nCr","name":{"en":"Motor nominal current","pt":"Corrente nominal do motor","es":"Corriente nominal del motor","fr":"Courant nominal du moteur","de":"Motornennstrom"},"unit":"A"},{"code":"FrS","name":{"en":"Motor nominal frequency","pt":"Frequência nominal do motor","es":"Frecuencia nominal del motor","fr":"Fréquence nominale du moteur","de":"Motornennfrequenz"},"unit":"Hz"},{"code":"nSP","name":{"en":"Motor nominal speed","pt":"Velocidade nominal do motor","es":"Velocidad nominal del motor","fr":"Vitesse nominale du moteur","de":"Motornennspeed"},"unit":"rpm"}],"faults":[{"code":"OCF","title":{"en":"Overcurrent","pt":"Sobrecorrente","es":"Sobrecorriente","fr":"Surintensité","de":"Überstrom"}},{"code":"USF","title":{"en":"Undervoltage","pt":"Subtensão","es":"Subtensión","fr":"Sous-tension","de":"Unterspannung"}},{"code":"OSF","title":{"en":"Mains overvoltage","pt":"Sobretensão da rede","es":"Sobretensión de red","fr":"Surtension réseau","de":"Netzüberspannung"}},{"code":"OHF","title":{"en":"Drive overheat","pt":"Sobretemperatura do drive","es":"Sobretemperatura del variador","fr":"Surchauffe variateur","de":"Umrichterübertemperatur"}}],"quickSetup":[]}
+{
+  "packId": "schneider_atv630",
+  "manufacturer": "Schneider Electric",
+  "family": "Altivar Process ATV630",
+  "aliases": [
+    "ATV630",
+    "Altivar 630"
+  ],
+  "models": [
+    "ATV630"
+  ],
+  "version": 3,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.se.com/us/en/download/document/EAV64318/",
+  "parameters": [
+    {
+      "code": "BFR",
+      "name": {
+        "en": "Motor frequency standard",
+        "pt": "Padrão de frequência do motor",
+        "es": "Frecuencia estándar del motor",
+        "fr": "Fréquence moteur standard",
+        "de": "Standard-Motorfrequenz"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "NPR",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "UNS",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor",
+        "es": "Tensión nominal del motor",
+        "fr": "Tension nominale du moteur",
+        "de": "Motornennspannung"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "NCR",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor",
+        "es": "Corriente nominal del motor",
+        "fr": "Courant nominal du moteur",
+        "de": "Motornennstrom"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "FRS",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor",
+        "es": "Frecuencia nominal del motor",
+        "fr": "Fréquence nominale du moteur",
+        "de": "Motornennfrequenz"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "NSP",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor",
+        "es": "Velocidad nominal del motor",
+        "fr": "Vitesse nominale du moteur",
+        "de": "Motornennspeed"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ITH",
+      "name": {
+        "en": "Motor overload current",
+        "pt": "Corrente de proteção térmica do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "TCC",
+      "name": {
+        "en": "Two/three-wire control",
+        "pt": "Controle a dois/três fios"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "TFR",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "TUN",
+      "name": {
+        "en": "Motor identification",
+        "pt": "Identificação do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ACC",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          57
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "DEC",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          57
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "LSP",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          57
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "HSP",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          57
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "OCF",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente",
+        "es": "Sobrecorriente",
+        "fr": "Surintensité",
+        "de": "Überstrom"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          672
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OBF",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          671
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OHF",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive",
+        "es": "Sobretemperatura del variador",
+        "fr": "Surchauffe variateur",
+        "de": "Umrichterübertemperatur"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          672
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OLF",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          673
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OSF",
+      "title": {
+        "en": "Supply overvoltage",
+        "pt": "Sobretensão da alimentação"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          674
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "USF",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão",
+        "es": "Subtensión",
+        "fr": "Sous-tension",
+        "de": "Unterspannung"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          687
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OPF1",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          673
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OPF2",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          673
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "TNF",
+      "title": {
+        "en": "Motor identification failed",
+        "pt": "Falha na identificação do motor"
+      },
+      "summary": {
+        "en": "Review motor data and connections.",
+        "pt": "Revise dados e conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          686
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "SLF1",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.se.com/us/en/download/document/EAV64318/",
+        "document": "EAV64318",
+        "revision": "14, May 2026",
+        "pages": [
+          679
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [
+    {
+      "title": {
+        "en": "Field commissioning checklist",
+        "pt": "Checklist de comissionamento em campo"
+      },
+      "steps": {
+        "en": [
+          "Check motor nameplate and control wiring.",
+          "Select motor standard before entering motor data.",
+          "Review reference limits, ramps and tune prerequisites."
+        ],
+        "pt": [
+          "Confira placa do motor e cabos de comando.",
+          "Selecione o padrão antes de informar os dados do motor.",
+          "Revise limites, rampas e pré-requisitos da identificação do motor."
+        ]
+      }
+    }
+  ],
+  "officialSources": [
+    "https://www.se.com/us/en/download/document/EAV64318/"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "applicability": "Basic asynchronous-motor field subset. Firmware, rating and installed options determine available settings."
+}

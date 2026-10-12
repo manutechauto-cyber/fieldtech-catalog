@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "VLT HVAC Drive FC 102",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "danfoss_fc102",
+  "publishedPath": "danfoss/fc102.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+      "sourceTitle": "VLT HVAC Drive FC 102 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "AU430028034214en",
+      "revision": "012001, September 2026, software 8.00"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

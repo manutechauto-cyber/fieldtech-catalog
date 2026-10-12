@@ -1,0 +1,301 @@
+{
+  "reviewedAt": "2026-10-12",
+  "published": [
+    {
+      "path": "schneider/atv930.json",
+      "new": false,
+      "family": "Altivar Process ATV930",
+      "doc": "atv900",
+      "version": 3,
+      "parameters": 14,
+      "faults": 10
+    },
+    {
+      "path": "schneider/atv950.json",
+      "new": true,
+      "family": "Altivar Process ATV950",
+      "doc": "atv900",
+      "version": 1,
+      "parameters": 14,
+      "faults": 10
+    },
+    {
+      "path": "schneider/atv630.json",
+      "new": false,
+      "family": "Altivar Process ATV630",
+      "doc": "atv600",
+      "version": 3,
+      "parameters": 14,
+      "faults": 10
+    },
+    {
+      "path": "schneider/atv650.json",
+      "new": true,
+      "family": "Altivar Process ATV650",
+      "doc": "atv600",
+      "version": 1,
+      "parameters": 14,
+      "faults": 10
+    },
+    {
+      "path": "schneider/atv12.json",
+      "new": true,
+      "family": "Altivar ATV12",
+      "doc": "atv12",
+      "version": 1,
+      "parameters": 12,
+      "faults": 11
+    },
+    {
+      "path": "rockwell/pf523.json",
+      "new": true,
+      "family": "PowerFlex 523",
+      "doc": "pf520",
+      "version": 1,
+      "parameters": 14,
+      "faults": 13
+    },
+    {
+      "path": "rockwell/pf525.json",
+      "new": false,
+      "family": "PowerFlex 525",
+      "doc": "pf520",
+      "version": 3,
+      "parameters": 14,
+      "faults": 15
+    },
+    {
+      "path": "abb/acs480.json",
+      "new": true,
+      "family": "ACS480",
+      "doc": "acs480",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5
+    },
+    {
+      "path": "abb/acs380.json",
+      "new": true,
+      "family": "ACS380",
+      "doc": "acs380",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5
+    },
+    {
+      "path": "abb/ach580.json",
+      "new": true,
+      "family": "ACH580",
+      "doc": "ach580",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5
+    },
+    {
+      "path": "abb/acq580.json",
+      "new": true,
+      "family": "ACQ580",
+      "doc": "acq580",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5
+    },
+    {
+      "path": "abb/acs550.json",
+      "new": true,
+      "family": "ACS550",
+      "doc": "acs550",
+      "version": 1,
+      "parameters": 12,
+      "faults": 10
+    },
+    {
+      "path": "danfoss/fc102.json",
+      "new": true,
+      "family": "VLT HVAC Drive FC 102",
+      "doc": "fc102",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9
+    },
+    {
+      "path": "danfoss/fc202.json",
+      "new": true,
+      "family": "VLT Aqua Drive FC 202",
+      "doc": "fc202",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9
+    },
+    {
+      "path": "weg/cfw300.json",
+      "new": true,
+      "family": "CFW300",
+      "doc": "cfw300",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6
+    },
+    {
+      "path": "weg/cfw11.json",
+      "new": true,
+      "family": "CFW-11",
+      "doc": "cfw11",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6
+    },
+    {
+      "path": "invt/gd20.json",
+      "new": true,
+      "family": "Goodrive20",
+      "doc": "gd20",
+      "version": 1,
+      "parameters": 10,
+      "faults": 13
+    },
+    {
+      "path": "invt/gd200a.json",
+      "new": true,
+      "family": "Goodrive200A",
+      "doc": "gd200a",
+      "version": 1,
+      "parameters": 10,
+      "faults": 13
+    },
+    {
+      "path": "siemens/v20.json",
+      "new": true,
+      "family": "SINAMICS V20",
+      "doc": "v20",
+      "version": 1,
+      "parameters": 11,
+      "faults": 6
+    },
+    {
+      "path": "sew/movitrac_b.json",
+      "new": true,
+      "family": "MOVITRAC B",
+      "doc": "movitrac_b",
+      "version": 1,
+      "parameters": 7,
+      "faults": 7
+    },
+    {
+      "path": "ls/ic5.json",
+      "new": true,
+      "family": "SV-iC5",
+      "doc": "ic5",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6
+    },
+    {
+      "path": "eaton/de1.json",
+      "new": true,
+      "family": "PowerXL DE1",
+      "doc": "de1",
+      "version": 1,
+      "parameters": 8,
+      "faults": 6
+    },
+    {
+      "path": "control_techniques/unidrive_m200.json",
+      "new": true,
+      "family": "Unidrive M200/M201",
+      "doc": "m200",
+      "version": 1,
+      "parameters": 12,
+      "faults": 7
+    },
+    {
+      "path": "mitsubishi/fr_e700.json",
+      "new": true,
+      "family": "FREQROL FR-E700",
+      "doc": "e700",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9
+    },
+    {
+      "path": "yaskawa/u1000.json",
+      "new": true,
+      "family": "U1000 Matrix Drive",
+      "doc": "u1000",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6
+    },
+    {
+      "path": "rockwell/pf40.json",
+      "new": true,
+      "family": "PowerFlex 40",
+      "doc": "pf40",
+      "version": 1,
+      "parameters": 10,
+      "faults": 12
+    },
+    {
+      "path": "toshiba/vf_nc3.json",
+      "new": true,
+      "family": "TOSVERT VF-nC3",
+      "doc": "vfnc3",
+      "version": 1,
+      "parameters": 10,
+      "faults": 9
+    },
+    {
+      "path": "omron/jx.json",
+      "new": true,
+      "family": "SYSDRIVE JX",
+      "doc": "jx",
+      "version": 1,
+      "parameters": 7,
+      "faults": 8
+    },
+    {
+      "path": "hitachi/sj_p1.json",
+      "new": true,
+      "family": "SJ-P1",
+      "doc": "sjp1",
+      "version": 1,
+      "parameters": 11,
+      "faults": 5
+    },
+    {
+      "path": "yaskawa/j1000.json",
+      "new": true,
+      "family": "J1000",
+      "doc": "j1000",
+      "version": 1,
+      "parameters": 8,
+      "faults": 8
+    },
+    {
+      "path": "invertek/optidrive_coolvert.json",
+      "new": true,
+      "family": "Optidrive CoolVert",
+      "doc": "coolvert",
+      "version": 1,
+      "parameters": 8,
+      "faults": 7
+    },
+    {
+      "path": "fuji/frenic_lift_lm1s.json",
+      "new": true,
+      "family": "FRENIC-Lift LM1S",
+      "doc": "frenic_lift",
+      "version": 1,
+      "parameters": 7,
+      "faults": 11
+    }
+  ],
+  "scope": "Verified field subsets; no claim of complete manufacturer manuals or measured global model sales ranking.",
+  "validation": {
+    "textCodePageReferencesChecked": 566,
+    "visualDisplayCodesChecked": 32,
+    "officialWebPDFReferencesReviewed": 16,
+    "codePageMismatches": 0,
+    "hardwareTested": false
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "packId": "rockwell_pf40",
+  "manufacturer": "Allen-Bradley",
+  "family": "PowerFlex 40",
+  "aliases": [
+    "PF40",
+    "PowerFlex 40",
+    "22B"
+  ],
+  "models": [
+    "PowerFlex 40"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+  "officialSources": [
+    "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "P031",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P032",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P033",
+      "name": {
+        "en": "Motor overload current",
+        "pt": "Corrente de proteção térmica do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P034",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P035",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P036",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          54
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P037",
+      "name": {
+        "en": "Stop mode",
+        "pt": "Modo de parada"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          55
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P038",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P039",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          56
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P040",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          57
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "F3",
+      "title": {
+        "en": "Power loss",
+        "pt": "Perda de alimentação"
+      },
+      "summary": {
+        "en": "Check supply phases and fuses.",
+        "pt": "Confira fases da alimentação e fusíveis."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F4",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F5",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F6",
+      "title": {
+        "en": "Motor stalled",
+        "pt": "Motor bloqueado"
+      },
+      "summary": {
+        "en": "Review load and ramp settings.",
+        "pt": "Revise carga e ajustes das rampas."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F7",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F8",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F12",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F13",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F29",
+      "title": {
+        "en": "Analog reference loss",
+        "pt": "Perda da referência analógica"
+      },
+      "summary": {
+        "en": "Check analog wiring and scaling.",
+        "pt": "Confira cabos e escala da entrada analógica."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F64",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F71",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F80",
+      "title": {
+        "en": "Motor identification failed",
+        "pt": "Falha na identificação do motor"
+      },
+      "summary": {
+        "en": "Review motor data and connections.",
+        "pt": "Revise dados e conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+        "document": "22B-UM001",
+        "revision": "J, September 2025",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "Bulletin 22B firmware 1.xx–7.xx. Parameter numbers differ from the PF520 series."
+}

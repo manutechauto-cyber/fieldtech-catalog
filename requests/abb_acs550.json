@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "ACS550",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "abb_acs550",
+  "publishedPath": "abb/acs550.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+      "sourceTitle": "ACS550 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "3AFE64804588",
+      "revision": "H, July 2014"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

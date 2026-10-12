@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "ACS480",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "abb_acs480",
+  "publishedPath": "abb/acs480.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD50000047399&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "sourceTitle": "ACS480 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "3AXD50000047399",
+      "revision": "G, November 2025"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "CFW300",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "weg_cfw300",
+  "publishedPath": "weg/cfw300.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://static.weg.net/medias/downloadcenter/h87/hbc/WEG-CFW300-programming-manual-10007849716-en.pdf",
+      "sourceTitle": "CFW300 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "10007849716",
+      "revision": "V3.2X, November 2024"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

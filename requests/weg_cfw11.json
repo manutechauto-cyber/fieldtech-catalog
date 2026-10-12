@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "CFW-11",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "weg_cfw11",
+  "publishedPath": "weg/cfw11.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://static.weg.net/medias/downloadcenter/he7/h71/WEG-CFW11-programming-manual-10004274148-en.pdf",
+      "sourceTitle": "CFW-11 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "10004274148",
+      "revision": "V7.1X"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

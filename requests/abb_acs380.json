@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "ACS380",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "abb_acs380",
+  "publishedPath": "abb/acs380.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+      "sourceTitle": "ACS380 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "3AXD50000029275",
+      "revision": "J, November 2025"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

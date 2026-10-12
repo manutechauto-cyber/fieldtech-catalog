@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "PowerFlex 40",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "rockwell_pf40",
+  "publishedPath": "rockwell/pf40.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+      "sourceTitle": "PowerFlex 40 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "22B-UM001",
+      "revision": "J, September 2025"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

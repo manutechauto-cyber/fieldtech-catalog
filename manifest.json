@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 26,
+  "catalogVersion": 27,
   "languages": [
     "en",
     "pt",
@@ -49,7 +49,7 @@
       "packId": "rockwell_pf525",
       "manufacturer": "Allen-Bradley",
       "family": "PowerFlex 525",
-      "version": 2,
+      "version": 3,
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf525.json"
     },
     {
@@ -154,14 +154,14 @@
       "packId": "schneider_atv630",
       "manufacturer": "Schneider Electric",
       "family": "Altivar Process ATV630",
-      "version": 2,
+      "version": 3,
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv630.json"
     },
     {
       "packId": "schneider_atv930",
       "manufacturer": "Schneider Electric",
       "family": "Altivar Process ATV930",
-      "version": 2,
+      "version": 3,
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv930.json"
     },
     {
@@ -632,6 +632,209 @@
       "family": "ATV340",
       "version": 2,
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv340.json"
+    },
+    {
+      "packId": "schneider_atv950",
+      "manufacturer": "Schneider Electric",
+      "family": "Altivar Process ATV950",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv950.json"
+    },
+    {
+      "packId": "schneider_atv650",
+      "manufacturer": "Schneider Electric",
+      "family": "Altivar Process ATV650",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv650.json"
+    },
+    {
+      "packId": "schneider_atv12",
+      "manufacturer": "Schneider Electric",
+      "family": "Altivar ATV12",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv12.json"
+    },
+    {
+      "packId": "rockwell_pf523",
+      "manufacturer": "Allen-Bradley",
+      "family": "PowerFlex 523",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf523.json"
+    },
+    {
+      "packId": "abb_acs480",
+      "manufacturer": "ABB",
+      "family": "ACS480",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs480.json"
+    },
+    {
+      "packId": "abb_acs380",
+      "manufacturer": "ABB",
+      "family": "ACS380",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs380.json"
+    },
+    {
+      "packId": "abb_ach580",
+      "manufacturer": "ABB",
+      "family": "ACH580",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/ach580.json"
+    },
+    {
+      "packId": "abb_acq580",
+      "manufacturer": "ABB",
+      "family": "ACQ580",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acq580.json"
+    },
+    {
+      "packId": "abb_acs550",
+      "manufacturer": "ABB",
+      "family": "ACS550",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/abb/acs550.json"
+    },
+    {
+      "packId": "danfoss_fc102",
+      "manufacturer": "Danfoss",
+      "family": "VLT HVAC Drive FC 102",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/danfoss/fc102.json"
+    },
+    {
+      "packId": "danfoss_fc202",
+      "manufacturer": "Danfoss",
+      "family": "VLT Aqua Drive FC 202",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/danfoss/fc202.json"
+    },
+    {
+      "packId": "weg_cfw300",
+      "manufacturer": "WEG",
+      "family": "CFW300",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/weg/cfw300.json"
+    },
+    {
+      "packId": "weg_cfw11",
+      "manufacturer": "WEG",
+      "family": "CFW-11",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/weg/cfw11.json"
+    },
+    {
+      "packId": "invt_gd20",
+      "manufacturer": "INVT",
+      "family": "Goodrive20",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/invt/gd20.json"
+    },
+    {
+      "packId": "invt_gd200a",
+      "manufacturer": "INVT",
+      "family": "Goodrive200A",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/invt/gd200a.json"
+    },
+    {
+      "packId": "siemens_v20",
+      "manufacturer": "Siemens",
+      "family": "SINAMICS V20",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/siemens/v20.json"
+    },
+    {
+      "packId": "sew_movitrac_b",
+      "manufacturer": "SEW-EURODRIVE",
+      "family": "MOVITRAC B",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/sew/movitrac_b.json"
+    },
+    {
+      "packId": "ls_ic5",
+      "manufacturer": "LS ELECTRIC",
+      "family": "SV-iC5",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/ls/ic5.json"
+    },
+    {
+      "packId": "eaton_de1",
+      "manufacturer": "Eaton",
+      "family": "PowerXL DE1",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/eaton/de1.json"
+    },
+    {
+      "packId": "control_techniques_unidrive_m200",
+      "manufacturer": "Control Techniques",
+      "family": "Unidrive M200/M201",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/control_techniques/unidrive_m200.json"
+    },
+    {
+      "packId": "mitsubishi_fr_e700",
+      "manufacturer": "Mitsubishi Electric",
+      "family": "FREQROL FR-E700",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/mitsubishi/fr_e700.json"
+    },
+    {
+      "packId": "yaskawa_u1000",
+      "manufacturer": "Yaskawa",
+      "family": "U1000 Matrix Drive",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/yaskawa/u1000.json"
+    },
+    {
+      "packId": "rockwell_pf40",
+      "manufacturer": "Allen-Bradley",
+      "family": "PowerFlex 40",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/rockwell/pf40.json"
+    },
+    {
+      "packId": "toshiba_vf_nc3",
+      "manufacturer": "Toshiba",
+      "family": "TOSVERT VF-nC3",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/toshiba/vf_nc3.json"
+    },
+    {
+      "packId": "omron_jx",
+      "manufacturer": "Omron",
+      "family": "SYSDRIVE JX",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/omron/jx.json"
+    },
+    {
+      "packId": "hitachi_sj_p1",
+      "manufacturer": "Hitachi",
+      "family": "SJ-P1",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/hitachi/sj_p1.json"
+    },
+    {
+      "packId": "yaskawa_j1000",
+      "manufacturer": "Yaskawa",
+      "family": "J1000",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/yaskawa/j1000.json"
+    },
+    {
+      "packId": "invertek_optidrive_coolvert",
+      "manufacturer": "Invertek Drives",
+      "family": "Optidrive CoolVert",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/invertek/optidrive_coolvert.json"
+    },
+    {
+      "packId": "fuji_frenic_lift_lm1s",
+      "manufacturer": "Fuji Electric",
+      "family": "FRENIC-Lift LM1S",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/fuji/frenic_lift_lm1s.json"
     }
   ]
 }

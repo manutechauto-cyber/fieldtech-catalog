@@ -1,0 +1,393 @@
+{
+  "packId": "danfoss_fc102",
+  "manufacturer": "Danfoss",
+  "family": "VLT HVAC Drive FC 102",
+  "aliases": [
+    "VLT HVAC Drive FC 102"
+  ],
+  "models": [
+    "VLT HVAC Drive FC 102"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+  "officialSources": [
+    "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "1-20",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "kW",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          84
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "1-22",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          84
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "1-23",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          84
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "1-24",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          84
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "1-25",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          84
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3-02",
+      "name": {
+        "en": "Minimum reference",
+        "pt": "Referência mínima"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          122
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3-03",
+      "name": {
+        "en": "Maximum reference",
+        "pt": "Referência máxima"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          90
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3-41",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          109
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3-42",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          130
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "ALARM 4",
+      "title": {
+        "en": "Input phase loss",
+        "pt": "Perda de fase na entrada"
+      },
+      "summary": {
+        "en": "Check supply phases and fuses.",
+        "pt": "Confira fases da alimentação e fusíveis."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          714
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 7",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          715
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 8",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          715
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 9",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          715
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 10",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          716
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 13",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          717
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 14",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          717
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 16",
+      "title": {
+        "en": "Output short circuit",
+        "pt": "Curto-circuito na saída"
+      },
+      "summary": {
+        "en": "Inspect motor and output wiring.",
+        "pt": "Confira motor e cabos de saída."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          718
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ALARM 17",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+        "document": "AU430028034214en",
+        "revision": "012001, September 2026, software 8.00",
+        "pages": [
+          718
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "Use software version in cited manual. Reference units depend on configured operating mode."
+}

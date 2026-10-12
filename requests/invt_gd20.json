@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Goodrive20",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "invt_gd20",
+  "publishedPath": "invt/gd20.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+      "sourceTitle": "Goodrive20 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "66001-00430",
+      "revision": "V1.9"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

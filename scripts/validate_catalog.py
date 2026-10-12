@@ -48,7 +48,9 @@ def validate(root):
                     source = entry.get('source', {})
                     host = urlparse(source.get('url', '')).hostname or ''
                     vendor_host = urlparse(pack.get('sourceUrl', '')).hostname or ''
-                    if not (host and host == vendor_host and source.get('document') and source.get('revision') and source.get('pages')):
+                    pages = source.get('pages')
+                    valid_pages = isinstance(pages, list) and bool(pages) and all(type(n) is int and n > 0 for n in pages)
+                    if not (urlparse(source.get('url', '')).scheme == 'https' and host and host == vendor_host and source.get('document') and source.get('revision') and valid_pages):
                         errors.append(f'{rel}: {code}: verified item requires vendor manual provenance')
     for path in (root / 'requests').glob('*.json'):
         request = json.loads(path.read_text())
@@ -58,6 +60,10 @@ def validate(root):
                 errors.append(f'{path.name}: verified-ready without full verification')
             if not any(e.get('official') for e in request.get('evidence', [])):
                 errors.append(f'{path.name}: verified-ready without retained official evidence')
+        if request.get('status') == 'published-field-subset':
+            ident = request.get('packId')
+            if ident not in seen or not all(request.get('verification', {}).get(k) for k in ['sourceVerified', 'parametersVerified', 'faultsVerified']):
+                errors.append(f'{path.name}: published request missing pack or verification')
     return errors
 
 

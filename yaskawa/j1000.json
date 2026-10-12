@@ -1,0 +1,370 @@
+{
+  "packId": "yaskawa_j1000",
+  "manufacturer": "Yaskawa",
+  "family": "J1000",
+  "aliases": [
+    "J1000",
+    "CIMR-JU"
+  ],
+  "models": [
+    "J1000"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+  "officialSources": [
+    "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "b1-01",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          79
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "b1-02",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          80
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "C1-01",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          85
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "C1-02",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          85
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "E1-04",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "E1-05",
+      "name": {
+        "en": "Maximum output voltage",
+        "pt": "Tensão máxima de saída"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "E1-06",
+      "name": {
+        "en": "Base frequency",
+        "pt": "Frequência base"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "E2-01",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "oC",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          135
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "oH1",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          136
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "oL1",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          136
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "oL2",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          137
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "ov",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          138
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "PF",
+      "title": {
+        "en": "Input phase loss",
+        "pt": "Perda de fase na entrada"
+      },
+      "summary": {
+        "en": "Check supply phases and fuses.",
+        "pt": "Confira fases da alimentação e fusíveis."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          138
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "Uv1",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          139
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    },
+    {
+      "code": "LF",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+        "document": "SIEPC71060631",
+        "revision": "D",
+        "pages": [
+          135
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Official PDF reviewed through web extraction"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "U-spec J1000 SIEPC71060631 revision D. E1-04/E1-05/E1-06 accessibility depends on V/f pattern selection E1-03."
+}

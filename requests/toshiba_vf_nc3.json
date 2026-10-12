@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "TOSVERT VF-nC3",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "toshiba_vf_nc3",
+  "publishedPath": "toshiba/vf_nc3.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+      "sourceTitle": "TOSVERT VF-nC3 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "E6581595",
+      "revision": "CPU 122 or later"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

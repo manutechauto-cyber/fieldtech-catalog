@@ -1,0 +1,313 @@
+{
+  "packId": "sew_movitrac_b",
+  "manufacturer": "SEW-EURODRIVE",
+  "family": "MOVITRAC B",
+  "aliases": [
+    "MOVITRAC B"
+  ],
+  "models": [
+    "MOVITRAC B"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+  "officialSources": [
+    "https://download.sew-eurodrive.com/download/pdf/16602013.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "100",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          67
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "101",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          67
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "130",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          68
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "131",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          68
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "301",
+      "name": {
+        "en": "Minimum speed",
+        "pt": "Velocidade mínima"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          69
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "302",
+      "name": {
+        "en": "Maximum speed",
+        "pt": "Velocidade máxima"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          69
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "303",
+      "name": {
+        "en": "Current limit",
+        "pt": "Limite de corrente"
+      },
+      "unit": "% IN",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          69
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "01",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          87
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "03",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          87
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "07",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          87
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "08",
+      "title": {
+        "en": "Motor stalled",
+        "pt": "Motor bloqueado"
+      },
+      "summary": {
+        "en": "Review load and ramp settings.",
+        "pt": "Revise carga e ajustes das rampas."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          87
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "11",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          88
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "31",
+      "title": {
+        "en": "Motor overtemperature",
+        "pt": "Sobretemperatura do motor"
+      },
+      "summary": {
+        "en": "Review load and thermal monitoring.",
+        "pt": "Revise carga e monitoramento térmico."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          88
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "43",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+        "document": "16602013",
+        "revision": "February 2008",
+        "pages": [
+          88
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "MOVITRAC B, parameter set 1, operating instructions February 2008. Parameter numbers are displayed without a P prefix."
+}

@@ -1,0 +1,394 @@
+{
+  "packId": "mitsubishi_fr_e700",
+  "manufacturer": "Mitsubishi Electric",
+  "family": "FREQROL FR-E700",
+  "aliases": [
+    "FR-E700",
+    "E700"
+  ],
+  "models": [
+    "FREQROL FR-E700"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+  "officialSources": [
+    "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "Pr. 1",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 2",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 3",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 7",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 8",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 9",
+      "name": {
+        "en": "Motor overload current",
+        "pt": "Corrente de proteção térmica do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 19",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          75
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 71",
+      "name": {
+        "en": "Motor type selection",
+        "pt": "Seleção do tipo de motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          76
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Pr. 79",
+      "name": {
+        "en": "Application configuration",
+        "pt": "Configuração da aplicação"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          77
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "E.OC1",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          300
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.OC2",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          300
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.OC3",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          300
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.OV1",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          301
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.OV2",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          301
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.OV3",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          301
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.THT",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          301
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.THM",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          302
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E.FIN",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+        "document": "IB-0600277ENG",
+        "revision": "G",
+        "pages": [
+          302
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "Legacy standard E700 applied manual IB-0600277ENG G. CC-Link, Ethernet and FL remote variants have separate manuals."
+}

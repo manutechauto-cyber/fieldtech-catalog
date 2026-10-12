@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Unidrive M200/M201",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "control_techniques_unidrive_m200",
+  "publishedPath": "control_techniques/unidrive_m200.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+      "sourceTitle": "Unidrive M200/M201 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "0478-0351-03",
+      "revision": "Issue 3"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

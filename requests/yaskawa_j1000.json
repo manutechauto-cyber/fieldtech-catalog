@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "J1000",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "yaskawa_j1000",
+  "publishedPath": "yaskawa/j1000.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+      "sourceTitle": "J1000 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "SIEPC71060631",
+      "revision": "D"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-12",
+  "scope": "Worldwide field-service candidate scan of major suppliers plus all 28 existing manufacturer directories; selection is finite and not an inventory of every drive sold worldwide.",
+  "selectionMethod": {
+    "basis": "Manufacturer presence in global VFD market reports, industrial/general-purpose/HVAC/water applications, installed legacy fleets, and gaps versus existing manifest.",
+    "manufacturerPopularity": "Qualitative proxy only. Model-level worldwide unit sales were not verified; no numbered best-seller ranking is asserted.",
+    "marketSources": [
+      {
+        "url": "https://www.grandviewresearch.com/industry-analysis/variable-frequency-speed-drives-vfd-vsd-market",
+        "supports": "Global supplier landscape; not a model sales ranking"
+      },
+      {
+        "url": "https://www.mordorintelligence.com/industry-reports/variable-frequency-drive-market-industry",
+        "supports": "Global supplier and regional landscape; not a model sales ranking"
+      }
+    ],
+    "vendorDeploymentEvidence": [
+      {
+        "family": "Goodrive200A",
+        "url": "https://www.invt.com/products/gd200a-series-vfd-21",
+        "claim": "Manufacturer reports more than one million deployed units since launch; not independently verified and not annual sales."
+      }
+    ]
+  },
+  "publishedCandidates": [
+    {
+      "path": "schneider/atv930.json",
+      "new": false,
+      "family": "Altivar Process ATV930",
+      "doc": "atv900",
+      "version": 3,
+      "parameters": 14,
+      "faults": 10,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "schneider/atv950.json",
+      "new": true,
+      "family": "Altivar Process ATV950",
+      "doc": "atv900",
+      "version": 1,
+      "parameters": 14,
+      "faults": 10,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "schneider/atv630.json",
+      "new": false,
+      "family": "Altivar Process ATV630",
+      "doc": "atv600",
+      "version": 3,
+      "parameters": 14,
+      "faults": 10,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "schneider/atv650.json",
+      "new": true,
+      "family": "Altivar Process ATV650",
+      "doc": "atv600",
+      "version": 1,
+      "parameters": 14,
+      "faults": 10,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "schneider/atv12.json",
+      "new": true,
+      "family": "Altivar ATV12",
+      "doc": "atv12",
+      "version": 1,
+      "parameters": 12,
+      "faults": 11,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "rockwell/pf523.json",
+      "new": true,
+      "family": "PowerFlex 523",
+      "doc": "pf520",
+      "version": 1,
+      "parameters": 14,
+      "faults": 13,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "rockwell/pf525.json",
+      "new": false,
+      "family": "PowerFlex 525",
+      "doc": "pf520",
+      "version": 3,
+      "parameters": 14,
+      "faults": 15,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "abb/acs480.json",
+      "new": true,
+      "family": "ACS480",
+      "doc": "acs480",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "abb/acs380.json",
+      "new": true,
+      "family": "ACS380",
+      "doc": "acs380",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "abb/ach580.json",
+      "new": true,
+      "family": "ACH580",
+      "doc": "ach580",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "abb/acq580.json",
+      "new": true,
+      "family": "ACQ580",
+      "doc": "acq580",
+      "version": 1,
+      "parameters": 13,
+      "faults": 5,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "abb/acs550.json",
+      "new": true,
+      "family": "ACS550",
+      "doc": "acs550",
+      "version": 1,
+      "parameters": 12,
+      "faults": 10,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "danfoss/fc102.json",
+      "new": true,
+      "family": "VLT HVAC Drive FC 102",
+      "doc": "fc102",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "danfoss/fc202.json",
+      "new": true,
+      "family": "VLT Aqua Drive FC 202",
+      "doc": "fc202",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "weg/cfw300.json",
+      "new": true,
+      "family": "CFW300",
+      "doc": "cfw300",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "weg/cfw11.json",
+      "new": true,
+      "family": "CFW-11",
+      "doc": "cfw11",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "invt/gd20.json",
+      "new": true,
+      "family": "Goodrive20",
+      "doc": "gd20",
+      "version": 1,
+      "parameters": 10,
+      "faults": 13,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "invt/gd200a.json",
+      "new": true,
+      "family": "Goodrive200A",
+      "doc": "gd200a",
+      "version": 1,
+      "parameters": 10,
+      "faults": 13,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "siemens/v20.json",
+      "new": true,
+      "family": "SINAMICS V20",
+      "doc": "v20",
+      "version": 1,
+      "parameters": 11,
+      "faults": 6,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "sew/movitrac_b.json",
+      "new": true,
+      "family": "MOVITRAC B",
+      "doc": "movitrac_b",
+      "version": 1,
+      "parameters": 7,
+      "faults": 7,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "ls/ic5.json",
+      "new": true,
+      "family": "SV-iC5",
+      "doc": "ic5",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "eaton/de1.json",
+      "new": true,
+      "family": "PowerXL DE1",
+      "doc": "de1",
+      "version": 1,
+      "parameters": 8,
+      "faults": 6,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "control_techniques/unidrive_m200.json",
+      "new": true,
+      "family": "Unidrive M200/M201",
+      "doc": "m200",
+      "version": 1,
+      "parameters": 12,
+      "faults": 7,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "mitsubishi/fr_e700.json",
+      "new": true,
+      "family": "FREQROL FR-E700",
+      "doc": "e700",
+      "version": 1,
+      "parameters": 9,
+      "faults": 9,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "yaskawa/u1000.json",
+      "new": true,
+      "family": "U1000 Matrix Drive",
+      "doc": "u1000",
+      "version": 1,
+      "parameters": 9,
+      "faults": 6,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "rockwell/pf40.json",
+      "new": true,
+      "family": "PowerFlex 40",
+      "doc": "pf40",
+      "version": 1,
+      "parameters": 10,
+      "faults": 12,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "toshiba/vf_nc3.json",
+      "new": true,
+      "family": "TOSVERT VF-nC3",
+      "doc": "vfnc3",
+      "version": 1,
+      "parameters": 10,
+      "faults": 9,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "omron/jx.json",
+      "new": true,
+      "family": "SYSDRIVE JX",
+      "doc": "jx",
+      "version": 1,
+      "parameters": 7,
+      "faults": 8,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "hitachi/sj_p1.json",
+      "new": true,
+      "family": "SJ-P1",
+      "doc": "sjp1",
+      "version": 1,
+      "parameters": 11,
+      "faults": 5,
+      "priority": 2,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "yaskawa/j1000.json",
+      "new": true,
+      "family": "J1000",
+      "doc": "j1000",
+      "version": 1,
+      "parameters": 8,
+      "faults": 8,
+      "priority": 1,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "invertek/optidrive_coolvert.json",
+      "new": true,
+      "family": "Optidrive CoolVert",
+      "doc": "coolvert",
+      "version": 1,
+      "parameters": 8,
+      "faults": 7,
+      "priority": 3,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    },
+    {
+      "path": "fuji/frenic_lift_lm1s.json",
+      "new": true,
+      "family": "FRENIC-Lift LM1S",
+      "doc": "frenic_lift",
+      "version": 1,
+      "parameters": 7,
+      "faults": 11,
+      "priority": 3,
+      "priorityBasis": "Qualitative field-service and global-supplier coverage; not verified unit sales."
+    }
+  ],
+  "unconfirmedQueries": [
+    "atv940",
+    "atv990"
+  ],
+  "additionalResearchedCandidates": [
+    {
+      "manufacturerDirectory": "delta",
+      "family": "VFD-EL / VFD-EL-W",
+      "officialSource": "https://www.deltaww.com/en-US/products/AC-Motor-Drives/113",
+      "status": "pending-manual-content",
+      "reason": "Official product family confirmed; filecenter manual URL returned HTML instead of PDF. No codes imported from distributors."
+    },
+    {
+      "manufacturerDirectory": "nord",
+      "family": "NORDAC FLEX SK 200E",
+      "officialSource": "https://www.nord.com/us/services/documentation/manuals/details/bu0200.jsp",
+      "status": "pending-manual-content",
+      "reason": "Official BU0200 manual listing confirmed; indexed direct PDF returned 404 and direct listing retrieval returned 403."
+    },
+    {
+      "manufacturerDirectory": "keb",
+      "family": "COMBIVERT G6",
+      "officialSource": "https://www.keb-automation.com/en-it/products/drive-technology/proven-technology/frequency-inverter-combivert-g6",
+      "status": "pending-control-manual",
+      "reason": "Product confirmed; retained IO-Link control manual describes the communication interface, not motor parameters and trips; core drive manual still needed."
+    },
+    {
+      "manufacturerDirectory": "parker",
+      "family": "AC30",
+      "officialSource": "https://www.parker.com/content/dam/Parker-com/Literature/empd---electric-motion-and-pneumatic-division-europe/user-guides/em/ac30/HA503711U002-KR%20AC30%20Hardware_K-N.pdf",
+      "status": "pending-control-manual",
+      "reason": "Hardware document identifies HA501718 control/product manual; parameter/fault content not verified."
+    },
+    {
+      "manufacturerDirectory": "bosch_rexroth",
+      "family": "IndraDrive",
+      "officialSource": "https://www.boschrexroth.com/en/US/c/drive-integrated-connectivity/",
+      "status": "deferred-variant-specific",
+      "reason": "Servo family confirmed; requires exact controller and firmware selection before parameter enrichment."
+    },
+    {
+      "manufacturerDirectory": "lenze",
+      "family": "i950",
+      "officialSource": "https://www.lenze.com/en-us/distributor-webinars",
+      "status": "deferred-variant-specific",
+      "reason": "Servo platform confirmed; existing i510/i550 cover general-purpose inverter families. Application/firmware needed."
+    },
+    {
+      "manufacturerDirectory": "honeywell",
+      "family": "SmartVFD HVAC / HVAC2",
+      "officialSource": "https://buildings.honeywell.com/pl/en/products/by-category/building-management/field-devices/variable-frequency-drives/smartvfd-hvac2-variable-frequency-drive",
+      "status": "pending-control-manual",
+      "reason": "Product confirmed; engineering specification alone is insufficient to populate codes."
+    },
+    {
+      "manufacturerDirectory": "fuji",
+      "family": "FRENIC-Lift LM2/LM3",
+      "officialSource": "https://www.fujielectric.com/products/drives_inverters/ac_drives_lv/product_series/frenic-lift.html",
+      "status": "deferred-specialized",
+      "reason": "LM1S field subset published; LM2/LM3 require separate generation-specific manuals and lift-specific review."
+    },
+    {
+      "manufacturerDirectory": "bonfiglioli",
+      "family": "Active / Active Next",
+      "officialSource": "https://www.bonfiglioli.com/uk/en/product/active-series_inverters-servo-drives_premium-inverters",
+      "status": "pending-generation-review",
+      "reason": "Official family confirmed. Active, Active Cube and Active Next are separate generations; no code reuse without exact manual."
+    }
+  ],
+  "manufacturerReview": [
+    {
+      "directory": "abb",
+      "publishedPackIds": [
+        "abb_acs355",
+        "abb_acs580",
+        "abb_acs880",
+        "abb_acs480",
+        "abb_acs380",
+        "abb_ach580",
+        "abb_acq580",
+        "abb_acs550"
+      ],
+      "newFamilies": [
+        "ACS480",
+        "ACS380",
+        "ACH580",
+        "ACQ580",
+        "ACS550"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "bonfiglioli",
+      "publishedPackIds": [
+        "bonfiglioli_active_cube",
+        "bonfiglioli_agile",
+        "bonfiglioli_s2u"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "Active / Active Next"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "bosch_rexroth",
+      "publishedPackIds": [
+        "bosch_rexroth_efc3610",
+        "bosch_rexroth_efc5610"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "IndraDrive"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "control_techniques",
+      "publishedPackIds": [
+        "ct_commander_c200",
+        "ct_commander_c300",
+        "ct_unidrive_m700",
+        "ct_digitax_hd",
+        "control_techniques_unidrive_m200"
+      ],
+      "newFamilies": [
+        "Unidrive M200/M201"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "danfoss",
+      "publishedPackIds": [
+        "danfoss_fc280",
+        "danfoss_fc302",
+        "danfoss_fc102",
+        "danfoss_fc202"
+      ],
+      "newFamilies": [
+        "VLT HVAC Drive FC 102",
+        "VLT Aqua Drive FC 202"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "delta",
+      "publishedPackIds": [
+        "delta_ms300",
+        "delta_c2000",
+        "delta_cp2000",
+        "delta_vfd_e"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "VFD-EL / VFD-EL-W"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "eaton",
+      "publishedPackIds": [
+        "eaton_dg1",
+        "eaton_dm1",
+        "eaton_da1",
+        "eaton_de1"
+      ],
+      "newFamilies": [
+        "PowerXL DE1"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "emerson",
+      "publishedPackIds": [
+        "emerson_commander_sk",
+        "emerson_unidrive_sp",
+        "emerson_mentor_mp"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [],
+      "decision": "Existing mainstream family coverage retained; no additional higher-priority family selected in this scan."
+    },
+    {
+      "directory": "fuji",
+      "publishedPackIds": [
+        "fuji_frenic_ace",
+        "fuji_frenic_mega",
+        "fuji_frenic_mini",
+        "fuji_frenic_hvac",
+        "fuji_frenic_lift_lm1s"
+      ],
+      "newFamilies": [
+        "FRENIC-Lift LM1S"
+      ],
+      "additionalCandidates": [
+        "FRENIC-Lift LM2/LM3"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "ge",
+      "publishedPackIds": [
+        "ge_af650_gp",
+        "ge_af600_fp"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [],
+      "decision": "Existing mainstream family coverage retained; no additional higher-priority family selected in this scan."
+    },
+    {
+      "directory": "hitachi",
+      "publishedPackIds": [
+        "hitachi_wj200",
+        "hitachi_nes1",
+        "hitachi_wj_c1",
+        "hitachi_sj_p1"
+      ],
+      "newFamilies": [
+        "SJ-P1"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "honeywell",
+      "publishedPackIds": [
+        "honeywell_smartvfd_compact"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "SmartVFD HVAC / HVAC2"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "invertek",
+      "publishedPackIds": [
+        "invertek_optidrive_e3",
+        "invertek_optidrive_p2",
+        "invertek_optidrive_hvac_eco",
+        "invertek_optidrive_coolvert"
+      ],
+      "newFamilies": [
+        "Optidrive CoolVert"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "invt",
+      "publishedPackIds": [
+        "invt_gd20",
+        "invt_gd200a"
+      ],
+      "newFamilies": [
+        "Goodrive20",
+        "Goodrive200A"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "keb",
+      "publishedPackIds": [
+        "keb_combivert_f5",
+        "keb_combivert_f6"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "COMBIVERT G6"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "lenze",
+      "publishedPackIds": [
+        "lenze_i550",
+        "lenze_i510",
+        "lenze_8400_stateline",
+        "lenze_8400_highline",
+        "lenze_8200_vector",
+        "lenze_9300_vector"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "i950"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "ls",
+      "publishedPackIds": [
+        "ls_s100",
+        "ls_g100",
+        "ls_h100",
+        "ls_ig5a",
+        "ls_ic5"
+      ],
+      "newFamilies": [
+        "SV-iC5"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "mitsubishi",
+      "publishedPackIds": [
+        "mitsubishi_fr_e800",
+        "mitsubishi_fr_a800",
+        "mitsubishi_fr_f800",
+        "mitsubishi_fr_d700",
+        "mitsubishi_fr_e700"
+      ],
+      "newFamilies": [
+        "FREQROL FR-E700"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "nord",
+      "publishedPackIds": [
+        "nord_sk500p",
+        "nord_sk250e_fds"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "NORDAC FLEX SK 200E"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "omron",
+      "publishedPackIds": [
+        "omron_mx2_v2",
+        "omron_rx2",
+        "omron_jx"
+      ],
+      "newFamilies": [
+        "SYSDRIVE JX"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "parker",
+      "publishedPackIds": [
+        "parker_ac10",
+        "parker_ac15",
+        "parker_ac20"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [
+        "AC30"
+      ],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "rockwell",
+      "publishedPackIds": [
+        "rockwell_pf525",
+        "rockwell_pf527",
+        "rockwell_pf753",
+        "rockwell_pf755",
+        "rockwell_pf523",
+        "rockwell_pf40"
+      ],
+      "newFamilies": [
+        "PowerFlex 523",
+        "PowerFlex 40"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "schneider",
+      "publishedPackIds": [
+        "schneider_atv320",
+        "schneider_atv630",
+        "schneider_atv930",
+        "schneider_atv340",
+        "schneider_atv950",
+        "schneider_atv650",
+        "schneider_atv12"
+      ],
+      "newFamilies": [
+        "Altivar Process ATV950",
+        "Altivar Process ATV650",
+        "Altivar ATV12"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "sew",
+      "publishedPackIds": [
+        "sew_movifit",
+        "sew_movidrive",
+        "sew_movitrac_b"
+      ],
+      "newFamilies": [
+        "MOVITRAC B"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "siemens",
+      "publishedPackIds": [
+        "siemens_g120",
+        "siemens_g120c",
+        "siemens_s120",
+        "siemens_v90",
+        "siemens_g120x",
+        "siemens_v20"
+      ],
+      "newFamilies": [
+        "SINAMICS V20"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "toshiba",
+      "publishedPackIds": [
+        "toshiba_vf_s15",
+        "toshiba_vf_as3",
+        "toshiba_vf_mb1",
+        "toshiba_vf_nc3"
+      ],
+      "newFamilies": [
+        "TOSVERT VF-nC3"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "vacon",
+      "publishedPackIds": [
+        "vacon_10",
+        "vacon_20",
+        "vacon_100",
+        "vacon_nxp"
+      ],
+      "newFamilies": [],
+      "additionalCandidates": [],
+      "decision": "Existing mainstream family coverage retained; no additional higher-priority family selected in this scan."
+    },
+    {
+      "directory": "weg",
+      "publishedPackIds": [
+        "weg_cfw500",
+        "weg_cfw700",
+        "weg_cfw900",
+        "weg_cfw300",
+        "weg_cfw11"
+      ],
+      "newFamilies": [
+        "CFW300",
+        "CFW-11"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    },
+    {
+      "directory": "yaskawa",
+      "publishedPackIds": [
+        "yaskawa_ga500",
+        "yaskawa_ga800",
+        "yaskawa_a1000",
+        "yaskawa_v1000",
+        "yaskawa_u1000",
+        "yaskawa_j1000"
+      ],
+      "newFamilies": [
+        "U1000 Matrix Drive",
+        "J1000"
+      ],
+      "additionalCandidates": [],
+      "decision": "Published verified missing families; retained other findings with explicit status."
+    }
+  ]
+}

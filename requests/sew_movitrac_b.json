@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "MOVITRAC B",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "sew_movitrac_b",
+  "publishedPath": "sew/movitrac_b.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+      "sourceTitle": "MOVITRAC B manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "16602013",
+      "revision": "February 2008"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

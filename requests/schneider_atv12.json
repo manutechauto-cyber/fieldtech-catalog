@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Altivar ATV12",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "schneider_atv12",
+  "publishedPath": "schneider/atv12.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.se.com/us/en/download/document/BBV28581/",
+      "sourceTitle": "Altivar ATV12 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "BBV28581",
+      "revision": "February 2026"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

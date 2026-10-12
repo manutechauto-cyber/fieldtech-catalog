@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "SYSDRIVE JX",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "omron_jx",
+  "publishedPath": "omron/jx.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+      "sourceTitle": "SYSDRIVE JX manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "I558-E1",
+      "revision": "02"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

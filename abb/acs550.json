@@ -1,0 +1,469 @@
+{
+  "packId": "abb_acs550",
+  "manufacturer": "ABB",
+  "family": "ACS550",
+  "aliases": [
+    "ACS550"
+  ],
+  "models": [
+    "ACS550"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+  "officialSources": [
+    "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "9902",
+      "name": {
+        "en": "Application configuration",
+        "pt": "Configuração da aplicação"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9904",
+      "name": {
+        "en": "Motor control mode",
+        "pt": "Modo de controle do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9905",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9906",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9907",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9908",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9909",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          91
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "1103",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          93
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "2007",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          95
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "2008",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          95
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "2202",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "2203",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          96
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "1",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          260
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "2",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "4",
+      "title": {
+        "en": "Output short circuit",
+        "pt": "Curto-circuito na saída"
+      },
+      "summary": {
+        "en": "Inspect motor and output wiring.",
+        "pt": "Confira motor e cabos de saída."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "6",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "7",
+      "title": {
+        "en": "Analog reference loss",
+        "pt": "Perda da referência analógica"
+      },
+      "summary": {
+        "en": "Check analog wiring and scaling.",
+        "pt": "Confira cabos e escala da entrada analógica."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "9",
+      "title": {
+        "en": "Motor overtemperature",
+        "pt": "Sobretemperatura do motor"
+      },
+      "summary": {
+        "en": "Review load and thermal monitoring.",
+        "pt": "Revise carga e monitoramento térmico."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "10",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          261
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "11",
+      "title": {
+        "en": "Motor identification failed",
+        "pt": "Falha na identificação do motor"
+      },
+      "summary": {
+        "en": "Review motor data and connections.",
+        "pt": "Revise dados e conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          262
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "16",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+        "document": "3AFE64804588",
+        "revision": "H, July 2014",
+        "pages": [
+          262
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "ACS550-01/U1 legacy field reference; fault codes here are decimal display codes, not fieldbus hexadecimal codes."
+}

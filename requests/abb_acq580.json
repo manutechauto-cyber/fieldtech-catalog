@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "ACQ580",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "abb_acq580",
+  "publishedPath": "abb/acq580.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD50000035867&LanguageCode=en&DocumentPartId=1&Action=Launch",
+      "sourceTitle": "ACQ580 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "3AXD50000035867",
+      "revision": "H, December 2025"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

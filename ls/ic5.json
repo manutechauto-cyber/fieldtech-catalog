@@ -1,0 +1,334 @@
+{
+  "packId": "ls_ic5",
+  "manufacturer": "LS ELECTRIC",
+  "family": "SV-iC5",
+  "aliases": [
+    "iC5",
+    "SV-iC5"
+  ],
+  "models": [
+    "SV-iC5"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+  "officialSources": [
+    "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "ACC",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          43
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "dEC",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          43
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "drv",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          43
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Frq",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          43
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F21",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F22",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "H30",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "H31",
+      "name": {
+        "en": "Motor pole count",
+        "pt": "Número de polos do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "H33",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          53
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "OCt",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "GFt",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "IOL",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "OHt",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "Ovt",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "Lvt",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+        "document": "SV-iC5 English Manual",
+        "revision": "V4.0, 2019-04-09",
+        "pages": [
+          127
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "SV-iC5 English manual V4.0; keypad display capitalization preserved. H30 selects motor size, not a freely editable motor power value."
+}

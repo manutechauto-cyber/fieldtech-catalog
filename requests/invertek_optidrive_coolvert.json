@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Optidrive CoolVert",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "invertek_optidrive_coolvert",
+  "publishedPath": "invertek/optidrive_coolvert.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.invertekdrives.com/downloads/Optidrive%20CoolVert%20User%20Guide%20V1.00.pdf",
+      "sourceTitle": "Optidrive CoolVert manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "Optidrive CoolVert User Guide",
+      "revision": "1.00"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

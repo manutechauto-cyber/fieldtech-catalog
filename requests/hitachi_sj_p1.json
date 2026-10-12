@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "SJ-P1",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "hitachi_sj_p1",
+  "publishedPath": "hitachi/sj_p1.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.hitachi-iesa.com/sites/default/files/supportdocs/SJ-P1_Users_guide_chapter1-20_Rev06_NT251BX-2.pdf",
+      "sourceTitle": "SJ-P1 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "NT251BX-2",
+      "revision": "06"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

@@ -1,0 +1,412 @@
+{
+  "packId": "toshiba_vf_nc3",
+  "manufacturer": "Toshiba",
+  "family": "TOSVERT VF-nC3",
+  "aliases": [
+    "VF-nC3",
+    "NC3"
+  ],
+  "models": [
+    "TOSVERT VF-nC3"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+  "officialSources": [
+    "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "CMOD",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          212
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "FMOD",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          212
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "ACC",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "DEC",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "FH",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "UL",
+      "name": {
+        "en": "Upper frequency limit",
+        "pt": "Limite superior de frequência"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "LL",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "VL",
+      "name": {
+        "en": "Base frequency 1",
+        "pt": "Frequência base 1"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "VLV",
+      "name": {
+        "en": "Base frequency voltage 1",
+        "pt": "Tensão da frequência base 1"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "PT",
+      "name": {
+        "en": "Motor control mode",
+        "pt": "Modo de controle do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          213
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "OC1",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          239
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OC2",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          239
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OC3",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          239
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OH",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          239
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OL1",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          240
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OL2",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          240
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OP1",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          240
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OP2",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          240
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OP3",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+        "document": "E6581595",
+        "revision": "CPU 122 or later",
+        "pages": [
+          240
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "E6581595, CPU version 122 or later. ASCII parameter labels follow the communication table; panel glyphs may look different."
+}

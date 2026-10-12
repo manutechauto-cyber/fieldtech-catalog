@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "FRENIC-Lift LM1S",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "fuji_frenic_lift_lm1s",
+  "publishedPath": "fuji/frenic_lift_lm1s.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.fujielectric-europe.com/fileadmin/03_Downloads/03_01_Drives_and_Automation/Low_voltage_Drives/LM1/Lift_LM1S_manual_RF_INR-SI47-1068b_ENl.pdf",
+      "sourceTitle": "FRENIC-Lift LM1S manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "INR-SI47-1068",
+      "revision": "b, LM1S legacy"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

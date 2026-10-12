@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "PowerXL DE1",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "eaton_de1",
+  "publishedPath": "eaton/de1.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+      "sourceTitle": "PowerXL DE1 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "MN040011EN",
+      "revision": "January 2024"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

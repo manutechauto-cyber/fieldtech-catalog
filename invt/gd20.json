@@ -1,0 +1,500 @@
+{
+  "packId": "invt_gd20",
+  "manufacturer": "INVT",
+  "family": "Goodrive20",
+  "aliases": [
+    "GD20",
+    "Goodrive20"
+  ],
+  "models": [
+    "Goodrive20"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+  "officialSources": [
+    "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "P00.00",
+      "name": {
+        "en": "Motor control mode",
+        "pt": "Modo de controle do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          36
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P00.01",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          36
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P00.06",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          37
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P00.11",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          40
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P00.12",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          40
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P02.01",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "kW",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P02.02",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P02.03",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P02.04",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P02.05",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "OC1",
+      "title": {
+        "en": "Overcurrent during acceleration",
+        "pt": "Sobrecorrente na aceleração"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OC2",
+      "title": {
+        "en": "Overcurrent during deceleration",
+        "pt": "Sobrecorrente na desaceleração"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OC3",
+      "title": {
+        "en": "Overcurrent at constant speed",
+        "pt": "Sobrecorrente em velocidade constante"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OV1",
+      "title": {
+        "en": "DC bus overvoltage during acceleration",
+        "pt": "Sobretensão no barramento DC na aceleração"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OV2",
+      "title": {
+        "en": "DC bus overvoltage during deceleration",
+        "pt": "Sobretensão no barramento DC na desaceleração"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OV3",
+      "title": {
+        "en": "DC bus overvoltage at constant speed",
+        "pt": "Sobretensão no barramento DC em velocidade constante"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          118
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "UV",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OL1",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OL2",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OH1",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OH2",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "SPI",
+      "title": {
+        "en": "Input phase loss",
+        "pt": "Perda de fase na entrada"
+      },
+      "summary": {
+        "en": "Check supply phases and fuses.",
+        "pt": "Confira fases da alimentação e fusíveis."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "SPO",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+        "document": "66001-00430",
+        "revision": "V1.9",
+        "pages": [
+          119
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "Standard series in cited manual. EU, UL, LA and dedicated variants require separate applicability review."
+}

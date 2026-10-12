@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "SINAMICS V20",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "siemens_v20",
+  "publishedPath": "siemens/v20.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://cache.industry.siemens.com/dl/files/321/109479321/att_856072/v1/SINAMICS_V20_Operating_Instructions_032015_en-US.pdf",
+      "sourceTitle": "SINAMICS V20 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "A5E34559884",
+      "revision": "002, March 2015"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

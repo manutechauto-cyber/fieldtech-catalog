@@ -1,0 +1,344 @@
+{
+  "packId": "omron_jx",
+  "manufacturer": "Omron",
+  "family": "SYSDRIVE JX",
+  "aliases": [
+    "JX",
+    "3G3JX"
+  ],
+  "models": [
+    "SYSDRIVE JX"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+  "officialSources": [
+    "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "A001",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "A002",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F002",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F003",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "A003",
+      "name": {
+        "en": "Base frequency",
+        "pt": "Frequência base"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "A004",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          70
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "b012",
+      "name": {
+        "en": "Motor overload current",
+        "pt": "Corrente de proteção térmica do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          77
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "E-01",
+      "title": {
+        "en": "Overcurrent at constant speed",
+        "pt": "Sobrecorrente em velocidade constante"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-02",
+      "title": {
+        "en": "Overcurrent during deceleration",
+        "pt": "Sobrecorrente na desaceleração"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-03",
+      "title": {
+        "en": "Overcurrent during acceleration",
+        "pt": "Sobrecorrente na aceleração"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-04",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-05",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-07",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-09",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    },
+    {
+      "code": "E-12",
+      "title": {
+        "en": "External fault",
+        "pt": "Falha externa"
+      },
+      "summary": {
+        "en": "Trace the external trip source.",
+        "pt": "Identifique a origem do sinal externo."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+        "document": "I558-E1",
+        "revision": "02",
+        "pages": [
+          192
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12",
+        "verificationMethod": "Visual review of PDF keypad display"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "I558-E1-02. Displayed fault codes retain the E- prefix; operating stage differs from other manufacturers."
+}

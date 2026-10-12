@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "status": "pending-review",
+  "status": "unconfirmed-model",
   "requestedQuery": "atv940",
   "requestedAt": "2026-09-11T17:14:37.082Z",
   "requestId": "81c7ef49-cc6a-48fd-b9bc-d5facbfbfa38",
@@ -103,7 +103,27 @@
     "manualOfficialCount": 0,
     "parametersVerified": false,
     "faultsVerified": false,
-    "reason": "Manufacturer official domain could not be determined."
+    "reason": "Exact ATV940/ATV990 family not confirmed in retained official product and ATV900 manual evidence. This is not a claim that the model cannot exist.",
+    "modelVerified": false
   },
-  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references."
+  "note": "Do not publish or silently redirect this query without exact model documentation or nameplate evidence.",
+  "reviewedAt": "2026-10-12",
+  "reviewEvidence": [
+    {
+      "sourceUrl": "https://www.se.com/us/en/download/document/NHA80757/",
+      "sourceTitle": "ATV900 Programming Manual NHA80757.14",
+      "official": true,
+      "supports": "ATV930/ATV950 family documentation; does not confirm the requested exact model"
+    },
+    {
+      "sourceUrl": "https://www.se.com/us/en/product/ATV950D75N4U/",
+      "sourceTitle": "ATV950 official product record",
+      "official": true,
+      "supports": "Independent confirmed family; not an alias or correction of the requested model"
+    }
+  ],
+  "suggestedExistingPacks": [
+    "schneider_atv930",
+    "schneider_atv950"
+  ]
 }

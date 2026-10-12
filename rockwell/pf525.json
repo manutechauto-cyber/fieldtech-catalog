@@ -1,1 +1,688 @@
-{"packId":"rockwell_pf525","manufacturer":"Allen-Bradley","family":"PowerFlex 525","aliases":["PF525","PowerFlex 525","25B"],"models":["PowerFlex 525"],"version":2,"status":"curated-basic-v2","sourceUrl":"https://literature.rockwellautomation.com/","parameters":[{"code":"P031","name":{"en":"Motor nominal voltage","pt":"Tensão nominal do motor","es":"Tensión nominal del motor","fr":"Tension nominale du moteur","de":"Motornennspannung"},"unit":"V"},{"code":"P032","name":{"en":"Motor nominal frequency","pt":"Frequência nominal do motor","es":"Frecuencia nominal del motor","fr":"Fréquence nominale du moteur","de":"Motornennfrequenz"},"unit":"Hz"},{"code":"P033","name":{"en":"Motor overload current","pt":"Corrente de sobrecarga do motor","es":"Corriente de sobrecarga del motor","fr":"Courant surcharge moteur","de":"Motorüberlaststrom"},"unit":"A"},{"code":"P036","name":{"en":"Motor nominal speed","pt":"Velocidade nominal do motor","es":"Velocidad nominal del motor","fr":"Vitesse nominale du moteur","de":"Motornennspeed"},"unit":"rpm"},{"code":"P041","name":{"en":"Acceleration time 1","pt":"Tempo de aceleração 1","es":"Tiempo de aceleración 1","fr":"Temps d'accélération 1","de":"Beschleunigungszeit 1"},"unit":"s"},{"code":"P042","name":{"en":"Deceleration time 1","pt":"Tempo de desaceleração 1","es":"Tiempo de deceleración 1","fr":"Temps de décélération 1","de":"Verzögerungszeit 1"},"unit":"s"}],"faults":[{"code":"F003","title":{"en":"Power loss","pt":"Perda de alimentação","es":"Pérdida de alimentación","fr":"Perte d'alimentation","de":"Netzausfall"}},{"code":"F004","title":{"en":"Undervoltage","pt":"Subtensão","es":"Subtensión","fr":"Sous-tension","de":"Unterspannung"}},{"code":"F005","title":{"en":"Overvoltage","pt":"Sobretensão","es":"Sobretensión","fr":"Surtension","de":"Überspannung"}},{"code":"F006","title":{"en":"Motor stalled","pt":"Motor travado","es":"Motor bloqueado","fr":"Moteur bloqué","de":"Motor blockiert"}},{"code":"F007","title":{"en":"Motor overload","pt":"Sobrecarga do motor","es":"Sobrecarga del motor","fr":"Surcharge moteur","de":"Motorüberlast"}},{"code":"F012","title":{"en":"Hardware overcurrent","pt":"Sobrecorrente de hardware","es":"Sobrecorriente de hardware","fr":"Surintensité matérielle","de":"Hardware-Überstrom"}}],"quickSetup":[]}
+{
+  "packId": "rockwell_pf525",
+  "manufacturer": "Allen-Bradley",
+  "family": "PowerFlex 525",
+  "aliases": [
+    "PF525",
+    "PowerFlex 525",
+    "25B"
+  ],
+  "models": [
+    "PowerFlex 525"
+  ],
+  "version": 3,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+  "parameters": [
+    {
+      "code": "P031",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor",
+        "es": "Tensión nominal del motor",
+        "fr": "Tension nominale du moteur",
+        "de": "Motornennspannung"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P032",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor",
+        "es": "Frecuencia nominal del motor",
+        "fr": "Fréquence nominale du moteur",
+        "de": "Motornennfrequenz"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P033",
+      "name": {
+        "en": "Motor overload current",
+        "pt": "Corrente de proteção térmica do motor",
+        "es": "Corriente de sobrecarga del motor",
+        "fr": "Courant surcharge moteur",
+        "de": "Motorüberlaststrom"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P034",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P035",
+      "name": {
+        "en": "Motor pole count",
+        "pt": "Número de polos do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P036",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor",
+        "es": "Velocidad nominal del motor",
+        "fr": "Vitesse nominale du moteur",
+        "de": "Motornennspeed"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P040",
+      "name": {
+        "en": "Motor identification",
+        "pt": "Identificação do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P041",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração",
+        "es": "Tiempo de aceleración 1",
+        "fr": "Temps d'accélération 1",
+        "de": "Beschleunigungszeit 1"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "minimum": 0,
+      "maximum": 600,
+      "default": 10,
+      "increment": 0.01
+    },
+    {
+      "code": "P042",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração",
+        "es": "Tiempo de deceleración 1",
+        "fr": "Temps de décélération 1",
+        "de": "Verzögerungszeit 1"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "minimum": 0,
+      "maximum": 600,
+      "default": 10,
+      "increment": 0.01
+    },
+    {
+      "code": "P043",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "minimum": 0,
+      "maximum": 500,
+      "default": 0,
+      "increment": 0.01
+    },
+    {
+      "code": "P044",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "minimum": 0,
+      "maximum": 500,
+      "default": 60,
+      "increment": 0.01
+    },
+    {
+      "code": "P045",
+      "name": {
+        "en": "Stop mode",
+        "pt": "Modo de parada"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P046",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P047",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          66
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "F003",
+      "title": {
+        "en": "Power loss",
+        "pt": "Perda de alimentação",
+        "es": "Pérdida de alimentación",
+        "fr": "Perte d'alimentation",
+        "de": "Netzausfall"
+      },
+      "summary": {
+        "en": "Check supply phases and fuses.",
+        "pt": "Confira fases da alimentação e fusíveis."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F004",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão",
+        "es": "Subtensión",
+        "fr": "Sous-tension",
+        "de": "Unterspannung"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F005",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC",
+        "es": "Sobretensión",
+        "fr": "Surtension",
+        "de": "Überspannung"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F006",
+      "title": {
+        "en": "Motor stalled",
+        "pt": "Motor bloqueado",
+        "es": "Motor bloqueado",
+        "fr": "Moteur bloqué",
+        "de": "Motor blockiert"
+      },
+      "summary": {
+        "en": "Review load and ramp settings.",
+        "pt": "Revise carga e ajustes das rampas."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F007",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor",
+        "es": "Sobrecarga del motor",
+        "fr": "Surcharge moteur",
+        "de": "Motorüberlast"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F008",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F012",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente",
+        "es": "Sobrecorriente de hardware",
+        "fr": "Surintensité matérielle",
+        "de": "Hardware-Überstrom"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F013",
+      "title": {
+        "en": "Ground fault",
+        "pt": "Falha à terra"
+      },
+      "summary": {
+        "en": "Inspect motor and cable insulation.",
+        "pt": "Confira isolação do motor e dos cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F021",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F029",
+      "title": {
+        "en": "Analog reference loss",
+        "pt": "Perda da referência analógica"
+      },
+      "summary": {
+        "en": "Check analog wiring and scaling.",
+        "pt": "Confira cabos e escala da entrada analógica."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          161
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F064",
+      "title": {
+        "en": "Drive overload",
+        "pt": "Sobrecarga do drive"
+      },
+      "summary": {
+        "en": "Review load and drive sizing.",
+        "pt": "Revise carga e dimensionamento do drive."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          162
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F071",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          162
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F080",
+      "title": {
+        "en": "Motor identification failed",
+        "pt": "Falha na identificação do motor"
+      },
+      "summary": {
+        "en": "Review motor data and connections.",
+        "pt": "Revise dados e conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          162
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F073",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          162
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "F083",
+      "title": {
+        "en": "Communication loss",
+        "pt": "Perda de comunicação"
+      },
+      "summary": {
+        "en": "Check network wiring and configuration.",
+        "pt": "Confira cabos e configuração da rede."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+        "document": "520-UM001",
+        "revision": "O, September 2025",
+        "pages": [
+          162
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [
+    {
+      "title": {
+        "en": "Field commissioning checklist",
+        "pt": "Checklist de comissionamento em campo"
+      },
+      "steps": {
+        "en": [
+          "Enter motor nameplate data and overload current.",
+          "Review P046/P047 and possible secondary source overrides.",
+          "Verify limits, stop mode and ramp settings."
+        ],
+        "pt": [
+          "Informe dados de placa e corrente de proteção térmica.",
+          "Revise P046/P047 e possíveis substituições pelas fontes secundárias.",
+          "Confira limites, modo de parada e rampas."
+        ]
+      }
+    }
+  ],
+  "officialSources": [
+    "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "applicability": "Bulletin 25A Series B / 25B, as applicable. EtherNet/IP selection and faults F073/F083 apply only to PF525."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Altivar Process ATV950",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "schneider_atv950",
+  "publishedPath": "schneider/atv950.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.se.com/us/en/download/document/NHA80757/",
+      "sourceTitle": "Altivar Process ATV950 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "NHA80757",
+      "revision": "14, May 2026"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "U1000 Matrix Drive",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "yaskawa_u1000",
+  "publishedPath": "yaskawa/u1000.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.yaskawa.co.uk/Global%20Assets/Downloads/Technical_Documentation/Inverter_Drives/U1000/U1000_TM_EN_SIEP_C710636_03.pdf",
+      "sourceTitle": "U1000 Matrix Drive manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "SIEP C710636 03",
+      "revision": "E"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

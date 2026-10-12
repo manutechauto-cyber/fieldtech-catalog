@@ -1,0 +1,407 @@
+{
+  "packId": "control_techniques_unidrive_m200",
+  "manufacturer": "Control Techniques",
+  "family": "Unidrive M200/M201",
+  "aliases": [
+    "M200",
+    "M201",
+    "Unidrive M200",
+    "Unidrive M201"
+  ],
+  "models": [
+    "Unidrive M200",
+    "Unidrive M201"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+  "officialSources": [
+    "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "01",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "02",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "03",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s/100 Hz",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "04",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s/100 Hz",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "05",
+      "name": {
+        "en": "Application configuration",
+        "pt": "Configuração da aplicação"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "06",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "07",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "08",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "09",
+      "name": {
+        "en": "Motor power factor",
+        "pt": "Fator de potência do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "39",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "43",
+      "name": {
+        "en": "Serial baud rate",
+        "pt": "Taxa da comunicação serial"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "44",
+      "name": {
+        "en": "Serial address",
+        "pt": "Endereço da comunicação serial"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "OI.AC",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          139
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OV",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          141
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Oht.I",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          138
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "OI.SC",
+      "title": {
+        "en": "Output short circuit",
+        "pt": "Curto-circuito na saída"
+      },
+      "summary": {
+        "en": "Inspect motor and output wiring.",
+        "pt": "Confira motor e cabos de saída."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          140
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Out.P",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          140
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "cL.A1",
+      "title": {
+        "en": "Analog reference loss",
+        "pt": "Perda da referência analógica"
+      },
+      "summary": {
+        "en": "Check analog wiring and scaling.",
+        "pt": "Confira cabos e escala da entrada analógica."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          132
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "Et",
+      "title": {
+        "en": "External fault",
+        "pt": "Falha externa"
+      },
+      "summary": {
+        "en": "Trace the external trip source.",
+        "pt": "Identifique a origem do sinal externo."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+        "document": "0478-0351-03",
+        "revision": "Issue 3",
+        "pages": [
+          134
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "M200/M201 induction-motor control guide Issue 3. Menu 0 aliases shown as 01, 02, etc.; underlying advanced menu numbers differ."
+}

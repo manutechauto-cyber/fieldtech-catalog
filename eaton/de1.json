@@ -1,0 +1,309 @@
+{
+  "packId": "eaton_de1",
+  "manufacturer": "Eaton",
+  "family": "PowerXL DE1",
+  "aliases": [
+    "PowerXL DE1"
+  ],
+  "models": [
+    "PowerXL DE1"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+  "officialSources": [
+    "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "P-01",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-02",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-03",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-04",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          95
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-07",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          97
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-08",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          97
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-09",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "P-10",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          94
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "I.t-trP",
+      "title": {
+        "en": "Motor overload",
+        "pt": "Sobrecarga do motor"
+      },
+      "summary": {
+        "en": "Review load and rated current.",
+        "pt": "Revise carga e corrente nominal."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          155
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "E-triP",
+      "title": {
+        "en": "External fault",
+        "pt": "Falha externa"
+      },
+      "summary": {
+        "en": "Trace the external trip source.",
+        "pt": "Identifique a origem do sinal externo."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          155
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "O.Volt",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          155
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "O-I",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          155
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "O-t",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          155
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "U-Volt",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+        "document": "MN040011EN",
+        "revision": "January 2024",
+        "pages": [
+          154
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "DE1 variable speed starter. Fault strings refer to optional DX-KEY-LED2 display; LED pulse and Modbus representations differ. P-01/P-02 units depend on P-10."
+}

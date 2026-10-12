@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "VLT Aqua Drive FC 202",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "danfoss_fc202",
+  "publishedPath": "danfoss/fc202.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://assets.danfoss.com/documents/latest/535068/AU361182657213en-002201.pdf",
+      "sourceTitle": "VLT Aqua Drive FC 202 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "AU361182657213en",
+      "revision": "002201, software 5.81"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

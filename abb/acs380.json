@@ -1,0 +1,381 @@
+{
+  "packId": "abb_acs380",
+  "manufacturer": "ABB",
+  "family": "ACS380",
+  "aliases": [
+    "ACS380"
+  ],
+  "models": [
+    "ACS380"
+  ],
+  "version": 1,
+  "status": "curated-field-subset-verified-v1",
+  "sourceUrl": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+  "officialSources": [
+    "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf"
+  ],
+  "contentLanguages": [
+    "en",
+    "pt"
+  ],
+  "verification": {
+    "sourceVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset only; not a complete manual. See per-item PDF page references."
+  },
+  "parameters": [
+    {
+      "code": "99.06",
+      "name": {
+        "en": "Rated motor current",
+        "pt": "Corrente nominal do motor"
+      },
+      "unit": "A",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          217
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "99.07",
+      "name": {
+        "en": "Rated motor voltage",
+        "pt": "Tensão nominal do motor"
+      },
+      "unit": "V",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          472
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "99.08",
+      "name": {
+        "en": "Rated motor frequency",
+        "pt": "Frequência nominal do motor"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          466
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "99.09",
+      "name": {
+        "en": "Rated motor speed",
+        "pt": "Velocidade nominal do motor"
+      },
+      "unit": "rpm",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          466
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "99.10",
+      "name": {
+        "en": "Rated motor power",
+        "pt": "Potência nominal do motor"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          473
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "20.01",
+      "name": {
+        "en": "Run command source",
+        "pt": "Fonte do comando de partida"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          190
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "22.11",
+      "name": {
+        "en": "Reference source",
+        "pt": "Fonte da referência"
+      },
+      "unit": "",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          100
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "23.12",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          236
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "applicability": "Speed control ramp"
+    },
+    {
+      "code": "23.13",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          237
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "applicability": "Speed control ramp"
+    },
+    {
+      "code": "28.72",
+      "name": {
+        "en": "Acceleration time",
+        "pt": "Tempo de aceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          218
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "applicability": "Frequency control ramp"
+    },
+    {
+      "code": "28.73",
+      "name": {
+        "en": "Deceleration time",
+        "pt": "Tempo de desaceleração"
+      },
+      "unit": "s",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          267
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      },
+      "applicability": "Frequency control ramp"
+    },
+    {
+      "code": "30.13",
+      "name": {
+        "en": "Minimum frequency",
+        "pt": "Frequência mínima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          271
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "30.14",
+      "name": {
+        "en": "Maximum frequency",
+        "pt": "Frequência máxima"
+      },
+      "unit": "Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          267
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "faults": [
+    {
+      "code": "2310",
+      "title": {
+        "en": "Overcurrent",
+        "pt": "Sobrecorrente"
+      },
+      "summary": {
+        "en": "Check load, motor data and wiring.",
+        "pt": "Confira carga, dados do motor e cabos."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          528
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3210",
+      "title": {
+        "en": "DC bus overvoltage",
+        "pt": "Sobretensão no barramento DC"
+      },
+      "summary": {
+        "en": "Review supply and deceleration.",
+        "pt": "Revise alimentação e desaceleração."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          530
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3220",
+      "title": {
+        "en": "Undervoltage",
+        "pt": "Subtensão"
+      },
+      "summary": {
+        "en": "Check supply and connections.",
+        "pt": "Confira alimentação e conexões."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          530
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "4210",
+      "title": {
+        "en": "Drive overtemperature",
+        "pt": "Sobretemperatura do drive"
+      },
+      "summary": {
+        "en": "Inspect cooling and load.",
+        "pt": "Confira refrigeração e carga."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          531
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    },
+    {
+      "code": "3381",
+      "title": {
+        "en": "Output phase loss",
+        "pt": "Perda de fase na saída"
+      },
+      "summary": {
+        "en": "Inspect motor connections.",
+        "pt": "Confira conexões do motor."
+      },
+      "kind": "fault",
+      "source": {
+        "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+        "document": "3AXD50000029275",
+        "revision": "J, November 2025",
+        "pages": [
+          530
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "verifiedAt": "2026-10-12"
+      }
+    }
+  ],
+  "quickSetup": [],
+  "applicability": "Control program in cited manual; group 23 applies to speed reference and group 28 to frequency reference. Verify drive type and firmware."
+}

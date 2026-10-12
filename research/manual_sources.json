@@ -1,0 +1,263 @@
+{
+  "coolvert": {
+    "url": "https://www.invertekdrives.com/downloads/Optidrive%20CoolVert%20User%20Guide%20V1.00.pdf",
+    "document": "Optidrive CoolVert User Guide",
+    "revision": "1.00",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "4b6097f9f807413ecce107638ec3020c3d47e2a3351d68577c3497aa3e015e2b",
+    "pdfPageCount": 48,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "gd20": {
+    "url": "https://www.invt.com/uploads/file1/20230629/GD20%20Series%20VFD%20Manual_V1.9.pdf",
+    "document": "66001-00430",
+    "revision": "V1.9",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "9e12f6721c37ea7fea8159d3c39cc7aab407b281c2eb85b05d92b137fc9a3f15",
+    "pdfPageCount": 174,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "m200": {
+    "url": "https://cdn-static.nidec-netherlands.nl/media/3523-frequentieregelaars-unidrive-m200-m201-control-user-guide-en-iss3-0478-0351-03.pdf",
+    "document": "0478-0351-03",
+    "revision": "Issue 3",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "7099724aad31a11ea2c748c54d7125b7cdc778a96c0bae9fe02b0922e975a6bb",
+    "pdfPageCount": 158,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "de1": {
+    "url": "https://www.eaton.com/content/dam/eaton/technicaldocumentation/mn/eaton-de1-variable-speed-starter-manual-mn040011-en-us.pdf",
+    "document": "MN040011EN",
+    "revision": "January 2024",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "655fbde17e959f912e8a1ae343842aa4d209bd846822db5f31df77950ff169d0",
+    "pdfPageCount": 170,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "acs480": {
+    "url": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD50000047399&LanguageCode=en&DocumentPartId=1&Action=Launch",
+    "document": "3AXD50000047399",
+    "revision": "G, November 2025",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "7065e1df393f33067faaffe10bbf053e1187e4bd5defa7dc3414ced73fc1da2f",
+    "pdfPageCount": 614,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "frenic_lift": {
+    "url": "https://www.fujielectric-europe.com/fileadmin/03_Downloads/03_01_Drives_and_Automation/Low_voltage_Drives/LM1/Lift_LM1S_manual_RF_INR-SI47-1068b_ENl.pdf",
+    "document": "INR-SI47-1068",
+    "revision": "b, LM1S legacy",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "2cb60cbc7edee12fb1fb2a0479140501fbf3d15a52f2c340a4effbdd3eff00a7",
+    "pdfPageCount": 138,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "ach580": {
+    "url": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD50000027537&LanguageCode=en&DocumentPartId=1&Action=Launch",
+    "document": "3AXD50000027537",
+    "revision": "J, February 2026",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "78701ad8df999113db2f8c4914ce7dee0f32b8bcb4a1d434025d14882899cd7d",
+    "pdfPageCount": 764,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "pf40": {
+    "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/22b-um001_-en-e.pdf",
+    "document": "22B-UM001",
+    "revision": "J, September 2025",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "15c10c6420379e8d286ee4c8a210b11683e97e727b39b592e6a9e0dfd023cae9",
+    "pdfPageCount": 156,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "jx": {
+    "url": "https://files.omron.eu/downloads/latest/manual/en/i558_jx_users_manual_en.pdf",
+    "document": "I558-E1",
+    "revision": "02",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "541f5192691cf978f38ec4450c38d8e75b15e91a3f46c9bc9805bb2b39a8d9c1",
+    "pdfPageCount": 263,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "cfw300": {
+    "url": "https://static.weg.net/medias/downloadcenter/h87/hbc/WEG-CFW300-programming-manual-10007849716-en.pdf",
+    "document": "10007849716",
+    "revision": "V3.2X, November 2024",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "4487f80e543c0ad5de842dd493434a54db249b393acf576e19301f2b81482d43",
+    "pdfPageCount": 174,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "fc102": {
+    "url": "https://assets.danfoss.com/documents/latest/435027/AU430028034214en-001901.pdf",
+    "document": "AU430028034214en",
+    "revision": "012001, September 2026, software 8.00",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "275f9d56e52f15b8390ae18463b3387ec74d1a13fbf7b2e69227712a0f3c16be",
+    "pdfPageCount": 746,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "pf520": {
+    "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf",
+    "document": "520-UM001",
+    "revision": "O, September 2025",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "b9445a63c78865037d22238ddedbb785b4309c9798da9da35029d628658636a6",
+    "pdfPageCount": 274,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "sjp1": {
+    "url": "https://www.hitachi-iesa.com/sites/default/files/supportdocs/SJ-P1_Users_guide_chapter1-20_Rev06_NT251BX-2.pdf",
+    "document": "NT251BX-2",
+    "revision": "06",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "ed8f0118d9d70e35ec71164897ac13e5a5be495b0d52072b070c6373223658eb",
+    "pdfPageCount": 747,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "atv900": {
+    "url": "https://www.se.com/us/en/download/document/NHA80757/",
+    "document": "NHA80757",
+    "revision": "14, May 2026",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "58d7c936d6c549580a7571aa2b2cd4dc945527392be85549fd3df011202014a4",
+    "pdfPageCount": 702,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "acs380": {
+    "url": "https://library.e.abb.com/public/0aad9e7886b7413c9e78a9f9cbeda652/AMCK220x_en.pdf",
+    "document": "3AXD50000029275",
+    "revision": "J, November 2025",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "f863372b83fbb9dbebb0224a60a8b10aaa19122401991874d9887a559b81b6b9",
+    "pdfPageCount": 712,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "u1000": {
+    "url": "https://www.yaskawa.co.uk/Global%20Assets/Downloads/Technical_Documentation/Inverter_Drives/U1000/U1000_TM_EN_SIEP_C710636_03.pdf",
+    "document": "SIEP C710636 03",
+    "revision": "E",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "1437447f535117980a007e32d8bf31e5be763b1df92a9835a6a5dc5e1d48314c",
+    "pdfPageCount": 642,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "j1000": {
+    "url": "https://www.yaskawa.com/delegate/getAttachment?cmd=documents&documentId=SIEPC71060631&documentName=SIEPC71060631.pdf",
+    "document": "SIEPC71060631",
+    "revision": "D",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": null,
+    "pdfPageCount": 268,
+    "retrievalMethod": "official PDF web extraction"
+  },
+  "atv600": {
+    "url": "https://www.se.com/us/en/download/document/EAV64318/",
+    "document": "EAV64318",
+    "revision": "14, May 2026",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "ebda77eb868ffbb7ec2ecff5255d15819149ffb01529bc1a02759b1f2aa51661",
+    "pdfPageCount": 692,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "acq580": {
+    "url": "https://search.abb.com/library/Download.aspx?DocumentID=3AXD50000035867&LanguageCode=en&DocumentPartId=1&Action=Launch",
+    "document": "3AXD50000035867",
+    "revision": "H, December 2025",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "a01fa19c0d95d244a3bbe3228505d08864eab595994059d545bb3b445842466c",
+    "pdfPageCount": 654,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "vfnc3": {
+    "url": "https://www.toshiba.com/tic/datafiles/manuals/NC3_Instruction_Manual.pdf",
+    "document": "E6581595",
+    "revision": "CPU 122 or later",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "e44959734ff7a8ea812823b72ff80316b6b68c953e908325207c97d92c369586",
+    "pdfPageCount": 260,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "fc202": {
+    "url": "https://assets.danfoss.com/documents/latest/535068/AU361182657213en-002201.pdf",
+    "document": "AU361182657213en",
+    "revision": "002201, software 5.81",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "16cec2f4dea5630bf69640ecb29d15a00cc0ca03a23117a37aef85da93b323cd",
+    "pdfPageCount": 762,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "ic5": {
+    "url": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+    "document": "SV-iC5 English Manual",
+    "revision": "V4.0, 2019-04-09",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "8944085f72ba5d162b0a93bbcd35d78df1a56b8dfd627d5e1bcc3c545d142f1d",
+    "pdfPageCount": 143,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "atv12": {
+    "url": "https://www.se.com/us/en/download/document/BBV28581/",
+    "document": "BBV28581",
+    "revision": "February 2026",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "6a4e9d36e91b78fa3e0ca4d599c30a6e1550176311bc3d91c173627c0ba8cd0f",
+    "pdfPageCount": 145,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "cfw11": {
+    "url": "https://static.weg.net/medias/downloadcenter/he7/h71/WEG-CFW11-programming-manual-10004274148-en.pdf",
+    "document": "10004274148",
+    "revision": "V7.1X",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "5dcf9bf5347c40e69aadde823d47d10de69b0963457c8edd09f45e875b302d84",
+    "pdfPageCount": 318,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "acs550": {
+    "url": "https://library.e.abb.com/public/313b6ebaf237059fc1257d0a0048fd68/EN_ACS550_01_UM_H_A4.pdf",
+    "document": "3AFE64804588",
+    "revision": "H, July 2014",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "e3c436e9143c790a68d8c3b3341b3e34c3cb35d67158cee9acbe352346fe161f",
+    "pdfPageCount": 326,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "e700": {
+    "url": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+    "document": "IB-0600277ENG",
+    "revision": "G",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "8b2aba07bc3e1b30508600ea076c8033657acbafd2c2262f419b0734654f19a6",
+    "pdfPageCount": 349,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "gd200a": {
+    "url": "https://www.invt.com/uploads/file1/20260805/GD200A_Manual_EN_V3.1.pdf",
+    "document": "GD200A Manual EN",
+    "revision": "V3.1",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "0d368d9f447164899aa38f691d6b535ff78cf622927268bd3d485828a52c1327",
+    "pdfPageCount": 209,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "movitrac_b": {
+    "url": "https://download.sew-eurodrive.com/download/pdf/16602013.pdf",
+    "document": "16602013",
+    "revision": "February 2008",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "3897652f70dc992d823d33d65b25babfeb3d4be5ce10fe1f03807cefb4a1877a",
+    "pdfPageCount": 132,
+    "retrievalMethod": "official PDF download and text/visual review"
+  },
+  "v20": {
+    "url": "https://cache.industry.siemens.com/dl/files/321/109479321/att_856072/v1/SINAMICS_V20_Operating_Instructions_032015_en-US.pdf",
+    "document": "A5E34559884",
+    "revision": "002, March 2015",
+    "retrievedAt": "2026-10-12",
+    "pdfSha256": "24e4dd5116da9a743d24fc6571fd975177fae5aedae7ca2b2bbf15b6f8fc4d30",
+    "pdfPageCount": 342,
+    "retrievalMethod": "official PDF download and text/visual review"
+  }
+}

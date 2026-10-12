@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "FREQROL FR-E700",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "mitsubishi_fr_e700",
+  "publishedPath": "mitsubishi/fr_e700.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600277eng/ib0600277engg.pdf",
+      "sourceTitle": "FREQROL FR-E700 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "IB-0600277ENG",
+      "revision": "G"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

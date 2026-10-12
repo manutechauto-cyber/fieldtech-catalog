@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "Altivar Process ATV650",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "schneider_atv650",
+  "publishedPath": "schneider/atv650.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.se.com/us/en/download/document/EAV64318/",
+      "sourceTitle": "Altivar Process ATV650 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "EAV64318",
+      "revision": "14, May 2026"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "status": "published-field-subset",
+  "requestedQuery": "SV-iC5",
+  "reviewedAt": "2026-10-12",
+  "origin": "user-authorized global field-catalog research",
+  "packId": "ls_ic5",
+  "publishedPath": "ls/ic5.json",
+  "verification": {
+    "sourceVerified": true,
+    "modelVerified": true,
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "scope": "Listed field subset, with per-item manual provenance"
+  },
+  "evidence": [
+    {
+      "sourceUrl": "https://www.ls-electric.com/upload/customer/download/5c0cb21a-cd13-430e-93b4-d10639c80146/iC5_English%20Manual_190409.pdf",
+      "sourceTitle": "SV-iC5 manufacturer manual",
+      "official": true,
+      "confidence": "high",
+      "document": "SV-iC5 English Manual",
+      "revision": "V4.0, 2019-04-09"
+    }
+  ],
+  "note": "No model-level global sales ranking is claimed. See research/candidate_review.json for selection rationale."
+}

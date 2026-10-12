@@ -103,5 +103,7 @@
     "faultsVerified": true,
     "reason": "Published subset checked against NVE61643.11; see per-item source pages."
   },
-  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references."
+  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references.",
+  "packId": "schneider_atv340",
+  "publishedPath": "schneider/atv340.json"
 }
