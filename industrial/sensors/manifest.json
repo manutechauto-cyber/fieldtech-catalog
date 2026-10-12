@@ -157,12 +157,12 @@
       "publishedPackIds": []
     },
     {
-      "id": "contrast-color",
+      "id": "contrast",
       "name": {
-        "pt": "Contraste e cor"
+        "pt": "Sensor de contraste"
       },
       "technology": "photoelectric",
-      "sensingPrinciple": "contrast-color",
+      "sensingPrinciple": "contrast",
       "lightSource": null,
       "priority": 2,
       "target": 20,
@@ -272,6 +272,45 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": []
+    },
+    {
+      "id": "color",
+      "name": {
+        "pt": "Sensor de cor"
+      },
+      "technology": "photoelectric",
+      "sensingPrinciple": "color",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "barcode-1d",
+      "name": {
+        "pt": "Leitor industrial de códigos 1D"
+      },
+      "technology": "identification",
+      "sensingPrinciple": "barcode-1d",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
+    },
+    {
+      "id": "code-reader-2d",
+      "name": {
+        "pt": "Leitor industrial de códigos 2D"
+      },
+      "technology": "identification",
+      "sensingPrinciple": "code-2d",
+      "lightSource": null,
+      "priority": 2,
+      "target": 20,
+      "candidates": [],
+      "publishedPackIds": []
     }
   ],
   "manufacturerResearchPool": [
@@ -294,7 +333,8 @@
     "Contrinex",
     "Sensopart",
     "Wenglor",
-    "Microsonic"
+    "Microsonic",
+    "Cognex"
   ],
   "manufacturerPoolStatus": "Research leads; not a sales ranking or verified model list",
   "taxonomySources": [
@@ -305,7 +345,61 @@
     {
       "url": "https://www.ifm.com/us/en/category",
       "scope": "Industrial sensor category scope"
+    },
+    {
+      "url": "https://cdn.sick.com/media/docs/4/34/534/online_help_lector63x_lector64x_lector65x_en_im0077534.pdf",
+      "scope": "Example of official SOPAS parameter documentation; not confirmation of model rankings or all-model software compatibility"
     }
   ],
-  "packs": []
+  "packs": [],
+  "configurationResearchContract": {
+    "appliesTo": "Every exact model, including software-parameterized sensors and industrial code readers",
+    "capabilityStates": [
+      "verified-supported",
+      "verified-not-supported",
+      "unknown"
+    ],
+    "fields": [
+      "configurationMethods",
+      "softwareName",
+      "softwareVersionCompatibility",
+      "firmwareCompatibility",
+      "supportedOperatingSystems",
+      "officialDownloadUrl",
+      "deviceDescriptionFiles",
+      "configurationInterfaces",
+      "communicationProtocols",
+      "parameterReferences",
+      "teachInProcedure",
+      "diagnostics",
+      "backupProcedure",
+      "restoreProcedure",
+      "persistentSaveProcedure",
+      "factoryResetProcedure"
+    ],
+    "evidenceRule": "Each populated fact requires exact model applicability and official document URL, revision, page or section. Unknown remains unknown; do not infer family-wide compatibility.",
+    "deviceDescriptionExamples": [
+      "SDD",
+      "IODD",
+      "EDS",
+      "GSDML"
+    ],
+    "readerSpecificFields": [
+      "supportedSymbologies",
+      "triggerMode",
+      "readingWindow",
+      "focusExposureLighting",
+      "resultFormatting",
+      "noReadBehavior",
+      "plcIntegration"
+    ],
+    "colorSpecificFields": [
+      "colorTeachIn",
+      "tolerance",
+      "channels",
+      "illumination",
+      "responseTime"
+    ],
+    "publicationEnabled": false
+  }
 }

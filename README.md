@@ -4,7 +4,7 @@ Downloadable field-reference catalog. Catalog version 27 contains 118 published 
 
 ## Industrial expansion
 
-[Industrial sensors](industrial/sensors/README.md): research structure for 20 sensor types, targeting 20 models per type. No sensor models or worldwide sales ranking are published yet. Sensors use their own taxonomy and future pack/drop contract.
+[Industrial sensors](industrial/sensors/README.md): research structure for 23 sensor and industrial code-reader types, targeting 20 models per type. No sensor models or worldwide sales ranking are published yet. Sensors use their own taxonomy and future pack/drop contract.
 
 ## Validation and evidence
 
