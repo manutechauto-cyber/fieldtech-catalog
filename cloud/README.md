@@ -21,7 +21,7 @@ Version compatibility is `databaseSchemaVersion`; content changes are identified
 | sensor_types | Type, priority, target and classification payload |
 | sensor_candidates | Exact-model research leads and review status; not published devices |
 
-Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor specifications are not yet published. The first candidate is ifm O5D100; the manufacturer confirms the model and IO-Link setup, but the interface manual remains pending review. No sales ranking or hardware validation is asserted.
+Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor catalog version 1 includes 127 published field subsets from 32 official PDFs. O5D100 is now published from its official operating instructions and datasheet. The 20-model-per-type target remains incomplete. No sales ranking or hardware validation is asserted.
 
 ## Incremental updates
 
@@ -31,10 +31,11 @@ Edit source packs/manifests, then run:
 python scripts/validate_catalog.py
 python scripts/validate_sensor_structure.py
 python scripts/build_distribution.py
+python scripts/build_sensor_distribution.py
 python scripts/build_cloud_database.py
 python -m unittest discover -s tests -v
 ```
 
 Commit source and generated artifacts together. CI rejects stale distributions and SQLite snapshots. The builder uses only Python stdlib, creates a new database instead of migrating an existing user's data, and generates repeatable outputs within the same SQLite runtime. CI compares table contents and schema across SQLite versions while checking the published artifact hashes. No credentials are needed to consume this public catalog.
 
-Future sensor publication needs its dedicated pack validator and serialization added to the builder. The current gate deliberately rejects nonempty sensor packs. App import, UI integration and any live Supabase migration remain separate tasks requiring the corresponding project access. This database can already be downloaded and queried without those services.
+Sensor publication uses a dedicated provenance validator and sensor ZIP distribution; verified packs are serialized into the same SQLite device_packs table. The sensor document registry is available in metadata for offline lookup. App import, UI integration and any live Supabase migration remain separate tasks requiring the corresponding project access. This database can already be downloaded and queried without those services.

@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_sd6500",
+  "manufacturer": "ifm",
+  "model": "SD6500",
+  "family": "SD",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/sd6500.json",
+  "typeIds": [
+    "flow"
+  ],
+  "identity": {
+    "orderCode": "SD6500",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "SD6500",
+        "pt": "SD6500"
+      },
+      "value": "SD6500",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "18...30 V DC SELV/PELV",
+        "pt": "18...30 V DC SELV/PELV"
+      },
+      "value": "18...30 V DC SELV/PELV",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "flow",
+      "name": {
+        "en": "Flow range",
+        "pt": "Faixa de vazão"
+      },
+      "description": {
+        "en": "4...1250 l/min",
+        "pt": "4...1250 l/min"
+      },
+      "value": "4...1250 l/min",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "R 1/2, DN15",
+        "pt": "R 1/2, DN15"
+      },
+      "value": "R 1/2, DN15",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1",
+        "pt": "1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output logic",
+        "pt": "Lógica da saída"
+      },
+      "description": {
+        "en": "PNP/NPN",
+        "pt": "PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "sd6500",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "SEL1",
+      "name": {
+        "en": "OUT1 process value",
+        "pt": "Grandeza OUT1"
+      },
+      "description": {
+        "en": "OUT1 process value",
+        "pt": "Grandeza OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou1",
+      "name": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "description": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SP1",
+      "name": {
+        "en": "OUT1 switch point",
+        "pt": "Ponto de atuação OUT1"
+      },
+      "description": {
+        "en": "OUT1 switch point",
+        "pt": "Ponto de atuação OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rP1",
+      "name": {
+        "en": "OUT1 reset point",
+        "pt": "Ponto de retorno OUT1"
+      },
+      "description": {
+        "en": "OUT1 reset point",
+        "pt": "Ponto de retorno OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ImPS1",
+      "name": {
+        "en": "Pulse quantity",
+        "pt": "Quantidade por pulso"
+      },
+      "description": {
+        "en": "Pulse quantity",
+        "pt": "Quantidade por pulso"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU1",
+      "name": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "description": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SEL2",
+      "name": {
+        "en": "OUT2 process value",
+        "pt": "Grandeza OUT2"
+      },
+      "description": {
+        "en": "OUT2 process value",
+        "pt": "Grandeza OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou2",
+      "name": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "description": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ASP2",
+      "name": {
+        "en": "4 mA scaling point",
+        "pt": "Ponto de escala 4 mA"
+      },
+      "description": {
+        "en": "4 mA scaling point",
+        "pt": "Ponto de escala 4 mA"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "AEP2",
+      "name": {
+        "en": "20 mA scaling point",
+        "pt": "Ponto de escala 20 mA"
+      },
+      "description": {
+        "en": "20 mA scaling point",
+        "pt": "Ponto de escala 20 mA"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "DIn2",
+      "name": {
+        "en": "External totalizer reset",
+        "pt": "Reset externo do totalizador"
+      },
+      "description": {
+        "en": "External totalizer reset",
+        "pt": "Reset externo do totalizador"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU2",
+      "name": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "description": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "Short circuit OUT1",
+      "name": {
+        "en": "OUT1 short circuit",
+        "pt": "Curto-circuito OUT1"
+      },
+      "description": {
+        "en": "OUT1 short circuit",
+        "pt": "Curto-circuito OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "Short circuit OUT2",
+      "name": {
+        "en": "OUT2 short circuit",
+        "pt": "Curto-circuito OUT2"
+      },
+      "description": {
+        "en": "OUT2 short circuit",
+        "pt": "Curto-circuito OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "OL",
+      "name": {
+        "en": "Above display range",
+        "pt": "Acima da faixa do display"
+      },
+      "description": {
+        "en": "Above display range",
+        "pt": "Acima da faixa do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "sd6500manual",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

@@ -4,9 +4,9 @@
   "drivesCatalogVersion": 27,
   "counts": {
     "publishedDrives": 118,
-    "publishedSensors": 0,
+    "publishedSensors": 127,
     "sensorTypes": 23,
-    "sensorCandidates": 1
+    "sensorCandidates": 0
   },
   "packs": [
     {
@@ -730,6 +730,1022 @@
       "path": "schneider/atv950.json"
     },
     {
+      "id": "sensor_banner_q4xfilaf110_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf110_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfilaf310_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf310_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfilaf610_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf610_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfklaf110_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf110_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfklaf310_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf310_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfklaf610_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf610_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfulaf110_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf110_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfulaf310_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf310_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xfulaf610_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf610_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtilaf100_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf100_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtilaf300_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf300_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtilaf500_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF500-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf500_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtilaf600_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf600_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtklaf100_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf100_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtklaf300_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf300_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtklaf600_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf600_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtulaf100_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf100_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtulaf300_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf300_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtulaf500_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF500-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf500_q8.json"
+    },
+    {
+      "id": "sensor_banner_q4xtulaf600_q8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf600_q8.json"
+    },
+    {
+      "id": "sensor_banner_t30uxda",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxda.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdaq8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDAQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdaq8.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdaqpma",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDAQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdaqpma.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdb",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDB",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdb.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdbq8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDBQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdbq8.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdbqpma",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDBQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdbqpma.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdc",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDC",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdc.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdcq8",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDCQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdcq8.json"
+    },
+    {
+      "id": "sensor_banner_t30uxdcqpma",
+      "category": "sensors",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDCQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdcqpma.json"
+    },
+    {
+      "id": "sensor_ifm_igt200",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "IGT200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igt200.json"
+    },
+    {
+      "id": "sensor_ifm_ki5082",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "KI5082",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5082.json"
+    },
+    {
+      "id": "sensor_ifm_ki6000",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "KI6000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki6000.json"
+    },
+    {
+      "id": "sensor_ifm_lk3122",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "LK3122",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk3122.json"
+    },
+    {
+      "id": "sensor_ifm_o5d100",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "O5D100",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/o5d100.json"
+    },
+    {
+      "id": "sensor_ifm_pn7070",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7070",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7070.json"
+    },
+    {
+      "id": "sensor_ifm_pn7071",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7071",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7071.json"
+    },
+    {
+      "id": "sensor_ifm_pn7092",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7092",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7092.json"
+    },
+    {
+      "id": "sensor_ifm_pn7093",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7093",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7093.json"
+    },
+    {
+      "id": "sensor_ifm_pn7094",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7094",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7094.json"
+    },
+    {
+      "id": "sensor_ifm_pn7096",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7096",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7096.json"
+    },
+    {
+      "id": "sensor_ifm_pn7097",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7097",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7097.json"
+    },
+    {
+      "id": "sensor_ifm_pn7099",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7099",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7099.json"
+    },
+    {
+      "id": "sensor_ifm_pn7160",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7160",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7160.json"
+    },
+    {
+      "id": "sensor_ifm_pn7560",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7560",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7560.json"
+    },
+    {
+      "id": "sensor_ifm_pn7570",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7570",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7570.json"
+    },
+    {
+      "id": "sensor_ifm_pn7571",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7571",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7571.json"
+    },
+    {
+      "id": "sensor_ifm_pn7592",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7592",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7592.json"
+    },
+    {
+      "id": "sensor_ifm_pn7593",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7593",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7593.json"
+    },
+    {
+      "id": "sensor_ifm_pn7594",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7594",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7594.json"
+    },
+    {
+      "id": "sensor_ifm_pn7596",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7596",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7596.json"
+    },
+    {
+      "id": "sensor_ifm_pn7597",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7597",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7597.json"
+    },
+    {
+      "id": "sensor_ifm_pn7599",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "PN7599",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7599.json"
+    },
+    {
+      "id": "sensor_ifm_sd6500",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "SD6500",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sd6500.json"
+    },
+    {
+      "id": "sensor_ifm_tn2511",
+      "category": "sensors",
+      "manufacturer": "ifm",
+      "model": "TN2511",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2511.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd11_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD11 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd11_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd14",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD14",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd14.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd41_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD41 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd41_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd44",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD44",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd44.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd6",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD6",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd6.json"
+    },
+    {
+      "id": "sensor_omron_e3x_hd8",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3X-HD8",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd8.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b62_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b62_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b67",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b67.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b82_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b82_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_b87",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-B87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b87.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d62_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d62_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d67",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d67.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d82_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d82_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_d87",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-D87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d87.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l63_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L63 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l63_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l68",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l68.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l83_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L83 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l83_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_l88",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-L88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l88.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll61",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll61.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll63",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL63",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll63.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll68",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll68.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll81",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll81.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll83",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL83",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll83.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ll88",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll88.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lr61",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr61.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lr66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lr81",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr81.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lr86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls63_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS63 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls63_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls68",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls68.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls83_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS83 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls83_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_ls88",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls88.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lt61",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt61.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lt66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lt81",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt81.json"
+    },
+    {
+      "id": "sensor_omron_e3z_lt86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_r61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-R61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_r66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-R66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_r81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-R81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_r86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-R86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t61_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t61_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t62_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t62_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t66",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t66.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t67",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t67.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t81_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t81_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t82_2m",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t82_2m.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t86",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t86.json"
+    },
+    {
+      "id": "sensor_omron_e3z_t87",
+      "category": "sensors",
+      "manufacturer": "Omron",
+      "model": "E3Z-T87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t87.json"
+    },
+    {
+      "id": "sensor_sick_clv620_0000",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "CLV620-0000",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/clv620_0000.json"
+    },
+    {
+      "id": "sensor_sick_css_wbfa54115aa10z",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "CSS-WBFA54115AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbfa54115aa10z.json"
+    },
+    {
+      "id": "sensor_sick_csx_wbf114125aa10z",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "CSX-WBF114125AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/csx_wbf114125aa10z.json"
+    },
+    {
+      "id": "sensor_sick_kts_wb9114115azzzz",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "KTS-WB9114115AZZZZ",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/kts_wb9114115azzzz.json"
+    },
+    {
+      "id": "sensor_sick_mzt8_28vps_kub",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "MZT8-28VPS-KUB",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/mzt8_28vps_kub.json"
+    },
+    {
+      "id": "sensor_sick_v2d611r_mmsbe4",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "V2D611R-MMSBE4",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/v2d611r_mmsbe4.json"
+    },
+    {
+      "id": "sensor_sick_wfs3_40p415",
+      "category": "sensors",
+      "manufacturer": "SICK",
+      "model": "WFS3-40P415",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wfs3_40p415.json"
+    },
+    {
       "id": "sew_movidrive",
       "category": "drives",
       "manufacturer": "SEW-EURODRIVE",
@@ -966,7 +1982,20 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_t61_2m",
+        "sensor_omron_e3z_t81_2m",
+        "sensor_omron_e3z_t62_2m",
+        "sensor_omron_e3z_t82_2m",
+        "sensor_omron_e3z_t66",
+        "sensor_omron_e3z_t86",
+        "sensor_omron_e3z_t67",
+        "sensor_omron_e3z_t87",
+        "sensor_omron_e3z_lt61",
+        "sensor_omron_e3z_lt81",
+        "sensor_omron_e3z_lt66",
+        "sensor_omron_e3z_lt86"
+      ]
     },
     {
       "id": "photoelectric-retroreflective",
@@ -979,7 +2008,24 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_r61_2m",
+        "sensor_omron_e3z_r81_2m",
+        "sensor_omron_e3z_r66",
+        "sensor_omron_e3z_r86",
+        "sensor_omron_e3z_b61_2m",
+        "sensor_omron_e3z_b81_2m",
+        "sensor_omron_e3z_b62_2m",
+        "sensor_omron_e3z_b82_2m",
+        "sensor_omron_e3z_b66",
+        "sensor_omron_e3z_b86",
+        "sensor_omron_e3z_b67",
+        "sensor_omron_e3z_b87",
+        "sensor_omron_e3z_lr61",
+        "sensor_omron_e3z_lr81",
+        "sensor_omron_e3z_lr66",
+        "sensor_omron_e3z_lr86"
+      ]
     },
     {
       "id": "photoelectric-diffuse",
@@ -992,7 +2038,24 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_d61_2m",
+        "sensor_omron_e3z_d81_2m",
+        "sensor_omron_e3z_d62_2m",
+        "sensor_omron_e3z_d82_2m",
+        "sensor_omron_e3z_d66",
+        "sensor_omron_e3z_d86",
+        "sensor_omron_e3z_d67",
+        "sensor_omron_e3z_d87",
+        "sensor_omron_e3z_l61_2m",
+        "sensor_omron_e3z_l81_2m",
+        "sensor_omron_e3z_l63_2m",
+        "sensor_omron_e3z_l83_2m",
+        "sensor_omron_e3z_l66",
+        "sensor_omron_e3z_l86",
+        "sensor_omron_e3z_l68",
+        "sensor_omron_e3z_l88"
+      ]
     },
     {
       "id": "photoelectric-background-suppression",
@@ -1004,25 +2067,32 @@
       "lightSource": null,
       "priority": 1,
       "target": 20,
-      "candidates": [
-        {
-          "manufacturer": "ifm",
-          "model": "O5D100",
-          "status": "model-confirmed",
-          "selectionBasis": "inferred-field-service-priority",
-          "salesRankingConfirmed": false,
-          "evidence": [
-            {
-              "url": "https://www.ifm.com/binaries/content/assets/us/html5-animations/verge-products/o5d100h/index.html",
-              "scope": "Exact model and IO-Link setup referenced by manufacturer"
-            }
-          ],
-          "manualUrl": "https://www.ifm.com/download/files/ifm-000174-20210526-IODD11-en/%24file/ifm-000174-20210526-IODD11-en.pdf",
-          "manualReviewStatus": "pending; retrieval unsuccessful",
-          "published": false
-        }
-      ],
-      "publishedPackIds": []
+      "candidates": [],
+      "publishedPackIds": [
+        "sensor_omron_e3z_ll61",
+        "sensor_omron_e3z_ll81",
+        "sensor_omron_e3z_ll63",
+        "sensor_omron_e3z_ll83",
+        "sensor_omron_e3z_ll66",
+        "sensor_omron_e3z_ll86",
+        "sensor_omron_e3z_ll68",
+        "sensor_omron_e3z_ll88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_omron_e3z_ls61_2m",
+        "sensor_omron_e3z_ls81_2m",
+        "sensor_omron_e3z_ls66",
+        "sensor_omron_e3z_ls86",
+        "sensor_omron_e3z_ls63_2m",
+        "sensor_omron_e3z_ls83_2m",
+        "sensor_omron_e3z_ls68",
+        "sensor_omron_e3z_ls88",
+        "sensor_ifm_o5d100"
+      ]
     },
     {
       "id": "laser-through-beam",
@@ -1035,7 +2105,12 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_lt61",
+        "sensor_omron_e3z_lt81",
+        "sensor_omron_e3z_lt66",
+        "sensor_omron_e3z_lt86"
+      ]
     },
     {
       "id": "laser-retroreflective",
@@ -1048,7 +2123,12 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_lr61",
+        "sensor_omron_e3z_lr81",
+        "sensor_omron_e3z_lr66",
+        "sensor_omron_e3z_lr86"
+      ]
     },
     {
       "id": "laser-diffuse",
@@ -1061,7 +2141,22 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_ll61",
+        "sensor_omron_e3z_ll81",
+        "sensor_omron_e3z_ll63",
+        "sensor_omron_e3z_ll83",
+        "sensor_omron_e3z_ll66",
+        "sensor_omron_e3z_ll86",
+        "sensor_omron_e3z_ll68",
+        "sensor_omron_e3z_ll88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8"
+      ]
     },
     {
       "id": "laser-distance",
@@ -1074,7 +2169,29 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_banner_q4xtulaf600_q8",
+        "sensor_banner_q4xtilaf600_q8",
+        "sensor_banner_q4xtulaf500_q8",
+        "sensor_banner_q4xtilaf500_q8",
+        "sensor_banner_q4xtulaf300_q8",
+        "sensor_banner_q4xtilaf300_q8",
+        "sensor_banner_q4xtulaf100_q8",
+        "sensor_banner_q4xtilaf100_q8",
+        "sensor_banner_q4xfulaf610_q8",
+        "sensor_banner_q4xfilaf610_q8",
+        "sensor_banner_q4xfulaf310_q8",
+        "sensor_banner_q4xfilaf310_q8",
+        "sensor_banner_q4xfulaf110_q8",
+        "sensor_banner_q4xfilaf110_q8",
+        "sensor_ifm_o5d100"
+      ]
     },
     {
       "id": "photoelectric-transparent",
@@ -1087,7 +2204,26 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_b61_2m",
+        "sensor_omron_e3z_b81_2m",
+        "sensor_omron_e3z_b62_2m",
+        "sensor_omron_e3z_b82_2m",
+        "sensor_omron_e3z_b66",
+        "sensor_omron_e3z_b86",
+        "sensor_omron_e3z_b67",
+        "sensor_omron_e3z_b87",
+        "sensor_omron_e3z_l63_2m",
+        "sensor_omron_e3z_l83_2m",
+        "sensor_omron_e3z_l68",
+        "sensor_omron_e3z_l88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8"
+      ]
     },
     {
       "id": "fiber-optic",
@@ -1100,7 +2236,14 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3x_hd11_2m",
+        "sensor_omron_e3x_hd41_2m",
+        "sensor_omron_e3x_hd6",
+        "sensor_omron_e3x_hd8",
+        "sensor_omron_e3x_hd14",
+        "sensor_omron_e3x_hd44"
+      ]
     },
     {
       "id": "fork",
@@ -1113,7 +2256,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_wfs3_40p415"
+      ]
     },
     {
       "id": "contrast",
@@ -1126,7 +2271,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_kts_wb9114115azzzz"
+      ]
     },
     {
       "id": "inductive",
@@ -1139,7 +2286,9 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_igt200"
+      ]
     },
     {
       "id": "capacitive",
@@ -1152,7 +2301,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_ki5082",
+        "sensor_ifm_ki6000"
+      ]
     },
     {
       "id": "ultrasonic",
@@ -1165,7 +2317,17 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_banner_t30uxda",
+        "sensor_banner_t30uxdaq8",
+        "sensor_banner_t30uxdaqpma",
+        "sensor_banner_t30uxdb",
+        "sensor_banner_t30uxdbq8",
+        "sensor_banner_t30uxdbqpma",
+        "sensor_banner_t30uxdc",
+        "sensor_banner_t30uxdcq8",
+        "sensor_banner_t30uxdcqpma"
+      ]
     },
     {
       "id": "magnetic-cylinder",
@@ -1178,7 +2340,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_mzt8_28vps_kub"
+      ]
     },
     {
       "id": "pressure",
@@ -1191,7 +2355,26 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_pn7160",
+        "sensor_ifm_pn7560",
+        "sensor_ifm_pn7070",
+        "sensor_ifm_pn7570",
+        "sensor_ifm_pn7071",
+        "sensor_ifm_pn7571",
+        "sensor_ifm_pn7092",
+        "sensor_ifm_pn7592",
+        "sensor_ifm_pn7093",
+        "sensor_ifm_pn7593",
+        "sensor_ifm_pn7094",
+        "sensor_ifm_pn7594",
+        "sensor_ifm_pn7096",
+        "sensor_ifm_pn7596",
+        "sensor_ifm_pn7097",
+        "sensor_ifm_pn7597",
+        "sensor_ifm_pn7099",
+        "sensor_ifm_pn7599"
+      ]
     },
     {
       "id": "temperature",
@@ -1204,7 +2387,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_tn2511"
+      ]
     },
     {
       "id": "level",
@@ -1217,7 +2402,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_lk3122"
+      ]
     },
     {
       "id": "flow",
@@ -1230,7 +2417,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_sd6500"
+      ]
     },
     {
       "id": "color",
@@ -1243,7 +2432,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_css_wbfa54115aa10z",
+        "sensor_sick_csx_wbf114125aa10z"
+      ]
     },
     {
       "id": "barcode-1d",
@@ -1256,7 +2448,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_clv620_0000",
+        "sensor_sick_v2d611r_mmsbe4"
+      ]
     },
     {
       "id": "code-reader-2d",
@@ -1269,7 +2464,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_v2d611r_mmsbe4"
+      ]
     }
   ]
 }

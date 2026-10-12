@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3x_hd44",
+  "manufacturer": "Omron",
+  "model": "E3X-HD44",
+  "family": "E3X-HD",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3x_hd44.json",
+  "typeIds": [
+    "fiber-optic"
+  ],
+  "identity": {
+    "orderCode": "E3X-HD44",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3X-HD44",
+        "pt": "E3X-HD44"
+      },
+      "value": "E3X-HD44",
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "12...24 V DC ±10%",
+        "pt": "12...24 V DC ±10%"
+      },
+      "value": "12...24 V DC ±10%",
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "Red LED, 625 nm",
+        "pt": "Red LED, 625 nm"
+      },
+      "value": "Red LED, 625 nm",
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "M8 connector",
+        "pt": "M8 connector"
+      },
+      "value": "M8 connector",
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [
+    {
+      "id": "fiber_selection",
+      "name": {
+        "en": "Fiber selection",
+        "pt": "Seleção de fibra"
+      },
+      "description": {
+        "en": "Range depends on the fiber head and response mode; use the combination tables.",
+        "pt": "O alcance depende da fibra e do modo de resposta; consulte as tabelas de combinações."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3xhd",
+        "pages": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

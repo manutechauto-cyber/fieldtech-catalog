@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3z_t62_2m",
+  "manufacturer": "Omron",
+  "model": "E3Z-T62 2M",
+  "family": "E3Z",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3z_t62_2m.json",
+  "typeIds": [
+    "photoelectric-through-beam"
+  ],
+  "identity": {
+    "orderCode": "E3Z-T62 2M",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": [
+      {
+        "role": "emitter",
+        "orderCode": "E3Z-T62-L 2M"
+      },
+      {
+        "role": "receiver",
+        "orderCode": "E3Z-T62-D 2M"
+      }
+    ]
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3Z-T62 2M",
+        "pt": "E3Z-T62 2M"
+      },
+      "value": "E3Z-T62 2M",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "2 m cable",
+        "pt": "2 m cable"
+      },
+      "value": "2 m cable",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "12...24 V DC ±10%",
+        "pt": "12...24 V DC ±10%"
+      },
+      "value": "12...24 V DC ±10%",
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "switching",
+      "name": {
+        "en": "Switching modes",
+        "pt": "Modos de comutação"
+      },
+      "description": {
+        "en": "Light-ON / Dark-ON",
+        "pt": "Light-ON / Dark-ON"
+      },
+      "value": "Light-ON / Dark-ON",
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "ip",
+      "name": {
+        "en": "Protection rating",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "IP67",
+        "pt": "IP67"
+      },
+      "value": "IP67",
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "30000",
+        "pt": "30000"
+      },
+      "value": 30000,
+      "unit": "mm",
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "light_dark",
+      "name": {
+        "en": "Light/Dark selection",
+        "pt": "Seleção Light/Dark"
+      },
+      "description": {
+        "en": "Select Light-ON or Dark-ON using the mode switch.",
+        "pt": "Selecione Light-ON ou Dark-ON na chave de modo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "sensitivity",
+      "name": {
+        "en": "Sensitivity adjustment",
+        "pt": "Ajuste de sensibilidade"
+      },
+      "description": {
+        "en": "Receiver/reflective-unit sensitivity control; emitter has no sensitivity control.",
+        "pt": "Ajuste no receptor ou unidade reflexiva; o emissor não tem esse ajuste."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [
+    {
+      "id": "power_off",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "Remove power before plugging/unplugging connectors.",
+        "pt": "Desligue a alimentação antes de conectar ou desconectar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3z",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

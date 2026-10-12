@@ -22,6 +22,12 @@ def collect(root):
         path = item['url'].split('/main/', 1)[1]
         payload = json.loads((root / path).read_text())
         records.append({'id': item['packId'], 'category': 'drives', 'manufacturer': item['manufacturer'], 'model': item['family'], 'version': item['version'], 'path': path, 'payload': payload})
+    for item in sensors['packs']:
+        payload=json.loads((root/item['path']).read_text())
+        records.append({'id':item['packId'],'category':'sensors','manufacturer':item['manufacturer'],'model':item['model'],'version':item['version'],'path':item['path'],'payload':payload})
+    if len({x['id'] for x in records})!=len(records):
+        raise ValueError('Duplicate cross-category pack IDs')
+    sensors['sourceDocuments']=json.loads((root/'industrial/sensors/sources.json').read_text())['documents']
     return manifest, sensors, sorted(records, key=lambda x: x['id'])
 
 def write_database(path, manifest, sensors, records):
@@ -34,7 +40,7 @@ def write_database(path, manifest, sensors, records):
         CREATE TABLE sensor_types(id TEXT PRIMARY KEY, priority INTEGER NOT NULL, target INTEGER NOT NULL, payload_json TEXT NOT NULL);
         CREATE TABLE sensor_candidates(type_id TEXT NOT NULL REFERENCES sensor_types(id), model TEXT NOT NULL, status TEXT NOT NULL, payload_json TEXT NOT NULL, PRIMARY KEY(type_id,model));
         ''')
-        metadata = {'databaseSchemaVersion': 1, 'drivesCatalogVersion': manifest['catalogVersion'], 'sensorManifest': sensors, 'hardwareTested': False}
+        metadata = {'databaseSchemaVersion': 1, 'drivesCatalogVersion': manifest['catalogVersion'], 'sensorManifest': sensors, 'sensorSources': sensors.get('sourceDocuments', []), 'hardwareTested': False}
         db.executemany('INSERT INTO metadata VALUES (?,?)', [(k,json.dumps(v,ensure_ascii=False,sort_keys=True)) for k,v in sorted(metadata.items())])
         db.executemany('INSERT INTO device_packs VALUES (?,?,?,?,?,?,?)', [(x['id'],x['category'],x['manufacturer'],x['model'],x['version'],x['path'],json.dumps(x['payload'],ensure_ascii=False,sort_keys=True)) for x in records])
         for item in sensors['types']:
@@ -50,7 +56,7 @@ def artifacts(root=ROOT):
         path=Path(temp)/'fieldtech-industrial.sqlite'
         write_database(path,manifest,sensors,records)
         raw=path.read_bytes()
-    index={'schemaVersion':1,'distributionVersion':1,'drivesCatalogVersion':manifest['catalogVersion'],'counts':{'publishedDrives':len(records),'publishedSensors':0,'sensorTypes':len(sensors['types']),'sensorCandidates':sum(len(x['candidates']) for x in sensors['types'])},'packs':[{k:v for k,v in x.items() if k!='payload'} for x in records],'sensorTypes':sensors['types']}
+    index={'schemaVersion':1,'distributionVersion':1,'drivesCatalogVersion':manifest['catalogVersion'],'counts':{'publishedDrives':sum(x['category']=='drives' for x in records),'publishedSensors':sum(x['category']=='sensors' for x in records),'sensorTypes':len(sensors['types']),'sensorCandidates':sum(len(x['candidates']) for x in sensors['types'])},'packs':[{k:v for k,v in x.items() if k!='payload'} for x in records],'sensorTypes':sensors['types']}
     index_bytes=(json.dumps(index,ensure_ascii=False,indent=2)+'\n').encode()
     buf=io.BytesIO()
     with zipfile.ZipFile(buf,'w',zipfile.ZIP_DEFLATED) as z:

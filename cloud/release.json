@@ -4,20 +4,20 @@
   "drivesCatalogVersion": 27,
   "counts": {
     "publishedDrives": 118,
-    "publishedSensors": 0,
+    "publishedSensors": 127,
     "sensorTypes": 23,
-    "sensorCandidates": 1
+    "sensorCandidates": 0
   },
   "bundle": {
     "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/industrial_database.b64",
     "encoding": "base64-zip",
-    "sha256": "1e7c3440f6e08f1daefff9007f2282f1c0f5e4790189047a397a396a9fa4f792",
-    "bytes": 83014
+    "sha256": "45fd60296302bb8f5a34ccc21e01a00a3140f01cf79807da9d6ddc034f6e2cfd",
+    "bytes": 131881
   },
   "database": {
     "filename": "fieldtech-industrial.sqlite",
-    "sha256": "8dddc40f4568e2445be5378c0c915643305a45996739af34b98859c09a5bf40b",
-    "bytes": 811008
+    "sha256": "4837c73ff9a6461372ea3aca16601f305eea2c86b6db92ba08df6e243c03e11d",
+    "bytes": 1789952
   },
   "indexUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/index.json",
   "scope": "Downloadable read-only catalog; no live Supabase deployment is asserted"

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3z_ll66",
+  "manufacturer": "Omron",
+  "model": "E3Z-LL66",
+  "family": "E3Z Laser",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3z_ll66.json",
+  "typeIds": [
+    "laser-diffuse",
+    "photoelectric-background-suppression"
+  ],
+  "identity": {
+    "orderCode": "E3Z-LL66",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3Z-LL66",
+        "pt": "E3Z-LL66"
+      },
+      "value": "E3Z-LL66",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "12...24 V DC ±10%",
+        "pt": "12...24 V DC ±10%"
+      },
+      "value": "12...24 V DC ±10%",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "Red laser, 655 nm, Class 1",
+        "pt": "Red laser, 655 nm, Class 1"
+      },
+      "value": "Red laser, 655 nm, Class 1",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "ip",
+      "name": {
+        "en": "Protection",
+        "pt": "Proteção"
+      },
+      "description": {
+        "en": "IP67",
+        "pt": "IP67"
+      },
+      "value": "IP67",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "switching",
+      "name": {
+        "en": "Switching mode",
+        "pt": "Modo de comutação"
+      },
+      "description": {
+        "en": "Light-ON / Dark-ON",
+        "pt": "Light-ON / Dark-ON"
+      },
+      "value": "Light-ON / Dark-ON",
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "target_dependence",
+      "name": {
+        "en": "Target-dependent reach",
+        "pt": "Alcance conforme alvo"
+      },
+      "description": {
+        "en": "Detection range differs by variant and white/black target; use the exact table row.",
+        "pt": "A faixa difere por variante e alvo branco/preto; consulte a linha exata da tabela."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "light_dark",
+      "name": {
+        "en": "Output mode",
+        "pt": "Modo da saída"
+      },
+      "description": {
+        "en": "Select Light-ON/Dark-ON at the mode switch.",
+        "pt": "Selecione Light-ON/Dark-ON na chave de modo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3zl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

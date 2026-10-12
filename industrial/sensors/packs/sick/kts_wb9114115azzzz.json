@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_kts_wb9114115azzzz",
+  "manufacturer": "SICK",
+  "model": "KTS-WB9114115AZZZZ",
+  "family": "KTS Prime",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/kts_wb9114115azzzz.json",
+  "typeIds": [
+    "contrast"
+  ],
+  "identity": {
+    "orderCode": "KTS-WB9114115AZZZZ",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "KTS-WB9114115AZZZZ",
+        "pt": "KTS-WB9114115AZZZZ"
+      },
+      "value": "KTS-WB9114115AZZZZ",
+      "unit": null,
+      "source": {
+        "documentId": "ktsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "≤13 mm, tolerance ±3 mm",
+        "pt": "≤13 mm, tolerance ±3 mm"
+      },
+      "value": "≤13 mm, tolerance ±3 mm",
+      "unit": null,
+      "source": {
+        "documentId": "ktsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "RGB LED",
+        "pt": "RGB LED"
+      },
+      "value": "RGB LED",
+      "unit": null,
+      "source": {
+        "documentId": "ktsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach",
+      "name": {
+        "en": "Teach modes",
+        "pt": "Modos teach"
+      },
+      "description": {
+        "en": "1-point / 2-point / dynamic / auto",
+        "pt": "1-point / 2-point / dynamic / auto"
+      },
+      "value": "1-point / 2-point / dynamic / auto",
+      "unit": null,
+      "source": {
+        "documentId": "ktsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "logic",
+      "name": {
+        "en": "Switching mode",
+        "pt": "Modo de comutação"
+      },
+      "description": {
+        "en": "Light/dark switching",
+        "pt": "Light/dark switching"
+      },
+      "value": "Light/dark switching",
+      "unit": null,
+      "source": {
+        "documentId": "ktsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link variant",
+        "pt": "Variante IO-Link"
+      },
+      "description": {
+        "en": "Communication code A identifies IO-Link; confirm device IODD before parameterization.",
+        "pt": "Código de comunicação A identifica IO-Link; confirme IODD antes da parametrização."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "kts",
+        "pages": [
+          10,
+          11
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_tn2511",
+  "manufacturer": "ifm",
+  "model": "TN2511",
+  "family": "TN",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/tn2511.json",
+  "typeIds": [
+    "temperature"
+  ],
+  "identity": {
+    "orderCode": "TN2511",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "TN2511",
+        "pt": "TN2511"
+      },
+      "value": "TN2511",
+      "unit": null,
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "18...32 V DC",
+        "pt": "18...32 V DC"
+      },
+      "value": "18...32 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Temperature range",
+        "pt": "Faixa de temperatura"
+      },
+      "description": {
+        "en": "−50...150 °C",
+        "pt": "−50...150 °C"
+      },
+      "value": "−50...150 °C",
+      "unit": null,
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "probe",
+      "name": {
+        "en": "Probe insertion length",
+        "pt": "Comprimento de inserção"
+      },
+      "description": {
+        "en": "45",
+        "pt": "45"
+      },
+      "value": 45,
+      "unit": "mm",
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output logic",
+        "pt": "Lógica da saída"
+      },
+      "description": {
+        "en": "PNP/NPN",
+        "pt": "PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1",
+        "pt": "1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "tn2511",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "SP1",
+      "name": {
+        "en": "Switch point",
+        "pt": "Ponto de atuação"
+      },
+      "description": {
+        "en": "Switch point",
+        "pt": "Ponto de atuação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rP1",
+      "name": {
+        "en": "Reset point",
+        "pt": "Ponto de retorno"
+      },
+      "description": {
+        "en": "Reset point",
+        "pt": "Ponto de retorno"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FH1",
+      "name": {
+        "en": "Upper window",
+        "pt": "Limite superior da janela"
+      },
+      "description": {
+        "en": "Upper window",
+        "pt": "Limite superior da janela"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FL1",
+      "name": {
+        "en": "Lower window",
+        "pt": "Limite inferior da janela"
+      },
+      "description": {
+        "en": "Lower window",
+        "pt": "Limite inferior da janela"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ASP2",
+      "name": {
+        "en": "Analog start",
+        "pt": "Início da escala analógica"
+      },
+      "description": {
+        "en": "Analog start",
+        "pt": "Início da escala analógica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "AEP2",
+      "name": {
+        "en": "Analog end",
+        "pt": "Fim da escala analógica"
+      },
+      "description": {
+        "en": "Analog end",
+        "pt": "Fim da escala analógica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou1",
+      "name": {
+        "en": "Switching function",
+        "pt": "Função de comutação"
+      },
+      "description": {
+        "en": "Switching function",
+        "pt": "Função de comutação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou2",
+      "name": {
+        "en": "Analog function",
+        "pt": "Função analógica"
+      },
+      "description": {
+        "en": "Analog function",
+        "pt": "Função analógica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "dS1",
+      "name": {
+        "en": "On-delay",
+        "pt": "Atraso de ativação"
+      },
+      "description": {
+        "en": "On-delay",
+        "pt": "Atraso de ativação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "dr1",
+      "name": {
+        "en": "Off-delay",
+        "pt": "Atraso de desativação"
+      },
+      "description": {
+        "en": "Off-delay",
+        "pt": "Atraso de desativação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU1",
+      "name": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "description": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU2",
+      "name": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "description": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "uni",
+      "name": {
+        "en": "Temperature unit",
+        "pt": "Unidade de temperatura"
+      },
+      "description": {
+        "en": "Temperature unit",
+        "pt": "Unidade de temperatura"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "P-n",
+      "name": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "description": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "coF",
+      "name": {
+        "en": "Zero calibration",
+        "pt": "Calibração zero"
+      },
+      "description": {
+        "en": "Zero calibration",
+        "pt": "Calibração zero"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rES",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "SC1",
+      "name": {
+        "en": "OUT1 overcurrent",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "description": {
+        "en": "OUT1 overcurrent",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "OL",
+      "name": {
+        "en": "Above range",
+        "pt": "Acima da faixa"
+      },
+      "description": {
+        "en": "Above range",
+        "pt": "Acima da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "UL",
+      "name": {
+        "en": "Below range",
+        "pt": "Abaixo da faixa"
+      },
+      "description": {
+        "en": "Below range",
+        "pt": "Abaixo da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "C.Loc",
+      "name": {
+        "en": "IO-Link lock",
+        "pt": "Bloqueio IO-Link"
+      },
+      "description": {
+        "en": "IO-Link lock",
+        "pt": "Bloqueio IO-Link"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "S.Loc",
+      "name": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "description": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "tn2511manual",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

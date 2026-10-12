@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_ki5082",
+  "manufacturer": "ifm",
+  "model": "KI5082",
+  "family": "KI",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/ki5082.json",
+  "typeIds": [
+    "capacitive"
+  ],
+  "identity": {
+    "orderCode": "KI5082",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "KI5082",
+        "pt": "KI5082"
+      },
+      "value": "KI5082",
+      "unit": null,
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...36 V DC",
+        "pt": "10...36 V DC"
+      },
+      "value": "10...36 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP/NPN automatic load detection",
+        "pt": "PNP/NPN automatic load detection"
+      },
+      "value": "PNP/NPN automatic load detection",
+      "unit": null,
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "20",
+        "pt": "20"
+      },
+      "value": 20,
+      "unit": "mm",
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Normally open/closed, selectable",
+        "pt": "Normally open/closed, selectable"
+      },
+      "value": "Normally open/closed, selectable",
+      "unit": null,
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1",
+        "pt": "1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ki5082",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "empty_teach",
+      "name": {
+        "en": "Empty-state teach",
+        "pt": "Teach com tanque vazio"
+      },
+      "description": {
+        "en": "Empty to at least 20 mm below the sensor; press OUT OFF 2...6 s for normally open, or OUT ON for normally closed.",
+        "pt": "Esvazie até pelo menos 20 mm abaixo do sensor; pressione OUT OFF por 2...6 s para normalmente aberta, ou OUT ON para normalmente fechada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ki5082manual",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "yellow_led",
+      "name": {
+        "en": "Yellow output LED",
+        "pt": "LED amarelo da saída"
+      },
+      "description": {
+        "en": "On means switching output active; off means inactive.",
+        "pt": "Aceso indica saída ativa; apagado indica saída inativa."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ki5082manual",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [
+    {
+      "id": "io_link_tool",
+      "name": {
+        "en": "IO-Link tools",
+        "pt": "Ferramentas IO-Link"
+      },
+      "description": {
+        "en": "The manual references IODD and LINERECORDER SENSOR ZGS210; current-version compatibility is not established here.",
+        "pt": "O manual cita IODD e LINERECORDER SENSOR ZGS210; compatibilidade com versões atuais não foi estabelecida."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ki5082manual",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

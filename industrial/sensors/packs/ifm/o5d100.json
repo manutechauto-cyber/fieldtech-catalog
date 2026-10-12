@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_o5d100",
+  "manufacturer": "ifm",
+  "model": "O5D100",
+  "family": "O5D",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/o5d100.json",
+  "typeIds": [
+    "laser-distance",
+    "photoelectric-background-suppression"
+  ],
+  "identity": {
+    "orderCode": "O5D100",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "O5D100",
+        "pt": "O5D100"
+      },
+      "value": "O5D100",
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Measuring range",
+        "pt": "Faixa de medição"
+      },
+      "description": {
+        "en": "0.03...2 m",
+        "pt": "0.03...2 m"
+      },
+      "value": "0.03...2 m",
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Outputs",
+        "pt": "Saídas"
+      },
+      "description": {
+        "en": "PNP, complementary normally open/closed",
+        "pt": "PNP, complementary normally open/closed"
+      },
+      "value": "PNP, complementary normally open/closed",
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "2",
+        "pt": "2"
+      },
+      "value": 2,
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1",
+        "pt": "1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "o5d100",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "switch_distance",
+      "name": {
+        "en": "Switching distance",
+        "pt": "Distância de comutação"
+      },
+      "description": {
+        "en": "Position the target; use +/− to change the switching distance.",
+        "pt": "Posicione o alvo; use +/− para mudar a distância de comutação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "o5d100manual",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "Loc",
+      "name": {
+        "en": "Buttons locked",
+        "pt": "Botões bloqueados"
+      },
+      "description": {
+        "en": "Loc indicates electronic locking; hold both buttons to unlock until uLo appears.",
+        "pt": "Loc indica bloqueio eletrônico; segure ambos os botões até aparecer uLo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "o5d100manual",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "outputs",
+      "name": {
+        "en": "Output terminals",
+        "pt": "Terminais das saídas"
+      },
+      "description": {
+        "en": "Pin 4: OUT1 normally open/IO-Link; pin 2: OUT2 normally closed.",
+        "pt": "Pino 4: OUT1 normalmente aberta/IO-Link; pino 2: OUT2 normalmente fechada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "o5d100manual",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link configuration",
+        "pt": "Configuração IO-Link"
+      },
+      "description": {
+        "en": "Requires an IO-Link master; IODD supplies detailed parameters.",
+        "pt": "Requer mestre IO-Link; IODD fornece os parâmetros detalhados."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "o5d100manual",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

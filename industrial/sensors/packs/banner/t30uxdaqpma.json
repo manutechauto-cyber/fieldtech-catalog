@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_t30uxdaqpma",
+  "manufacturer": "Banner Engineering",
+  "model": "T30UXDAQPMA",
+  "family": "T30UX",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/t30uxdaqpma.json",
+  "typeIds": [
+    "ultrasonic"
+  ],
+  "identity": {
+    "orderCode": "T30UXDAQPMA",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "T30UXDAQPMA",
+        "pt": "T30UXDAQPMA"
+      },
+      "value": "T30UXDAQPMA",
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "[100, 1000]",
+        "pt": "[100, 1000]"
+      },
+      "value": [
+        100,
+        1000
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "45",
+        "pt": "45"
+      },
+      "value": 45,
+      "unit": "ms",
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output selection",
+        "pt": "Seleção da saída"
+      },
+      "description": {
+        "en": "NPN / PNP / NO / NC",
+        "pt": "NPN / PNP / NO / NC"
+      },
+      "value": "NPN / PNP / NO / NC",
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "150 mm PUR pigtail, M12 4-pin",
+        "pt": "150 mm PUR pigtail, M12 4-pin"
+      },
+      "value": "150 mm PUR pigtail, M12 4-pin",
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "polarity_mode",
+      "name": {
+        "en": "Polarity and mode",
+        "pt": "Polaridade e modo"
+      },
+      "description": {
+        "en": "Select NPN/PNP and NO/NC in output configuration mode.",
+        "pt": "Selecione NPN/PNP e NO/NC no modo de configuração da saída."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "power_led",
+      "name": {
+        "en": "Green power LED",
+        "pt": "LED verde de alimentação"
+      },
+      "description": {
+        "en": "Steady green indicates Run mode.",
+        "pt": "Verde contínuo indica modo Run."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "signal_led",
+      "name": {
+        "en": "Red signal LED",
+        "pt": "LED vermelho de sinal"
+      },
+      "description": {
+        "en": "Indicates target signal strength.",
+        "pt": "Indica intensidade do sinal do alvo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "t30uxmanual",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

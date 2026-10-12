@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_v2d611r_mmsbe4",
+  "manufacturer": "SICK",
+  "model": "V2D611R-MMSBE4",
+  "family": "Lector61x",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/v2d611r_mmsbe4.json",
+  "typeIds": [
+    "barcode-1d",
+    "code-reader-2d"
+  ],
+  "identity": {
+    "orderCode": "V2D611R-MMSBE4",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "V2D611R-MMSBE4",
+        "pt": "V2D611R-MMSBE4"
+      },
+      "value": "V2D611R-MMSBE4",
+      "unit": null,
+      "source": {
+        "documentId": "lectordata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "sensor",
+      "name": {
+        "en": "Image sensor",
+        "pt": "Sensor de imagem"
+      },
+      "description": {
+        "en": "CMOS monochrome, 1280×960 px",
+        "pt": "CMOS monochrome, 1280×960 px"
+      },
+      "value": "CMOS monochrome, 1280×960 px",
+      "unit": null,
+      "source": {
+        "documentId": "lectordata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "focus",
+      "name": {
+        "en": "Focus",
+        "pt": "Foco"
+      },
+      "description": {
+        "en": "Manual adjustment, 6 mm lens",
+        "pt": "Manual adjustment, 6 mm lens"
+      },
+      "value": "Manual adjustment, 6 mm lens",
+      "unit": null,
+      "source": {
+        "documentId": "lectordata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "frequency",
+      "name": {
+        "en": "Image acquisition",
+        "pt": "Aquisição de imagem"
+      },
+      "description": {
+        "en": "40",
+        "pt": "40"
+      },
+      "value": 40,
+      "unit": "Hz",
+      "source": {
+        "documentId": "lectordata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "illumination",
+      "name": {
+        "en": "Illumination",
+        "pt": "Iluminação"
+      },
+      "description": {
+        "en": "Integrated amber/blue LEDs",
+        "pt": "Integrated amber/blue LEDs"
+      },
+      "value": "Integrated amber/blue LEDs",
+      "unit": null,
+      "source": {
+        "documentId": "lectordata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [
+    {
+      "id": "Ready_red",
+      "name": {
+        "en": "Red Ready LED",
+        "pt": "LED Ready vermelho"
+      },
+      "description": {
+        "en": "Red Ready indicates product not ready due to hardware/software error.",
+        "pt": "Ready vermelho indica produto indisponível por erro de hardware/software."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lector61",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "No_Read",
+      "name": {
+        "en": "No Read feedback",
+        "pt": "Feedback No Read"
+      },
+      "description": {
+        "en": "Red feedback can indicate an unsuccessful read; it is distinct from hardware failure.",
+        "pt": "Feedback vermelho pode indicar leitura malsucedida; é diferente de falha de hardware."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lector61",
+        "pages": [
+          14
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "restore",
+      "name": {
+        "en": "Restore to replacement",
+        "pt": "Restaurar na substituição"
+      },
+      "description": {
+        "en": "Use the current .sopas project and an identical product type; transfer to the replacement permanent memory.",
+        "pt": "Use o projeto .sopas atual e tipo de produto idêntico; transfira à memória permanente da substituição."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lector61",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "SOPAS_ET",
+      "name": {
+        "en": "Configuration project",
+        "pt": "Projeto de configuração"
+      },
+      "description": {
+        "en": "SOPAS ET project files use .sopas for retained configuration.",
+        "pt": "Arquivos .sopas do SOPAS ET preservam a configuração."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lector61",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

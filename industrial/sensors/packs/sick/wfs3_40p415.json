@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_wfs3_40p415",
+  "manufacturer": "SICK",
+  "model": "WFS3-40P415",
+  "family": "WFS",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/wfs3_40p415.json",
+  "typeIds": [
+    "fork"
+  ],
+  "identity": {
+    "orderCode": "WFS3-40P415",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "WFS3-40P415",
+        "pt": "WFS3-40P415"
+      },
+      "value": "WFS3-40P415",
+      "unit": null,
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Fork width",
+        "pt": "Largura da forquilha"
+      },
+      "description": {
+        "en": "3",
+        "pt": "3"
+      },
+      "value": 3,
+      "unit": "mm",
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "depth",
+      "name": {
+        "en": "Fork depth",
+        "pt": "Profundidade da forquilha"
+      },
+      "description": {
+        "en": "42",
+        "pt": "42"
+      },
+      "value": 42,
+      "unit": "mm",
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "Infrared LED",
+        "pt": "Infrared LED"
+      },
+      "value": "Infrared LED",
+      "unit": null,
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "M8, 4-pin",
+        "pt": "M8, 4-pin"
+      },
+      "value": "M8, 4-pin",
+      "unit": null,
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "teach",
+      "name": {
+        "en": "Teach modes",
+        "pt": "Modos teach"
+      },
+      "description": {
+        "en": "Static 2-point or dynamic teach; sensitivity and light/dark switching are adjustable.",
+        "pt": "Teach estático de dois pontos ou dinâmico; sensibilidade e comutação claro/escuro ajustáveis."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "wfsdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

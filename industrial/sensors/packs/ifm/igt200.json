@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_igt200",
+  "manufacturer": "ifm",
+  "model": "IGT200",
+  "family": "IGT",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/igt200.json",
+  "typeIds": [
+    "inductive"
+  ],
+  "identity": {
+    "orderCode": "IGT200",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "IGT200",
+        "pt": "IGT200"
+      },
+      "value": "IGT200",
+      "unit": null,
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP, normally open",
+        "pt": "PNP, normally open"
+      },
+      "value": "PNP, normally open",
+      "unit": null,
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Nominal sensing distance",
+        "pt": "Distância nominal de detecção"
+      },
+      "description": {
+        "en": "12",
+        "pt": "12"
+      },
+      "value": 12,
+      "unit": "mm",
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "frequency",
+      "name": {
+        "en": "Switching frequency",
+        "pt": "Frequência de comutação"
+      },
+      "description": {
+        "en": "300 Hz",
+        "pt": "300 Hz"
+      },
+      "value": "300 Hz",
+      "unit": null,
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "current",
+      "name": {
+        "en": "Output current",
+        "pt": "Corrente da saída"
+      },
+      "description": {
+        "en": "100 mA",
+        "pt": "100 mA"
+      },
+      "value": "100 mA",
+      "unit": null,
+      "source": {
+        "documentId": "igt200",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

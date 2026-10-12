@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_clv620_0000",
+  "manufacturer": "SICK",
+  "model": "CLV620-0000",
+  "family": "CLV62x",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/clv620_0000.json",
+  "typeIds": [
+    "barcode-1d"
+  ],
+  "identity": {
+    "orderCode": "CLV620-0000",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "CLV620-0000",
+        "pt": "CLV620-0000"
+      },
+      "value": "CLV620-0000",
+      "unit": null,
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Reading distance",
+        "pt": "Distância de leitura"
+      },
+      "description": {
+        "en": "[60, 365]",
+        "pt": "[60, 365]"
+      },
+      "value": [
+        60,
+        365
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Code/module-dependent; use reading-field diagram"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "0.9 m cable, D-Sub HD 15-pin",
+        "pt": "0.9 m cable, D-Sub HD 15-pin"
+      },
+      "value": "0.9 m cable, D-Sub HD 15-pin",
+      "unit": null,
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "frequency",
+      "name": {
+        "en": "Scanning frequency",
+        "pt": "Frequência de varredura"
+      },
+      "description": {
+        "en": "400...1200 Hz",
+        "pt": "400...1200 Hz"
+      },
+      "value": "400...1200 Hz",
+      "unit": null,
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "2",
+        "pt": "2"
+      },
+      "value": 2,
+      "unit": null,
+      "source": {
+        "documentId": "clvdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [
+    {
+      "id": "persistent_save",
+      "name": {
+        "en": "Permanent configuration",
+        "pt": "Configuração permanente"
+      },
+      "description": {
+        "en": "Online edits initially affect working memory; save permanently to the device after testing. Save the SOPAS project separately for backup.",
+        "pt": "Edições online inicialmente afetam memória de trabalho; grave permanentemente no dispositivo após testar. Salve o projeto SOPAS separadamente como backup."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "clv62",
+        "pages": [
+          61,
+          62
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "SOPAS_ET",
+      "name": {
+        "en": "Configuration software",
+        "pt": "Software de configuração"
+      },
+      "description": {
+        "en": "Use SOPAS ET for application-specific parameterization.",
+        "pt": "Use SOPAS ET para parametrização da aplicação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "clv62",
+        "pages": [
+          61
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

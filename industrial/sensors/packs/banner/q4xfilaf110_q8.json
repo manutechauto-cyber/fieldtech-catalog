@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_q4xfilaf110_q8",
+  "manufacturer": "Banner Engineering",
+  "model": "Q4XFILAF110-Q8",
+  "family": "Q4X Analog",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/q4xfilaf110_q8.json",
+  "typeIds": [
+    "laser-distance"
+  ],
+  "identity": {
+    "orderCode": "Q4XFILAF110-Q8",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "Q4XFILAF110-Q8",
+        "pt": "Q4XFILAF110-Q8"
+      },
+      "value": "Q4XFILAF110-Q8",
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "[35, 110]",
+        "pt": "[35, 110]"
+      },
+      "value": [
+        35,
+        110
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Analog output",
+        "pt": "Saída analógica"
+      },
+      "description": {
+        "en": "4...20 mA",
+        "pt": "4...20 mA"
+      },
+      "value": "4...20 mA",
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "M12, 5-pin",
+        "pt": "M12, 5-pin"
+      },
+      "value": "M12, 5-pin",
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser",
+        "pt": "Laser"
+      },
+      "description": {
+        "en": "Class 1 CMOS laser",
+        "pt": "Class 1 CMOS laser"
+      },
+      "value": "Class 1 CMOS laser",
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "teach_mode",
+      "name": {
+        "en": "TEACH mode",
+        "pt": "Modo TEACH"
+      },
+      "description": {
+        "en": "One-point or two-point TEACH; two-point is default.",
+        "pt": "TEACH de um ou dois pontos; padrão de dois pontos."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "averaging",
+      "name": {
+        "en": "Output averaging",
+        "pt": "Média da saída"
+      },
+      "description": {
+        "en": "Select averaging for analog output; it affects response.",
+        "pt": "Selecione média da saída analógica; ela afeta a resposta."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4xa",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

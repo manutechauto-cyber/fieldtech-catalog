@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "sensorCatalogVersion": 1,
+  "publishedPacks": 127,
+  "counts": {
+    "specifications": 623,
+    "parameters": 551,
+    "diagnostics": 211,
+    "procedures": 71,
+    "software": 33
+  },
+  "reviewedDocuments": 32,
+  "scope": "Curated field subsets; not full manuals or worldwide best-selling ranking",
+  "hardwareTested": false,
+  "sourceCodePageChecks": {
+    "checked": 581,
+    "textMatches": 580,
+    "visualOrSecondaryPageReview": 1,
+    "unresolvedMismatches": 0
+  },
+  "coverageByType": [
+    {
+      "typeId": "photoelectric-through-beam",
+      "published": 12,
+      "target": 20,
+      "remaining": 8
+    },
+    {
+      "typeId": "photoelectric-retroreflective",
+      "published": 16,
+      "target": 20,
+      "remaining": 4
+    },
+    {
+      "typeId": "photoelectric-diffuse",
+      "published": 16,
+      "target": 20,
+      "remaining": 4
+    },
+    {
+      "typeId": "photoelectric-background-suppression",
+      "published": 23,
+      "target": 20,
+      "remaining": 0
+    },
+    {
+      "typeId": "laser-through-beam",
+      "published": 4,
+      "target": 20,
+      "remaining": 16
+    },
+    {
+      "typeId": "laser-retroreflective",
+      "published": 4,
+      "target": 20,
+      "remaining": 16
+    },
+    {
+      "typeId": "laser-diffuse",
+      "published": 14,
+      "target": 20,
+      "remaining": 6
+    },
+    {
+      "typeId": "laser-distance",
+      "published": 21,
+      "target": 20,
+      "remaining": 0
+    },
+    {
+      "typeId": "photoelectric-transparent",
+      "published": 18,
+      "target": 20,
+      "remaining": 2
+    },
+    {
+      "typeId": "fiber-optic",
+      "published": 6,
+      "target": 20,
+      "remaining": 14
+    },
+    {
+      "typeId": "fork",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "contrast",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "inductive",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "capacitive",
+      "published": 2,
+      "target": 20,
+      "remaining": 18
+    },
+    {
+      "typeId": "ultrasonic",
+      "published": 9,
+      "target": 20,
+      "remaining": 11
+    },
+    {
+      "typeId": "magnetic-cylinder",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "pressure",
+      "published": 18,
+      "target": 20,
+      "remaining": 2
+    },
+    {
+      "typeId": "temperature",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "level",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "flow",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    },
+    {
+      "typeId": "color",
+      "published": 2,
+      "target": 20,
+      "remaining": 18
+    },
+    {
+      "typeId": "barcode-1d",
+      "published": 2,
+      "target": 20,
+      "remaining": 18
+    },
+    {
+      "typeId": "code-reader-2d",
+      "published": 1,
+      "target": 20,
+      "remaining": 19
+    }
+  ],
+  "remainingSelectionPositions": 289,
+  "marketEvidence": [
+    {
+      "url": "https://www.ia.omron.com/products/family/407/download/catalog.html",
+      "claimScope": "Manufacturer claims one million E3Z family units sold yearly; not an independent per-model worldwide ranking"
+    }
+  ]
+}

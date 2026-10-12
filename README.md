@@ -8,7 +8,7 @@ Downloadable field-reference catalog. Catalog version 27 contains 118 published 
 
 ## Industrial expansion
 
-[Industrial sensors](industrial/sensors/README.md): research structure for 23 sensor and industrial code-reader types, targeting 20 models per type. No sensor models or worldwide sales ranking are published yet. Sensors use their own taxonomy and future pack/drop contract.
+[Industrial sensors](industrial/sensors/README.md): 127 published field-reference packs across 23 sensor and industrial code-reader type filters, targeting 20 models per type. Selection is inferred field-service priority, not a worldwide sales ranking. Sensor ZIP and unified SQLite downloads are validated.
 
 ## Validation and evidence
 

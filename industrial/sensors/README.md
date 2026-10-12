@@ -1,63 +1,82 @@
 # FieldTech Industrial Sensors
 
-Estrutura de pesquisa, ainda sem modelos publicados. Meta: selecionar até 20 modelos exatos por tipo, com cobertura mundial. As 460 posições são metas de seleção, não 400 dispositivos distintos: um modelo pode aparecer em mais de um filtro, mas terá um único pack.
+Sensor catalog version 1: **127 published packs** across 4 manufacturers and 23 type filters. Each pack is a selected field reference, not a complete manual. Source checks cover 32 official PDFs; electrical operation has not been tested.
 
-## Tipos e ordem de preenchimento
+## Coverage and remaining selection
 
-| Etapa | Tipos | Meta por tipo |
-| --- | --- | --- |
-| 1 — presença e manutenção | Fotoelétrico emissor/receptor; com refletor; difuso; supressão de fundo; laser emissor/receptor; laser com refletor; laser difuso; indutivo | 20 |
-| 2 — aplicações especializadas | Laser de distância/deslocamento; transparentes; fibra óptica; forquilha/etiquetas; contraste; cor; leitores industriais de códigos 1D; leitores industriais de códigos 2D; capacitivo; ultrassônico; magnético de cilindro | 20 |
-| 3 — variáveis de processo | Pressão/vácuo; temperatura; nível; vazão | 20 |
+Target: 20 exact models per type. Selection is inferred field-service priority, not a proven worldwide model-sales ranking. Connector/electrical variants are individually documented, but do not prove independent popularity. One canonical pack can appear in multiple filters.
 
-Laser é fonte de luz, não princípio de detecção. Registrar separadamente tecnologia, princípio, fonte de luz e aplicação. “Espelho” significa refletor compatível indicado pelo fabricante; não presumir que um espelho comum serve. Sensores de segurança, cortinas e scanners ficam para uma categoria própria com requisitos de validação específicos.
+| Type | Published references | Remaining to 20 |
+| --- | ---: | ---: |
+| Fotoelétrico emissor/receptor | 12 | 8 |
+| Fotoelétrico com refletor | 16 | 4 |
+| Fotoelétrico difuso | 16 | 4 |
+| Fotoelétrico com supressão de fundo | 23 | 0 |
+| Laser emissor/receptor | 4 | 16 |
+| Laser com refletor | 4 | 16 |
+| Laser de presença/difuso | 14 | 6 |
+| Laser de distância/deslocamento | 21 | 0 |
+| Detecção de transparentes | 18 | 2 |
+| Fibra óptica e amplificador | 6 | 14 |
+| Forquilha e detecção de etiquetas | 1 | 19 |
+| Sensor de contraste | 1 | 19 |
+| Proximidade indutiva | 1 | 19 |
+| Proximidade capacitiva | 2 | 18 |
+| Ultrassônico | 9 | 11 |
+| Magnético de cilindro/posição | 1 | 19 |
+| Pressão/vácuo | 18 | 2 |
+| Temperatura | 1 | 19 |
+| Nível | 1 | 19 |
+| Vazão | 1 | 19 |
+| Sensor de cor | 2 | 18 |
+| Leitor industrial de códigos 1D | 2 | 18 |
+| Leitor industrial de códigos 2D | 1 | 19 |
 
-## Seleção e evidência
+**289 selection positions remain**. Some filters exceed the initial target because already published models also satisfy those principles. The catalog is usable now; the 20-per-type research goal is unfinished.
 
-“20 mais vendidos mundialmente” é o objetivo de pesquisa, não uma classificação já comprovada. Ranking exige fonte, período, mercados, métrica (unidades ou receita) e modelos comparáveis. Não converter catálogo de fabricante, presença em distribuidores ou posição em busca em prova de vendas. Quando faltar evidência, identificar a seleção como **prioridade inferida para técnicos**, registrar justificativa e manter `salesRankingConfirmed: false`.
+## Published manufacturers
 
-Pesquisar o grupo de fabricantes do [manifesto](manifest.json); ele é uma lista de investigação, sem ordem de vendas. Confirmar código completo: família comercial não substitui variante PNP/NPN, cabo/conector, alimentação, alcance e interface. No emissor/receptor, identificar os dois códigos e a compatibilidade; contar o par como uma solução. Família e variantes relacionadas devem permanecer visíveis sem inflar o ranking.
+| Manufacturer | Packs |
+| --- | ---: |
+| Banner Engineering | 29 |
+| Omron | 66 |
+| SICK | 7 |
+| ifm | 25 |
 
-## Dados de cada pack
+## Downloads
 
-- Identidade: fabricante, família, código exato, região, revisão e situação comercial.
-- Detecção: tecnologia, princípio, fonte de luz, alcance, zona cega, alvo de referência e condições de medição.
-- Elétrica: alimentação, saída PNP/NPN/push-pull/relé/analógica, NO/NC, Light-ON/Dark-ON, conector, pinagem e diagrama oficial.
-- Instalação: alinhamento, refletor ou fibra compatível, montagem, interferência entre sensores e condições ambientais.
-- Ajustes: teach-in, sensibilidade, supressão de fundo, filtros, temporizações e IO-Link quando documentados para a variante.
-- Diagnóstico: LEDs, mensagens, códigos e testes orientados por sintoma. Não inventar alarmes para sensores que só têm LEDs.
-- Campo: limpeza, checagem da alimentação, verificação da entrada do CLP, checklist e limites de substituição.
-- Evidência por item: URL oficial, título do documento, revisão, página/seção, data de consulta e variante aplicável. Valor não encontrado permanece desconhecido; ausência de documentação não significa recurso inexistente.
+- [Manifest and exact models](manifest.json)
+- [Official document references, revisions and SHA-256](sources.json)
+- [Sensor release/checksum](release.json)
+- [Sensor ZIP encoded as base64](catalog_bundle.b64)
+- [Unified drives + sensors SQLite database](../../cloud/README.md)
+- [Coverage and validation report](research_results.json)
 
-## Fluxo de pesquisa, publicação e drop
+Sensor-only ZIP contains manifest, source registry and all packs. Decode base64 and verify ZIP SHA-256 against release.json before extraction. The unified SQLite includes the original payloads and the document registry for offline lookup. Import and UI integration in the app remain separate work.
 
-1. Registrar candidato e tipo em `manifest.json`, com status `pending-research` e justificativa de seleção.
-2. Confirmar modelo e obter manual/datasheet oficial; classificar `model-confirmed`, sem declarar parâmetros verificados ainda.
-3. Extrair fatos com referências e revisar variante, unidades, pinagem e LEDs. Classificar `manual-verified` apenas após revisão.
-4. Criar pack bilíngue en/pt em `packs/<fabricante>/<modelo>.json`; validar com esquema específico de sensores antes de `published`.
-5. Publicar em manifesto próprio e gerar bundle/drop próprio depois que houver packs. O manifesto legado de drives permanece com seu contrato atual.
+## Pack contract
 
-Os diretórios de packs e o drop serão criados com os primeiros modelos verificados. Esta mudança entrega taxonomia e fila, não implementa ainda o importador de sensores nem adapta automaticamente a interface FieldTech. Não usar o validador ou bundle de drives para publicar sensores: o esquema de parâmetros/alarmes de inversores não representa esse domínio.
+Schema version 1 has canonical identity, type filters, model evidence, specifications, parameters, diagnostics, procedures, software and explicit configuration unknowns. Every published item has en/pt labels/descriptions and an official document ID, PDF page and applicability. Resolve document IDs in sources.json; document URLs, revisions and PDF hashes are retained there. IDs in parameters/diagnostics are lookup identifiers: some are literal display codes and some describe a function; they are not assumed register addresses.
 
-Trabalhar no mesmo repositório por diretórios. Branches de trabalho como `sensors/photoelectric-wave-1` servem à revisão e são integradas depois; não são categorias permanentes. Guardar URLs oficiais dos manuais; redistribuir PDFs apenas quando autorizado pela licença.
+Current values include units/ranges only where reviewed. Unknown fields do not mean an unsupported feature. Full pinouts and wiring diagrams are not imported in this release; use the official manual and exact variant. No sensor in this collection is presented as a personnel-safety device.
 
-## Fontes da classificação
+## Configuration and variant safeguards
 
-- [SICK — princípios de detecção e fontes de luz](https://www.sick.com/in/en/photoelectric-sensors-portfolio/s/next-generation).
-- [ifm — categorias de sensores industriais](https://www.ifm.com/us/en/category).
+- Q4X IO-Link uses M12 4-pin; analog Q4X uses M12 5-pin and 0–10 V or 4–20 mA according to exact code.
+- E3Z emitter/receiver sets count once; standard through-beam component codes are retained from the official order table. Laser and LED are distinct from through-beam, retroreflective and diffuse principles.
+- PN7 pressure output 2 is switching; TN2511 output 2 is analog. Parameters from one family are not substituted into the other.
+- CSS/CSX IO-Link variants use SOPAS ET via SiLink or an IO-Link master; SDD and Data Storage are documented. Software/firmware version compatibility remains unknown.
+- CLV620-0000 is the serial/cabled variant; no built-in Ethernet is inferred from other CLV models. Working-memory edits and permanent saving are separate.
+- Lector61x replacement requires an identical product type and the saved .sopas project. No Read is not automatically a hardware fault.
+- Fiber-amplifier reach depends on selected fiber and response mode; no fixed range is assigned to the amplifier alone.
 
-Princípios ópticos e categorias gerais têm suporte nessas fontes. A divisão em 23 grupos, a ordem de execução e o grupo de fabricantes são decisões de planejamento; nenhum ranking mundial de modelos foi confirmado nesta etapa.
+## Validation and incremental build
 
-## Sensores parametrizados por software e leitores industriais
+```sh
+python scripts/validate_sensor_structure.py
+python scripts/build_sensor_distribution.py
+python scripts/build_cloud_database.py
+python -m unittest discover -s tests -v
+```
 
-A estrutura inclui sensores de cor e contraste separadamente, além de leitores 1D e 2D. Um leitor que suporta ambos pode aparecer nas duas seleções, referenciando um único pack. Leitura de códigos não é medição laser de distância; manter sua tecnologia de identificação explícita.
-
-Pesquisar software e ferramentas oficiais por modelo, incluindo SICK SOPAS ET quando a documentação confirmar suporte. O [manual de parâmetros Lector63x/64x/65x](https://cdn.sick.com/media/docs/4/34/534/online_help_lector63x_lector64x_lector65x_en_im0077534.pdf) é uma referência documental inicial, não uma confirmação de compatibilidade de todos os leitores ou sensores SICK. Nenhuma família ou modelo dessa referência está publicado nesta etapa.
-
-Registrar nome/versão do software, firmware compatível, sistema operacional, download oficial, arquivos de descrição de dispositivo e interfaces de configuração. USB, Ethernet, serial e IO-Link são possibilidades a pesquisar; não recursos presumidos. Distinguir interface física, protocolo de comunicação e ferramenta de parametrização.
-
-Separar transferência de parâmetros ao dispositivo, gravação persistente, exportação de backup, importação/restauração e reset de fábrica. Registrar requisitos, compatibilidade e efeitos de cada procedimento conforme o manual da variante. SDD, IODD, EDS e GSDML são exemplos de arquivos a identificar, não formatos obrigatórios em todos os produtos.
-
-Para leitores: simbologias, trigger, janela de leitura, foco/exposição/iluminação quando aplicáveis, formatação do resultado, comportamento no-read e integração com CLP. Para sensores de cor: teach-in, tolerância, canais, iluminação e tempo de resposta. Cada capacidade tem estado documentado: suportada, não suportada ou desconhecida. Não preencher procedimentos por analogia entre famílias.
-
-O contrato desses campos está em `configurationResearchContract` no manifesto. Continua sendo contrato de pesquisa: esquema completo de packs, importador e drop de sensores serão implementados com os primeiros modelos verificados.
+CI checks source identity, type mappings, document provenance, sensor archive contents, unified SQLite contents and checksums. The drive validator and legacy drive bundle remain independent. Grow coverage using official exact-model documentation; keep pending research outside published device packs. PDFs are linked, not redistributed.

@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_pn7599",
+  "manufacturer": "ifm",
+  "model": "PN7599",
+  "family": "PN7xxx",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/pn7599.json",
+  "typeIds": [
+    "pressure"
+  ],
+  "identity": {
+    "orderCode": "PN7599",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "PN7599",
+        "pt": "PN7599"
+      },
+      "value": "PN7599",
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "pressure_type",
+      "name": {
+        "en": "Pressure type",
+        "pt": "Tipo de pressão"
+      },
+      "description": {
+        "en": "Relative pressure",
+        "pt": "Relative pressure"
+      },
+      "value": "Relative pressure",
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "out1",
+      "name": {
+        "en": "OUT1",
+        "pt": "OUT1"
+      },
+      "description": {
+        "en": "Switching output / IO-Link, pin 4",
+        "pt": "Switching output / IO-Link, pin 4"
+      },
+      "value": "Switching output / IO-Link, pin 4",
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          11
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "out2",
+      "name": {
+        "en": "OUT2",
+        "pt": "OUT2"
+      },
+      "description": {
+        "en": "Switching output, pin 2",
+        "pt": "Switching output, pin 2"
+      },
+      "value": "Switching output, pin 2",
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          11
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply_wiring",
+      "name": {
+        "en": "Supply terminals",
+        "pt": "Terminais de alimentação"
+      },
+      "description": {
+        "en": "Pin 1 L+ / pin 3 L−; SELV/PELV supply",
+        "pt": "Pin 1 L+ / pin 3 L−; SELV/PELV supply"
+      },
+      "value": "Pin 1 L+ / pin 3 L−; SELV/PELV supply",
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          11
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "SP1",
+      "name": {
+        "en": "Output 1 set point",
+        "pt": "Ponto de atuação saída 1"
+      },
+      "description": {
+        "en": "Output 1 set point",
+        "pt": "Ponto de atuação saída 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "rP1",
+      "name": {
+        "en": "Output 1 reset point",
+        "pt": "Ponto de retorno saída 1"
+      },
+      "description": {
+        "en": "Output 1 reset point",
+        "pt": "Ponto de retorno saída 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "SP2",
+      "name": {
+        "en": "Output 2 set point",
+        "pt": "Ponto de atuação saída 2"
+      },
+      "description": {
+        "en": "Output 2 set point",
+        "pt": "Ponto de atuação saída 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "rP2",
+      "name": {
+        "en": "Output 2 reset point",
+        "pt": "Ponto de retorno saída 2"
+      },
+      "description": {
+        "en": "Output 2 reset point",
+        "pt": "Ponto de retorno saída 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "FH1",
+      "name": {
+        "en": "Upper window OUT1",
+        "pt": "Janela superior OUT1"
+      },
+      "description": {
+        "en": "Upper window OUT1",
+        "pt": "Janela superior OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "FL1",
+      "name": {
+        "en": "Lower window OUT1",
+        "pt": "Janela inferior OUT1"
+      },
+      "description": {
+        "en": "Lower window OUT1",
+        "pt": "Janela inferior OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "ou1",
+      "name": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "description": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "ou2",
+      "name": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "description": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "dS1",
+      "name": {
+        "en": "OUT1 on-delay",
+        "pt": "Atraso de ativação OUT1"
+      },
+      "description": {
+        "en": "OUT1 on-delay",
+        "pt": "Atraso de ativação OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "dr1",
+      "name": {
+        "en": "OUT1 off-delay",
+        "pt": "Atraso de desativação OUT1"
+      },
+      "description": {
+        "en": "OUT1 off-delay",
+        "pt": "Atraso de desativação OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "dS2",
+      "name": {
+        "en": "OUT2 on-delay",
+        "pt": "Atraso de ativação OUT2"
+      },
+      "description": {
+        "en": "OUT2 on-delay",
+        "pt": "Atraso de ativação OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "dr2",
+      "name": {
+        "en": "OUT2 off-delay",
+        "pt": "Atraso de desativação OUT2"
+      },
+      "description": {
+        "en": "OUT2 off-delay",
+        "pt": "Atraso de desativação OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "uni",
+      "name": {
+        "en": "Display unit",
+        "pt": "Unidade do display"
+      },
+      "description": {
+        "en": "Display unit",
+        "pt": "Unidade do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "diS",
+      "name": {
+        "en": "Display refresh/orientation",
+        "pt": "Atualização/orientação do display"
+      },
+      "description": {
+        "en": "Display refresh/orientation",
+        "pt": "Atualização/orientação do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "P-n",
+      "name": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "description": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "dAP",
+      "name": {
+        "en": "Signal damping",
+        "pt": "Amortecimento do sinal"
+      },
+      "description": {
+        "en": "Signal damping",
+        "pt": "Amortecimento do sinal"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "rES",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    },
+    {
+      "id": "coLr",
+      "name": {
+        "en": "Display color",
+        "pt": "Cor do display"
+      },
+      "description": {
+        "en": "Display color",
+        "pt": "Cor do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7xxx in mode 2 or 3; mode 1 requires legacy manual"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "SC",
+      "name": {
+        "en": "Overcurrent OUT1 and OUT2",
+        "pt": "Sobrecorrente OUT1 e OUT2"
+      },
+      "description": {
+        "en": "Overcurrent OUT1 and OUT2",
+        "pt": "Sobrecorrente OUT1 e OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SC1",
+      "name": {
+        "en": "Overcurrent OUT1",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "description": {
+        "en": "Overcurrent OUT1",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SC2",
+      "name": {
+        "en": "Overcurrent OUT2",
+        "pt": "Sobrecorrente OUT2"
+      },
+      "description": {
+        "en": "Overcurrent OUT2",
+        "pt": "Sobrecorrente OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "Loc",
+      "name": {
+        "en": "Local button lock",
+        "pt": "Bloqueio de botões"
+      },
+      "description": {
+        "en": "Local button lock",
+        "pt": "Bloqueio de botões"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "C.Loc",
+      "name": {
+        "en": "IO-Link setting active",
+        "pt": "Parametrização IO-Link ativa"
+      },
+      "description": {
+        "en": "IO-Link setting active",
+        "pt": "Parametrização IO-Link ativa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "S.Loc",
+      "name": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "description": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "OL",
+      "name": {
+        "en": "Above measuring range",
+        "pt": "Acima da faixa"
+      },
+      "description": {
+        "en": "Above measuring range",
+        "pt": "Acima da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "UL",
+      "name": {
+        "en": "Below measuring range",
+        "pt": "Abaixo da faixa"
+      },
+      "description": {
+        "en": "Below measuring range",
+        "pt": "Abaixo da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "Err",
+      "name": {
+        "en": "Internal malfunction",
+        "pt": "Falha interna"
+      },
+      "description": {
+        "en": "Internal malfunction",
+        "pt": "Falha interna"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "save_parameter",
+      "name": {
+        "en": "Confirm parameter",
+        "pt": "Confirmar parâmetro"
+      },
+      "description": {
+        "en": "Select parameter, edit value and briefly confirm with the center button to save.",
+        "pt": "Selecione o parâmetro, edite e confirme brevemente no botão central para salvar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "iodd_mode",
+      "name": {
+        "en": "IODD/mode match",
+        "pt": "Compatibilidade IODD/modo"
+      },
+      "description": {
+        "en": "Select the IODD matching CMPT; changing the mode resets parameters.",
+        "pt": "Selecione IODD compatível com CMPT; mudar o modo reinicializa os parâmetros."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

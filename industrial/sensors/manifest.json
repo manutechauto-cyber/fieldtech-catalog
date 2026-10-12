@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "domain": "industrial",
   "category": "sensors",
-  "status": "research-structure",
+  "status": "published-field-subsets",
   "targetModelsPerType": 20,
   "selectionPolicy": {
     "goal": "Best-selling worldwide models where comparable sales evidence exists",
@@ -10,7 +10,8 @@
     "salesRankingConfirmed": false,
     "rankingUnit": "Exact orderable model; transmitter/receiver pair counts once",
     "deduplication": "One canonical pack per exact model/compatible pair; multiple type listings may reference it",
-    "publicationGate": "Exact model and regional variant, official manual, per-fact evidence and validated downloadable pack"
+    "publicationGate": "Exact model and regional variant, official manual, per-fact evidence and validated downloadable pack",
+    "note": "Target 20 per type remains open. First release is documentation-led, not a model-level worldwide sales ranking. Multiple electrical/connector variants do not establish independent popularity."
   },
   "types": [
     {
@@ -24,7 +25,20 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_t61_2m",
+        "sensor_omron_e3z_t81_2m",
+        "sensor_omron_e3z_t62_2m",
+        "sensor_omron_e3z_t82_2m",
+        "sensor_omron_e3z_t66",
+        "sensor_omron_e3z_t86",
+        "sensor_omron_e3z_t67",
+        "sensor_omron_e3z_t87",
+        "sensor_omron_e3z_lt61",
+        "sensor_omron_e3z_lt81",
+        "sensor_omron_e3z_lt66",
+        "sensor_omron_e3z_lt86"
+      ]
     },
     {
       "id": "photoelectric-retroreflective",
@@ -37,7 +51,24 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_r61_2m",
+        "sensor_omron_e3z_r81_2m",
+        "sensor_omron_e3z_r66",
+        "sensor_omron_e3z_r86",
+        "sensor_omron_e3z_b61_2m",
+        "sensor_omron_e3z_b81_2m",
+        "sensor_omron_e3z_b62_2m",
+        "sensor_omron_e3z_b82_2m",
+        "sensor_omron_e3z_b66",
+        "sensor_omron_e3z_b86",
+        "sensor_omron_e3z_b67",
+        "sensor_omron_e3z_b87",
+        "sensor_omron_e3z_lr61",
+        "sensor_omron_e3z_lr81",
+        "sensor_omron_e3z_lr66",
+        "sensor_omron_e3z_lr86"
+      ]
     },
     {
       "id": "photoelectric-diffuse",
@@ -50,7 +81,24 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_d61_2m",
+        "sensor_omron_e3z_d81_2m",
+        "sensor_omron_e3z_d62_2m",
+        "sensor_omron_e3z_d82_2m",
+        "sensor_omron_e3z_d66",
+        "sensor_omron_e3z_d86",
+        "sensor_omron_e3z_d67",
+        "sensor_omron_e3z_d87",
+        "sensor_omron_e3z_l61_2m",
+        "sensor_omron_e3z_l81_2m",
+        "sensor_omron_e3z_l63_2m",
+        "sensor_omron_e3z_l83_2m",
+        "sensor_omron_e3z_l66",
+        "sensor_omron_e3z_l86",
+        "sensor_omron_e3z_l68",
+        "sensor_omron_e3z_l88"
+      ]
     },
     {
       "id": "photoelectric-background-suppression",
@@ -62,25 +110,32 @@
       "lightSource": null,
       "priority": 1,
       "target": 20,
-      "candidates": [
-        {
-          "manufacturer": "ifm",
-          "model": "O5D100",
-          "status": "model-confirmed",
-          "selectionBasis": "inferred-field-service-priority",
-          "salesRankingConfirmed": false,
-          "evidence": [
-            {
-              "url": "https://www.ifm.com/binaries/content/assets/us/html5-animations/verge-products/o5d100h/index.html",
-              "scope": "Exact model and IO-Link setup referenced by manufacturer"
-            }
-          ],
-          "manualUrl": "https://www.ifm.com/download/files/ifm-000174-20210526-IODD11-en/%24file/ifm-000174-20210526-IODD11-en.pdf",
-          "manualReviewStatus": "pending; retrieval unsuccessful",
-          "published": false
-        }
-      ],
-      "publishedPackIds": []
+      "candidates": [],
+      "publishedPackIds": [
+        "sensor_omron_e3z_ll61",
+        "sensor_omron_e3z_ll81",
+        "sensor_omron_e3z_ll63",
+        "sensor_omron_e3z_ll83",
+        "sensor_omron_e3z_ll66",
+        "sensor_omron_e3z_ll86",
+        "sensor_omron_e3z_ll68",
+        "sensor_omron_e3z_ll88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_omron_e3z_ls61_2m",
+        "sensor_omron_e3z_ls81_2m",
+        "sensor_omron_e3z_ls66",
+        "sensor_omron_e3z_ls86",
+        "sensor_omron_e3z_ls63_2m",
+        "sensor_omron_e3z_ls83_2m",
+        "sensor_omron_e3z_ls68",
+        "sensor_omron_e3z_ls88",
+        "sensor_ifm_o5d100"
+      ]
     },
     {
       "id": "laser-through-beam",
@@ -93,7 +148,12 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_lt61",
+        "sensor_omron_e3z_lt81",
+        "sensor_omron_e3z_lt66",
+        "sensor_omron_e3z_lt86"
+      ]
     },
     {
       "id": "laser-retroreflective",
@@ -106,7 +166,12 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_lr61",
+        "sensor_omron_e3z_lr81",
+        "sensor_omron_e3z_lr66",
+        "sensor_omron_e3z_lr86"
+      ]
     },
     {
       "id": "laser-diffuse",
@@ -119,7 +184,22 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_ll61",
+        "sensor_omron_e3z_ll81",
+        "sensor_omron_e3z_ll63",
+        "sensor_omron_e3z_ll83",
+        "sensor_omron_e3z_ll66",
+        "sensor_omron_e3z_ll86",
+        "sensor_omron_e3z_ll68",
+        "sensor_omron_e3z_ll88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8"
+      ]
     },
     {
       "id": "laser-distance",
@@ -132,7 +212,29 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_banner_q4xtulaf600_q8",
+        "sensor_banner_q4xtilaf600_q8",
+        "sensor_banner_q4xtulaf500_q8",
+        "sensor_banner_q4xtilaf500_q8",
+        "sensor_banner_q4xtulaf300_q8",
+        "sensor_banner_q4xtilaf300_q8",
+        "sensor_banner_q4xtulaf100_q8",
+        "sensor_banner_q4xtilaf100_q8",
+        "sensor_banner_q4xfulaf610_q8",
+        "sensor_banner_q4xfilaf610_q8",
+        "sensor_banner_q4xfulaf310_q8",
+        "sensor_banner_q4xfilaf310_q8",
+        "sensor_banner_q4xfulaf110_q8",
+        "sensor_banner_q4xfilaf110_q8",
+        "sensor_ifm_o5d100"
+      ]
     },
     {
       "id": "photoelectric-transparent",
@@ -145,7 +247,26 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3z_b61_2m",
+        "sensor_omron_e3z_b81_2m",
+        "sensor_omron_e3z_b62_2m",
+        "sensor_omron_e3z_b82_2m",
+        "sensor_omron_e3z_b66",
+        "sensor_omron_e3z_b86",
+        "sensor_omron_e3z_b67",
+        "sensor_omron_e3z_b87",
+        "sensor_omron_e3z_l63_2m",
+        "sensor_omron_e3z_l83_2m",
+        "sensor_omron_e3z_l68",
+        "sensor_omron_e3z_l88",
+        "sensor_banner_q4xtklaf600_q8",
+        "sensor_banner_q4xtklaf300_q8",
+        "sensor_banner_q4xtklaf100_q8",
+        "sensor_banner_q4xfklaf610_q8",
+        "sensor_banner_q4xfklaf310_q8",
+        "sensor_banner_q4xfklaf110_q8"
+      ]
     },
     {
       "id": "fiber-optic",
@@ -158,7 +279,14 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_omron_e3x_hd11_2m",
+        "sensor_omron_e3x_hd41_2m",
+        "sensor_omron_e3x_hd6",
+        "sensor_omron_e3x_hd8",
+        "sensor_omron_e3x_hd14",
+        "sensor_omron_e3x_hd44"
+      ]
     },
     {
       "id": "fork",
@@ -171,7 +299,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_wfs3_40p415"
+      ]
     },
     {
       "id": "contrast",
@@ -184,7 +314,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_kts_wb9114115azzzz"
+      ]
     },
     {
       "id": "inductive",
@@ -197,7 +329,9 @@
       "priority": 1,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_igt200"
+      ]
     },
     {
       "id": "capacitive",
@@ -210,7 +344,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_ki5082",
+        "sensor_ifm_ki6000"
+      ]
     },
     {
       "id": "ultrasonic",
@@ -223,7 +360,17 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_banner_t30uxda",
+        "sensor_banner_t30uxdaq8",
+        "sensor_banner_t30uxdaqpma",
+        "sensor_banner_t30uxdb",
+        "sensor_banner_t30uxdbq8",
+        "sensor_banner_t30uxdbqpma",
+        "sensor_banner_t30uxdc",
+        "sensor_banner_t30uxdcq8",
+        "sensor_banner_t30uxdcqpma"
+      ]
     },
     {
       "id": "magnetic-cylinder",
@@ -236,7 +383,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_mzt8_28vps_kub"
+      ]
     },
     {
       "id": "pressure",
@@ -249,7 +398,26 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_pn7160",
+        "sensor_ifm_pn7560",
+        "sensor_ifm_pn7070",
+        "sensor_ifm_pn7570",
+        "sensor_ifm_pn7071",
+        "sensor_ifm_pn7571",
+        "sensor_ifm_pn7092",
+        "sensor_ifm_pn7592",
+        "sensor_ifm_pn7093",
+        "sensor_ifm_pn7593",
+        "sensor_ifm_pn7094",
+        "sensor_ifm_pn7594",
+        "sensor_ifm_pn7096",
+        "sensor_ifm_pn7596",
+        "sensor_ifm_pn7097",
+        "sensor_ifm_pn7597",
+        "sensor_ifm_pn7099",
+        "sensor_ifm_pn7599"
+      ]
     },
     {
       "id": "temperature",
@@ -262,7 +430,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_tn2511"
+      ]
     },
     {
       "id": "level",
@@ -275,7 +445,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_lk3122"
+      ]
     },
     {
       "id": "flow",
@@ -288,7 +460,9 @@
       "priority": 3,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_ifm_sd6500"
+      ]
     },
     {
       "id": "color",
@@ -301,7 +475,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_css_wbfa54115aa10z",
+        "sensor_sick_csx_wbf114125aa10z"
+      ]
     },
     {
       "id": "barcode-1d",
@@ -314,7 +491,10 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_clv620_0000",
+        "sensor_sick_v2d611r_mmsbe4"
+      ]
     },
     {
       "id": "code-reader-2d",
@@ -327,7 +507,9 @@
       "priority": 2,
       "target": 20,
       "candidates": [],
-      "publishedPackIds": []
+      "publishedPackIds": [
+        "sensor_sick_v2d611r_mmsbe4"
+      ]
     }
   ],
   "manufacturerResearchPool": [
@@ -368,7 +550,1024 @@
       "scope": "Example of official SOPAS parameter documentation; not confirmation of model rankings or all-model software compatibility"
     }
   ],
-  "packs": [],
+  "packs": [
+    {
+      "packId": "sensor_banner_q4xfilaf110_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf110_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfilaf110_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfilaf310_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf310_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfilaf310_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfilaf610_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFILAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfilaf610_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfilaf610_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfklaf110_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf110_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfklaf110_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfklaf310_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf310_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfklaf310_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfklaf610_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFKLAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfklaf610_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfklaf610_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfulaf110_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF110-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf110_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfulaf110_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfulaf310_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF310-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf310_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfulaf310_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xfulaf610_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XFULAF610-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xfulaf610_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xfulaf610_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtilaf100_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf100_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtilaf100_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtilaf300_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf300_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtilaf300_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtilaf500_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF500-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf500_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtilaf500_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtilaf600_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTILAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtilaf600_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtilaf600_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtklaf100_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf100_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtklaf100_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtklaf300_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf300_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtklaf300_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtklaf600_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTKLAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtklaf600_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtklaf600_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtulaf100_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF100-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf100_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtulaf100_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtulaf300_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF300-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf300_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtulaf300_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtulaf500_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF500-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf500_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtulaf500_q8.json"
+    },
+    {
+      "packId": "sensor_banner_q4xtulaf600_q8",
+      "manufacturer": "Banner Engineering",
+      "model": "Q4XTULAF600-Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/q4xtulaf600_q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/q4xtulaf600_q8.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxda",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxda.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxda.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdaq8",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDAQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdaq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdaq8.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdaqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDAQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdaqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdaqpma.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdb",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDB",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdb.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdb.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdbq8",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDBQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdbq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdbq8.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdbqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDBQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdbqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdbqpma.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdc",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDC",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdc.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdc.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdcq8",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDCQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdcq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdcq8.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxdcqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXDCQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxdcqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxdcqpma.json"
+    },
+    {
+      "packId": "sensor_ifm_igt200",
+      "manufacturer": "ifm",
+      "model": "IGT200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igt200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igt200.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5082",
+      "manufacturer": "ifm",
+      "model": "KI5082",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5082.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5082.json"
+    },
+    {
+      "packId": "sensor_ifm_ki6000",
+      "manufacturer": "ifm",
+      "model": "KI6000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki6000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki6000.json"
+    },
+    {
+      "packId": "sensor_ifm_lk3122",
+      "manufacturer": "ifm",
+      "model": "LK3122",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk3122.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lk3122.json"
+    },
+    {
+      "packId": "sensor_ifm_o5d100",
+      "manufacturer": "ifm",
+      "model": "O5D100",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/o5d100.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/o5d100.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7070",
+      "manufacturer": "ifm",
+      "model": "PN7070",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7070.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7070.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7071",
+      "manufacturer": "ifm",
+      "model": "PN7071",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7071.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7071.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7092",
+      "manufacturer": "ifm",
+      "model": "PN7092",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7092.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7092.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7093",
+      "manufacturer": "ifm",
+      "model": "PN7093",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7093.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7093.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7094",
+      "manufacturer": "ifm",
+      "model": "PN7094",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7094.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7094.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7096",
+      "manufacturer": "ifm",
+      "model": "PN7096",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7096.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7096.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7097",
+      "manufacturer": "ifm",
+      "model": "PN7097",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7097.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7097.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7099",
+      "manufacturer": "ifm",
+      "model": "PN7099",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7099.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7099.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7160",
+      "manufacturer": "ifm",
+      "model": "PN7160",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7160.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7160.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7560",
+      "manufacturer": "ifm",
+      "model": "PN7560",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7560.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7560.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7570",
+      "manufacturer": "ifm",
+      "model": "PN7570",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7570.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7570.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7571",
+      "manufacturer": "ifm",
+      "model": "PN7571",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7571.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7571.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7592",
+      "manufacturer": "ifm",
+      "model": "PN7592",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7592.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7592.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7593",
+      "manufacturer": "ifm",
+      "model": "PN7593",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7593.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7593.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7594",
+      "manufacturer": "ifm",
+      "model": "PN7594",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7594.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7594.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7596",
+      "manufacturer": "ifm",
+      "model": "PN7596",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7596.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7596.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7597",
+      "manufacturer": "ifm",
+      "model": "PN7597",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7597.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7597.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7599",
+      "manufacturer": "ifm",
+      "model": "PN7599",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7599.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7599.json"
+    },
+    {
+      "packId": "sensor_ifm_sd6500",
+      "manufacturer": "ifm",
+      "model": "SD6500",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sd6500.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sd6500.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2511",
+      "manufacturer": "ifm",
+      "model": "TN2511",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2511.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2511.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd11_2m",
+      "manufacturer": "Omron",
+      "model": "E3X-HD11 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd11_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd11_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd14",
+      "manufacturer": "Omron",
+      "model": "E3X-HD14",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd14.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd14.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd41_2m",
+      "manufacturer": "Omron",
+      "model": "E3X-HD41 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd41_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd41_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd44",
+      "manufacturer": "Omron",
+      "model": "E3X-HD44",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd44.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd44.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd6",
+      "manufacturer": "Omron",
+      "model": "E3X-HD6",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd6.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd6.json"
+    },
+    {
+      "packId": "sensor_omron_e3x_hd8",
+      "manufacturer": "Omron",
+      "model": "E3X-HD8",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3x_hd8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd8.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-B61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b62_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-B62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b62_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b62_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b66",
+      "manufacturer": "Omron",
+      "model": "E3Z-B66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b67",
+      "manufacturer": "Omron",
+      "model": "E3Z-B67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b67.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b67.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-B81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b82_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-B82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b82_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b82_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b86",
+      "manufacturer": "Omron",
+      "model": "E3Z-B86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_b87",
+      "manufacturer": "Omron",
+      "model": "E3Z-B87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_b87.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_b87.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-D61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d62_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-D62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d62_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d62_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d66",
+      "manufacturer": "Omron",
+      "model": "E3Z-D66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d67",
+      "manufacturer": "Omron",
+      "model": "E3Z-D67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d67.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d67.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-D81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d82_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-D82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d82_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d82_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d86",
+      "manufacturer": "Omron",
+      "model": "E3Z-D86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_d87",
+      "manufacturer": "Omron",
+      "model": "E3Z-D87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_d87.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_d87.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-L61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l63_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-L63 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l63_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l63_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l66",
+      "manufacturer": "Omron",
+      "model": "E3Z-L66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l68",
+      "manufacturer": "Omron",
+      "model": "E3Z-L68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l68.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l68.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-L81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l83_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-L83 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l83_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l83_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l86",
+      "manufacturer": "Omron",
+      "model": "E3Z-L86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_l88",
+      "manufacturer": "Omron",
+      "model": "E3Z-L88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_l88.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_l88.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll61",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll61.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll61.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll63",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL63",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll63.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll63.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll66",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll68",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll68.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll68.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll81",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll81.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll81.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll83",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL83",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll83.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll83.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll86",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ll88",
+      "manufacturer": "Omron",
+      "model": "E3Z-LL88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ll88.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ll88.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lr61",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr61.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lr61.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lr66",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lr66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lr81",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr81.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lr81.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lr86",
+      "manufacturer": "Omron",
+      "model": "E3Z-LR86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lr86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lr86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls63_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS63 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls63_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls63_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls66",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls68",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS68",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls68.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls68.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls83_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS83 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls83_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls83_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls86",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_ls88",
+      "manufacturer": "Omron",
+      "model": "E3Z-LS88",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_ls88.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_ls88.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lt61",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT61",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt61.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lt61.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lt66",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lt66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lt81",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT81",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt81.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lt81.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_lt86",
+      "manufacturer": "Omron",
+      "model": "E3Z-LT86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_lt86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_lt86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_r61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-R61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_r61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_r66",
+      "manufacturer": "Omron",
+      "model": "E3Z-R66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_r66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_r81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-R81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_r81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_r86",
+      "manufacturer": "Omron",
+      "model": "E3Z-R86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_r86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_r86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t61_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-T61 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t61_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t61_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t62_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-T62 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t62_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t62_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t66",
+      "manufacturer": "Omron",
+      "model": "E3Z-T66",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t66.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t66.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t67",
+      "manufacturer": "Omron",
+      "model": "E3Z-T67",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t67.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t67.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t81_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-T81 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t81_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t81_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t82_2m",
+      "manufacturer": "Omron",
+      "model": "E3Z-T82 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t82_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t82_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t86",
+      "manufacturer": "Omron",
+      "model": "E3Z-T86",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t86.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t86.json"
+    },
+    {
+      "packId": "sensor_omron_e3z_t87",
+      "manufacturer": "Omron",
+      "model": "E3Z-T87",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3z_t87.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3z_t87.json"
+    },
+    {
+      "packId": "sensor_sick_clv620_0000",
+      "manufacturer": "SICK",
+      "model": "CLV620-0000",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/clv620_0000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/clv620_0000.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbfa54115aa10z",
+      "manufacturer": "SICK",
+      "model": "CSS-WBFA54115AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbfa54115aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbfa54115aa10z.json"
+    },
+    {
+      "packId": "sensor_sick_csx_wbf114125aa10z",
+      "manufacturer": "SICK",
+      "model": "CSX-WBF114125AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/csx_wbf114125aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/csx_wbf114125aa10z.json"
+    },
+    {
+      "packId": "sensor_sick_kts_wb9114115azzzz",
+      "manufacturer": "SICK",
+      "model": "KTS-WB9114115AZZZZ",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/kts_wb9114115azzzz.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/kts_wb9114115azzzz.json"
+    },
+    {
+      "packId": "sensor_sick_mzt8_28vps_kub",
+      "manufacturer": "SICK",
+      "model": "MZT8-28VPS-KUB",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/mzt8_28vps_kub.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/mzt8_28vps_kub.json"
+    },
+    {
+      "packId": "sensor_sick_v2d611r_mmsbe4",
+      "manufacturer": "SICK",
+      "model": "V2D611R-MMSBE4",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/v2d611r_mmsbe4.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/v2d611r_mmsbe4.json"
+    },
+    {
+      "packId": "sensor_sick_wfs3_40p415",
+      "manufacturer": "SICK",
+      "model": "WFS3-40P415",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wfs3_40p415.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wfs3_40p415.json"
+    }
+  ],
   "configurationResearchContract": {
     "appliesTo": "Every exact model, including software-parameterized sensors and industrial code readers",
     "capabilityStates": [
@@ -417,6 +1616,9 @@
       "illumination",
       "responseTime"
     ],
-    "publicationEnabled": false
-  }
+    "publicationEnabled": true
+  },
+  "sensorCatalogVersion": 1,
+  "sourceRegistryUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/sources.json",
+  "releaseUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/release.json"
 }

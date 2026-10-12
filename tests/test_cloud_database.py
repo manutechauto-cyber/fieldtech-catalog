@@ -25,12 +25,13 @@ class CloudDatabaseTests(unittest.TestCase):
             with sqlite3.connect(p) as db:
                 self.assertEqual(db.execute('PRAGMA integrity_check').fetchone()[0],'ok')
                 rows=db.execute('SELECT source_path,payload_json FROM device_packs').fetchall()
-                self.assertEqual(len(rows),len(json.loads((ROOT/'manifest.json').read_text())['packs']))
+                self.assertEqual(len(rows),len(json.loads((ROOT/'manifest.json').read_text())['packs'])+len(json.loads((ROOT/'industrial/sensors/manifest.json').read_text())['packs']))
                 for source,payload in rows:
                     self.assertEqual(json.loads(payload),json.loads((ROOT/source).read_text()))
                 self.assertEqual(db.execute('SELECT count(*) FROM sensor_types').fetchone()[0],23)
-                self.assertEqual(db.execute("SELECT count(*) FROM device_packs WHERE category='sensors'").fetchone()[0],0)
-                self.assertEqual(db.execute('SELECT model,status FROM sensor_candidates').fetchall(),[('O5D100','model-confirmed')])
+                self.assertEqual(db.execute("SELECT count(*) FROM device_packs WHERE category='sensors'").fetchone()[0],len(json.loads((ROOT/'industrial/sensors/manifest.json').read_text())['packs']))
+                self.assertEqual(db.execute('SELECT count(*) FROM sensor_candidates').fetchone()[0],0)
+                self.assertTrue(json.loads(db.execute("SELECT value_json FROM metadata WHERE key='sensorSources'").fetchone()[0]))
 
     def test_reproducible_distribution(self):
         self.assertEqual(artifacts(),artifacts())

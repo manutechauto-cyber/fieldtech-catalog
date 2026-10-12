@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3z_ls63_2m",
+  "manufacturer": "Omron",
+  "model": "E3Z-LS63 2M",
+  "family": "E3Z-LS",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3z_ls63_2m.json",
+  "typeIds": [
+    "photoelectric-background-suppression"
+  ],
+  "identity": {
+    "orderCode": "E3Z-LS63 2M",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3Z-LS63 2M",
+        "pt": "E3Z-LS63 2M"
+      },
+      "value": "E3Z-LS63 2M",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "2 m cable",
+        "pt": "2 m cable"
+      },
+      "value": "2 m cable",
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "bgs",
+      "name": {
+        "en": "Background suppression",
+        "pt": "Supressão de fundo"
+      },
+      "description": {
+        "en": "Distance-settable presence sensor; BGS range depends on exact variant.",
+        "pt": "Sensor de presença com distância ajustável; faixa BGS depende da variante."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3zcat",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "distance_setting",
+      "name": {
+        "en": "Distance adjustment",
+        "pt": "Ajuste de distância"
+      },
+      "description": {
+        "en": "Set the detection distance using the distance adjuster; use the variant-specific procedure.",
+        "pt": "Defina a distância no ajuste próprio; siga o procedimento da variante."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "e3zls",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

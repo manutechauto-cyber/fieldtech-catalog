@@ -17,5 +17,6 @@ jobs:
       - run: python scripts/validate_sensor_structure.py
       - run: python scripts/validate_catalog.py
       - run: python scripts/build_distribution.py --check
+      - run: python scripts/build_sensor_distribution.py --check
       - run: python scripts/build_cloud_database.py --check
       - run: python -m unittest discover -s tests -v

@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_csx_wbf114125aa10z",
+  "manufacturer": "SICK",
+  "model": "CSX-WBF114125AA10Z",
+  "family": "CSS/CSX High Speed",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/csx_wbf114125aa10z.json",
+  "typeIds": [
+    "color"
+  ],
+  "identity": {
+    "orderCode": "CSX-WBF114125AA10Z",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "CSX-WBF114125AA10Z",
+        "pt": "CSX-WBF114125AA10Z"
+      },
+      "value": "CSX-WBF114125AA10Z",
+      "unit": null,
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Sensing distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "13",
+        "pt": "13"
+      },
+      "value": 13,
+      "unit": "mm",
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "RGB LED",
+        "pt": "RGB LED"
+      },
+      "value": "RGB LED",
+      "unit": null,
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10.8...28.8 V DC",
+        "pt": "10.8...28.8 V DC"
+      },
+      "value": "10.8...28.8 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output logic",
+        "pt": "Lógica da saída"
+      },
+      "description": {
+        "en": "Push-pull PNP/NPN",
+        "pt": "Push-pull PNP/NPN"
+      },
+      "value": "Push-pull PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1.2",
+        "pt": "1.1.2"
+      },
+      "value": "1.1.2",
+      "unit": null,
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "36",
+        "pt": "36"
+      },
+      "value": 36,
+      "unit": "µs",
+      "source": {
+        "documentId": "csxdata",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "color_match_threshold",
+      "name": {
+        "en": "Color matching threshold",
+        "pt": "Limiar de correspondência de cor"
+      },
+      "description": {
+        "en": "Compare the Color Matching Value with the taught target/background and adjust sensitivity.",
+        "pt": "Compare Color Matching Value do alvo/fundo e ajuste a sensibilidade."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          60
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "on_delay",
+      "name": {
+        "en": "Transition filtering",
+        "pt": "Filtragem de transição"
+      },
+      "description": {
+        "en": "T-on delay can reduce unwanted transitions between taught colors.",
+        "pt": "Atraso T-on pode reduzir transições indevidas entre cores ensinadas."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          60
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "Err",
+      "name": {
+        "en": "Short-circuit/overcurrent indication",
+        "pt": "Indicação de curto/sobrecorrente"
+      },
+      "description": {
+        "en": "Flashing Q LED and Err: disconnect power, verify wiring and output load.",
+        "pt": "LED Q piscando e Err: desligue e confira conexão e carga da saída."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          60
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "data_storage",
+      "name": {
+        "en": "Backup/restore with IO-Link",
+        "pt": "Backup/restauração com IO-Link"
+      },
+      "description": {
+        "en": "IO-Link Data Storage transfers saved parameters to a replacement when the master storage function is enabled.",
+        "pt": "Data Storage do IO-Link transfere parâmetros à substituição quando o armazenamento do mestre está habilitado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          64
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "SOPAS_ET",
+      "name": {
+        "en": "SOPAS ET through SiLink",
+        "pt": "SOPAS ET via SiLink"
+      },
+      "description": {
+        "en": "Use the SiLink box to connect IO-Link to the computer through USB, or use a PLC IO-Link master.",
+        "pt": "Use SiLink para conectar IO-Link ao computador por USB, ou um mestre IO-Link do CLP."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          24
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SDD",
+      "name": {
+        "en": "Device driver",
+        "pt": "Driver do dispositivo"
+      },
+      "description": {
+        "en": "SOPAS ET uses SDD drivers; simultaneous panel and SOPAS/IO-Link operation is unavailable.",
+        "pt": "SOPAS ET usa drivers SDD; operação simultânea pelo painel e SOPAS/IO-Link não é possível."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "css",
+        "pages": [
+          37
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

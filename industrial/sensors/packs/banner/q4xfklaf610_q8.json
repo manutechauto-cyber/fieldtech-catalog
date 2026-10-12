@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_q4xfklaf610_q8",
+  "manufacturer": "Banner Engineering",
+  "model": "Q4XFKLAF610-Q8",
+  "family": "Q4X IO-Link",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/q4xfklaf610_q8.json",
+  "typeIds": [
+    "laser-distance",
+    "laser-diffuse",
+    "photoelectric-background-suppression",
+    "photoelectric-transparent"
+  ],
+  "identity": {
+    "orderCode": "Q4XFKLAF610-Q8",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "Q4XFKLAF610-Q8",
+        "pt": "Q4XFKLAF610-Q8"
+      },
+      "value": "Q4XFKLAF610-Q8",
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "[35, 610]",
+        "pt": "[35, 610]"
+      },
+      "value": [
+        35,
+        610
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "ch1",
+      "name": {
+        "en": "Channel 1",
+        "pt": "Canal 1"
+      },
+      "description": {
+        "en": "IO-Link / push-pull output",
+        "pt": "IO-Link / push-pull output"
+      },
+      "value": "IO-Link / push-pull output",
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "ch2",
+      "name": {
+        "en": "Channel 2",
+        "pt": "Canal 2"
+      },
+      "description": {
+        "en": "PNP output/input or PFM",
+        "pt": "PNP output/input or PFM"
+      },
+      "value": "PNP output/input or PFM",
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "M12, 4-pin",
+        "pt": "M12, 4-pin"
+      },
+      "value": "M12, 4-pin",
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser",
+        "pt": "Laser"
+      },
+      "description": {
+        "en": "Class 1 CMOS laser",
+        "pt": "Class 1 CMOS laser"
+      },
+      "value": "Class 1 CMOS laser",
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "out1",
+      "name": {
+        "en": "Channel 1 output mode",
+        "pt": "Modo de saída do canal 1"
+      },
+      "description": {
+        "en": "Channel 1 output mode",
+        "pt": "Modo de saída do canal 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "out2",
+      "name": {
+        "en": "Channel 2 function",
+        "pt": "Função do canal 2"
+      },
+      "description": {
+        "en": "Channel 2 function",
+        "pt": "Função do canal 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "tch1",
+      "name": {
+        "en": "Channel 1 TEACH mode",
+        "pt": "Modo TEACH do canal 1"
+      },
+      "description": {
+        "en": "Channel 1 TEACH mode",
+        "pt": "Modo TEACH do canal 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "tch2",
+      "name": {
+        "en": "Channel 2 TEACH mode",
+        "pt": "Modo TEACH do canal 2"
+      },
+      "description": {
+        "en": "Channel 2 TEACH mode",
+        "pt": "Modo TEACH do canal 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SPd",
+      "name": {
+        "en": "Response speed",
+        "pt": "Velocidade de resposta"
+      },
+      "description": {
+        "en": "Response speed",
+        "pt": "Velocidade de resposta"
+      },
+      "value": {
+        "default": 25
+      },
+      "unit": "ms",
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ZEro",
+      "name": {
+        "en": "Display zero reference",
+        "pt": "Referência zero do display"
+      },
+      "description": {
+        "en": "Display zero reference",
+        "pt": "Referência zero do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          24
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "diSP",
+      "name": {
+        "en": "Display view",
+        "pt": "Visualização do display"
+      },
+      "description": {
+        "en": "Display view",
+        "pt": "Visualização do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rSEt",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor Programming",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "PFM_LOS",
+      "name": {
+        "en": "PFM loss of signal",
+        "pt": "Perda de sinal PFM"
+      },
+      "description": {
+        "en": "With out2=PULS, 50 Hz indicates loss of signal after a 2 s delay.",
+        "pt": "Com out2=PULS, 50 Hz indica perda de sinal após atraso de 2 s."
+      },
+      "value": {
+        "frequency": 50,
+        "delay": 2
+      },
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "PFM output",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FGS_LOS",
+      "name": {
+        "en": "FGS loss-of-signal behavior",
+        "pt": "Perda de sinal no FGS"
+      },
+      "description": {
+        "en": "In one-point FGS mode, loss of signal is treated as detection.",
+        "pt": "No modo FGS de um ponto, perda de sinal é tratada como detecção."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          33
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_setpoint",
+      "name": {
+        "en": "Manual switch-point adjustment",
+        "pt": "Ajuste manual do ponto"
+      },
+      "description": {
+        "en": "In Run, use +/−; after 1 s without input, the sensor accepts the new threshold.",
+        "pt": "Em Run, use +/−; após 1 s sem comando, o sensor aceita o novo limite."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link configuration",
+        "pt": "Configuração IO-Link"
+      },
+      "description": {
+        "en": "Channel 1 supports IO-Link; exact tool and software versions require separate confirmation.",
+        "pt": "Canal 1 suporta IO-Link; ferramenta e versões exigem confirmação separada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "q4x",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

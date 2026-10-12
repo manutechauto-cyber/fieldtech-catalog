@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_mzt8_28vps_kub",
+  "manufacturer": "SICK",
+  "model": "MZT8-28VPS-KUB",
+  "family": "MZT8",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/mzt8_28vps_kub.json",
+  "typeIds": [
+    "magnetic-cylinder"
+  ],
+  "identity": {
+    "orderCode": "MZT8-28VPS-KUB",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "MZT8-28VPS-KUB",
+        "pt": "MZT8-28VPS-KUB"
+      },
+      "value": "MZT8-28VPS-KUB",
+      "unit": null,
+      "source": {
+        "documentId": "mzt8data",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "slot",
+      "name": {
+        "en": "Cylinder slot",
+        "pt": "Ranhura do cilindro"
+      },
+      "description": {
+        "en": "T-slot",
+        "pt": "T-slot"
+      },
+      "value": "T-slot",
+      "unit": null,
+      "source": {
+        "documentId": "mzt8data",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "mzt8data",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "frequency",
+      "name": {
+        "en": "Switching frequency",
+        "pt": "Frequência de comutação"
+      },
+      "description": {
+        "en": "1000",
+        "pt": "1000"
+      },
+      "value": 1000,
+      "unit": "Hz",
+      "source": {
+        "documentId": "mzt8data",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Housing length",
+        "pt": "Comprimento da carcaça"
+      },
+      "description": {
+        "en": "24",
+        "pt": "24"
+      },
+      "value": 24,
+      "unit": "mm",
+      "source": {
+        "documentId": "mzt8data",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

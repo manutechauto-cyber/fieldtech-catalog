@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_lk3122",
+  "manufacturer": "ifm",
+  "model": "LK3122",
+  "family": "LK31xx",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/lk3122.json",
+  "typeIds": [
+    "level"
+  ],
+  "identity": {
+    "orderCode": "LK3122",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Source-backed field selection; exact variants are not independent sales ranks.",
+      "pt": "Seleção técnica com fonte; variantes não representam posições comprovadas de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
+      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "LK3122",
+        "pt": "LK3122"
+      },
+      "value": "LK3122",
+      "unit": null,
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model/order table",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "18...30 V DC",
+        "pt": "18...30 V DC"
+      },
+      "value": "18...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "probe",
+      "name": {
+        "en": "Probe length",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "264",
+        "pt": "264"
+      },
+      "value": 264,
+      "unit": "mm",
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output logic",
+        "pt": "Lógica da saída"
+      },
+      "description": {
+        "en": "PNP/NPN",
+        "pt": "PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "io",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "1.1",
+        "pt": "1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media limitations",
+        "pt": "Limitações do meio"
+      },
+      "description": {
+        "en": "Water/coolants/oils; dielectric constant >2; excludes extremely conductive/adhering media",
+        "pt": "Water/coolants/oils; dielectric constant >2; excludes extremely conductive/adhering media"
+      },
+      "value": "Water/coolants/oils; dielectric constant >2; excludes extremely conductive/adhering media",
+      "unit": null,
+      "source": {
+        "documentId": "lk3122",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "SP1",
+      "name": {
+        "en": "Switch point",
+        "pt": "Ponto de atuação"
+      },
+      "description": {
+        "en": "Switch point",
+        "pt": "Ponto de atuação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rP1",
+      "name": {
+        "en": "Reset point",
+        "pt": "Ponto de retorno"
+      },
+      "description": {
+        "en": "Reset point",
+        "pt": "Ponto de retorno"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "MEdI",
+      "name": {
+        "en": "Medium selection",
+        "pt": "Seleção de meio"
+      },
+      "description": {
+        "en": "Medium selection",
+        "pt": "Seleção de meio"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20,
+          24
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "OP",
+      "name": {
+        "en": "Overflow prevention",
+        "pt": "Prevenção de transbordamento"
+      },
+      "description": {
+        "en": "Overflow prevention",
+        "pt": "Prevenção de transbordamento"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "cOP",
+      "name": {
+        "en": "Overflow adjustment",
+        "pt": "Ajuste contra transbordamento"
+      },
+      "description": {
+        "en": "Overflow adjustment",
+        "pt": "Ajuste contra transbordamento"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou1",
+      "name": {
+        "en": "Switching function",
+        "pt": "Função de comutação"
+      },
+      "description": {
+        "en": "Switching function",
+        "pt": "Função de comutação"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "ou2",
+      "name": {
+        "en": "Analog function",
+        "pt": "Função analógica"
+      },
+      "description": {
+        "en": "Analog function",
+        "pt": "Função analógica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "OFS",
+      "name": {
+        "en": "Offset",
+        "pt": "Deslocamento"
+      },
+      "description": {
+        "en": "Offset",
+        "pt": "Deslocamento"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU1",
+      "name": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "description": {
+        "en": "OUT1 fault behavior",
+        "pt": "Comportamento OUT1 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FOU2",
+      "name": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "description": {
+        "en": "OUT2 fault behavior",
+        "pt": "Comportamento OUT2 em falha"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "rES",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "Err",
+      "name": {
+        "en": "Electronics fault",
+        "pt": "Falha eletrônica"
+      },
+      "description": {
+        "en": "Electronics fault",
+        "pt": "Falha eletrônica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FAIL",
+      "name": {
+        "en": "Overflow adjustment failed",
+        "pt": "Falha no ajuste contra transbordamento"
+      },
+      "description": {
+        "en": "Overflow adjustment failed",
+        "pt": "Falha no ajuste contra transbordamento"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "SC1",
+      "name": {
+        "en": "OUT1 short circuit",
+        "pt": "Curto-circuito OUT1"
+      },
+      "description": {
+        "en": "OUT1 short circuit",
+        "pt": "Curto-circuito OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "PArA",
+      "name": {
+        "en": "Invalid parameter set",
+        "pt": "Conjunto de parâmetros inválido"
+      },
+      "description": {
+        "en": "Invalid parameter set",
+        "pt": "Conjunto de parâmetros inválido"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    },
+    {
+      "id": "FULL",
+      "name": {
+        "en": "Overflow/upper-zone indication",
+        "pt": "Indicação de transbordamento/zona superior"
+      },
+      "description": {
+        "en": "Overflow/upper-zone indication",
+        "pt": "Indicação de transbordamento/zona superior"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "lk3122manual",
+        "pages": [
+          30
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "Listed exact model; observe variant-specific conditions"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "supportedOperatingSystems",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}
