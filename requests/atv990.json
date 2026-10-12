@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "status": "verified-ready",
+  "status": "pending-review",
   "requestedQuery": "atv990",
   "requestedAt": "2026-09-11T17:14:58.576Z",
   "requestId": "2f99538f-c6e4-442d-bfc2-3b5501f16c8e",
@@ -98,12 +98,14 @@
     }
   ],
   "verification": {
-    "sourceVerified": true,
-    "exactModelOfficialCount": 5,
-    "manualOfficialCount": 1,
+    "sourceVerified": false,
     "parametersVerified": false,
     "faultsVerified": false,
-    "reason": "Exact model verified against multiple official manufacturer results."
+    "reason": "Stored evidence is non-official and includes other drive families; previous verification counts are not substantiated by retained evidence.",
+    "reportedExactModelOfficialCount": 5,
+    "reportedManualOfficialCount": 1,
+    "exactModelOfficialCount": 0,
+    "manualOfficialCount": 0
   },
-  "note": "V24 only publishes to the live manifest after it verifies the exact model plus at least 4 commissioning parameters and 3 fault codes from official manufacturer evidence."
+  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references."
 }

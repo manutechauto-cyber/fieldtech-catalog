@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "status": "verified-ready",
+  "status": "published-field-subset",
   "requestedQuery": "atv340",
   "requestedAt": "2026-09-11T16:46:36.940Z",
   "requestId": "0ca46caf-862b-483f-995e-e369ae26b698",
@@ -99,11 +99,9 @@
   ],
   "verification": {
     "sourceVerified": true,
-    "exactModelOfficialCount": 26,
-    "manualOfficialCount": 14,
-    "parametersVerified": false,
-    "faultsVerified": false,
-    "reason": "Exact model verified against multiple official manufacturer results."
+    "parametersVerified": true,
+    "faultsVerified": true,
+    "reason": "Published subset checked against NVE61643.11; see per-item source pages."
   },
-  "note": "Auto-Learn only publishes a source-verified shell pack automatically. Exact parameter/fault nomenclature is never invented and remains pending until independently verified."
+  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references."
 }

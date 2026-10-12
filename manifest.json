@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 25,
+  "catalogVersion": 26,
   "languages": [
     "en",
     "pt",
@@ -630,7 +630,7 @@
       "packId": "schneider_atv340",
       "manufacturer": "Schneider Electric",
       "family": "ATV340",
-      "version": 1,
+      "version": 2,
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/schneider/atv340.json"
     }
   ]

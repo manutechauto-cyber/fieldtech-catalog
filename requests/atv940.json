@@ -105,5 +105,5 @@
     "faultsVerified": false,
     "reason": "Manufacturer official domain could not be determined."
   },
-  "note": "V24 only publishes to the live manifest after it verifies the exact model plus at least 4 commissioning parameters and 3 fault codes from official manufacturer evidence."
+  "note": "Live publication requires nonempty parameters and faults. Verified content additionally requires exact-model official evidence and per-item manual references."
 }

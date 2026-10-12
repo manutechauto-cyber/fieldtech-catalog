@@ -35,34 +35,23 @@ jobs:
       - name: Validate manifest and packs
         shell: bash
         run: |
-          python3 - <<'PY'
-          import json, pathlib
-          m = json.loads(pathlib.Path('manifest.json').read_text())
-          assert m['catalogVersion'] >= 5
-          assert 'it' in m.get('languages', [])
-          assert len(m['packs']) >= 32
-          for item in m['packs']:
-              rel = item['url'].split('/main/', 1)[1]
-              p = pathlib.Path(rel)
-              assert p.exists(), rel
-              data = json.loads(p.read_text())
-              assert data['packId'] == item['packId']
-              assert data['version'] == item['version']
-              assert data.get('parameters'), rel + ' has no parameters'
-              assert data.get('faults'), rel + ' has no faults'
-          print(f"Validated {len(m['packs'])} drive packs")
-          PY
+          python3 scripts/validate_catalog.py
       - name: Commit generated catalog
         shell: bash
         run: |
           rm -f _staging_test.tmp
           git config user.name 'FieldTech Catalog Bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add manifest.json siemens rockwell danfoss weg sew abb schneider yaskawa lenze
+          git add manifest.json
+          python3 - <<'PY'
+          import json, subprocess
+          paths = [item["url"].split("/main/", 1)[1] for item in json.load(open("manifest.json"))["packs"]]
+          subprocess.run(["git", "add", "--", *paths], check=True)
+          PY
           git rm -f --ignore-unmatch _staging_test.tmp
           if git diff --cached --quiet; then
             echo 'Catalog already up to date.'
             exit 0
           fi
-          git commit -m 'Expand FieldTech catalog with Lenze drive packs'
+          git commit -m 'Populate validated FieldTech catalog bundle'
           git push
