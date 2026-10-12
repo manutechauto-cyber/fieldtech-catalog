@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_ta2115",
+  "manufacturer": "ifm",
+  "model": "TA2115",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/ta2115.json",
+  "family": "ifm TA",
+  "typeIds": [
+    "temperature"
+  ],
+  "identity": {
+    "orderCode": "TA2115",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "TA2115",
+        "pt": "TA2115"
+      },
+      "value": "TA2115",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "TA2115"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "measuring_range",
+      "name": {
+        "en": "Measuring range",
+        "pt": "Faixa de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -50...150",
+        "pt": "Ficha do modelo informa: -50...150"
+      },
+      "value": "-50...150",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: threaded connection G 1/4 external thread",
+        "pt": "Ficha do modelo informa: threaded connection G 1/4 external thread"
+      },
+      "value": "threaded connection G 1/4 external thread",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "installation_length_el",
+      "name": {
+        "en": "Installation length EL",
+        "pt": "Comprimento de inserção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 50",
+        "pt": "Ficha do modelo informa: 50"
+      },
+      "value": "50",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "measuring_element",
+      "name": {
+        "en": "Measuring element",
+        "pt": "Elemento de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x Pt 1000;  (to DIN EN 60751, class A)",
+        "pt": "Ficha do modelo informa: 1 x Pt 1000;  (to DIN EN 60751, class A)"
+      },
+      "value": "1 x Pt 1000;  (to DIN EN 60751, class A)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: liquids and gases",
+        "pt": "Ficha do modelo informa: liquids and gases"
+      },
+      "value": "liquids and gases",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...32 DC;  (cULus - Class 2 source required)",
+        "pt": "Ficha do modelo informa: 18...32 DC;  (cULus - Class 2 source required)"
+      },
+      "value": "18...32 DC;  (cULus - Class 2 source required)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "output_signal",
+      "name": {
+        "en": "Output signal",
+        "pt": "Sinal de saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: analog signal; IO-Link;  (configurable)",
+        "pt": "Ficha do modelo informa: analog signal; IO-Link;  (configurable)"
+      },
+      "value": "analog signal; IO-Link;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 37",
+        "pt": "Ficha do modelo informa: 37"
+      },
+      "value": "37",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 2.3",
+        "pt": "Ficha do modelo informa: 2.3"
+      },
+      "value": "2.3",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...80",
+        "pt": "Ficha do modelo informa: -25...80"
+      },
+      "value": "-25...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67; IP 68; IP 69K",
+        "pt": "Ficha do modelo informa: IP 67; IP 68; IP 69K"
+      },
+      "value": "IP 67; IP 68; IP 69K",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TA2115"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ta2115_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code TA2115"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a486-6b65-7e8b-a278-08e7f9bf53bc/Original/11577876_00_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

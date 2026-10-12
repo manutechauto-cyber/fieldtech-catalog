@@ -37,7 +37,31 @@
         "sensor_omron_e3z_lt61",
         "sensor_omron_e3z_lt81",
         "sensor_omron_e3z_lt66",
-        "sensor_omron_e3z_lt86"
+        "sensor_omron_e3z_lt86",
+        "sensor_banner_qs186e_qs18vn6r",
+        "sensor_banner_qs186eq_qs18vn6rq",
+        "sensor_banner_qs186eq5_qs18vn6rq5",
+        "sensor_banner_qs186eq8_qs18vn6rq8",
+        "sensor_banner_qs186e_qs18vp6r",
+        "sensor_banner_qs186eq_qs18vp6rq",
+        "sensor_banner_qs186eq5_qs18vp6rq5",
+        "sensor_banner_qs186eq8_qs18vp6rq8",
+        "sensor_sick_wse9l_3n2237",
+        "sensor_sick_wse9l_3n2437",
+        "sensor_sick_wse9l_3p1137",
+        "sensor_sick_wse9l_3p2237",
+        "sensor_sick_wse9l_3p2437",
+        "sensor_sick_wse4sl_3n1137v",
+        "sensor_sick_wse4sl_3p2237v",
+        "sensor_sick_wse4sl_3p2437v",
+        "sensor_banner_qs186le_q23sn6r",
+        "sensor_banner_qs186le_sm31rl",
+        "sensor_banner_qs186le_qs18vn6r",
+        "sensor_banner_qs186le_vs3an5r",
+        "sensor_banner_qs186le2_q23sn6r",
+        "sensor_banner_qs186le2_sm31rl",
+        "sensor_banner_qs186le2_qs18vn6r",
+        "sensor_banner_qs186le2_vs3an5r"
       ]
     },
     {
@@ -67,7 +91,27 @@
         "sensor_omron_e3z_lr61",
         "sensor_omron_e3z_lr81",
         "sensor_omron_e3z_lr66",
-        "sensor_omron_e3z_lr86"
+        "sensor_omron_e3z_lr86",
+        "sensor_banner_qs18vn6lp",
+        "sensor_banner_qs18vn6lpq8",
+        "sensor_banner_qs18vp6lp",
+        "sensor_banner_qs18vp6lpq8",
+        "sensor_banner_qs18vn6llp",
+        "sensor_banner_qs18vp6llp",
+        "sensor_banner_qs18vn6llpq8",
+        "sensor_banner_qs18vn6llpq5",
+        "sensor_banner_qs18vn6llpq7",
+        "sensor_banner_qs18vn6llpq",
+        "sensor_sick_wl9l_3n2232",
+        "sensor_sick_wl9l_3n2432",
+        "sensor_sick_wl9l_3p1132",
+        "sensor_sick_wl9l_3p2232",
+        "sensor_sick_wl9l_3p2432",
+        "sensor_sick_wl9l_3p3432",
+        "sensor_sick_wl4slg_3p1132v",
+        "sensor_sick_wl4slg_3p2232v",
+        "sensor_sick_wl4slg_3p2432v",
+        "sensor_sick_wl4slg_3p3432v"
       ]
     },
     {
@@ -97,7 +141,11 @@
         "sensor_omron_e3z_l66",
         "sensor_omron_e3z_l86",
         "sensor_omron_e3z_l68",
-        "sensor_omron_e3z_l88"
+        "sensor_omron_e3z_l88",
+        "sensor_banner_qs18vn6d",
+        "sensor_banner_qs18vn6dq8",
+        "sensor_banner_qs18vp6d",
+        "sensor_banner_qs18vp6dq8"
       ]
     },
     {
@@ -134,7 +182,13 @@
         "sensor_omron_e3z_ls83_2m",
         "sensor_omron_e3z_ls68",
         "sensor_omron_e3z_ls88",
-        "sensor_ifm_o5d100"
+        "sensor_ifm_o5d100",
+        "sensor_sick_wtb9l_3n2261",
+        "sensor_sick_wtb9l_3n2461",
+        "sensor_sick_wtb9l_3p1161",
+        "sensor_sick_wtb9l_3p2261",
+        "sensor_sick_wtb9l_3p2461",
+        "sensor_sick_wtb9l_3p3461"
       ]
     },
     {
@@ -152,7 +206,23 @@
         "sensor_omron_e3z_lt61",
         "sensor_omron_e3z_lt81",
         "sensor_omron_e3z_lt66",
-        "sensor_omron_e3z_lt86"
+        "sensor_omron_e3z_lt86",
+        "sensor_sick_wse9l_3n2237",
+        "sensor_sick_wse9l_3n2437",
+        "sensor_sick_wse9l_3p1137",
+        "sensor_sick_wse9l_3p2237",
+        "sensor_sick_wse9l_3p2437",
+        "sensor_sick_wse4sl_3n1137v",
+        "sensor_sick_wse4sl_3p2237v",
+        "sensor_sick_wse4sl_3p2437v",
+        "sensor_banner_qs186le_q23sn6r",
+        "sensor_banner_qs186le_sm31rl",
+        "sensor_banner_qs186le_qs18vn6r",
+        "sensor_banner_qs186le_vs3an5r",
+        "sensor_banner_qs186le2_q23sn6r",
+        "sensor_banner_qs186le2_sm31rl",
+        "sensor_banner_qs186le2_qs18vn6r",
+        "sensor_banner_qs186le2_vs3an5r"
       ]
     },
     {
@@ -170,7 +240,23 @@
         "sensor_omron_e3z_lr61",
         "sensor_omron_e3z_lr81",
         "sensor_omron_e3z_lr66",
-        "sensor_omron_e3z_lr86"
+        "sensor_omron_e3z_lr86",
+        "sensor_banner_qs18vn6llp",
+        "sensor_banner_qs18vp6llp",
+        "sensor_banner_qs18vn6llpq8",
+        "sensor_banner_qs18vn6llpq5",
+        "sensor_banner_qs18vn6llpq7",
+        "sensor_banner_qs18vn6llpq",
+        "sensor_sick_wl9l_3n2232",
+        "sensor_sick_wl9l_3n2432",
+        "sensor_sick_wl9l_3p1132",
+        "sensor_sick_wl9l_3p2232",
+        "sensor_sick_wl9l_3p2432",
+        "sensor_sick_wl9l_3p3432",
+        "sensor_sick_wl4slg_3p1132v",
+        "sensor_sick_wl4slg_3p2232v",
+        "sensor_sick_wl4slg_3p2432v",
+        "sensor_sick_wl4slg_3p3432v"
       ]
     },
     {
@@ -198,7 +284,13 @@
         "sensor_banner_q4xtklaf100_q8",
         "sensor_banner_q4xfklaf610_q8",
         "sensor_banner_q4xfklaf310_q8",
-        "sensor_banner_q4xfklaf110_q8"
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_sick_wtb9l_3n2261",
+        "sensor_sick_wtb9l_3n2461",
+        "sensor_sick_wtb9l_3p1161",
+        "sensor_sick_wtb9l_3p2261",
+        "sensor_sick_wtb9l_3p2461",
+        "sensor_sick_wtb9l_3p3461"
       ]
     },
     {
@@ -265,7 +357,11 @@
         "sensor_banner_q4xtklaf100_q8",
         "sensor_banner_q4xfklaf610_q8",
         "sensor_banner_q4xfklaf310_q8",
-        "sensor_banner_q4xfklaf110_q8"
+        "sensor_banner_q4xfklaf110_q8",
+        "sensor_sick_wl4slg_3p1132v",
+        "sensor_sick_wl4slg_3p2232v",
+        "sensor_sick_wl4slg_3p2432v",
+        "sensor_sick_wl4slg_3p3432v"
       ]
     },
     {
@@ -285,7 +381,21 @@
         "sensor_omron_e3x_hd6",
         "sensor_omron_e3x_hd8",
         "sensor_omron_e3x_hd14",
-        "sensor_omron_e3x_hd44"
+        "sensor_omron_e3x_hd44",
+        "sensor_baumer_fzam_18p1155",
+        "sensor_omron_e3nx_fa11_2m",
+        "sensor_omron_e3nx_fa41_2m",
+        "sensor_omron_e3nx_fa6",
+        "sensor_omron_e3nx_fa8",
+        "sensor_omron_e3nx_fa21_2m",
+        "sensor_omron_e3nx_fa51_2m",
+        "sensor_omron_e3nx_fa7",
+        "sensor_omron_e3nx_fa9",
+        "sensor_omron_e3nx_fa24",
+        "sensor_omron_e3nx_fa54",
+        "sensor_omron_e3nx_fa54tw",
+        "sensor_omron_e3nx_fa51_il3_2m",
+        "sensor_omron_e3nx_fa54_il3"
       ]
     },
     {
@@ -300,7 +410,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_sick_wfs3_40p415"
+        "sensor_sick_wfs3_40p415",
+        "sensor_ifm_opu200",
+        "sensor_ifm_opu203",
+        "sensor_ifm_opu202",
+        "sensor_ifm_opu204",
+        "sensor_ifm_opu201",
+        "sensor_ifm_opu205",
+        "sensor_ifm_opu702",
+        "sensor_ifm_opu208",
+        "sensor_ifm_opu209",
+        "sensor_ifm_opu207",
+        "sensor_ifm_opu700",
+        "sensor_banner_sl10vb6v",
+        "sensor_banner_sl10vb6vq",
+        "sensor_banner_sl10vb6vy",
+        "sensor_banner_sl10vb6vyq",
+        "sensor_banner_sle30b6v",
+        "sensor_banner_sle30b6vq",
+        "sensor_banner_sle30b6vy",
+        "sensor_banner_sle30b6vyq"
       ]
     },
     {
@@ -315,7 +444,28 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_sick_kts_wb9114115azzzz"
+        "sensor_sick_kts_wb9114115azzzz",
+        "sensor_ifm_o5k500",
+        "sensor_ifm_oc5220",
+        "sensor_banner_r58ecrgb1",
+        "sensor_banner_r58ecrgb1q8",
+        "sensor_banner_r58ecrgb1q",
+        "sensor_banner_r58ecrgb2",
+        "sensor_banner_r58ecrgb2q8",
+        "sensor_banner_r58ecrgb2q",
+        "sensor_omron_e3s_dcn21",
+        "sensor_omron_e3s_dcp21_il2",
+        "sensor_omron_e3s_dcp21_il3",
+        "sensor_datalogic_tl46_a_415",
+        "sensor_datalogic_tl46_a_425",
+        "sensor_datalogic_tl46_a_615",
+        "sensor_datalogic_tl46_a_625",
+        "sensor_datalogic_tl46_w_815",
+        "sensor_datalogic_tl46_w_815l",
+        "sensor_datalogic_tl46_wl_815",
+        "sensor_datalogic_tl46_wl_815l",
+        "sensor_datalogic_tl46_wlf_815",
+        "sensor_datalogic_tl46_wlf_815l"
       ]
     },
     {
@@ -330,7 +480,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_ifm_igt200"
+        "sensor_ifm_igt200",
+        "sensor_ifm_iep201",
+        "sensor_ifm_ifp201",
+        "sensor_ifm_igp200",
+        "sensor_ifm_ifp200",
+        "sensor_ifm_igp201",
+        "sensor_ifm_iip200",
+        "sensor_ifm_iip201",
+        "sensor_ifm_iep200",
+        "sensor_ifm_ifs340",
+        "sensor_ifm_ifs244",
+        "sensor_ifm_igs232",
+        "sensor_ifm_igs324",
+        "sensor_ifm_igs204",
+        "sensor_ifm_ifs204",
+        "sensor_ifm_igs206",
+        "sensor_ifm_iis204",
+        "sensor_ifm_iis206",
+        "sensor_turck_bi5_s18_az3x",
+        "sensor_pepperl_fuchs_nbb5_18gm50_e2_t_v1"
       ]
     },
     {
@@ -346,7 +515,25 @@
       "candidates": [],
       "publishedPackIds": [
         "sensor_ifm_ki5082",
-        "sensor_ifm_ki6000"
+        "sensor_ifm_ki6000",
+        "sensor_ifm_ki0205",
+        "sensor_ifm_ki0202",
+        "sensor_ifm_ki0203",
+        "sensor_ifm_ki3513",
+        "sensor_ifm_kf5001",
+        "sensor_ifm_ki0054",
+        "sensor_ifm_ki0206",
+        "sensor_ifm_ki0207",
+        "sensor_ifm_ki5207",
+        "sensor_ifm_ki5209",
+        "sensor_ifm_ki5002",
+        "sensor_ifm_ki5001",
+        "sensor_ifm_ki0016",
+        "sensor_ifm_ki5019",
+        "sensor_ifm_ki5208",
+        "sensor_ifm_ki8509",
+        "sensor_ifm_ki5083",
+        "sensor_ifm_ki0065"
       ]
     },
     {
@@ -369,7 +556,18 @@
         "sensor_banner_t30uxdbqpma",
         "sensor_banner_t30uxdc",
         "sensor_banner_t30uxdcq8",
-        "sensor_banner_t30uxdcqpma"
+        "sensor_banner_t30uxdcqpma",
+        "sensor_banner_t30uxua",
+        "sensor_banner_t30uxuaqpma",
+        "sensor_banner_t30uxia",
+        "sensor_banner_t30uxiaqpma",
+        "sensor_banner_t30uxia_w_30",
+        "sensor_banner_t30uxub",
+        "sensor_banner_t30uxib",
+        "sensor_banner_t30uxuc",
+        "sensor_banner_t30uxic",
+        "sensor_banner_t30uxicqpma",
+        "sensor_banner_t30uxic_w_30"
       ]
     },
     {
@@ -384,7 +582,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_sick_mzt8_28vps_kub"
+        "sensor_sick_mzt8_28vps_kub",
+        "sensor_ifm_mfh211",
+        "sensor_ifm_mfh213",
+        "sensor_ifm_mfh218",
+        "sensor_ifm_mfh219",
+        "sensor_ifm_mfh221",
+        "sensor_ifm_m9h206",
+        "sensor_ifm_m9h202",
+        "sensor_ifm_m9h204",
+        "sensor_ifm_mfh214",
+        "sensor_ifm_mfh205",
+        "sensor_ifm_mfh215",
+        "sensor_ifm_mk5351",
+        "sensor_ifm_mk5100",
+        "sensor_ifm_mk5245",
+        "sensor_ifm_mk5103",
+        "sensor_ifm_mk5140",
+        "sensor_ifm_mk5114",
+        "sensor_ifm_mk5110",
+        "sensor_ifm_mk5156"
       ]
     },
     {
@@ -416,7 +633,9 @@
         "sensor_ifm_pn7097",
         "sensor_ifm_pn7597",
         "sensor_ifm_pn7099",
-        "sensor_ifm_pn7599"
+        "sensor_ifm_pn7599",
+        "sensor_ifm_pn7012",
+        "sensor_ifm_pn7014"
       ]
     },
     {
@@ -431,7 +650,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_ifm_tn2511"
+        "sensor_ifm_tn2511",
+        "sensor_ifm_tn2333",
+        "sensor_ifm_tn2313",
+        "sensor_ifm_tn2343",
+        "sensor_ifm_tn7511",
+        "sensor_ifm_tn2303",
+        "sensor_ifm_tn2613",
+        "sensor_ifm_tn2603",
+        "sensor_ifm_tn2105",
+        "sensor_ifm_tn2115",
+        "sensor_ifm_tn2405",
+        "sensor_ifm_tn2445",
+        "sensor_ifm_tt1081",
+        "sensor_ifm_tw2000",
+        "sensor_ifm_tw2003",
+        "sensor_ifm_ta2105",
+        "sensor_ifm_ta2115",
+        "sensor_ifm_ta2502",
+        "sensor_ifm_ta1102",
+        "sensor_ifm_ta2405"
       ]
     },
     {
@@ -446,7 +684,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_ifm_lk3122"
+        "sensor_ifm_lk3122",
+        "sensor_ifm_lw2120",
+        "sensor_ifm_lw2720",
+        "sensor_ifm_o1d300",
+        "sensor_ifm_lk1022",
+        "sensor_ifm_lk7022",
+        "sensor_ifm_lk7023",
+        "sensor_ifm_lk8123",
+        "sensor_ifm_lr3000",
+        "sensor_ifm_lr3300",
+        "sensor_ifm_lr7000",
+        "sensor_ifm_lr8000",
+        "sensor_ifm_lr2750",
+        "sensor_ifm_lmt100",
+        "sensor_ifm_lmt102",
+        "sensor_ifm_lmt104",
+        "sensor_ifm_lmt105",
+        "sensor_ifm_lmt110",
+        "sensor_ifm_lmt121",
+        "sensor_ifm_lmt202"
       ]
     },
     {
@@ -461,7 +718,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_ifm_sd6500"
+        "sensor_ifm_sd6500",
+        "sensor_ifm_sa4110",
+        "sensor_ifm_sa6010",
+        "sensor_ifm_sa4310",
+        "sensor_ifm_sa5010",
+        "sensor_ifm_sa5000",
+        "sensor_ifm_sa6014",
+        "sensor_ifm_sa4114",
+        "sensor_ifm_sa4120",
+        "sensor_ifm_sa4100",
+        "sensor_ifm_sa5020",
+        "sensor_ifm_sa4314",
+        "sensor_ifm_sa4320",
+        "sensor_ifm_sm6000",
+        "sensor_ifm_sm6001",
+        "sensor_ifm_sm7000",
+        "sensor_ifm_sm8000",
+        "sensor_ifm_sm9000",
+        "sensor_ifm_sd6000",
+        "sensor_ifm_sd8500"
       ]
     },
     {
@@ -477,7 +753,25 @@
       "candidates": [],
       "publishedPackIds": [
         "sensor_sick_css_wbfa54115aa10z",
-        "sensor_sick_csx_wbf114125aa10z"
+        "sensor_sick_csx_wbf114125aa10z",
+        "sensor_ifm_o5c500",
+        "sensor_banner_qcm50_k3d25_q8_5",
+        "sensor_banner_qcm50_k1d40_q8_4",
+        "sensor_banner_qcm50_k3d40_q8_5",
+        "sensor_banner_qcm50_k5d40_q8_8",
+        "sensor_banner_qcm50_k1d60_q8_4",
+        "sensor_banner_qcm50_k3d60_q8_5",
+        "sensor_banner_qcm50_k5d60_q8_8",
+        "sensor_sick_csm_wp11122p",
+        "sensor_sick_csm_wn11122p",
+        "sensor_sick_csm_wp117a2p",
+        "sensor_pepperl_fuchs_df12_11_3k_145_151",
+        "sensor_sick_css_wbg4c4115aa10z",
+        "sensor_sick_css_wbg4c4118aa10z",
+        "sensor_sick_css_wbgad4118rzzzz",
+        "sensor_sick_css_wbg4c4118rzzzz",
+        "sensor_sick_css_wbgad4115aa10z",
+        "sensor_sick_css_wbgad4118aa10z"
       ]
     },
     {
@@ -493,7 +787,26 @@
       "candidates": [],
       "publishedPackIds": [
         "sensor_sick_clv620_0000",
-        "sensor_sick_v2d611r_mmsbe4"
+        "sensor_sick_v2d611r_mmsbe4",
+        "sensor_zebra_fs40_sr20d4_2c00w",
+        "sensor_zebra_fs40_sr20d4_3x00w",
+        "sensor_zebra_fs40_sr20d4_6c00w",
+        "sensor_zebra_fs40_sr20f4_2c00w",
+        "sensor_zebra_fs40_sr20f4_5c00w",
+        "sensor_zebra_fs40_sr20f4_6c00w",
+        "sensor_zebra_fs40_sr20z4_2c00w",
+        "sensor_zebra_fs40_wa20d4_2c00w",
+        "sensor_zebra_fs40_wa20d4_3x00w",
+        "sensor_zebra_fs40_wa20d4_6c00w",
+        "sensor_zebra_fs40_wa20f4_2c00w",
+        "sensor_zebra_fs40_wa20f4_5c00w",
+        "sensor_zebra_fs40_wa20f4_6c00w",
+        "sensor_zebra_fs40_wa20z4_2c00w",
+        "sensor_zebra_fs70_cm20d5_0c00w",
+        "sensor_zebra_fs70_cm20f5_0c00w",
+        "sensor_sick_v2d631r_miscb8",
+        "sensor_sick_v2d610r_mmsbe4",
+        "sensor_omron_f430_f000n12m_rra"
       ]
     },
     {
@@ -508,7 +821,26 @@
       "target": 20,
       "candidates": [],
       "publishedPackIds": [
-        "sensor_sick_v2d611r_mmsbe4"
+        "sensor_sick_v2d611r_mmsbe4",
+        "sensor_zebra_fs40_sr20d4_2c00w",
+        "sensor_zebra_fs40_sr20d4_3x00w",
+        "sensor_zebra_fs40_sr20d4_6c00w",
+        "sensor_zebra_fs40_sr20f4_2c00w",
+        "sensor_zebra_fs40_sr20f4_5c00w",
+        "sensor_zebra_fs40_sr20f4_6c00w",
+        "sensor_zebra_fs40_sr20z4_2c00w",
+        "sensor_zebra_fs40_wa20d4_2c00w",
+        "sensor_zebra_fs40_wa20d4_3x00w",
+        "sensor_zebra_fs40_wa20d4_6c00w",
+        "sensor_zebra_fs40_wa20f4_2c00w",
+        "sensor_zebra_fs40_wa20f4_5c00w",
+        "sensor_zebra_fs40_wa20f4_6c00w",
+        "sensor_zebra_fs40_wa20z4_2c00w",
+        "sensor_zebra_fs70_cm20d5_0c00w",
+        "sensor_zebra_fs70_cm20f5_0c00w",
+        "sensor_sick_v2d631r_miscb8",
+        "sensor_sick_v2d610r_mmsbe4",
+        "sensor_omron_f430_f000n12m_rra"
       ]
     }
   ],
@@ -1566,6 +1898,2174 @@
       "version": 1,
       "path": "industrial/sensors/packs/sick/wfs3_40p415.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wfs3_40p415.json"
+    },
+    {
+      "packId": "sensor_ifm_iep201",
+      "manufacturer": "ifm",
+      "model": "IEP201",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iep201.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iep201.json"
+    },
+    {
+      "packId": "sensor_ifm_ifp201",
+      "manufacturer": "ifm",
+      "model": "IFP201",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ifp201.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifp201.json"
+    },
+    {
+      "packId": "sensor_ifm_igp200",
+      "manufacturer": "ifm",
+      "model": "IGP200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igp200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igp200.json"
+    },
+    {
+      "packId": "sensor_ifm_ifp200",
+      "manufacturer": "ifm",
+      "model": "IFP200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ifp200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifp200.json"
+    },
+    {
+      "packId": "sensor_ifm_igp201",
+      "manufacturer": "ifm",
+      "model": "IGP201",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igp201.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igp201.json"
+    },
+    {
+      "packId": "sensor_ifm_iip200",
+      "manufacturer": "ifm",
+      "model": "IIP200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iip200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iip200.json"
+    },
+    {
+      "packId": "sensor_ifm_iip201",
+      "manufacturer": "ifm",
+      "model": "IIP201",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iip201.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iip201.json"
+    },
+    {
+      "packId": "sensor_ifm_iep200",
+      "manufacturer": "ifm",
+      "model": "IEP200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iep200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iep200.json"
+    },
+    {
+      "packId": "sensor_ifm_ifs340",
+      "manufacturer": "ifm",
+      "model": "IFS340",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ifs340.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs340.json"
+    },
+    {
+      "packId": "sensor_ifm_ifs244",
+      "manufacturer": "ifm",
+      "model": "IFS244",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ifs244.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs244.json"
+    },
+    {
+      "packId": "sensor_ifm_igs232",
+      "manufacturer": "ifm",
+      "model": "IGS232",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igs232.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs232.json"
+    },
+    {
+      "packId": "sensor_ifm_igs324",
+      "manufacturer": "ifm",
+      "model": "IGS324",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igs324.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs324.json"
+    },
+    {
+      "packId": "sensor_ifm_igs204",
+      "manufacturer": "ifm",
+      "model": "IGS204",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igs204.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs204.json"
+    },
+    {
+      "packId": "sensor_ifm_ifs204",
+      "manufacturer": "ifm",
+      "model": "IFS204",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ifs204.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs204.json"
+    },
+    {
+      "packId": "sensor_ifm_igs206",
+      "manufacturer": "ifm",
+      "model": "IGS206",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/igs206.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs206.json"
+    },
+    {
+      "packId": "sensor_ifm_iis204",
+      "manufacturer": "ifm",
+      "model": "IIS204",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iis204.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iis204.json"
+    },
+    {
+      "packId": "sensor_ifm_iis206",
+      "manufacturer": "ifm",
+      "model": "IIS206",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/iis206.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iis206.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2333",
+      "manufacturer": "ifm",
+      "model": "TN2333",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2333.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2333.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2313",
+      "manufacturer": "ifm",
+      "model": "TN2313",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2313.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2313.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2343",
+      "manufacturer": "ifm",
+      "model": "TN2343",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2343.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2343.json"
+    },
+    {
+      "packId": "sensor_ifm_tn7511",
+      "manufacturer": "ifm",
+      "model": "TN7511",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn7511.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn7511.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2303",
+      "manufacturer": "ifm",
+      "model": "TN2303",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2303.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2303.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2613",
+      "manufacturer": "ifm",
+      "model": "TN2613",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2613.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2613.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2603",
+      "manufacturer": "ifm",
+      "model": "TN2603",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2603.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2603.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2105",
+      "manufacturer": "ifm",
+      "model": "TN2105",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2105.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2105.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2115",
+      "manufacturer": "ifm",
+      "model": "TN2115",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2115.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2115.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2405",
+      "manufacturer": "ifm",
+      "model": "TN2405",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2405.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2405.json"
+    },
+    {
+      "packId": "sensor_ifm_tn2445",
+      "manufacturer": "ifm",
+      "model": "TN2445",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tn2445.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tn2445.json"
+    },
+    {
+      "packId": "sensor_ifm_tt1081",
+      "manufacturer": "ifm",
+      "model": "TT1081",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tt1081.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tt1081.json"
+    },
+    {
+      "packId": "sensor_ifm_tw2000",
+      "manufacturer": "ifm",
+      "model": "TW2000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tw2000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tw2000.json"
+    },
+    {
+      "packId": "sensor_ifm_tw2003",
+      "manufacturer": "ifm",
+      "model": "TW2003",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/tw2003.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/tw2003.json"
+    },
+    {
+      "packId": "sensor_ifm_ta2105",
+      "manufacturer": "ifm",
+      "model": "TA2105",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ta2105.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta2105.json"
+    },
+    {
+      "packId": "sensor_ifm_ta2115",
+      "manufacturer": "ifm",
+      "model": "TA2115",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ta2115.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta2115.json"
+    },
+    {
+      "packId": "sensor_ifm_ta2502",
+      "manufacturer": "ifm",
+      "model": "TA2502",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ta2502.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta2502.json"
+    },
+    {
+      "packId": "sensor_ifm_lw2120",
+      "manufacturer": "ifm",
+      "model": "LW2120",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lw2120.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lw2120.json"
+    },
+    {
+      "packId": "sensor_ifm_lw2720",
+      "manufacturer": "ifm",
+      "model": "LW2720",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lw2720.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lw2720.json"
+    },
+    {
+      "packId": "sensor_ifm_o1d300",
+      "manufacturer": "ifm",
+      "model": "O1D300",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/o1d300.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/o1d300.json"
+    },
+    {
+      "packId": "sensor_ifm_lk1022",
+      "manufacturer": "ifm",
+      "model": "LK1022",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk1022.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lk1022.json"
+    },
+    {
+      "packId": "sensor_ifm_lk7022",
+      "manufacturer": "ifm",
+      "model": "LK7022",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk7022.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lk7022.json"
+    },
+    {
+      "packId": "sensor_ifm_lk7023",
+      "manufacturer": "ifm",
+      "model": "LK7023",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk7023.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lk7023.json"
+    },
+    {
+      "packId": "sensor_ifm_lk8123",
+      "manufacturer": "ifm",
+      "model": "LK8123",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lk8123.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lk8123.json"
+    },
+    {
+      "packId": "sensor_ifm_lr3000",
+      "manufacturer": "ifm",
+      "model": "LR3000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lr3000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lr3000.json"
+    },
+    {
+      "packId": "sensor_ifm_lr3300",
+      "manufacturer": "ifm",
+      "model": "LR3300",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lr3300.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lr3300.json"
+    },
+    {
+      "packId": "sensor_ifm_lr7000",
+      "manufacturer": "ifm",
+      "model": "LR7000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lr7000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lr7000.json"
+    },
+    {
+      "packId": "sensor_ifm_lr8000",
+      "manufacturer": "ifm",
+      "model": "LR8000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lr8000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lr8000.json"
+    },
+    {
+      "packId": "sensor_ifm_lr2750",
+      "manufacturer": "ifm",
+      "model": "LR2750",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lr2750.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lr2750.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt100",
+      "manufacturer": "ifm",
+      "model": "LMT100",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt100.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt100.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt102",
+      "manufacturer": "ifm",
+      "model": "LMT102",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt102.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt102.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt104",
+      "manufacturer": "ifm",
+      "model": "LMT104",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt104.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt104.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt105",
+      "manufacturer": "ifm",
+      "model": "LMT105",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt105.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt105.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt110",
+      "manufacturer": "ifm",
+      "model": "LMT110",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt110.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt110.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt121",
+      "manufacturer": "ifm",
+      "model": "LMT121",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt121.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt121.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4110",
+      "manufacturer": "ifm",
+      "model": "SA4110",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4110.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4110.json"
+    },
+    {
+      "packId": "sensor_ifm_sa6010",
+      "manufacturer": "ifm",
+      "model": "SA6010",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa6010.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa6010.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4310",
+      "manufacturer": "ifm",
+      "model": "SA4310",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4310.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4310.json"
+    },
+    {
+      "packId": "sensor_ifm_sa5010",
+      "manufacturer": "ifm",
+      "model": "SA5010",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa5010.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa5010.json"
+    },
+    {
+      "packId": "sensor_ifm_sa5000",
+      "manufacturer": "ifm",
+      "model": "SA5000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa5000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa5000.json"
+    },
+    {
+      "packId": "sensor_ifm_sa6014",
+      "manufacturer": "ifm",
+      "model": "SA6014",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa6014.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa6014.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4114",
+      "manufacturer": "ifm",
+      "model": "SA4114",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4114.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4114.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4120",
+      "manufacturer": "ifm",
+      "model": "SA4120",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4120.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4120.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4100",
+      "manufacturer": "ifm",
+      "model": "SA4100",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4100.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4100.json"
+    },
+    {
+      "packId": "sensor_ifm_sa5020",
+      "manufacturer": "ifm",
+      "model": "SA5020",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa5020.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa5020.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4314",
+      "manufacturer": "ifm",
+      "model": "SA4314",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4314.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4314.json"
+    },
+    {
+      "packId": "sensor_ifm_sa4320",
+      "manufacturer": "ifm",
+      "model": "SA4320",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sa4320.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sa4320.json"
+    },
+    {
+      "packId": "sensor_ifm_sm6000",
+      "manufacturer": "ifm",
+      "model": "SM6000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sm6000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sm6000.json"
+    },
+    {
+      "packId": "sensor_ifm_sm6001",
+      "manufacturer": "ifm",
+      "model": "SM6001",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sm6001.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sm6001.json"
+    },
+    {
+      "packId": "sensor_ifm_sm7000",
+      "manufacturer": "ifm",
+      "model": "SM7000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sm7000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sm7000.json"
+    },
+    {
+      "packId": "sensor_ifm_sm8000",
+      "manufacturer": "ifm",
+      "model": "SM8000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sm8000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sm8000.json"
+    },
+    {
+      "packId": "sensor_ifm_sm9000",
+      "manufacturer": "ifm",
+      "model": "SM9000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sm9000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sm9000.json"
+    },
+    {
+      "packId": "sensor_ifm_sd6000",
+      "manufacturer": "ifm",
+      "model": "SD6000",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sd6000.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sd6000.json"
+    },
+    {
+      "packId": "sensor_ifm_sd8500",
+      "manufacturer": "ifm",
+      "model": "SD8500",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/sd8500.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/sd8500.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0205",
+      "manufacturer": "ifm",
+      "model": "KI0205",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0205.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0205.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0202",
+      "manufacturer": "ifm",
+      "model": "KI0202",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0202.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0202.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0203",
+      "manufacturer": "ifm",
+      "model": "KI0203",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0203.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0203.json"
+    },
+    {
+      "packId": "sensor_ifm_ki3513",
+      "manufacturer": "ifm",
+      "model": "KI3513",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki3513.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki3513.json"
+    },
+    {
+      "packId": "sensor_ifm_kf5001",
+      "manufacturer": "ifm",
+      "model": "KF5001",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/kf5001.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/kf5001.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0054",
+      "manufacturer": "ifm",
+      "model": "KI0054",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0054.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0054.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0206",
+      "manufacturer": "ifm",
+      "model": "KI0206",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0206.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0206.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0207",
+      "manufacturer": "ifm",
+      "model": "KI0207",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0207.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0207.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5207",
+      "manufacturer": "ifm",
+      "model": "KI5207",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5207.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5207.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5209",
+      "manufacturer": "ifm",
+      "model": "KI5209",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5209.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5209.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5002",
+      "manufacturer": "ifm",
+      "model": "KI5002",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5002.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5002.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5001",
+      "manufacturer": "ifm",
+      "model": "KI5001",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5001.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5001.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0016",
+      "manufacturer": "ifm",
+      "model": "KI0016",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0016.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0016.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5019",
+      "manufacturer": "ifm",
+      "model": "KI5019",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5019.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5019.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5208",
+      "manufacturer": "ifm",
+      "model": "KI5208",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5208.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5208.json"
+    },
+    {
+      "packId": "sensor_ifm_ki8509",
+      "manufacturer": "ifm",
+      "model": "KI8509",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki8509.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki8509.json"
+    },
+    {
+      "packId": "sensor_ifm_ki5083",
+      "manufacturer": "ifm",
+      "model": "KI5083",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki5083.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki5083.json"
+    },
+    {
+      "packId": "sensor_ifm_ki0065",
+      "manufacturer": "ifm",
+      "model": "KI0065",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ki0065.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki0065.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh211",
+      "manufacturer": "ifm",
+      "model": "MFH211",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh211.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh211.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh213",
+      "manufacturer": "ifm",
+      "model": "MFH213",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh213.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh213.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh218",
+      "manufacturer": "ifm",
+      "model": "MFH218",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh218.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh218.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh219",
+      "manufacturer": "ifm",
+      "model": "MFH219",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh219.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh219.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh221",
+      "manufacturer": "ifm",
+      "model": "MFH221",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh221.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh221.json"
+    },
+    {
+      "packId": "sensor_ifm_m9h206",
+      "manufacturer": "ifm",
+      "model": "M9H206",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/m9h206.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/m9h206.json"
+    },
+    {
+      "packId": "sensor_ifm_m9h202",
+      "manufacturer": "ifm",
+      "model": "M9H202",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/m9h202.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/m9h202.json"
+    },
+    {
+      "packId": "sensor_ifm_m9h204",
+      "manufacturer": "ifm",
+      "model": "M9H204",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/m9h204.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/m9h204.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh214",
+      "manufacturer": "ifm",
+      "model": "MFH214",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh214.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh214.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh205",
+      "manufacturer": "ifm",
+      "model": "MFH205",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh205.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh205.json"
+    },
+    {
+      "packId": "sensor_ifm_mfh215",
+      "manufacturer": "ifm",
+      "model": "MFH215",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mfh215.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mfh215.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5351",
+      "manufacturer": "ifm",
+      "model": "MK5351",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5351.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5351.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5100",
+      "manufacturer": "ifm",
+      "model": "MK5100",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5100.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5100.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5245",
+      "manufacturer": "ifm",
+      "model": "MK5245",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5245.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5245.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5103",
+      "manufacturer": "ifm",
+      "model": "MK5103",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5103.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5103.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5140",
+      "manufacturer": "ifm",
+      "model": "MK5140",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5140.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5140.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5114",
+      "manufacturer": "ifm",
+      "model": "MK5114",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5114.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5114.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5110",
+      "manufacturer": "ifm",
+      "model": "MK5110",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5110.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5110.json"
+    },
+    {
+      "packId": "sensor_ifm_mk5156",
+      "manufacturer": "ifm",
+      "model": "MK5156",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/mk5156.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5156.json"
+    },
+    {
+      "packId": "sensor_ifm_opu200",
+      "manufacturer": "ifm",
+      "model": "OPU200",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu200.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu200.json"
+    },
+    {
+      "packId": "sensor_ifm_opu203",
+      "manufacturer": "ifm",
+      "model": "OPU203",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu203.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu203.json"
+    },
+    {
+      "packId": "sensor_ifm_opu202",
+      "manufacturer": "ifm",
+      "model": "OPU202",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu202.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu202.json"
+    },
+    {
+      "packId": "sensor_ifm_opu204",
+      "manufacturer": "ifm",
+      "model": "OPU204",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu204.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu204.json"
+    },
+    {
+      "packId": "sensor_ifm_opu201",
+      "manufacturer": "ifm",
+      "model": "OPU201",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu201.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu201.json"
+    },
+    {
+      "packId": "sensor_ifm_opu205",
+      "manufacturer": "ifm",
+      "model": "OPU205",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu205.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu205.json"
+    },
+    {
+      "packId": "sensor_ifm_opu702",
+      "manufacturer": "ifm",
+      "model": "OPU702",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu702.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu702.json"
+    },
+    {
+      "packId": "sensor_ifm_opu208",
+      "manufacturer": "ifm",
+      "model": "OPU208",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu208.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu208.json"
+    },
+    {
+      "packId": "sensor_ifm_opu209",
+      "manufacturer": "ifm",
+      "model": "OPU209",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu209.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu209.json"
+    },
+    {
+      "packId": "sensor_ifm_opu207",
+      "manufacturer": "ifm",
+      "model": "OPU207",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu207.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu207.json"
+    },
+    {
+      "packId": "sensor_ifm_opu700",
+      "manufacturer": "ifm",
+      "model": "OPU700",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/opu700.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/opu700.json"
+    },
+    {
+      "packId": "sensor_ifm_o5c500",
+      "manufacturer": "ifm",
+      "model": "O5C500",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/o5c500.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/o5c500.json"
+    },
+    {
+      "packId": "sensor_ifm_o5k500",
+      "manufacturer": "ifm",
+      "model": "O5K500",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/o5k500.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/o5k500.json"
+    },
+    {
+      "packId": "sensor_ifm_oc5220",
+      "manufacturer": "ifm",
+      "model": "OC5220",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/oc5220.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/oc5220.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k3d25_q8_5",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K3D25-Q8-5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k3d25_q8_5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k3d25_q8_5.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k1d40_q8_4",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K1D40-Q8-4",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k1d40_q8_4.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k1d40_q8_4.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k3d40_q8_5",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K3D40-Q8-5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k3d40_q8_5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k3d40_q8_5.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k5d40_q8_8",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K5D40-Q8-8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k5d40_q8_8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k5d40_q8_8.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k1d60_q8_4",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K1D60-Q8-4",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k1d60_q8_4.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k1d60_q8_4.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k3d60_q8_5",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K3D60-Q8-5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k3d60_q8_5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k3d60_q8_5.json"
+    },
+    {
+      "packId": "sensor_banner_qcm50_k5d60_q8_8",
+      "manufacturer": "Banner Engineering",
+      "model": "QCM50-K5D60-Q8-8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qcm50_k5d60_q8_8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qcm50_k5d60_q8_8.json"
+    },
+    {
+      "packId": "sensor_banner_sl10vb6v",
+      "manufacturer": "Banner Engineering",
+      "model": "SL10VB6V",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sl10vb6v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sl10vb6v.json"
+    },
+    {
+      "packId": "sensor_banner_sl10vb6vq",
+      "manufacturer": "Banner Engineering",
+      "model": "SL10VB6VQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sl10vb6vq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sl10vb6vq.json"
+    },
+    {
+      "packId": "sensor_banner_sl10vb6vy",
+      "manufacturer": "Banner Engineering",
+      "model": "SL10VB6VY",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sl10vb6vy.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sl10vb6vy.json"
+    },
+    {
+      "packId": "sensor_banner_sl10vb6vyq",
+      "manufacturer": "Banner Engineering",
+      "model": "SL10VB6VYQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sl10vb6vyq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sl10vb6vyq.json"
+    },
+    {
+      "packId": "sensor_banner_sle30b6v",
+      "manufacturer": "Banner Engineering",
+      "model": "SLE30B6V",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sle30b6v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sle30b6v.json"
+    },
+    {
+      "packId": "sensor_banner_sle30b6vq",
+      "manufacturer": "Banner Engineering",
+      "model": "SLE30B6VQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sle30b6vq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sle30b6vq.json"
+    },
+    {
+      "packId": "sensor_banner_sle30b6vy",
+      "manufacturer": "Banner Engineering",
+      "model": "SLE30B6VY",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sle30b6vy.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sle30b6vy.json"
+    },
+    {
+      "packId": "sensor_banner_sle30b6vyq",
+      "manufacturer": "Banner Engineering",
+      "model": "SLE30B6VYQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/sle30b6vyq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/sle30b6vyq.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb1",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB1",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb1.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb1.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb1q8",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB1Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb1q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb1q8.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb1q",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB1Q",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb1q.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb1q.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb2",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB2",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb2.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb2.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb2q8",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB2Q8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb2q8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb2q8.json"
+    },
+    {
+      "packId": "sensor_banner_r58ecrgb2q",
+      "manufacturer": "Banner Engineering",
+      "model": "R58ECRGB2Q",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/r58ecrgb2q.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/r58ecrgb2q.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxua",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXUA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxua.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxua.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxuaqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXUAQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxuaqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxuaqpma.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxia",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxia.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxia.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxiaqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIAQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxiaqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxiaqpma.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxia_w_30",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIA W/30",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxia_w_30.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxia_w_30.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxub",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXUB",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxub.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxub.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxib",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIB",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxib.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxib.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxuc",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXUC",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxuc.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxuc.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxic",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIC",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxic.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxic.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxicqpma",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXICQPMA",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxicqpma.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxicqpma.json"
+    },
+    {
+      "packId": "sensor_banner_t30uxic_w_30",
+      "manufacturer": "Banner Engineering",
+      "model": "T30UXIC W/30",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/t30uxic_w_30.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/t30uxic_w_30.json"
+    },
+    {
+      "packId": "sensor_sick_csm_wp11122p",
+      "manufacturer": "SICK",
+      "model": "CSM-WP11122P",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/csm_wp11122p.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/csm_wp11122p.json"
+    },
+    {
+      "packId": "sensor_sick_csm_wn11122p",
+      "manufacturer": "SICK",
+      "model": "CSM-WN11122P",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/csm_wn11122p.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/csm_wn11122p.json"
+    },
+    {
+      "packId": "sensor_sick_csm_wp117a2p",
+      "manufacturer": "SICK",
+      "model": "CSM-WP117A2P",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/csm_wp117a2p.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/csm_wp117a2p.json"
+    },
+    {
+      "packId": "sensor_turck_bi5_s18_az3x",
+      "manufacturer": "Turck",
+      "model": "BI5-S18-AZ3X",
+      "version": 1,
+      "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/turck/bi5_s18_az3x.json"
+    },
+    {
+      "packId": "sensor_pepperl_fuchs_nbb5_18gm50_e2_t_v1",
+      "manufacturer": "Pepperl+Fuchs",
+      "model": "NBB5-18GM50-E2-T-V1",
+      "version": 1,
+      "path": "industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json"
+    },
+    {
+      "packId": "sensor_pepperl_fuchs_df12_11_3k_145_151",
+      "manufacturer": "Pepperl+Fuchs",
+      "model": "DF12-11-3K/145/151",
+      "version": 1,
+      "path": "industrial/sensors/packs/pepperl_fuchs/df12_11_3k_145_151.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/pepperl_fuchs/df12_11_3k_145_151.json"
+    },
+    {
+      "packId": "sensor_baumer_fzam_18p1155",
+      "manufacturer": "Baumer",
+      "model": "FZAM 18P1155",
+      "version": 1,
+      "path": "industrial/sensors/packs/baumer/fzam_18p1155.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/baumer/fzam_18p1155.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7012",
+      "manufacturer": "ifm",
+      "model": "PN7012",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7012.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7012.json"
+    },
+    {
+      "packId": "sensor_ifm_pn7014",
+      "manufacturer": "ifm",
+      "model": "PN7014",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/pn7014.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/pn7014.json"
+    },
+    {
+      "packId": "sensor_ifm_ta1102",
+      "manufacturer": "ifm",
+      "model": "TA1102",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ta1102.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta1102.json"
+    },
+    {
+      "packId": "sensor_ifm_lmt202",
+      "manufacturer": "ifm",
+      "model": "LMT202",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/lmt202.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt202.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa11_2m",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA11 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa11_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa11_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa41_2m",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA41 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa41_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa41_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa6",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA6",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa6.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa6.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa8",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA8",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa8.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa21_2m",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA21 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa21_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa21_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa51_2m",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA51 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa51_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa51_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa7",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA7",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa7.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa7.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa9",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA9",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa9.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa9.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa24",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA24",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa24.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa24.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA54",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa54.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54tw",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA54TW",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa54tw.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54tw.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa51_il3_2m",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA51-IL3 2M",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json"
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54_il3",
+      "manufacturer": "Omron",
+      "model": "E3NX-FA54-IL3",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3nx_fa54_il3.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54_il3.json"
+    },
+    {
+      "packId": "sensor_ifm_ta2405",
+      "manufacturer": "ifm",
+      "model": "TA2405",
+      "version": 1,
+      "path": "industrial/sensors/packs/ifm/ta2405.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta2405.json"
+    },
+    {
+      "packId": "sensor_banner_qs186e_qs18vn6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186E + QS18VN6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186e_qs18vn6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186e_qs18vn6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq_qs18vn6rq",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ + QS18VN6RQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq_qs18vn6rq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq_qs18vn6rq.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq5_qs18vn6rq5",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ5 + QS18VN6RQ5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq5_qs18vn6rq5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq5_qs18vn6rq5.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq8_qs18vn6rq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ8 + QS18VN6RQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq8_qs18vn6rq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq8_qs18vn6rq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs186e_qs18vp6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186E + QS18VP6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186e_qs18vp6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186e_qs18vp6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq_qs18vp6rq",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ + QS18VP6RQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq_qs18vp6rq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq_qs18vp6rq.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq5_qs18vp6rq5",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ5 + QS18VP6RQ5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq5_qs18vp6rq5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq5_qs18vp6rq5.json"
+    },
+    {
+      "packId": "sensor_banner_qs186eq8_qs18vp6rq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186EQ8 + QS18VP6RQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186eq8_qs18vp6rq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186eq8_qs18vp6rq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6lp",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LP",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6lp.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6lp.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6lpq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LPQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6lpq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6lpq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vp6lp",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VP6LP",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vp6lp.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vp6lp.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vp6lpq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VP6LPQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vp6lpq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vp6lpq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6d",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6D",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6d.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6d.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6dq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6DQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6dq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6dq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vp6d",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VP6D",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vp6d.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vp6d.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vp6dq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VP6DQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vp6dq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vp6dq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6llp",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LLP",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6llp.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6llp.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vp6llp",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VP6LLP",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vp6llp.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vp6llp.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6llpq8",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LLPQ8",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6llpq8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6llpq8.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6llpq5",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LLPQ5",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6llpq5.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6llpq5.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6llpq7",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LLPQ7",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6llpq7.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6llpq7.json"
+    },
+    {
+      "packId": "sensor_banner_qs18vn6llpq",
+      "manufacturer": "Banner Engineering",
+      "model": "QS18VN6LLPQ",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs18vn6llpq.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs18vn6llpq.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3n2232",
+      "manufacturer": "SICK",
+      "model": "WL9L-3N2232",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3n2232.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3n2232.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3n2432",
+      "manufacturer": "SICK",
+      "model": "WL9L-3N2432",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3n2432.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3n2432.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3p1132",
+      "manufacturer": "SICK",
+      "model": "WL9L-3P1132",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3p1132.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p1132.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3p2232",
+      "manufacturer": "SICK",
+      "model": "WL9L-3P2232",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3p2232.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p2232.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3p2432",
+      "manufacturer": "SICK",
+      "model": "WL9L-3P2432",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3p2432.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p2432.json"
+    },
+    {
+      "packId": "sensor_sick_wl9l_3p3432",
+      "manufacturer": "SICK",
+      "model": "WL9L-3P3432",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl9l_3p3432.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p3432.json"
+    },
+    {
+      "packId": "sensor_sick_wse9l_3n2237",
+      "manufacturer": "SICK",
+      "model": "WSE9L-3N2237",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3n2237.json"
+    },
+    {
+      "packId": "sensor_sick_wse9l_3n2437",
+      "manufacturer": "SICK",
+      "model": "WSE9L-3N2437",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse9l_3n2437.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3n2437.json"
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p1137",
+      "manufacturer": "SICK",
+      "model": "WSE9L-3P1137",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse9l_3p1137.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p1137.json"
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p2237",
+      "manufacturer": "SICK",
+      "model": "WSE9L-3P2237",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse9l_3p2237.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p2237.json"
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p2437",
+      "manufacturer": "SICK",
+      "model": "WSE9L-3P2437",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse9l_3p2437.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p2437.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3n2261",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3N2261",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3n2261.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3n2261.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3n2461",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3N2461",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3n2461.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3n2461.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3p1161",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3P1161",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3p1161.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p1161.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3p2261",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3P2261",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3p2261.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p2261.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3p2461",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3P2461",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3p2461.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p2461.json"
+    },
+    {
+      "packId": "sensor_sick_wtb9l_3p3461",
+      "manufacturer": "SICK",
+      "model": "WTB9L-3P3461",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wtb9l_3p3461.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p3461.json"
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3n1137v",
+      "manufacturer": "SICK",
+      "model": "WSE4SL-3N1137V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse4sl_3n1137v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3n1137v.json"
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3p2237v",
+      "manufacturer": "SICK",
+      "model": "WSE4SL-3P2237V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse4sl_3p2237v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3p2237v.json"
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3p2437v",
+      "manufacturer": "SICK",
+      "model": "WSE4SL-3P2437V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wse4sl_3p2437v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3p2437v.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le_q23sn6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE + Q23SN6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le_q23sn6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le_q23sn6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le_sm31rl",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE + SM31RL",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le_sm31rl.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le_sm31rl.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le_qs18vn6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE + QS18VN6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le_qs18vn6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le_qs18vn6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le_vs3an5r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE + VS3AN5R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le_vs3an5r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le_vs3an5r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le2_q23sn6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE2 + Q23SN6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le2_q23sn6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le2_q23sn6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le2_sm31rl",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE2 + SM31RL",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le2_sm31rl.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le2_sm31rl.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le2_qs18vn6r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE2 + QS18VN6R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le2_qs18vn6r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le2_qs18vn6r.json"
+    },
+    {
+      "packId": "sensor_banner_qs186le2_vs3an5r",
+      "manufacturer": "Banner Engineering",
+      "model": "QS186LE2 + VS3AN5R",
+      "version": 1,
+      "path": "industrial/sensors/packs/banner/qs186le2_vs3an5r.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/banner/qs186le2_vs3an5r.json"
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p1132v",
+      "manufacturer": "SICK",
+      "model": "WL4SLG-3P1132V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl4slg_3p1132v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p1132v.json"
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p2232v",
+      "manufacturer": "SICK",
+      "model": "WL4SLG-3P2232V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl4slg_3p2232v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p2232v.json"
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p2432v",
+      "manufacturer": "SICK",
+      "model": "WL4SLG-3P2432V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p2432v.json"
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p3432v",
+      "manufacturer": "SICK",
+      "model": "WL4SLG-3P3432V",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/wl4slg_3p3432v.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p3432v.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbg4c4115aa10z",
+      "manufacturer": "SICK",
+      "model": "CSS-WBG4C4115AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbg4c4115aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbg4c4115aa10z.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbg4c4118aa10z",
+      "manufacturer": "SICK",
+      "model": "CSS-WBG4C4118AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbg4c4118aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbg4c4118aa10z.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbgad4118rzzzz",
+      "manufacturer": "SICK",
+      "model": "CSS-WBGAD4118RZZZZ",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbgad4118rzzzz.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbgad4118rzzzz.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbg4c4118rzzzz",
+      "manufacturer": "SICK",
+      "model": "CSS-WBG4C4118RZZZZ",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbg4c4118rzzzz.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbg4c4118rzzzz.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbgad4115aa10z",
+      "manufacturer": "SICK",
+      "model": "CSS-WBGAD4115AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbgad4115aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbgad4115aa10z.json"
+    },
+    {
+      "packId": "sensor_sick_css_wbgad4118aa10z",
+      "manufacturer": "SICK",
+      "model": "CSS-WBGAD4118AA10Z",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/css_wbgad4118aa10z.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/css_wbgad4118aa10z.json"
+    },
+    {
+      "packId": "sensor_omron_e3s_dcn21",
+      "manufacturer": "Omron",
+      "model": "E3S-DCN21",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3s_dcn21.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3s_dcn21.json"
+    },
+    {
+      "packId": "sensor_omron_e3s_dcp21_il2",
+      "manufacturer": "Omron",
+      "model": "E3S-DCP21-IL2",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3s_dcp21_il2.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3s_dcp21_il2.json"
+    },
+    {
+      "packId": "sensor_omron_e3s_dcp21_il3",
+      "manufacturer": "Omron",
+      "model": "E3S-DCP21-IL3",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/e3s_dcp21_il3.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3s_dcp21_il3.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_415",
+      "manufacturer": "Datalogic",
+      "model": "TL46-A-415",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_a_415.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_415.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_425",
+      "manufacturer": "Datalogic",
+      "model": "TL46-A-425",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_a_425.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_425.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_615",
+      "manufacturer": "Datalogic",
+      "model": "TL46-A-615",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_a_615.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_615.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_625",
+      "manufacturer": "Datalogic",
+      "model": "TL46-A-625",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_a_625.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_625.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_w_815",
+      "manufacturer": "Datalogic",
+      "model": "TL46-W-815",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_w_815.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_w_815.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_w_815l",
+      "manufacturer": "Datalogic",
+      "model": "TL46-W-815L",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_w_815l.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_w_815l.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wl_815",
+      "manufacturer": "Datalogic",
+      "model": "TL46-WL-815",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_wl_815.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wl_815.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wl_815l",
+      "manufacturer": "Datalogic",
+      "model": "TL46-WL-815L",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_wl_815l.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wl_815l.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wlf_815",
+      "manufacturer": "Datalogic",
+      "model": "TL46-WLF-815",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wlf_815.json"
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wlf_815l",
+      "manufacturer": "Datalogic",
+      "model": "TL46-WLF-815L",
+      "version": 1,
+      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815l.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wlf_815l.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20d4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20D4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20d4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20d4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20d4_3x00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20D4-3X00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20d4_3x00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20d4_3x00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20d4_6c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20D4-6C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20d4_6c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20d4_6c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20f4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20F4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20f4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20f4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20f4_5c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20F4-5C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20f4_5c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20f4_5c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20f4_6c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20F4-6C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20f4_6c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20f4_6c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_sr20z4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-SR20Z4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_sr20z4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_sr20z4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20d4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20D4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20d4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20d4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20d4_3x00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20D4-3X00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20d4_3x00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20d4_3x00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20d4_6c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20D4-6C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20d4_6c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20d4_6c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20f4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20F4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20f4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20f4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20f4_5c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20F4-5C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20f4_5c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20f4_5c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20f4_6c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20F4-6C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20f4_6c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20f4_6c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs40_wa20z4_2c00w",
+      "manufacturer": "Zebra",
+      "model": "FS40-WA20Z4-2C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs40_wa20z4_2c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs40_wa20z4_2c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs70_cm20d5_0c00w",
+      "manufacturer": "Zebra",
+      "model": "FS70-CM20D5-0C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs70_cm20d5_0c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs70_cm20d5_0c00w.json"
+    },
+    {
+      "packId": "sensor_zebra_fs70_cm20f5_0c00w",
+      "manufacturer": "Zebra",
+      "model": "FS70-CM20F5-0C00W",
+      "version": 1,
+      "path": "industrial/sensors/packs/zebra/fs70_cm20f5_0c00w.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/zebra/fs70_cm20f5_0c00w.json"
+    },
+    {
+      "packId": "sensor_sick_v2d631r_miscb8",
+      "manufacturer": "SICK",
+      "model": "V2D631R-MISCB8",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/v2d631r_miscb8.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/v2d631r_miscb8.json"
+    },
+    {
+      "packId": "sensor_sick_v2d610r_mmsbe4",
+      "manufacturer": "SICK",
+      "model": "V2D610R-MMSBE4",
+      "version": 1,
+      "path": "industrial/sensors/packs/sick/v2d610r_mmsbe4.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/v2d610r_mmsbe4.json"
+    },
+    {
+      "packId": "sensor_omron_f430_f000n12m_rra",
+      "manufacturer": "Omron",
+      "model": "F430-F000N12M-RRA",
+      "version": 1,
+      "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
+      "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/f430_f000n12m_rra.json"
     }
   ],
   "configurationResearchContract": {
@@ -1618,7 +4118,7 @@
     ],
     "publicationEnabled": true
   },
-  "sensorCatalogVersion": 1,
+  "sensorCatalogVersion": 2,
   "sourceRegistryUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/sources.json",
   "releaseUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/release.json"
 }

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3nx_fa54_il3",
+  "manufacturer": "Omron",
+  "model": "E3NX-FA54-IL3",
+  "family": "E3NX-FA",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3nx_fa54_il3.json",
+  "typeIds": [
+    "fiber-optic"
+  ],
+  "identity": {
+    "orderCode": "E3NX-FA54-IL3",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3NX-FA54-IL3",
+        "pt": "E3NX-FA54-IL3"
+      },
+      "value": "E3NX-FA54-IL3",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output",
+      "name": {
+        "en": "Output/interface type",
+        "pt": "Tipo de saída/interface"
+      },
+      "description": {
+        "en": "IO-Link",
+        "pt": "IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output/interface type",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "M8 connector",
+        "pt": "M8 connector"
+      },
+      "value": "M8 connector",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "Red LED, 625 nm",
+        "pt": "Red LED, 625 nm"
+      },
+      "value": "Red LED, 625 nm",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light source",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "smart_tuning",
+      "name": {
+        "en": "Smart Tuning",
+        "pt": "Smart Tuning"
+      },
+      "description": {
+        "en": "Adjusts incident light level and threshold from target/background samples.",
+        "pt": "Ajusta nível de luz e limiar usando amostras de alvo/fundo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Smart Tuning",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response_mode",
+      "name": {
+        "en": "Response modes",
+        "pt": "Modos de resposta"
+      },
+      "description": {
+        "en": "Response mode changes speed, light intensity and interference behavior; use the variant table.",
+        "pt": "Modo de resposta altera velocidade, intensidade e interferência; consulte a tabela da variante."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response modes",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link parameter setup",
+        "pt": "Parametrização IO-Link"
+      },
+      "description": {
+        "en": "These IL3 variants support IO-Link batch parameter setup and incident-light monitoring.",
+        "pt": "Estas variantes IL3 permitem parametrização em lote e monitoramento da luz via IO-Link."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3nxfa",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link parameter setup",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

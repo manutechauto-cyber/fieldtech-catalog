@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_f430_f000n12m_rra",
+  "manufacturer": "Omron",
+  "model": "F430-F000N12M-RRA",
+  "family": "MicroHAWK F430-F",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
+  "typeIds": [
+    "barcode-1d",
+    "code-reader-2d"
+  ],
+  "identity": {
+    "orderCode": "F430-F000N12M-RRA",
+    "regionScope": "Exact manufacturer example SKU and valid product matrix; current availability not checked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Exact example SKU in retained 2020 manufacturer guide; no generated combinations or current availability claim.",
+      "pt": "SKU exato de exemplo no guia de 2020; sem combinações geradas nem confirmação de disponibilidade atual."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "F430-F000N12M-RRA",
+        "pt": "F430-F000N12M-RRA"
+      },
+      "value": "F430-F000N12M-RRA",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "sensor",
+      "name": {
+        "en": "Sensor",
+        "pt": "Sensor"
+      },
+      "description": {
+        "en": "1.2 MP monochrome, global shutter",
+        "pt": "1.2 MP monochrome, global shutter"
+      },
+      "value": "1.2 MP monochrome, global shutter",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "focus",
+      "name": {
+        "en": "Focus",
+        "pt": "Foco"
+      },
+      "description": {
+        "en": "Autofocus, narrow lens",
+        "pt": "Autofocus, narrow lens"
+      },
+      "value": "Autofocus, narrow lens",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Focus",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Illumination",
+        "pt": "Iluminação"
+      },
+      "description": {
+        "en": "Red ring light",
+        "pt": "Red ring light"
+      },
+      "value": "Red ring light",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Illumination",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "focus_range",
+      "name": {
+        "en": "Autofocus range",
+        "pt": "Faixa de autofoco"
+      },
+      "description": {
+        "en": "[40, 150]",
+        "pt": "[40, 150]"
+      },
+      "value": [
+        40,
+        150
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Autofocus range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "codes",
+      "name": {
+        "en": "Code structures",
+        "pt": "Estruturas de código"
+      },
+      "description": {
+        "en": "1D / 2D / stacked",
+        "pt": "1D / 2D / stacked"
+      },
+      "value": "1D / 2D / stacked",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          12
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Code structures",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [
+    {
+      "id": "license",
+      "name": {
+        "en": "Included software license",
+        "pt": "Licença de software incluída"
+      },
+      "description": {
+        "en": "AutoVISION: vision and code reading / verification toolsets",
+        "pt": "AutoVISION: vision and code reading / verification toolsets"
+      },
+      "value": "AutoVISION: vision and code reading / verification toolsets",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_f430",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Included software license",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure",
+    "currentAvailability"
+  ]
+}

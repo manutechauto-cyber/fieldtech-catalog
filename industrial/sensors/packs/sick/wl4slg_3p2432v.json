@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_wl4slg_3p2432v",
+  "manufacturer": "SICK",
+  "model": "WL4SLG-3P2432V",
+  "family": "W4SLG-3V",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
+  "typeIds": [
+    "laser-retroreflective",
+    "photoelectric-retroreflective",
+    "photoelectric-transparent"
+  ],
+  "identity": {
+    "orderCode": "WL4SLG-3P2432V",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Legacy 2013 manufacturer reference; present availability and current firmware compatibility remain unknown.",
+      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware permanecem desconhecidas."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "WL4SLG-3P2432V",
+        "pt": "WL4SLG-3P2432V"
+      },
+      "value": "WL4SLG-3P2432V",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w4slvh",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "principle",
+      "name": {
+        "en": "Sensing principle",
+        "pt": "Princípio de detecção"
+      },
+      "description": {
+        "en": "Retroreflective, transparent-object detection",
+        "pt": "Retroreflective, transparent-object detection"
+      },
+      "value": "Retroreflective, transparent-object detection",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w4slvh",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing principle",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "1",
+        "pt": "1"
+      },
+      "value": 1,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w4slvh",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Laser class",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w4slvh",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Maximum sensing range",
+        "pt": "Alcance máximo"
+      },
+      "description": {
+        "en": "4.5 m; application/reflector conditions apply",
+        "pt": "4.5 m; application/reflector conditions apply"
+      },
+      "value": "4.5 m; application/reflector conditions apply",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w4slvh",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Maximum sensing range",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

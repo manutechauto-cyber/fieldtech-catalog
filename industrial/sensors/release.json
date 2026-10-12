@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 1,
-  "publishedPacks": 127,
+  "sensorCatalogVersion": 2,
+  "publishedPacks": 398,
   "bundleUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/catalog_bundle.b64",
   "encoding": "base64-zip",
-  "sha256": "e4d98886ee448c2b4e4997601959eae37d59ded59cc699c2be10c0fb75538f1f",
-  "bytes": 240013,
-  "fileCount": 129
+  "sha256": "94d2b445987b5822c4a3707f7ade4529146deece512ddbbf51f4479d6946a14f",
+  "bytes": 748272,
+  "fileCount": 400
 }

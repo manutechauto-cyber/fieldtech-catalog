@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_baumer_fzam_18p1155",
+  "manufacturer": "Baumer",
+  "model": "FZAM 18P1155",
+  "family": "FZAM",
+  "version": 1,
+  "path": "industrial/sensors/packs/baumer/fzam_18p1155.json",
+  "typeIds": [
+    "fiber-optic"
+  ],
+  "identity": {
+    "orderCode": "FZAM 18P1155",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "FZAM 18P1155",
+        "pt": "FZAM 18P1155"
+      },
+      "value": "FZAM 18P1155",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "Pulsed infrared, 880 nm",
+        "pt": "Pulsed infrared, 880 nm"
+      },
+      "value": "Pulsed infrared, 880 nm",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light source",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "PNP, light operate",
+        "pt": "PNP, light operate"
+      },
+      "value": "PNP, light operate",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "adjustment",
+      "name": {
+        "en": "Sensitivity control",
+        "pt": "Controle de sensibilidade"
+      },
+      "description": {
+        "en": "15-turn potentiometer",
+        "pt": "15-turn potentiometer"
+      },
+      "value": "15-turn potentiometer",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity control",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "3-pin, 2 m cable",
+        "pt": "3-pin, 2 m cable"
+      },
+      "value": "3-pin, 2 m cable",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [
+    {
+      "id": "alignment",
+      "name": {
+        "en": "Alignment/dirty-optics indication",
+        "pt": "Indicação de alinhamento/óptica suja"
+      },
+      "description": {
+        "en": "Flashing LED",
+        "pt": "Flashing LED"
+      },
+      "value": "Flashing LED",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_baumer_fiber",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Alignment/dirty-optics indication",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

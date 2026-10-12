@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_m9h204",
+  "manufacturer": "ifm",
+  "model": "M9H204",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/m9h204.json",
+  "family": "ifm M",
+  "typeIds": [
+    "magnetic-cylinder"
+  ],
+  "identity": {
+    "orderCode": "M9H204",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "M9H204",
+        "pt": "M9H204"
+      },
+      "value": "M9H204",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "M9H204"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP",
+        "pt": "Ficha do modelo informa: PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open",
+        "pt": "Ficha do modelo informa: normally open"
+      },
+      "value": "normally open",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "sensing_range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1",
+        "pt": "Ficha do modelo informa: 1"
+      },
+      "value": "1",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...36 DC",
+        "pt": "Ficha do modelo informa: 10...36 DC"
+      },
+      "value": "10...36 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1000",
+        "pt": "Ficha do modelo informa: 1000"
+      },
+      "value": "1000",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...85",
+        "pt": "Ficha do modelo informa: -25...85"
+      },
+      "value": "-25...85",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65; IP 68; IP 69K",
+        "pt": "Ficha do modelo informa: IP 65; IP 68; IP 69K"
+      },
+      "value": "IP 65; IP 68; IP 69K",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: flush mountable",
+        "pt": "Ficha do modelo informa: flush mountable"
+      },
+      "value": "flush mountable",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code M9H204"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_m9h204_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection - plug",
+        "applicability": "Exact order code M9H204"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a488-0733-7a51-a55a-d5d3bed9c352/Original/11400612_01_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

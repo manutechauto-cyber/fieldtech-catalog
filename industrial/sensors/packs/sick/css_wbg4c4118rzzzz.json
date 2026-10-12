@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_css_wbg4c4118rzzzz",
+  "manufacturer": "SICK",
+  "model": "CSS-WBG4C4118RZZZZ",
+  "family": "CSS High Resolution",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/css_wbg4c4118rzzzz.json",
+  "typeIds": [
+    "color"
+  ],
+  "identity": {
+    "orderCode": "CSS-WBG4C4118RZZZZ",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "CSS-WBG4C4118RZZZZ",
+        "pt": "CSS-WBG4C4118RZZZZ"
+      },
+      "value": "CSS-WBG4C4118RZZZZ",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "50...150 mm",
+        "pt": "50...150 mm"
+      },
+      "value": "50...150 mm",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "RGB LED",
+        "pt": "RGB LED"
+      },
+      "value": "RGB LED",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light source",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10.8...28.8 V DC",
+        "pt": "10.8...28.8 V DC"
+      },
+      "value": "10.8...28.8 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "Push-pull PNP/NPN",
+        "pt": "Push-pull PNP/NPN"
+      },
+      "value": "Push-pull PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "sensitivity",
+      "name": {
+        "en": "Color matching sensitivity",
+        "pt": "Sensibilidade de correspondência de cor"
+      },
+      "description": {
+        "en": "Set sensitivity according to taught-color and background Color Matching Values.",
+        "pt": "Ajuste a sensibilidade conforme os valores Color Matching Value da cor e do fundo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csshighmanual",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Color matching sensitivity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "short_circuit",
+      "name": {
+        "en": "Short-circuit indication",
+        "pt": "Indicação de curto-circuito"
+      },
+      "description": {
+        "en": "Flashing Q LED with Short circuit indicates overcurrent/short circuit or incorrect connection.",
+        "pt": "LED Q piscando com Short circuit indica sobrecorrente/curto ou conexão incorreta."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csshighmanual",
+        "pages": [
+          65
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Short-circuit indication",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [
+    {
+      "id": "communication",
+      "name": {
+        "en": "Configuration/communication interface",
+        "pt": "Interface de configuração/comunicação"
+      },
+      "description": {
+        "en": "Modbus RS-485",
+        "pt": "Modbus RS-485"
+      },
+      "value": "Modbus RS-485",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_cssr4",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Configuration/communication interface",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

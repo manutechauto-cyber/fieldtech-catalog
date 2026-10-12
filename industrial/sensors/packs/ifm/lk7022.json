@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_lk7022",
+  "manufacturer": "ifm",
+  "model": "LK7022",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/lk7022.json",
+  "family": "ifm LK",
+  "typeIds": [
+    "level"
+  ],
+  "identity": {
+    "orderCode": "LK7022",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "LK7022",
+        "pt": "LK7022"
+      },
+      "value": "LK7022",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "LK7022"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 264",
+        "pt": "Ficha do modelo informa: 264"
+      },
+      "value": "264",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: hydrous coolants; oils; oil-based media; water; media similar to water",
+        "pt": "Ficha do modelo informa: hydrous coolants; oils; oil-based media; water; media similar to water"
+      },
+      "value": "hydrous coolants; oils; oil-based media; water; media similar to water",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 12...30 DC",
+        "pt": "Ficha do modelo informa: 12...30 DC"
+      },
+      "value": "12...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "output_signal",
+      "name": {
+        "en": "Output signal",
+        "pt": "Sinal de saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: switching signal; IO-Link",
+        "pt": "Ficha do modelo informa: switching signal; IO-Link"
+      },
+      "value": "switching signal; IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP/NPN",
+        "pt": "Ficha do modelo informa: PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (configurable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (configurable)"
+      },
+      "value": "normally open / closed;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 3.2",
+        "pt": "Ficha do modelo informa: 3.2"
+      },
+      "value": "3.2",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0...60",
+        "pt": "Ficha do modelo informa: 0...60"
+      },
+      "value": "0...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LK7022"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code LK7022"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "parameter_setting_options",
+      "name": {
+        "en": "Parameter setting options",
+        "pt": "Opções de parametrização"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: hysteresis / window; normally open / closed; switching logic; SP/rP position; adjustment OP; medium selection; offset setting; switch-on/switch-off delay",
+        "pt": "Ficha do modelo informa: hysteresis / window; normally open / closed; switching logic; SP/rP position; adjustment OP; medium selection; offset setting; switch-on/switch-off delay"
+      },
+      "value": "hysteresis / window; normally open / closed; switching logic; SP/rP position; adjustment OP; medium selection; offset setting; switch-on/switch-off delay",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lk7022_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software / programming",
+        "applicability": "Exact order code LK7022"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a49c-5a29-7e5a-9845-7acf3dbea08b/Original/11573063_00_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

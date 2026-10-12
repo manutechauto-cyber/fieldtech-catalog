@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_qcm50_k5d60_q8_8",
+  "manufacturer": "Banner Engineering",
+  "model": "QCM50-K5D60-Q8-8",
+  "family": "QCM50",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/qcm50_k5d60_q8_8.json",
+  "typeIds": [
+    "color"
+  ],
+  "identity": {
+    "orderCode": "QCM50-K5D60-Q8-8",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "QCM50-K5D60-Q8-8",
+        "pt": "QCM50-K5D60-Q8-8"
+      },
+      "value": "QCM50-K5D60-Q8-8",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "[20, 150]",
+        "pt": "[20, 150]"
+      },
+      "value": [
+        20,
+        150
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "outputs",
+      "name": {
+        "en": "Discrete outputs",
+        "pt": "Saídas discretas"
+      },
+      "description": {
+        "en": "5",
+        "pt": "5"
+      },
+      "value": 5,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Discrete outputs",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "colors",
+      "name": {
+        "en": "Stored colors",
+        "pt": "Cores armazenadas"
+      },
+      "description": {
+        "en": "12",
+        "pt": "12"
+      },
+      "value": 12,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Stored colors",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "18...30 V DC",
+        "pt": "18...30 V DC"
+      },
+      "value": "18...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "M12, 8-pin",
+        "pt": "M12, 8-pin"
+      },
+      "value": "M12, 8-pin",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP/NPN auto-detect",
+        "pt": "PNP/NPN auto-detect"
+      },
+      "value": "PNP/NPN auto-detect",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output polarity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "tolerance",
+      "name": {
+        "en": "Color tolerance",
+        "pt": "Tolerância de cor"
+      },
+      "description": {
+        "en": "Color tolerance is selectable in nine levels.",
+        "pt": "Tolerância de cor selecionável em nove níveis."
+      },
+      "value": "9 levels",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Color tolerance",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "averaging",
+      "name": {
+        "en": "Averaging speed",
+        "pt": "Velocidade de média"
+      },
+      "description": {
+        "en": "Slower speed increases averaging and color discrimination.",
+        "pt": "Menor velocidade aumenta a média e a discriminação de cor."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Averaging speed",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "factory_set",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory Set clears modifications and restores initial settings.",
+        "pt": "Factory Set apaga modificações e restaura os ajustes iniciais."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "status_leds",
+      "name": {
+        "en": "Status LEDs",
+        "pt": "LEDs de estado"
+      },
+      "description": {
+        "en": "Green: power/IO-Link; red: status/error; amber: output indication.",
+        "pt": "Verde: alimentação/IO-Link; vermelho: estado/erro; âmbar: indicação da saída."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Status LEDs",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link configuration",
+        "pt": "Configuração IO-Link"
+      },
+      "description": {
+        "en": "IO-Link on pin 4",
+        "pt": "IO-Link on pin 4"
+      },
+      "value": "IO-Link on pin 4",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qcm50",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link configuration",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

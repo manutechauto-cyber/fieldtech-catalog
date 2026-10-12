@@ -54,3 +54,27 @@ class SensorPackTests(unittest.TestCase):
         self.assertEqual(set(p['typeIds']),{'barcode-1d','code-reader-2d'})
         self.assertEqual(sum(x['model']==p['model'] for x in self.manifest['packs']),1)
         validate(BASE/'manifest.json')
+
+    def test_reader_licenses_and_camera_exclusion(self):
+        _,dpm=self.load('FS40-SR20D4-2C00W')
+        _,standard=self.load('FS40-SR20Z4-2C00W')
+        self.assertEqual(next(x['value'] for x in dpm['specifications'] if x['id']=='decoder'),'DPM with Fast 2D')
+        self.assertEqual(next(x['value'] for x in standard['specifications'] if x['id']=='decoder'),'Standard 2D')
+        self.assertFalse(any(x['manufacturer']=='Zebra' and x['model'].startswith('VS') for x in self.manifest['packs']))
+        _,omron=self.load('F430-F000N12M-RRA')
+        self.assertIn('code reading',omron['software'][0]['value'])
+
+    def test_contrast_io_link_not_inherited_by_npn_variant(self):
+        _,npn=self.load('E3S-DCN21');_,io=self.load('E3S-DCP21-IL3')
+        self.assertEqual(npn['software'],[])
+        self.assertIn('IO-Link',io['software'][0]['value'])
+
+    def test_report_matches_manifest_and_document_registry(self):
+        report=json.loads((BASE/'research_results.json').read_text())
+        self.assertEqual(report['publishedPacks'],len(self.manifest['packs']))
+        self.assertEqual(report['reviewedDocuments'],len(self.sources))
+        for row in report['coverageByType']:
+            typ=next(t for t in self.manifest['types'] if t['id']==row['typeId'])
+            self.assertEqual(row['published'],len(typ['publishedPackIds']))
+            self.assertEqual(row['remaining'],max(0,typ['target']-row['published']))
+        self.assertEqual(report['remainingSelectionPositions'],sum(r['remaining'] for r in report['coverageByType']))

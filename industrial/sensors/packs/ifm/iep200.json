@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_iep200",
+  "manufacturer": "ifm",
+  "model": "IEP200",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/iep200.json",
+  "family": "ifm IEP",
+  "typeIds": [
+    "inductive"
+  ],
+  "identity": {
+    "orderCode": "IEP200",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "IEP200",
+        "pt": "IEP200"
+      },
+      "value": "IEP200",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "IEP200"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP/NPN;  (configurable)",
+        "pt": "Ficha do modelo informa: PNP/NPN;  (configurable)"
+      },
+      "value": "PNP/NPN;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (configurable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (configurable)"
+      },
+      "value": "normally open / closed;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...30 DC",
+        "pt": "Ficha do modelo informa: 10...30 DC"
+      },
+      "value": "10...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 75",
+        "pt": "Ficha do modelo informa: 75"
+      },
+      "value": "75",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "switch_point_io_link",
+      "name": {
+        "en": "Switch point IO-Link",
+        "pt": "Ponto de comutação IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0.05...1.455",
+        "pt": "Ficha do modelo informa: 0.05...1.455"
+      },
+      "value": "0.05...1.455",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Monitoring range",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "measuring_range_io_link",
+      "name": {
+        "en": "Measuring range IO-Link",
+        "pt": "Faixa de medição IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0.05...1.5",
+        "pt": "Ficha do modelo informa: 0.05...1.5"
+      },
+      "value": "0.05...1.5",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Monitoring range",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 3.2",
+        "pt": "Ficha do modelo informa: 3.2"
+      },
+      "value": "3.2",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...70",
+        "pt": "Ficha do modelo informa: -25...70"
+      },
+      "value": "-25...70",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65; IP 66; IP 67; IP 68; IP 69K",
+        "pt": "Ficha do modelo informa: IP 65; IP 66; IP 67; IP 68; IP 69K"
+      },
+      "value": "IP 65; IP 66; IP 67; IP 68; IP 69K",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: flush mountable",
+        "pt": "Ficha do modelo informa: flush mountable"
+      },
+      "value": "flush mountable",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code IEP200"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M8; coding: A; Contacts: 3, gold-plated; Locking: snap-fit",
+        "pt": "Ficha do modelo informa: 1 x M8; coding: A; Contacts: 3, gold-plated; Locking: snap-fit"
+      },
+      "value": "1 x M8; coding: A; Contacts: 3, gold-plated; Locking: snap-fit",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_iep200_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection - plug",
+        "applicability": "Exact order code IEP200"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a5c4-3bb1-7c7d-b1b1-bf32b27f9a1b/Original/11548364_01_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

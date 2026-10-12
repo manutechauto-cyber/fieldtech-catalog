@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_lw2120",
+  "manufacturer": "ifm",
+  "model": "LW2120",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/lw2120.json",
+  "family": "ifm LW",
+  "typeIds": [
+    "level"
+  ],
+  "identity": {
+    "orderCode": "LW2120",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "LW2120",
+        "pt": "LW2120"
+      },
+      "value": "LW2120",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "LW2120"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: G 1 Aseptoflex Vario",
+        "pt": "Ficha do modelo informa: G 1 Aseptoflex Vario"
+      },
+      "value": "G 1 Aseptoflex Vario",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "pressure_rating",
+      "name": {
+        "en": "Pressure rating",
+        "pt": "Pressão nominal"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 8",
+        "pt": "Ficha do modelo informa: 8"
+      },
+      "value": "8",
+      "unit": "bar",
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...30 DC",
+        "pt": "Ficha do modelo informa: 18...30 DC"
+      },
+      "value": "18...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "response_time",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 330",
+        "pt": "Ficha do modelo informa: 330"
+      },
+      "value": "330",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reaction times",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 6",
+        "pt": "Ficha do modelo informa: 6"
+      },
+      "value": "6",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -40...80",
+        "pt": "Ficha do modelo informa: -40...80"
+      },
+      "value": "-40...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 68; IP 69K",
+        "pt": "Ficha do modelo informa: IP 68; IP 69K"
+      },
+      "value": "IP 68; IP 69K",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LW2120"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lw2120_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code LW2120"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a4c4-8c8c-783b-b3a0-7c7ef5d381c6/Original/11478388_02_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

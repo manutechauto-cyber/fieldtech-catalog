@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_r58ecrgb1q",
+  "manufacturer": "Banner Engineering",
+  "model": "R58ECRGB1Q",
+  "family": "R58E",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/r58ecrgb1q.json",
+  "typeIds": [
+    "contrast"
+  ],
+  "identity": {
+    "orderCode": "R58ECRGB1Q",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "R58ECRGB1Q",
+        "pt": "R58ECRGB1Q"
+      },
+      "value": "R58ECRGB1Q",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Working distance",
+        "pt": "Distância de trabalho"
+      },
+      "description": {
+        "en": "10 ±3 mm",
+        "pt": "10 ±3 mm"
+      },
+      "value": "10 ±3 mm",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Working distance",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "frequency",
+      "name": {
+        "en": "Switching frequency",
+        "pt": "Frequência de comutação"
+      },
+      "description": {
+        "en": "10",
+        "pt": "10"
+      },
+      "value": 10,
+      "unit": "kHz",
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Switching frequency",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "RGB LED, automatically selected during TEACH",
+        "pt": "RGB LED, automatically selected during TEACH"
+      },
+      "value": "RGB LED, automatically selected during TEACH",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light source",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "orientation",
+      "name": {
+        "en": "Sensing-image orientation",
+        "pt": "Orientação da imagem"
+      },
+      "description": {
+        "en": "Parallel",
+        "pt": "Parallel"
+      },
+      "value": "Parallel",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing-image orientation",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "5-pin M12 pigtail",
+        "pt": "5-pin M12 pigtail"
+      },
+      "value": "5-pin M12 pigtail",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "lo_do",
+      "name": {
+        "en": "Light/dark switching",
+        "pt": "Comutação claro/escuro"
+      },
+      "description": {
+        "en": "LO / DO",
+        "pt": "LO / DO"
+      },
+      "value": "LO / DO",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light/dark switching",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "on_delay",
+      "name": {
+        "en": "On-delay",
+        "pt": "Atraso de ativação"
+      },
+      "description": {
+        "en": "30",
+        "pt": "30"
+      },
+      "value": 30,
+      "unit": "ms",
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "On-delay",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "off_delay",
+      "name": {
+        "en": "Off-delay pulse stretching",
+        "pt": "Atraso de desativação"
+      },
+      "description": {
+        "en": "30",
+        "pt": "30"
+      },
+      "value": 30,
+      "unit": "ms",
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Off-delay pulse stretching",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach",
+      "name": {
+        "en": "Static/dynamic TEACH",
+        "pt": "TEACH estático/dinâmico"
+      },
+      "description": {
+        "en": "TEACH adjusts the switching threshold for mark/background contrast.",
+        "pt": "TEACH ajusta o limiar para o contraste entre marca e fundo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_r58e",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Static/dynamic TEACH",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

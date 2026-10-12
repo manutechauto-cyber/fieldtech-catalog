@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_o1d300",
+  "manufacturer": "ifm",
+  "model": "O1D300",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/o1d300.json",
+  "family": "ifm O",
+  "typeIds": [
+    "level"
+  ],
+  "identity": {
+    "orderCode": "O1D300",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "O1D300",
+        "pt": "O1D300"
+      },
+      "value": "O1D300",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "O1D300"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "laser_protection_class",
+      "name": {
+        "en": "Laser protection class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 2",
+        "pt": "Ficha do modelo informa: 2"
+      },
+      "value": "2",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...30 DC;  (cULus - Class 2 source required)",
+        "pt": "Ficha do modelo informa: 18...30 DC;  (cULus - Class 2 source required)"
+      },
+      "value": "18...30 DC;  (cULus - Class 2 source required)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP",
+        "pt": "Ficha do modelo informa: PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (programmable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (programmable)"
+      },
+      "value": "normally open / closed;  (programmable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "measuring_range",
+      "name": {
+        "en": "Measuring range",
+        "pt": "Faixa de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0.2...10;  (white paper 200 x 200 mm 90 % remission)",
+        "pt": "Ficha do modelo informa: 0.2...10;  (white paper 200 x 200 mm 90 % remission)"
+      },
+      "value": "0.2...10;  (white paper 200 x 200 mm 90 % remission)",
+      "unit": "m",
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 5",
+        "pt": "Ficha do modelo informa: 5"
+      },
+      "value": "5",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -10...60",
+        "pt": "Ficha do modelo informa: -10...60"
+      },
+      "value": "-10...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code O1D300"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_o1d300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code O1D300"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a4f7-898a-75cf-8431-2920d9cb15e5/Original/11454904_00_GB.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

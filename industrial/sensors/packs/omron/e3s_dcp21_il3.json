@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_omron_e3s_dcp21_il3",
+  "manufacturer": "Omron",
+  "model": "E3S-DCP21-IL3",
+  "family": "E3S-DC",
+  "version": 1,
+  "path": "industrial/sensors/packs/omron/e3s_dcp21_il3.json",
+  "typeIds": [
+    "contrast"
+  ],
+  "identity": {
+    "orderCode": "E3S-DCP21-IL3",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "E3S-DCP21-IL3",
+        "pt": "E3S-DCP21-IL3"
+      },
+      "value": "E3S-DCP21-IL3",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "principle",
+      "name": {
+        "en": "Detection principle",
+        "pt": "Princípio de detecção"
+      },
+      "description": {
+        "en": "Color mark detection",
+        "pt": "Color mark detection"
+      },
+      "value": "Color mark detection",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Detection principle",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach2",
+      "name": {
+        "en": "Two-point teaching response",
+        "pt": "Resposta TEACH de dois pontos"
+      },
+      "description": {
+        "en": "50",
+        "pt": "50"
+      },
+      "value": 50,
+      "unit": "µs",
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Two-point teaching response",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach1",
+      "name": {
+        "en": "One-point teaching response",
+        "pt": "Resposta TEACH de um ponto"
+      },
+      "description": {
+        "en": "150",
+        "pt": "150"
+      },
+      "value": 150,
+      "unit": "µs",
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "One-point teaching response",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "teach",
+      "name": {
+        "en": "Teaching modes",
+        "pt": "Modos TEACH"
+      },
+      "description": {
+        "en": "1-point / 2-point",
+        "pt": "1-point / 2-point"
+      },
+      "value": "1-point / 2-point",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Teaching modes",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "lock",
+      "name": {
+        "en": "Key lock",
+        "pt": "Bloqueio das teclas"
+      },
+      "description": {
+        "en": "Press LOCK for over 3 seconds",
+        "pt": "Press LOCK for over 3 seconds"
+      },
+      "value": "Press LOCK for over 3 seconds",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Key lock",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [
+    {
+      "id": "io_link",
+      "name": {
+        "en": "IO-Link settings",
+        "pt": "Ajustes IO-Link"
+      },
+      "description": {
+        "en": "IO-Link; separate index list required",
+        "pt": "IO-Link; separate index list required"
+      },
+      "value": "IO-Link; separate index list required",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_e3sdc",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link settings",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

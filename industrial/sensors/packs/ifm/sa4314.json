@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_sa4314",
+  "manufacturer": "ifm",
+  "model": "SA4314",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/sa4314.json",
+  "family": "ifm SA",
+  "typeIds": [
+    "flow"
+  ],
+  "identity": {
+    "orderCode": "SA4314",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "SA4314",
+        "pt": "SA4314"
+      },
+      "value": "SA4314",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "SA4314"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: Clamp fitting Ø 8 mm",
+        "pt": "Ficha do modelo informa: Clamp fitting Ø 8 mm"
+      },
+      "value": "Clamp fitting Ø 8 mm",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: water; glycol solutions; air; oils",
+        "pt": "Ficha do modelo informa: water; glycol solutions; air; oils"
+      },
+      "value": "water; glycol solutions; air; oils",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...30 DC",
+        "pt": "Ficha do modelo informa: 18...30 DC"
+      },
+      "value": "18...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "output_signal",
+      "name": {
+        "en": "Output signal",
+        "pt": "Sinal de saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: analog signal",
+        "pt": "Ficha do modelo informa: analog signal"
+      },
+      "value": "analog signal",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 200",
+        "pt": "Ficha do modelo informa: 200"
+      },
+      "value": "200",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "measuring_range",
+      "name": {
+        "en": "Measuring range",
+        "pt": "Faixa de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -4...212",
+        "pt": "Ficha do modelo informa: -4...212"
+      },
+      "value": "-4...212",
+      "unit": "°F",
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "response_time",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0.5;  (T09; water; glycol: 0,8 s; air: 7 s; oil: 1,8 s; each T09)",
+        "pt": "Ficha do modelo informa: 0.5;  (T09; water; glycol: 0,8 s; air: 7 s; oil: 1,8 s; each T09)"
+      },
+      "value": "0.5;  (T09; water; glycol: 0,8 s; air: 7 s; oil: 1,8 s; each T09)",
+      "unit": "s",
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reaction times",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -40...176",
+        "pt": "Ficha do modelo informa: -40...176"
+      },
+      "value": "-40...176",
+      "unit": "°F",
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65; IP 67",
+        "pt": "Ficha do modelo informa: IP 65; IP 67"
+      },
+      "value": "IP 65; IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code SA4314"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code SA4314"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "parameter_setting_options",
+      "name": {
+        "en": "Parameter setting options",
+        "pt": "Opções de parametrização"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: medium selection; Damping; Teach function; display can be rotated and switched off; standard unit of measurement; process value color",
+        "pt": "Ficha do modelo informa: medium selection; Damping; Teach function; display can be rotated and switched off; standard unit of measurement; process value color"
+      },
+      "value": "medium selection; Damping; Teach function; display can be rotated and switched off; standard unit of measurement; process value color",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sa4314_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software / programming",
+        "applicability": "Exact order code SA4314"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a297-0fa8-766e-ac3f-88483a506d16/Original/11458804_EN.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_pepperl_fuchs_df12_11_3k_145_151",
+  "manufacturer": "Pepperl+Fuchs",
+  "model": "DF12-11-3K/145/151",
+  "family": "DF12",
+  "version": 1,
+  "path": "industrial/sensors/packs/pepperl_fuchs/df12_11_3k_145_151.json",
+  "typeIds": [
+    "color"
+  ],
+  "identity": {
+    "orderCode": "DF12-11-3K/145/151",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "DF12-11-3K/145/151",
+        "pt": "DF12-11-3K/145/151"
+      },
+      "value": "DF12-11-3K/145/151",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Detection distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "11",
+        "pt": "11"
+      },
+      "value": 11,
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Detection distance",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "channels",
+      "name": {
+        "en": "Color channels",
+        "pt": "Canais de cor"
+      },
+      "description": {
+        "en": "3",
+        "pt": "3"
+      },
+      "value": 3,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Color channels",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Outputs",
+        "pt": "Saídas"
+      },
+      "description": {
+        "en": "3 push-pull outputs",
+        "pt": "3 push-pull outputs"
+      },
+      "value": "3 push-pull outputs",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "tolerance",
+      "name": {
+        "en": "Tolerance selection",
+        "pt": "Seleção de tolerância"
+      },
+      "description": {
+        "en": "3 steps per channel",
+        "pt": "3 steps per channel"
+      },
+      "value": "3 steps per channel",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Tolerance selection",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach",
+      "name": {
+        "en": "Teach controls",
+        "pt": "Controles teach"
+      },
+      "description": {
+        "en": "Rotary switches select TEACH channel and tolerance.",
+        "pt": "Chaves rotativas selecionam canal TEACH e tolerância."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Teach controls",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "undervoltage",
+      "name": {
+        "en": "Undervoltage indication",
+        "pt": "Indicação de subtensão"
+      },
+      "description": {
+        "en": "Green LED pulses at approximately 0.8 Hz",
+        "pt": "Green LED pulses at approximately 0.8 Hz"
+      },
+      "value": "Green LED pulses at approximately 0.8 Hz",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Undervoltage indication",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "short_circuit",
+      "name": {
+        "en": "Short-circuit indication",
+        "pt": "Indicação de curto-circuito"
+      },
+      "description": {
+        "en": "Green LED flashes at approximately 4 Hz",
+        "pt": "Green LED flashes at approximately 4 Hz"
+      },
+      "value": "Green LED flashes at approximately 4 Hz",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_color",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Short-circuit indication",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

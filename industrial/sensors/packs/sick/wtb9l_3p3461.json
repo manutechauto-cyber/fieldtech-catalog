@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_wtb9l_3p3461",
+  "manufacturer": "SICK",
+  "model": "WTB9L-3P3461",
+  "family": "W9L-3",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/wtb9l_3p3461.json",
+  "typeIds": [
+    "laser-diffuse",
+    "photoelectric-background-suppression"
+  ],
+  "identity": {
+    "orderCode": "WTB9L-3P3461",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Legacy 2013 manufacturer reference; present availability and firmware compatibility have not been established.",
+      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware não foram estabelecidas."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "WTB9L-3P3461",
+        "pt": "WTB9L-3P3461"
+      },
+      "value": "WTB9L-3P3461",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "25...300 mm",
+        "pt": "25...300 mm"
+      },
+      "value": "25...300 mm",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "1",
+        "pt": "1"
+      },
+      "value": 1,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Laser class",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output polarity",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

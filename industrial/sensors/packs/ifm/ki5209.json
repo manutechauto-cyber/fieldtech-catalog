@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_ki5209",
+  "manufacturer": "ifm",
+  "model": "KI5209",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/ki5209.json",
+  "family": "ifm KI",
+  "typeIds": [
+    "capacitive"
+  ],
+  "identity": {
+    "orderCode": "KI5209",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "KI5209",
+        "pt": "KI5209"
+      },
+      "value": "KI5209",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "KI5209"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP",
+        "pt": "Ficha do modelo informa: PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (selectable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (selectable)"
+      },
+      "value": "normally open / closed;  (selectable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "sensing_range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 3...15",
+        "pt": "Ficha do modelo informa: 3...15"
+      },
+      "value": "3...15",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...36 DC",
+        "pt": "Ficha do modelo informa: 10...36 DC"
+      },
+      "value": "10...36 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 40",
+        "pt": "Ficha do modelo informa: 40"
+      },
+      "value": "40",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...80",
+        "pt": "Ficha do modelo informa: -25...80"
+      },
+      "value": "-25...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65",
+        "pt": "Ficha do modelo informa: IP 65"
+      },
+      "value": "IP 65",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: non-flush mountable",
+        "pt": "Ficha do modelo informa: non-flush mountable"
+      },
+      "value": "non-flush mountable",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code KI5209"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki5209_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection - plug",
+        "applicability": "Exact order code KI5209"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a833-ff3f-7c34-bc81-6a1d002f84ab/Original/704550_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    },
+    {
+      "url": "https://media.ifm.com/dam/01a0a6dc-41f5-7ad6-aed3-ba2aaa3270bc/Original/704550_EN.inx?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ Version compatibility is `databaseSchemaVersion`; content changes are identified
 | sensor_types | Type, priority, target and classification payload |
 | sensor_candidates | Exact-model research leads and review status; not published devices |
 
-Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor catalog version 1 includes 127 published field subsets from 32 official PDFs. O5D100 is now published from its official operating instructions and datasheet. The 20-model-per-type target remains incomplete. No sales ranking or hardware validation is asserted.
+Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor catalog version 2 includes 398 published field subsets from 188 official PDFs across 9 manufacturers. With 118 drive packs, the unified snapshot contains 516 device packs. All 23 sensor filters have at least 20 documented references. The reference-selection target is met; full operating-manual extraction remains incomplete. No sales ranking or hardware validation is asserted.
 
 ## Incremental updates
 

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_t30uxib",
+  "manufacturer": "Banner Engineering",
+  "model": "T30UXIB",
+  "family": "T30UX Analog",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/t30uxib.json",
+  "typeIds": [
+    "ultrasonic"
+  ],
+  "identity": {
+    "orderCode": "T30UXIB",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "T30UXIB",
+        "pt": "T30UXIB"
+      },
+      "value": "T30UXIB",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "[200, 2000]",
+        "pt": "[200, 2000]"
+      },
+      "value": [
+        200,
+        2000
+      ],
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response options",
+        "pt": "Opções de resposta"
+      },
+      "description": {
+        "en": "92 / 222 ms",
+        "pt": "92 / 222 ms"
+      },
+      "value": "92 / 222 ms",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response options",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Analog output",
+        "pt": "Saída analógica"
+      },
+      "description": {
+        "en": "4...20 mA",
+        "pt": "4...20 mA"
+      },
+      "value": "4...20 mA",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Analog output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "2 m cable",
+        "pt": "2 m cable"
+      },
+      "value": "2 m cable",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "speed",
+      "name": {
+        "en": "Response mode",
+        "pt": "Modo de resposta"
+      },
+      "description": {
+        "en": "Fast / Slow",
+        "pt": "Fast / Slow"
+      },
+      "value": "Fast / Slow",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response mode",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "teach",
+      "name": {
+        "en": "Window setup",
+        "pt": "Ajuste da janela"
+      },
+      "description": {
+        "en": "Teach minimum/maximum separately, or use Auto-Window around the taught position.",
+        "pt": "Ensine mínimo/máximo separadamente ou use Auto-Window ao redor da posição ensinada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_t30uxamanual",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Window setup",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

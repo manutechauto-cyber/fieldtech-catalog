@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_lr3300",
+  "manufacturer": "ifm",
+  "model": "LR3300",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/lr3300.json",
+  "family": "ifm LR",
+  "typeIds": [
+    "level"
+  ],
+  "identity": {
+    "orderCode": "LR3300",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "LR3300",
+        "pt": "LR3300"
+      },
+      "value": "LR3300",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "LR3300"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 100...1600",
+        "pt": "Ficha do modelo informa: 100...1600"
+      },
+      "value": "100...1600",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: threaded connection 3/4\" NPT external thread",
+        "pt": "Ficha do modelo informa: threaded connection 3/4\" NPT external thread"
+      },
+      "value": "threaded connection 3/4\" NPT external thread",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: Liquids",
+        "pt": "Ficha do modelo informa: Liquids"
+      },
+      "value": "Liquids",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...30 DC",
+        "pt": "Ficha do modelo informa: 18...30 DC"
+      },
+      "value": "18...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 2.3",
+        "pt": "Ficha do modelo informa: 2.3"
+      },
+      "value": "2.3",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...60",
+        "pt": "Ficha do modelo informa: -25...60"
+      },
+      "value": "-25...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code LR3300"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_lr3300_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code LR3300"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a458-f38f-71bd-a33d-f77c356be893/Original/11425802_00_UK.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

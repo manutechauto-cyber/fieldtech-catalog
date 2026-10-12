@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_qs18vn6lpq8",
+  "manufacturer": "Banner Engineering",
+  "model": "QS18VN6LPQ8",
+  "family": "QS18 Polarized Retro",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/qs18vn6lpq8.json",
+  "typeIds": [
+    "photoelectric-retroreflective"
+  ],
+  "identity": {
+    "orderCode": "QS18VN6LPQ8",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "QS18VN6LPQ8",
+        "pt": "QS18VN6LPQ8"
+      },
+      "value": "QS18VN6LPQ8",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "principle",
+      "name": {
+        "en": "Sensing principle",
+        "pt": "Princípio de detecção"
+      },
+      "description": {
+        "en": "Polarized retroreflective",
+        "pt": "Polarized retroreflective"
+      },
+      "value": "Polarized retroreflective",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing principle",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output polarity",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "reflector",
+      "name": {
+        "en": "Reflector needed",
+        "pt": "Refletor necessário"
+      },
+      "description": {
+        "en": "True",
+        "pt": "True"
+      },
+      "value": true,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reflector needed",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

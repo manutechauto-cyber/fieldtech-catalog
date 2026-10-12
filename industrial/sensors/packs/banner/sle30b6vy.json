@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_sle30b6vy",
+  "manufacturer": "Banner Engineering",
+  "model": "SLE30B6VY",
+  "family": "SLE30",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/sle30b6vy.json",
+  "typeIds": [
+    "fork"
+  ],
+  "identity": {
+    "orderCode": "SLE30B6VY",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "SLE30B6VY",
+        "pt": "SLE30B6VY"
+      },
+      "value": "SLE30B6VY",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Slot width",
+        "pt": "Largura da abertura"
+      },
+      "description": {
+        "en": "30",
+        "pt": "30"
+      },
+      "value": 30,
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Slot width",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "Bipolar NPN and PNP",
+        "pt": "Bipolar NPN and PNP"
+      },
+      "value": "Bipolar NPN and PNP",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "150",
+        "pt": "150"
+      },
+      "value": 150,
+      "unit": "µs",
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response time",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "2 m cable",
+        "pt": "2 m cable"
+      },
+      "value": "2 m cable",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "sensitivity",
+      "name": {
+        "en": "Sensitivity",
+        "pt": "Sensibilidade"
+      },
+      "description": {
+        "en": "SLE30 uses static/dynamic TEACH and remote programming.",
+        "pt": "SLE30 usa TEACH estático/dinâmico e programação remota."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sle30",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

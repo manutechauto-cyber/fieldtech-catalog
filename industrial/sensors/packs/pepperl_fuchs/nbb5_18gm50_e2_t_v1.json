@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_pepperl_fuchs_nbb5_18gm50_e2_t_v1",
+  "manufacturer": "Pepperl+Fuchs",
+  "model": "NBB5-18GM50-E2-T-V1",
+  "family": "NBB5",
+  "version": 1,
+  "path": "industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json",
+  "typeIds": [
+    "inductive"
+  ],
+  "identity": {
+    "orderCode": "NBB5-18GM50-E2-T-V1",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "NBB5-18GM50-E2-T-V1",
+        "pt": "NBB5-18GM50-E2-T-V1"
+      },
+      "value": "NBB5-18GM50-E2-T-V1",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Nominal sensing distance",
+        "pt": "Distância nominal"
+      },
+      "description": {
+        "en": "5",
+        "pt": "5"
+      },
+      "value": 5,
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Nominal sensing distance",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Flush",
+        "pt": "Flush"
+      },
+      "value": "Flush",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output design",
+        "pt": "Projeto da saída"
+      },
+      "description": {
+        "en": "DC PNP, normally open",
+        "pt": "DC PNP, normally open"
+      },
+      "value": "DC PNP, normally open",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output design",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "M12 connector",
+        "pt": "M12 connector"
+      },
+      "value": "M12 connector",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

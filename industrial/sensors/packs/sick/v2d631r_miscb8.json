@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_v2d631r_miscb8",
+  "manufacturer": "SICK",
+  "model": "V2D631R-MISCB8",
+  "family": "Lector63x",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/v2d631r_miscb8.json",
+  "typeIds": [
+    "barcode-1d",
+    "code-reader-2d"
+  ],
+  "identity": {
+    "orderCode": "V2D631R-MISCB8",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "V2D631R-MISCB8",
+        "pt": "V2D631R-MISCB8"
+      },
+      "value": "V2D631R-MISCB8",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "resolution",
+      "name": {
+        "en": "Sensor resolution",
+        "pt": "Resolução do sensor"
+      },
+      "description": {
+        "en": "1280 × 1024 px",
+        "pt": "1280 × 1024 px"
+      },
+      "value": "1280 × 1024 px",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensor resolution",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "focus",
+      "name": {
+        "en": "Focus",
+        "pt": "Foco"
+      },
+      "description": {
+        "en": "Manually adjustable",
+        "pt": "Manually adjustable"
+      },
+      "value": "Manually adjustable",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Focus",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply voltage",
+        "pt": "Tensão de alimentação"
+      },
+      "description": {
+        "en": "12...24 V DC ±20%",
+        "pt": "12...24 V DC ±20%"
+      },
+      "value": "12...24 V DC ±20%",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply voltage",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "codes",
+      "name": {
+        "en": "Code structures",
+        "pt": "Estruturas de código"
+      },
+      "description": {
+        "en": "1D / 2D / stacked",
+        "pt": "1D / 2D / stacked"
+      },
+      "value": "1D / 2D / stacked",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Code structures",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "interfaces",
+      "name": {
+        "en": "Serial interface",
+        "pt": "Interface serial"
+      },
+      "description": {
+        "en": "RS-232 / RS-422",
+        "pt": "RS-232 / RS-422"
+      },
+      "value": "RS-232 / RS-422",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Serial interface",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [
+    {
+      "id": "sopas",
+      "name": {
+        "en": "Configuration software",
+        "pt": "Software de configuração"
+      },
+      "description": {
+        "en": "SOPAS ET / Web server",
+        "pt": "SOPAS ET / Web server"
+      },
+      "value": "SOPAS ET / Web server",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_lector63sheet",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Configuration software",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

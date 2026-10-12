@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_opu205",
+  "manufacturer": "ifm",
+  "model": "OPU205",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/opu205.json",
+  "family": "ifm OPU",
+  "typeIds": [
+    "fork"
+  ],
+  "identity": {
+    "orderCode": "OPU205",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "OPU205",
+        "pt": "OPU205"
+      },
+      "value": "OPU205",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "OPU205"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "type_of_light",
+      "name": {
+        "en": "Type of light",
+        "pt": "Tipo de luz"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: red light",
+        "pt": "Ficha do modelo informa: red light"
+      },
+      "value": "red light",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...30 DC;  (cULus - Class 2 source required)",
+        "pt": "Ficha do modelo informa: 10...30 DC;  (cULus - Class 2 source required)"
+      },
+      "value": "10...30 DC;  (cULus - Class 2 source required)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP",
+        "pt": "Ficha do modelo informa: PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: light-on/dark-on mode;  (selectable)",
+        "pt": "Ficha do modelo informa: light-on/dark-on mode;  (selectable)"
+      },
+      "value": "light-on/dark-on mode;  (selectable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 5000",
+        "pt": "Ficha do modelo informa: 5000"
+      },
+      "value": "5000",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 3.2",
+        "pt": "Ficha do modelo informa: 3.2"
+      },
+      "value": "3.2",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...60",
+        "pt": "Ficha do modelo informa: -25...60"
+      },
+      "value": "-25...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "fork_width_w",
+      "name": {
+        "en": "Fork width W",
+        "pt": "Largura da forquilha"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 120",
+        "pt": "Ficha do modelo informa: 120"
+      },
+      "value": "120",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code OPU205"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M8; coding: A; Contacts: 3",
+        "pt": "Ficha do modelo informa: 1 x M8; coding: A; Contacts: 3"
+      },
+      "value": "1 x M8; coding: A; Contacts: 3",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_opu205_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code OPU205"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a229-2a1b-7e70-abf1-18744700ec05/Original/OPU201_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

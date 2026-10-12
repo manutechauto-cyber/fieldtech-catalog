@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_tn2603",
+  "manufacturer": "ifm",
+  "model": "TN2603",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/tn2603.json",
+  "family": "ifm TN",
+  "typeIds": [
+    "temperature"
+  ],
+  "identity": {
+    "orderCode": "TN2603",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "TN2603",
+        "pt": "TN2603"
+      },
+      "value": "TN2603",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "TN2603"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: threaded connection 1/4\" NPT external thread",
+        "pt": "Ficha do modelo informa: threaded connection 1/4\" NPT external thread"
+      },
+      "value": "threaded connection 1/4\" NPT external thread",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "installation_length_el",
+      "name": {
+        "en": "Installation length EL",
+        "pt": "Comprimento de inserção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 25",
+        "pt": "Ficha do modelo informa: 25"
+      },
+      "value": "25",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "measuring_element",
+      "name": {
+        "en": "Measuring element",
+        "pt": "Elemento de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x Pt 1000;  (to DIN EN 60751, class A)",
+        "pt": "Ficha do modelo informa: 1 x Pt 1000;  (to DIN EN 60751, class A)"
+      },
+      "value": "1 x Pt 1000;  (to DIN EN 60751, class A)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: liquids and gases",
+        "pt": "Ficha do modelo informa: liquids and gases"
+      },
+      "value": "liquids and gases",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...32 DC;  (cULus - Class 2 source required)",
+        "pt": "Ficha do modelo informa: 18...32 DC;  (cULus - Class 2 source required)"
+      },
+      "value": "18...32 DC;  (cULus - Class 2 source required)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "output_signal",
+      "name": {
+        "en": "Output signal",
+        "pt": "Sinal de saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: switching signal; analog signal; IO-Link;  (configurable)",
+        "pt": "Ficha do modelo informa: switching signal; analog signal; IO-Link;  (configurable)"
+      },
+      "value": "switching signal; analog signal; IO-Link;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP/NPN",
+        "pt": "Ficha do modelo informa: PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (configurable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (configurable)"
+      },
+      "value": "normally open / closed;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 12",
+        "pt": "Ficha do modelo informa: 12"
+      },
+      "value": "12",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 2.3",
+        "pt": "Ficha do modelo informa: 2.3"
+      },
+      "value": "2.3",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...80",
+        "pt": "Ficha do modelo informa: -25...80"
+      },
+      "value": "-25...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TN2603"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code TN2603"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "parameter_setting_options",
+      "name": {
+        "en": "Parameter setting options",
+        "pt": "Opções de parametrização"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: hysteresis / window; normally open / closed; switching logic; switch-on/switch-off delay; Damping; Display unit; current/voltage output",
+        "pt": "Ficha do modelo informa: hysteresis / window; normally open / closed; switching logic; switch-on/switch-off delay; Damping; Display unit; current/voltage output"
+      },
+      "value": "hysteresis / window; normally open / closed; switching logic; switch-on/switch-off delay; Damping; Display unit; current/voltage output",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tn2603_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software / programming",
+        "applicability": "Exact order code TN2603"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a2b9-3d70-7014-8fd5-be9c96b5b1f8/Original/80235797_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

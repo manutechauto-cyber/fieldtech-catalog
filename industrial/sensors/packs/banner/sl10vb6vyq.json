@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_sl10vb6vyq",
+  "manufacturer": "Banner Engineering",
+  "model": "SL10VB6VYQ",
+  "family": "SL10",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/sl10vb6vyq.json",
+  "typeIds": [
+    "fork"
+  ],
+  "identity": {
+    "orderCode": "SL10VB6VYQ",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "SL10VB6VYQ",
+        "pt": "SL10VB6VYQ"
+      },
+      "value": "SL10VB6VYQ",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Slot width",
+        "pt": "Largura da abertura"
+      },
+      "description": {
+        "en": "10",
+        "pt": "10"
+      },
+      "value": 10,
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Slot width",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "Bipolar NPN and PNP",
+        "pt": "Bipolar NPN and PNP"
+      },
+      "value": "Bipolar NPN and PNP",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "300",
+        "pt": "300"
+      },
+      "value": 300,
+      "unit": "µs",
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response time",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "5-pin connector",
+        "pt": "5-pin connector"
+      },
+      "value": "5-pin connector",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "sensitivity",
+      "name": {
+        "en": "Sensitivity",
+        "pt": "Sensibilidade"
+      },
+      "description": {
+        "en": "SL10 uses a four-turn potentiometer.",
+        "pt": "SL10 usa potenciômetro de quatro voltas."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_sl10",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

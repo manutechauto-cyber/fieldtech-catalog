@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_qs186le_sm31rl",
+  "manufacturer": "Banner Engineering",
+  "model": "QS186LE + SM31RL",
+  "family": "QS186LE laser system",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/qs186le_sm31rl.json",
+  "typeIds": [
+    "laser-through-beam",
+    "photoelectric-through-beam"
+  ],
+  "identity": {
+    "orderCode": null,
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": [
+      {
+        "role": "emitter",
+        "orderCode": "QS186LE"
+      },
+      {
+        "role": "receiver",
+        "orderCode": "SM31RL"
+      }
+    ]
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Manufacturer-documented compatible two-component solution, not one combined order SKU. Receiver supply/output/pinout are not imported from the emitter manual.",
+      "pt": "Solução compatível documentada de dois componentes, não um SKU único. Alimentação, saída e pinagem do receptor não foram importadas do manual do emissor."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "QS186LE + SM31RL",
+        "pt": "QS186LE + SM31RL"
+      },
+      "value": "QS186LE + SM31RL",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "laser",
+      "name": {
+        "en": "Emitter laser class",
+        "pt": "Classe laser do emissor"
+      },
+      "description": {
+        "en": "1",
+        "pt": "1"
+      },
+      "value": 1,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Emitter laser class",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "gain",
+      "name": {
+        "en": "Excess gain at 15 m",
+        "pt": "Reserva de sinal a 15 m"
+      },
+      "description": {
+        "en": "340",
+        "pt": "340"
+      },
+      "value": 340,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Excess gain at 15 m",
+        "applicability": "Manufacturer-listed receiver combination, evaluated at 15 m; not a maximum-range claim"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Emitter supply",
+        "pt": "Alimentação do emissor"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Emitter supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "spot",
+      "name": {
+        "en": "Laser spot shape",
+        "pt": "Formato do ponto laser"
+      },
+      "description": {
+        "en": "Small spot",
+        "pt": "Small spot"
+      },
+      "value": "Small spot",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Laser spot shape",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [
+    {
+      "id": "environment",
+      "name": {
+        "en": "Optical conditions",
+        "pt": "Condições ópticas"
+      },
+      "description": {
+        "en": "The listed gain reference is not recommended for dusty/dirty environments; scattered light reduces gain.",
+        "pt": "A referência de reserva de sinal não é recomendada para ambientes com poeira/sujeira; luz espalhada reduz a reserva."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18laseremitter",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Optical conditions",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

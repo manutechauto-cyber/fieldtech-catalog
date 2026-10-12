@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_oc5220",
+  "manufacturer": "ifm",
+  "model": "OC5220",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/oc5220.json",
+  "family": "ifm OC",
+  "typeIds": [
+    "contrast"
+  ],
+  "identity": {
+    "orderCode": "OC5220",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "OC5220",
+        "pt": "OC5220"
+      },
+      "value": "OC5220",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "OC5220"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "type_of_light",
+      "name": {
+        "en": "Type of light",
+        "pt": "Tipo de luz"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: green light",
+        "pt": "Ficha do modelo informa: green light"
+      },
+      "value": "green light",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...30 DC",
+        "pt": "Ficha do modelo informa: 10...30 DC"
+      },
+      "value": "10...30 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP/NPN",
+        "pt": "Ficha do modelo informa: PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: light-on/dark-on mode;  (configurable)",
+        "pt": "Ficha do modelo informa: light-on/dark-on mode;  (configurable)"
+      },
+      "value": "light-on/dark-on mode;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10000",
+        "pt": "Ficha do modelo informa: 10000"
+      },
+      "value": "10000",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...60",
+        "pt": "Ficha do modelo informa: -25...60"
+      },
+      "value": "-25...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 67",
+        "pt": "Ficha do modelo informa: IP 67"
+      },
+      "value": "IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code OC5220"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 5",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 5"
+      },
+      "value": "1 x M12; coding: A; Contacts: 5",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_oc5220_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code OC5220"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": []
+}

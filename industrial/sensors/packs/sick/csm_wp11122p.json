@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_csm_wp11122p",
+  "manufacturer": "SICK",
+  "model": "CSM-WP11122P",
+  "family": "CSM",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/csm_wp11122p.json",
+  "typeIds": [
+    "color"
+  ],
+  "identity": {
+    "orderCode": "CSM-WP11122P",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "CSM-WP11122P",
+        "pt": "CSM-WP11122P"
+      },
+      "value": "CSM-WP11122P",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "distance",
+      "name": {
+        "en": "Sensing distance",
+        "pt": "Distância de detecção"
+      },
+      "description": {
+        "en": "12.5",
+        "pt": "12.5"
+      },
+      "value": 12.5,
+      "unit": "mm",
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing distance",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "12...24 V DC; see tolerance footnote",
+        "pt": "12...24 V DC; see tolerance footnote"
+      },
+      "value": "12...24 V DC; see tolerance footnote",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "PNP",
+        "pt": "PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output polarity",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "300",
+        "pt": "300"
+      },
+      "value": 300,
+      "unit": "µs",
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Response time",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "M12, 4-pin",
+        "pt": "M12, 4-pin"
+      },
+      "value": "M12, 4-pin",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_csmcatalog",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connector",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

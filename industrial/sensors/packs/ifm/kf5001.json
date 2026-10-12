@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_kf5001",
+  "manufacturer": "ifm",
+  "model": "KF5001",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/kf5001.json",
+  "family": "ifm KF",
+  "typeIds": [
+    "capacitive"
+  ],
+  "identity": {
+    "orderCode": "KF5001",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "KF5001",
+        "pt": "KF5001"
+      },
+      "value": "KF5001",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "KF5001"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP",
+        "pt": "Ficha do modelo informa: PNP"
+      },
+      "value": "PNP",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open",
+        "pt": "Ficha do modelo informa: normally open"
+      },
+      "value": "normally open",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "sensing_range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1...6",
+        "pt": "Ficha do modelo informa: 1...6"
+      },
+      "value": "1...6",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: dry bulk material; liquids",
+        "pt": "Ficha do modelo informa: dry bulk material; liquids"
+      },
+      "value": "dry bulk material; liquids",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10...36 DC;  (cULus - Class 2 source required)",
+        "pt": "Ficha do modelo informa: 10...36 DC;  (cULus - Class 2 source required)"
+      },
+      "value": "10...36 DC;  (cULus - Class 2 source required)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 50",
+        "pt": "Ficha do modelo informa: 50"
+      },
+      "value": "50",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...70",
+        "pt": "Ficha do modelo informa: -25...70"
+      },
+      "value": "-25...70",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65",
+        "pt": "Ficha do modelo informa: IP 65"
+      },
+      "value": "IP 65",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: flush mountable",
+        "pt": "Ficha do modelo informa: flush mountable"
+      },
+      "value": "flush mountable",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code KF5001"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 3",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 3"
+      },
+      "value": "1 x M12; coding: A; Contacts: 3",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_kf5001_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection - plug",
+        "applicability": "Exact order code KF5001"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a26c-c48d-7efa-a392-c92ada84c247/Original/706157_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

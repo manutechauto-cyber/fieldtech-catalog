@@ -1,65 +1,89 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 1,
-  "publishedPacks": 127,
+  "sensorCatalogVersion": 2,
+  "reviewedAt": "2026-10-12",
+  "publishedPacks": 398,
   "counts": {
-    "specifications": 623,
-    "parameters": 551,
-    "diagnostics": 211,
-    "procedures": 71,
-    "software": 33
+    "specifications": 2906,
+    "parameters": 714,
+    "diagnostics": 227,
+    "procedures": 101,
+    "software": 70
   },
-  "reviewedDocuments": 32,
-  "scope": "Curated field subsets; not full manuals or worldwide best-selling ranking",
+  "reviewedDocuments": 188,
+  "manufacturerCounts": {
+    "Banner Engineering": 91,
+    "Baumer": 1,
+    "Datalogic": 10,
+    "Omron": 83,
+    "Pepperl+Fuchs": 2,
+    "SICK": 42,
+    "Turck": 1,
+    "Zebra": 16,
+    "ifm": 152
+  },
+  "coverageDepth": {
+    "manual-field-subset": 208,
+    "datasheet-field-subset": 190
+  },
+  "scope": "Documented field subsets; 20-reference selection target met, not full manuals or proven worldwide sales ranking",
   "hardwareTested": false,
-  "sourceCodePageChecks": {
+  "fullManualTranscribed": false,
+  "sourceCodePageChecksPreviousRelease": {
     "checked": 581,
     "textMatches": 580,
     "visualOrSecondaryPageReview": 1,
     "unresolvedMismatches": 0
   },
+  "newReleaseSourceChecks": {
+    "newPackIdentityChecks": 271,
+    "newPackIdentityMatches": 271,
+    "newDocumentChecksumsVerified": 156,
+    "unresolvedIdentityOrChecksumMismatches": 0,
+    "method": "Exact model or both pair components matched after whitespace normalization on cited PDF pages; SHA-256 recalculated from downloaded PDFs. Imported ifm fact values additionally matched the retained PDF during extraction."
+  },
   "coverageByType": [
     {
       "typeId": "photoelectric-through-beam",
-      "published": 12,
+      "published": 36,
       "target": 20,
-      "remaining": 8
+      "remaining": 0
     },
     {
       "typeId": "photoelectric-retroreflective",
-      "published": 16,
+      "published": 36,
       "target": 20,
-      "remaining": 4
+      "remaining": 0
     },
     {
       "typeId": "photoelectric-diffuse",
-      "published": 16,
+      "published": 20,
       "target": 20,
-      "remaining": 4
+      "remaining": 0
     },
     {
       "typeId": "photoelectric-background-suppression",
-      "published": 23,
+      "published": 29,
       "target": 20,
       "remaining": 0
     },
     {
       "typeId": "laser-through-beam",
-      "published": 4,
+      "published": 20,
       "target": 20,
-      "remaining": 16
+      "remaining": 0
     },
     {
       "typeId": "laser-retroreflective",
-      "published": 4,
+      "published": 20,
       "target": 20,
-      "remaining": 16
+      "remaining": 0
     },
     {
       "typeId": "laser-diffuse",
-      "published": 14,
+      "published": 20,
       "target": 20,
-      "remaining": 6
+      "remaining": 0
     },
     {
       "typeId": "laser-distance",
@@ -69,100 +93,154 @@
     },
     {
       "typeId": "photoelectric-transparent",
-      "published": 18,
+      "published": 22,
       "target": 20,
-      "remaining": 2
+      "remaining": 0
     },
     {
       "typeId": "fiber-optic",
-      "published": 6,
+      "published": 20,
       "target": 20,
-      "remaining": 14
+      "remaining": 0
     },
     {
       "typeId": "fork",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "contrast",
-      "published": 1,
+      "published": 22,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "inductive",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "capacitive",
-      "published": 2,
+      "published": 20,
       "target": 20,
-      "remaining": 18
+      "remaining": 0
     },
     {
       "typeId": "ultrasonic",
-      "published": 9,
+      "published": 20,
       "target": 20,
-      "remaining": 11
+      "remaining": 0
     },
     {
       "typeId": "magnetic-cylinder",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "pressure",
-      "published": 18,
+      "published": 20,
       "target": 20,
-      "remaining": 2
+      "remaining": 0
     },
     {
       "typeId": "temperature",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "level",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "flow",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     },
     {
       "typeId": "color",
-      "published": 2,
+      "published": 20,
       "target": 20,
-      "remaining": 18
+      "remaining": 0
     },
     {
       "typeId": "barcode-1d",
-      "published": 2,
+      "published": 21,
       "target": 20,
-      "remaining": 18
+      "remaining": 0
     },
     {
       "typeId": "code-reader-2d",
-      "published": 1,
+      "published": 20,
       "target": 20,
-      "remaining": 19
+      "remaining": 0
     }
   ],
-  "remainingSelectionPositions": 289,
+  "remainingSelectionPositions": 0,
+  "selectionTargetMet": true,
   "marketEvidence": [
     {
       "url": "https://www.ia.omron.com/products/family/407/download/catalog.html",
       "claimScope": "Manufacturer claims one million E3Z family units sold yearly; not an independent per-model worldwide ranking"
+    }
+  ],
+  "selectionLimitations": [
+    "No independent worldwide per-model sales ranking was found. Selection remains an inferred research shortlist.",
+    "Electrical/connector/decoder variants and documented emitter/receiver combinations are distinct references, not proof of independent market popularity.",
+    "Legacy SICK, Datalogic and Omron documents support recorded facts; present-day availability and current software/firmware compatibility remain unknown.",
+    "Datasheet field subsets require subsequent operating-manual extraction for complete commissioning, diagnostics, backup and restore.",
+    "No hardware field tests or app import/UI tests were performed."
+  ],
+  "nextResearchPriorities": [
+    {
+      "priority": 1,
+      "task": "Deepen datasheet-only pressure, flow, level and temperature packs with exact-model operating manuals, output mappings and commissioning procedures."
+    },
+    {
+      "priority": 2,
+      "task": "Add job backup, restore, license constraints and network commissioning for Zebra, SICK and Omron code readers; expand verified manufacturers such as Cognex and Datalogic."
+    },
+    {
+      "priority": 3,
+      "task": "Validate current replacements for legacy optical models and increase manufacturer diversity per type using exact-model documentation."
+    }
+  ],
+  "deferredLeads": [
+    {
+      "manufacturer": "ifm",
+      "model": "TA2005",
+      "status": "Official model data retrieved but downloadable datasheet not obtained; not published",
+      "published": false
+    },
+    {
+      "manufacturer": "ifm",
+      "model": "TA2015",
+      "status": "Official model data retrieved but downloadable datasheet not obtained; not published",
+      "published": false
+    },
+    {
+      "manufacturer": "ifm",
+      "model": "TA2505",
+      "status": "Official model data retrieved but downloadable datasheet not obtained; not published",
+      "published": false
+    },
+    {
+      "manufacturer": "ifm",
+      "model": "LR2759",
+      "status": "Official model data retrieved but downloadable datasheet not obtained; not published",
+      "published": false
+    },
+    {
+      "manufacturer": "Cognex",
+      "model": "DataMan 300 family",
+      "status": "Official reference manual located; exact SKU/license mapping pending; not published",
+      "published": false
     }
   ]
 }

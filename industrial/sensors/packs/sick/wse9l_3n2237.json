@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_sick_wse9l_3n2237",
+  "manufacturer": "SICK",
+  "model": "WSE9L-3N2237",
+  "family": "W9L-3",
+  "version": 1,
+  "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
+  "typeIds": [
+    "laser-through-beam",
+    "photoelectric-through-beam"
+  ],
+  "identity": {
+    "orderCode": "WSE9L-3N2237",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Legacy 2013 manufacturer reference; present availability and firmware compatibility have not been established.",
+      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware não foram estabelecidas."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "WSE9L-3N2237",
+        "pt": "WSE9L-3N2237"
+      },
+      "value": "WSE9L-3N2237",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "principle",
+      "name": {
+        "en": "Sensing principle",
+        "pt": "Princípio de detecção"
+      },
+      "description": {
+        "en": "Through-beam emitter/receiver",
+        "pt": "Through-beam emitter/receiver"
+      },
+      "value": "Through-beam emitter/receiver",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing principle",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "laser",
+      "name": {
+        "en": "Laser class",
+        "pt": "Classe laser"
+      },
+      "description": {
+        "en": "1",
+        "pt": "1"
+      },
+      "value": 1,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Laser class",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Maximum sensing range",
+        "pt": "Alcance máximo"
+      },
+      "description": {
+        "en": "60",
+        "pt": "60"
+      },
+      "value": 60,
+      "unit": "m",
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Maximum sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output polarity",
+        "pt": "Polaridade da saída"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_w9",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output polarity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

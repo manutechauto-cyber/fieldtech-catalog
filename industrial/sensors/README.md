@@ -1,47 +1,52 @@
 # FieldTech Industrial Sensors
 
-Sensor catalog version 1: **127 published packs** across 4 manufacturers and 23 type filters. Each pack is a selected field reference, not a complete manual. Source checks cover 32 official PDFs; electrical operation has not been tested.
+Sensor catalog version 2: **398 published packs** across 9 manufacturers and 23 type filters. Each pack is a selected field reference. Source checks cover 188 official PDFs; electrical operation has not been tested.
 
-## Coverage and remaining selection
+## Coverage and research scope
 
-Target: 20 exact models per type. Selection is inferred field-service priority, not a proven worldwide model-sales ranking. Connector/electrical variants are individually documented, but do not prove independent popularity. One canonical pack can appear in multiple filters.
+The initial target of 20 references per type is met. Selection is inferred field-service priority, not a proven worldwide model-sales ranking. Electrical/connector/decoder variants and documented emitter/receiver assemblies count as distinct references; a pair counts once. One canonical pack can appear in multiple filters.
 
 | Type | Published references | Remaining to 20 |
 | --- | ---: | ---: |
-| Fotoelétrico emissor/receptor | 12 | 8 |
-| Fotoelétrico com refletor | 16 | 4 |
-| Fotoelétrico difuso | 16 | 4 |
-| Fotoelétrico com supressão de fundo | 23 | 0 |
-| Laser emissor/receptor | 4 | 16 |
-| Laser com refletor | 4 | 16 |
-| Laser de presença/difuso | 14 | 6 |
+| Fotoelétrico emissor/receptor | 36 | 0 |
+| Fotoelétrico com refletor | 36 | 0 |
+| Fotoelétrico difuso | 20 | 0 |
+| Fotoelétrico com supressão de fundo | 29 | 0 |
+| Laser emissor/receptor | 20 | 0 |
+| Laser com refletor | 20 | 0 |
+| Laser de presença/difuso | 20 | 0 |
 | Laser de distância/deslocamento | 21 | 0 |
-| Detecção de transparentes | 18 | 2 |
-| Fibra óptica e amplificador | 6 | 14 |
-| Forquilha e detecção de etiquetas | 1 | 19 |
-| Sensor de contraste | 1 | 19 |
-| Proximidade indutiva | 1 | 19 |
-| Proximidade capacitiva | 2 | 18 |
-| Ultrassônico | 9 | 11 |
-| Magnético de cilindro/posição | 1 | 19 |
-| Pressão/vácuo | 18 | 2 |
-| Temperatura | 1 | 19 |
-| Nível | 1 | 19 |
-| Vazão | 1 | 19 |
-| Sensor de cor | 2 | 18 |
-| Leitor industrial de códigos 1D | 2 | 18 |
-| Leitor industrial de códigos 2D | 1 | 19 |
+| Detecção de transparentes | 22 | 0 |
+| Fibra óptica e amplificador | 20 | 0 |
+| Forquilha e detecção de etiquetas | 20 | 0 |
+| Sensor de contraste | 22 | 0 |
+| Proximidade indutiva | 20 | 0 |
+| Proximidade capacitiva | 20 | 0 |
+| Ultrassônico | 20 | 0 |
+| Magnético de cilindro/posição | 20 | 0 |
+| Pressão/vácuo | 20 | 0 |
+| Temperatura | 20 | 0 |
+| Nível | 20 | 0 |
+| Vazão | 20 | 0 |
+| Sensor de cor | 20 | 0 |
+| Leitor industrial de códigos 1D | 21 | 0 |
+| Leitor industrial de códigos 2D | 20 | 0 |
 
-**289 selection positions remain**. Some filters exceed the initial target because already published models also satisfy those principles. The catalog is usable now; the 20-per-type research goal is unfinished.
+**No remaining selection positions**, but manual depth remains incomplete: **190 datasheet-field-subset**, **208 manual-field-subset**. No pack claims a full manual transcription. Datasheet packs contain verified identity/specifications and selected options; empty diagnostics or software sections explicitly require more research. Legacy documents establish the recorded facts, without confirming current availability or firmware compatibility.
 
 ## Published manufacturers
 
 | Manufacturer | Packs |
 | --- | ---: |
-| Banner Engineering | 29 |
-| Omron | 66 |
-| SICK | 7 |
-| ifm | 25 |
+| Banner Engineering | 91 |
+| Baumer | 1 |
+| Datalogic | 10 |
+| Omron | 83 |
+| Pepperl+Fuchs | 2 |
+| SICK | 42 |
+| Turck | 1 |
+| Zebra | 16 |
+| ifm | 152 |
 
 ## Downloads
 
@@ -69,6 +74,10 @@ Current values include units/ranges only where reviewed. Unknown fields do not m
 - CLV620-0000 is the serial/cabled variant; no built-in Ethernet is inferred from other CLV models. Working-memory edits and permanent saving are separate.
 - Lector61x replacement requires an identical product type and the saved .sopas project. No Read is not automatically a hardware fault.
 - Fiber-amplifier reach depends on selected fiber and response mode; no fixed range is assigned to the amplifier alone.
+
+## Next manual research
+
+Prioritize complete operating-manual extraction for pressure, flow, level and temperature; reader job backup/restore and network setup; then current replacements and broader manufacturer coverage. [Research report](research_results.json) retains deferred leads and scope limitations. Zebra FS decoder licenses are recorded per exact SKU; VS camera variants are not counted as barcode readers. The Omron F430 example pack includes the A code-reading license, not the S vision-only license.
 
 ## Validation and incremental build
 

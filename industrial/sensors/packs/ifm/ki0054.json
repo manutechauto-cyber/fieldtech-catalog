@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_ki0054",
+  "manufacturer": "ifm",
+  "model": "KI0054",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/ki0054.json",
+  "family": "ifm KI",
+  "typeIds": [
+    "capacitive"
+  ],
+  "identity": {
+    "orderCode": "KI0054",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "KI0054",
+        "pt": "KI0054"
+      },
+      "value": "KI0054",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "KI0054"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (selectable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (selectable)"
+      },
+      "value": "normally open / closed;  (selectable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "sensing_range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 5...40;  (Programming buttons)",
+        "pt": "Ficha do modelo informa: 5...40;  (Programming buttons)"
+      },
+      "value": "5...40;  (Programming buttons)",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: dry bulk material; liquids",
+        "pt": "Ficha do modelo informa: dry bulk material; liquids"
+      },
+      "value": "dry bulk material; liquids",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 30...250 AC / 20...250 DC",
+        "pt": "Ficha do modelo informa: 30...250 AC / 20...250 DC"
+      },
+      "value": "30...250 AC / 20...250 DC",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "switching_frequency_dc",
+      "name": {
+        "en": "Switching frequency DC",
+        "pt": "Frequência de comutação CC"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 10",
+        "pt": "Ficha do modelo informa: 10"
+      },
+      "value": "10",
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...80",
+        "pt": "Ficha do modelo informa: -25...80"
+      },
+      "value": "-25...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65; IP 67",
+        "pt": "Ficha do modelo informa: IP 65; IP 67"
+      },
+      "value": "IP 65; IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "mounting",
+      "name": {
+        "en": "Mounting",
+        "pt": "Montagem"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: non-flush mountable",
+        "pt": "Ficha do modelo informa: non-flush mountable"
+      },
+      "value": "non-flush mountable",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mechanical data",
+        "applicability": "Exact order code KI0054"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x 1/2\"; coding: C; Contacts: 2",
+        "pt": "Ficha do modelo informa: 1 x 1/2\"; coding: C; Contacts: 2"
+      },
+      "value": "1 x 1/2\"; coding: C; Contacts: 2",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_ki0054_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection - plug",
+        "applicability": "Exact order code KI0054"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a942-0c6f-734a-82ca-b24fa561a747/Original/11451060_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

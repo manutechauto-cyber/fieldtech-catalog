@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_banner_qs186eq8_qs18vn6rq8",
+  "manufacturer": "Banner Engineering",
+  "model": "QS186EQ8 + QS18VN6RQ8",
+  "family": "QS18 Opposed",
+  "version": 1,
+  "path": "industrial/sensors/packs/banner/qs186eq8_qs18vn6rq8.json",
+  "typeIds": [
+    "photoelectric-through-beam"
+  ],
+  "identity": {
+    "orderCode": null,
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": [
+      {
+        "role": "emitter",
+        "orderCode": "QS186EQ8"
+      },
+      {
+        "role": "receiver",
+        "orderCode": "QS18VN6RQ8"
+      }
+    ]
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "manual-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
+      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "QS186EQ8 + QS18VN6RQ8",
+        "pt": "QS186EQ8 + QS18VN6RQ8"
+      },
+      "value": "QS186EQ8 + QS18VN6RQ8",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3,
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "principle",
+      "name": {
+        "en": "Sensing principle",
+        "pt": "Princípio de detecção"
+      },
+      "description": {
+        "en": "Opposed emitter/receiver",
+        "pt": "Opposed emitter/receiver"
+      },
+      "value": "Opposed emitter/receiver",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing principle",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Receiver output",
+        "pt": "Saída do receptor"
+      },
+      "description": {
+        "en": "NPN",
+        "pt": "NPN"
+      },
+      "value": "NPN",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Receiver output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "range",
+      "name": {
+        "en": "Sensing range",
+        "pt": "Faixa de detecção"
+      },
+      "description": {
+        "en": "20",
+        "pt": "20"
+      },
+      "value": 20,
+      "unit": "m",
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_qs18",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ]
+}

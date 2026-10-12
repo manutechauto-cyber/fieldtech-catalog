@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_sm9000",
+  "manufacturer": "ifm",
+  "model": "SM9000",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/sm9000.json",
+  "family": "ifm SM",
+  "typeIds": [
+    "flow"
+  ],
+  "identity": {
+    "orderCode": "SM9000",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "SM9000",
+        "pt": "SM9000"
+      },
+      "value": "SM9000",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "SM9000"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: threaded connection G 2 external thread DN50 flat seal",
+        "pt": "Ficha do modelo informa: threaded connection G 2 external thread DN50 flat seal"
+      },
+      "value": "threaded connection G 2 external thread DN50 flat seal",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: Conductive liquids; water; water-based media",
+        "pt": "Ficha do modelo informa: Conductive liquids; water; water-based media"
+      },
+      "value": "Conductive liquids; water; water-based media",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "operating_voltage",
+      "name": {
+        "en": "Operating voltage",
+        "pt": "Tensão de operação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 18...32 DC;  (to SELV/PELV)",
+        "pt": "Ficha do modelo informa: 18...32 DC;  (to SELV/PELV)"
+      },
+      "value": "18...32 DC;  (to SELV/PELV)",
+      "unit": "V",
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical data",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "output_signal",
+      "name": {
+        "en": "Output signal",
+        "pt": "Sinal de saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: switching signal; analog signal; pulse signal; frequency signal; IO-Link;  (configurable)",
+        "pt": "Ficha do modelo informa: switching signal; analog signal; pulse signal; frequency signal; IO-Link;  (configurable)"
+      },
+      "value": "switching signal; analog signal; pulse signal; frequency signal; IO-Link;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "electrical_design",
+      "name": {
+        "en": "Electrical design",
+        "pt": "Projeto elétrico"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: PNP/NPN",
+        "pt": "Ficha do modelo informa: PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "output_function",
+      "name": {
+        "en": "Output function",
+        "pt": "Função da saída"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: normally open / closed;  (configurable)",
+        "pt": "Ficha do modelo informa: normally open / closed;  (configurable)"
+      },
+      "value": "normally open / closed;  (configurable)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Outputs",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "response_time",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 0.35;  (dAP = 0)",
+        "pt": "Ficha do modelo informa: 0.35;  (dAP = 0)"
+      },
+      "value": "0.35;  (dAP = 0)",
+      "unit": "s",
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reaction times",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "communication_interface",
+      "name": {
+        "en": "Communication interface",
+        "pt": "Interface de comunicação"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IO-Link",
+        "pt": "Ficha do modelo informa: IO-Link"
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "transmission_type",
+      "name": {
+        "en": "Transmission type",
+        "pt": "Tipo de transmissão"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: COM2 (38,4 kBaud)",
+        "pt": "Ficha do modelo informa: COM2 (38,4 kBaud)"
+      },
+      "value": "COM2 (38,4 kBaud)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "io_link_revision",
+      "name": {
+        "en": "IO-Link revision",
+        "pt": "Revisão IO-Link"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1.1",
+        "pt": "Ficha do modelo informa: 1.1"
+      },
+      "value": "1.1",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "sio_mode",
+      "name": {
+        "en": "SIO mode",
+        "pt": "Modo SIO"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: yes",
+        "pt": "Ficha do modelo informa: yes"
+      },
+      "value": "yes",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "required_master_port_class",
+      "name": {
+        "en": "Required master port class",
+        "pt": "Classe de porta do mestre"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: A",
+        "pt": "Ficha do modelo informa: A"
+      },
+      "value": "A",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "min_process_cycle_time",
+      "name": {
+        "en": "Min. process cycle time",
+        "pt": "Tempo mínimo de ciclo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 5",
+        "pt": "Ficha do modelo informa: 5"
+      },
+      "value": "5",
+      "unit": "ms",
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Interfaces",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -10...60",
+        "pt": "Ficha do modelo informa: -10...60"
+      },
+      "value": "-10...60",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 65; IP 67",
+        "pt": "Ficha do modelo informa: IP 65; IP 67"
+      },
+      "value": "IP 65; IP 67",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code SM9000"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code SM9000"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "parameter_setting_options",
+      "name": {
+        "en": "Parameter setting options",
+        "pt": "Opções de parametrização"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: Flow monitoring; quantity meter; Preset counter; Temperature monitoring; hysteresis / window; normally open / closed; switching logic; current/voltage/frequency/pulse output; Start-up delay; display can be deactivated; Display unit; empty pipe detection",
+        "pt": "Ficha do modelo informa: Flow monitoring; quantity meter; Preset counter; Temperature monitoring; hysteresis / window; normally open / closed; switching logic; current/voltage/frequency/pulse output; Start-up delay; display can be deactivated; Display unit; empty pipe detection"
+      },
+      "value": "Flow monitoring; quantity meter; Preset counter; Temperature monitoring; hysteresis / window; normally open / closed; switching logic; current/voltage/frequency/pulse output; Start-up delay; display can be deactivated; Display unit; empty pipe detection",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_sm9000_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software / programming",
+        "applicability": "Exact order code SM9000"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a5aa-c449-7c5f-82ed-1abf475ac990/Original/11497770_02_GB.pdf?contentdisposition=inline",
+      "title": "Operating instructions",
+      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+    }
+  ]
+}

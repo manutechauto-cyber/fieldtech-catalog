@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_ifm_tt1081",
+  "manufacturer": "ifm",
+  "model": "TT1081",
+  "version": 1,
+  "path": "industrial/sensors/packs/ifm/tt1081.json",
+  "family": "ifm TT",
+  "typeIds": [
+    "temperature"
+  ],
+  "identity": {
+    "orderCode": "TT1081",
+    "regionScope": "Manufacturer US datasheet; regional availability not ranked",
+    "components": []
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documentation-backed selection; no measured worldwide model ranking.",
+      "pt": "Seleção com documentação; sem ranking mundial medido por modelo."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "parameterExtractionComplete": false,
+    "limitations": {
+      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
+      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Exact model",
+        "pt": "Modelo exato"
+      },
+      "description": {
+        "en": "TT1081",
+        "pt": "TT1081"
+      },
+      "value": "TT1081",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model header",
+        "applicability": "TT1081"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "process_connection",
+      "name": {
+        "en": "Process connection",
+        "pt": "Conexão de processo"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: Clamp fitting Ø 10 mm",
+        "pt": "Ficha do modelo informa: Clamp fitting Ø 10 mm"
+      },
+      "value": "Clamp fitting Ø 10 mm",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "installation_length_el",
+      "name": {
+        "en": "Installation length EL",
+        "pt": "Comprimento de inserção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 160",
+        "pt": "Ficha do modelo informa: 160"
+      },
+      "value": "160",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Product characteristics",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "measuring_element",
+      "name": {
+        "en": "Measuring element",
+        "pt": "Elemento de medição"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x Pt 100;  (to DIN EN 60751, class A)",
+        "pt": "Ficha do modelo informa: 1 x Pt 100;  (to DIN EN 60751, class A)"
+      },
+      "value": "1 x Pt 100;  (to DIN EN 60751, class A)",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Media",
+        "pt": "Meios"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: liquids and gases",
+        "pt": "Ficha do modelo informa: liquids and gases"
+      },
+      "value": "liquids and gases",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Application",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "probe_length_l",
+      "name": {
+        "en": "Probe length L",
+        "pt": "Comprimento da sonda"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 160",
+        "pt": "Ficha do modelo informa: 160"
+      },
+      "value": "160",
+      "unit": "mm",
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Measuring/setting range",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "ambient_temperature",
+      "name": {
+        "en": "Ambient temperature",
+        "pt": "Temperatura ambiente"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: -25...80",
+        "pt": "Ficha do modelo informa: -25...80"
+      },
+      "value": "-25...80",
+      "unit": "°C",
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "protection",
+      "name": {
+        "en": "Protection",
+        "pt": "Grau de proteção"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: IP 68; IP 69K",
+        "pt": "Ficha do modelo informa: IP 68; IP 69K"
+      },
+      "value": "IP 68; IP 69K",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating conditions",
+        "applicability": "Exact order code TT1081"
+      }
+    },
+    {
+      "id": "connector",
+      "name": {
+        "en": "Connector",
+        "pt": "Conector"
+      },
+      "description": {
+        "en": "Exact-model datasheet reports: 1 x M12; coding: A; Contacts: 4, gold-plated",
+        "pt": "Ficha do modelo informa: 1 x M12; coding: A; Contacts: 4, gold-plated"
+      },
+      "value": "1 x M12; coding: A; Contacts: 4, gold-plated",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_tt1081_datasheet_v2",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "Exact order code TT1081"
+      }
+    }
+  ],
+  "parameters": [],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareName",
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure"
+  ],
+  "manualReferences": []
+}

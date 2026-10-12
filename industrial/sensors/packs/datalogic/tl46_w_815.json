@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "category": "sensors",
+  "packId": "sensor_datalogic_tl46_w_815",
+  "manufacturer": "Datalogic",
+  "model": "TL46-W-815",
+  "family": "TL46",
+  "version": 1,
+  "path": "industrial/sensors/packs/datalogic/tl46_w_815.json",
+  "typeIds": [
+    "contrast"
+  ],
+  "identity": {
+    "orderCode": "TL46-W-815",
+    "regionScope": "Manufacturer document; regional availability not ranked",
+    "components": [],
+    "partNumber": "954601000"
+  },
+  "selection": {
+    "basis": "inferred-field-service-priority",
+    "salesRankingConfirmed": false,
+    "note": {
+      "en": "Documented field-service selection; no measured worldwide sales ranking.",
+      "pt": "Seleção técnica documentada; sem ranking mundial medido de vendas."
+    }
+  },
+  "verification": {
+    "status": "curated-field-subset-verified-v1",
+    "factsVerified": true,
+    "hardwareTested": false,
+    "reviewedAt": "2026-10-12"
+  },
+  "coverage": {
+    "scope": "datasheet-field-subset",
+    "fullManualTranscribed": false,
+    "pinoutImported": false,
+    "limitations": {
+      "en": "Legacy Datalogic guide; exact current Datasensing replacement and IO-Link revisions not verified.",
+      "pt": "Guia legado Datalogic; substituto Datasensing atual e revisões IO-Link não verificados."
+    }
+  },
+  "modelEvidence": [
+    {
+      "id": "identity",
+      "name": {
+        "en": "Model identity",
+        "pt": "Identidade do modelo"
+      },
+      "description": {
+        "en": "TL46-W-815",
+        "pt": "TL46-W-815"
+      },
+      "value": "TL46-W-815",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Model identity",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "order",
+      "name": {
+        "en": "Part number",
+        "pt": "Número da peça"
+      },
+      "description": {
+        "en": "954601000",
+        "pt": "954601000"
+      },
+      "value": "954601000",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Part number",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "light",
+      "name": {
+        "en": "Light source",
+        "pt": "Fonte de luz"
+      },
+      "description": {
+        "en": "RGB LED",
+        "pt": "RGB LED"
+      },
+      "value": "RGB LED",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light source",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "orientation",
+      "name": {
+        "en": "Spot orientation",
+        "pt": "Orientação do ponto"
+      },
+      "description": {
+        "en": "Vertical",
+        "pt": "Vertical"
+      },
+      "value": "Vertical",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Spot orientation",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "output",
+      "name": {
+        "en": "Output",
+        "pt": "Saída"
+      },
+      "description": {
+        "en": "PNP/NPN",
+        "pt": "PNP/NPN"
+      },
+      "value": "PNP/NPN",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "supply",
+      "name": {
+        "en": "Supply",
+        "pt": "Alimentação"
+      },
+      "description": {
+        "en": "10...30 V DC",
+        "pt": "10...30 V DC"
+      },
+      "value": "10...30 V DC",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          58
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Supply",
+        "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt": "Conexão"
+      },
+      "description": {
+        "en": "M12, 5-pole",
+        "pt": "M12, 5-pole"
+      },
+      "value": "M12, 5-pole",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connection",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "setting",
+      "name": {
+        "en": "Setting controls",
+        "pt": "Controles de ajuste"
+      },
+      "description": {
+        "en": "Push-buttons",
+        "pt": "Push-buttons"
+      },
+      "value": "Push-buttons",
+      "unit": null,
+      "source": {
+        "documentId": "exp2_datalogic",
+        "pages": [
+          59
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Setting controls",
+        "applicability": "Listed exact model"
+      }
+    }
+  ],
+  "diagnostics": [],
+  "procedures": [],
+  "software": [],
+  "configurationUnknowns": [
+    "softwareVersionCompatibility",
+    "firmwareCompatibility",
+    "backupProcedure",
+    "restoreProcedure",
+    "persistentSaveProcedure",
+    "currentAvailability",
+    "currentDatasensingEquivalent",
+    "ioLinkVariantCompatibility"
+  ]
+}
