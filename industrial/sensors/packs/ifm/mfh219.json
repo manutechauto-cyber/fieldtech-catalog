@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_mfh219",
   "manufacturer": "ifm",
   "model": "MFH219",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/mfh219.json",
   "family": "ifm MFH",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -375,7 +375,30 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_single_point_teach",
+      "name": {
+        "en": "Single-point teach [single_point_teach]",
+        "pt": "TEACH de ponto único [single_point_teach]"
+      },
+      "description": {
+        "en": "Install in cylinder, select SSC1.x Single Point mode/hysteresis, position piston, select Teach output, save settings and execute Teach SP1.",
+        "pt": "Instale no cilindro, selecione modo Single Point/histerese em SSC1.x, posicione pistão, selecione saída Teach, salve ajustes e execute Teach SP1."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11660562_00_gb",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Single-point teach",
+        "applicability": "MFH219; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -389,7 +412,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a562-8abb-7ada-a258-e65fa294e1c7/Original/11660562_00_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11660562_00_gb"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sa4100",
   "manufacturer": "ifm",
   "model": "SA4100",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sa4100.json",
   "family": "ifm SA",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -483,10 +483,259 @@
         "section": "Software / programming",
         "applicability": "Exact order code SA4100"
       }
+    },
+    {
+      "id": "manual_ModE",
+      "name": {
+        "en": "Operating mode [ModE]",
+        "pt": "Modo de operação [ModE]"
+      },
+      "description": {
+        "en": "Relative, liquid or gas flow mode.",
+        "pt": "Modo de vazão relativo, líquido ou gás."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Operating mode",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_MEdI",
+      "name": {
+        "en": "Medium selection [MEdI]",
+        "pt": "Seleção do meio [MEdI]"
+      },
+      "description": {
+        "en": "Select the documented medium: water, glycol, oil or air.",
+        "pt": "Selecione o meio documentado: água, glicol, óleo ou ar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Medium selection",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_diA",
+      "name": {
+        "en": "Pipe diameter [diA]",
+        "pt": "Diâmetro da tubulação [diA]"
+      },
+      "description": {
+        "en": "Enter the inner pipe diameter for volumetric flow.",
+        "pt": "Informe o diâmetro interno para vazão volumétrica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Pipe diameter",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rES",
+      "name": {
+        "en": "Factory reset [rES]",
+        "pt": "Reset de fábrica [rES]"
+      },
+      "description": {
+        "en": "Restores factory settings; record application settings first.",
+        "pt": "Restaura ajustes de fábrica; registre os ajustes da aplicação antes."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_SEL2",
+      "name": {
+        "en": "OUT2 process selection [SEL2]",
+        "pt": "Seleção do processo OUT2 [SEL2]"
+      },
+      "description": {
+        "en": "Select flow or temperature for OUT2.",
+        "pt": "Selecione vazão ou temperatura para OUT2."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT2 process selection",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_Err",
+      "name": {
+        "en": "Device malfunction [Err]",
+        "pt": "Falha do dispositivo [Err]"
+      },
+      "description": {
+        "en": "Manual identifies a device fault and recommends replacement.",
+        "pt": "Manual identifica falha do dispositivo e recomenda substituição."
+      },
+      "value": "Err",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Device malfunction",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    },
+    {
+      "id": "manual_C.Loc",
+      "name": {
+        "en": "IO-Link setting lock [C.Loc]",
+        "pt": "Bloqueio de ajuste IO-Link [C.Loc]"
+      },
+      "description": {
+        "en": "Finish the active IO-Link parameter-setting session.",
+        "pt": "Finalize a sessão ativa de parametrização IO-Link."
+      },
+      "value": "C.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link setting lock",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_S.Loc",
+      "name": {
+        "en": "Software lock [S.Loc]",
+        "pt": "Bloqueio por software [S.Loc]"
+      },
+      "description": {
+        "en": "Unlock through the IO-Link parameter-setting software.",
+        "pt": "Desbloqueie pelo software de parametrização IO-Link."
+      },
+      "value": "S.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software lock",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_SC1",
+      "name": {
+        "en": "Output overcurrent 1 [SC1]",
+        "pt": "Sobrecorrente na saída 1 [SC1]"
+      },
+      "description": {
+        "en": "Check the corresponding output for short circuit or excessive current.",
+        "pt": "Verifique curto-circuito ou corrente excessiva na saída correspondente."
+      },
+      "value": "SC1",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overcurrent 1",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_SC2",
+      "name": {
+        "en": "Output overcurrent 2 [SC2]",
+        "pt": "Sobrecorrente na saída 2 [SC2]"
+      },
+      "description": {
+        "en": "Check the corresponding output for short circuit or excessive current.",
+        "pt": "Verifique curto-circuito ou corrente excessiva na saída correspondente."
+      },
+      "value": "SC2",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overcurrent 2",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_blank_display",
+      "name": {
+        "en": "Blank display check [blank_display]",
+        "pt": "Verificação de display apagado [blank_display]"
+      },
+      "description": {
+        "en": "Check supply voltage and whether diS is OFF.",
+        "pt": "Verifique a alimentação e se diS está em OFF."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458803_en",
+        "pages": [
+          39
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Blank display check",
+        "applicability": "SA4100; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -500,7 +749,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a7f2-4c8a-7e3c-ba49-7d3db6c14353/Original/11458803_EN.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11458803_en"
     }
   ]
 }

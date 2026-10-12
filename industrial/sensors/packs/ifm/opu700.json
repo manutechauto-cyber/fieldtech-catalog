@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_opu700",
   "manufacturer": "ifm",
   "model": "OPU700",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/opu700.json",
   "family": "ifm OPU",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -417,10 +417,79 @@
       }
     }
   ],
-  "parameters": [],
+  "parameters": [
+    {
+      "id": "manual_NO_NC",
+      "name": {
+        "en": "Output function [NO_NC]",
+        "pt": "Função da saída [NO_NC]"
+      },
+      "description": {
+        "en": "Remove cover, set NO/NC switch with screwdriver and replace cover.",
+        "pt": "Remova tampa, ajuste chave NA/NF com chave de fenda e recoloque tampa."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11643965_00_gb",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output function",
+        "applicability": "OPU700; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "diagnostics": [],
-  "procedures": [],
-  "software": [],
+  "procedures": [
+    {
+      "id": "manual_sensitivity",
+      "name": {
+        "en": "Sensitivity adjustment [sensitivity]",
+        "pt": "Ajuste da sensibilidade [sensitivity]"
+      },
+      "description": {
+        "en": "For switching on object detection: start at minimum sensitivity, insert object, increase until yellow LED lights, remove object and verify LED goes out.",
+        "pt": "Para comutar com alvo: inicie na sensibilidade mínima, insira alvo, aumente até LED amarelo acender, remova alvo e confira LED apagar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11643965_00_gb",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity adjustment",
+        "applicability": "OPU700; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "manual_io_link",
+      "name": {
+        "en": "IO-Link local/remote selection [io_link]",
+        "pt": "Seleção local/remoto IO-Link [io_link]"
+      },
+      "description": {
+        "en": "For IO-Link-capable variants, change L-r from local to remote before setting via IO-Link.",
+        "pt": "Em variantes com IO-Link, altere L-r de local para remote antes de ajustar por IO-Link."
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11643965_00_gb",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link local/remote selection",
+        "applicability": "OPU700; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "configurationUnknowns": [
     "softwareName",
     "softwareVersionCompatibility",
@@ -433,7 +502,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a4ef-2338-7e9d-9ed7-2c23324c58f5/Original/11643965_00_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11643965_00_gb"
     }
   ]
 }

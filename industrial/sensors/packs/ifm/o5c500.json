@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_o5c500",
   "manufacturer": "ifm",
   "model": "O5C500",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/o5c500.json",
   "family": "ifm O",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -263,9 +263,78 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "parameters": [
+    {
+      "id": "manual_tolerance",
+      "name": {
+        "en": "Colour tolerance [tolerance]",
+        "pt": "Tolerância de cor [tolerance]"
+      },
+      "description": {
+        "en": "Five tolerance steps; factory setting step 2.",
+        "pt": "Cinco níveis de tolerância; ajuste de fábrica no nível 2."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11470794_en",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Colour tolerance",
+        "applicability": "O5C500; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_led_8hz",
+      "name": {
+        "en": "Colour teach failed [led_8hz]",
+        "pt": "TEACH de cor falhou [led_8hz]"
+      },
+      "description": {
+        "en": "Yellow LED flashing 8 Hz indicates failed colour teaching.",
+        "pt": "LED amarelo piscando 8 Hz indica falha no TEACH de cor."
+      },
+      "value": "led_8hz",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11470794_en",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Colour teach failed",
+        "applicability": "O5C500; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_colour_teach",
+      "name": {
+        "en": "Colour teach [colour_teach]",
+        "pt": "TEACH da cor [colour_teach]"
+      },
+      "description": {
+        "en": "Keep target still; hold OUT on 2...6 seconds and release to teach switching on colour detection.",
+        "pt": "Mantenha alvo imóvel; segure OUT on 2...6 segundos e solte para comutar ao detectar a cor."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11470794_en",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Colour teach",
+        "applicability": "O5C500; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -279,7 +348,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a8ea-8df8-7030-9db5-e80b6428646e/Original/11470794_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11470794_en"
     }
   ]
 }

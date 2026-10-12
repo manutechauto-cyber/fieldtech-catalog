@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_ki5209",
   "manufacturer": "ifm",
   "model": "KI5209",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/ki5209.json",
   "family": "ifm KI",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -263,7 +263,30 @@
       }
     }
   ],
-  "parameters": [],
+  "parameters": [
+    {
+      "id": "manual_potentiometer",
+      "name": {
+        "en": "Sensitivity control [potentiometer]",
+        "pt": "Controle de sensibilidade [potentiometer]"
+      },
+      "description": {
+        "en": "Adjust sensing range with the potentiometer and a screwdriver.",
+        "pt": "Ajuste a distância de detecção pelo potenciômetro com chave de fenda."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_704550_en",
+        "pages": [
+          9
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity control",
+        "applicability": "KI5209; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "diagnostics": [],
   "procedures": [],
   "software": [],
@@ -279,7 +302,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a833-ff3f-7c34-bc81-6a1d002f84ab/Original/704550_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_704550_en"
     },
     {
       "url": "https://media.ifm.com/dam/01a0a6dc-41f5-7ad6-aed3-ba2aaa3270bc/Original/704550_EN.inx?contentdisposition=inline",

@@ -1,6 +1,6 @@
 # FieldTech Industrial Sensors
 
-Sensor catalog version 2: **398 published packs** across 9 manufacturers and 23 type filters. Each pack is a selected field reference. Source checks cover 188 official PDFs; electrical operation has not been tested.
+Sensor catalog version 3: **398 published packs** across 9 manufacturers and 23 type filters. Each pack is a selected field reference. Source checks cover 226 official PDFs; electrical operation has not been tested.
 
 ## Coverage and research scope
 
@@ -32,7 +32,7 @@ The initial target of 20 references per type is met. Selection is inferred field
 | Leitor industrial de códigos 1D | 21 | 0 |
 | Leitor industrial de códigos 2D | 20 | 0 |
 
-**No remaining selection positions**, but manual depth remains incomplete: **190 datasheet-field-subset**, **208 manual-field-subset**. No pack claims a full manual transcription. Datasheet packs contain verified identity/specifications and selected options; empty diagnostics or software sections explicitly require more research. Legacy documents establish the recorded facts, without confirming current availability or firmware compatibility.
+**No remaining selection positions**, but manual depth remains incomplete: **85 datasheet-field-subset**, **313 manual-field-subset**. No pack claims a full manual transcription. Datasheet packs contain verified identity/specifications and selected options; empty diagnostics or software sections explicitly require more research. Legacy documents establish the recorded facts, without confirming current availability or firmware compatibility.
 
 ## Published manufacturers
 
@@ -77,7 +77,7 @@ Current values include units/ranges only where reviewed. Unknown fields do not m
 
 ## Next manual research
 
-Prioritize complete operating-manual extraction for pressure, flow, level and temperature; reader job backup/restore and network setup; then current replacements and broader manufacturer coverage. [Research report](research_results.json) retains deferred leads and scope limitations. Zebra FS decoder licenses are recorded per exact SKU; VS camera variants are not counted as barcode readers. The Omron F430 example pack includes the A code-reading license, not the S vision-only license.
+This release deepens 121 packs with 684 additional field references from 38 new official manuals. Pressure, flow, temperature and level variants now include selected commissioning/diagnostic references. Zebra backup interrupts jobs and restore reboots the device; SICK permanent saving and external project backup are separate. Prioritize the remaining 85 datasheet-only packs, then complete parameter/diagnostic tables, wiring and software compatibility. [Per-pack completion queue](completion_queue.json) retains explicit gaps. [Research report](research_results.json) retains deferred leads and scope limitations. Zebra FS decoder licenses are recorded per exact SKU; VS camera variants are not counted as barcode readers. The Omron F430 example pack includes the A code-reading license, not the S vision-only license.
 
 ## Validation and incremental build
 

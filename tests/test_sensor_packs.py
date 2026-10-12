@@ -78,3 +78,37 @@ class SensorPackTests(unittest.TestCase):
             self.assertEqual(row['published'],len(typ['publishedPackIds']))
             self.assertEqual(row['remaining'],max(0,typ['target']-row['published']))
         self.assertEqual(report['remainingSelectionPositions'],sum(r['remaining'] for r in report['coverageByType']))
+
+    def test_lmt_switch_on_delay_model_exclusions(self):
+        for model in ('LMT100','LMT110','LMT121'):
+            _,p=self.load(model)
+            self.assertNotIn('manual_dS1',{x['id'] for x in p['parameters']})
+        _,p=self.load('LMT102')
+        self.assertIn('manual_dS1',{x['id'] for x in p['parameters']})
+        event=next(x for x in p['diagnostics'] if x['id']=='manual_0x7710')
+        self.assertEqual(event['severity'],'error')
+
+    def test_sa_dual_analogue_and_switching_variants_differ(self):
+        _,analog=self.load('SA4114');_,switching=self.load('SA4110')
+        ap={x['id']:x for x in analog['parameters']}
+        sp={x['id']:x for x in switching['parameters']}
+        self.assertIn('OUT1 temperature',ap['manual_ASP1']['description']['en'])
+        self.assertIn('OUT2 flow',ap['manual_ASP2']['description']['en'])
+        self.assertNotIn('manual_ASP1',sp)
+        self.assertNotIn('manual_ou2',{x['id'] for x in analog['parameters']})
+
+    def test_zebra_backup_interrupt_and_restore_reboot(self):
+        _,p=self.load('FS40-SR20D4-2C00W')
+        procedures={x['id']:x for x in p['procedures']}
+        self.assertIn('interrupts',procedures['depth_backup']['description']['en'])
+        self.assertIn('reboots',procedures['depth_restore']['description']['en'])
+        self.assertNotIn('backupProcedure',p['configurationUnknowns'])
+        self.assertIn('firmwareCompatibility',p['configurationUnknowns'])
+
+    def test_pressure_new_variants_have_switching_output_two(self):
+        for model in ('PN7012','PN7014'):
+            _,p=self.load(model)
+            ids={x['id'] for x in p['parameters']}
+            self.assertIn('SP2',ids)
+            self.assertNotIn('ASP2',ids)
+            self.assertIn('mode 2/3',p['coverage']['limitations']['en'])

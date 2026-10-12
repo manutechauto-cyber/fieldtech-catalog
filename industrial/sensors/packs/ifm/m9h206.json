@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_m9h206",
   "manufacturer": "ifm",
   "model": "M9H206",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/m9h206.json",
   "family": "ifm M",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -265,7 +265,30 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_connection",
+      "name": {
+        "en": "Electrical connection [connection]",
+        "pt": "Conexão elétrica [connection]"
+      },
+      "description": {
+        "en": "Disconnect power and use the exact-model datasheet/type-label wiring.",
+        "pt": "Desenergize e use a ligação da ficha técnica/etiqueta do modelo exato."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11400612_01_gb",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection",
+        "applicability": "M9H206; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -279,7 +302,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a488-0733-7a51-a55a-d5d3bed9c352/Original/11400612_01_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11400612_01_gb"
     }
   ]
 }

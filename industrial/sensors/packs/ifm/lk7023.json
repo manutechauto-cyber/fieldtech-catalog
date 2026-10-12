@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lk7023",
   "manufacturer": "ifm",
   "model": "LK7023",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lk7023.json",
   "family": "ifm LK",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -420,7 +420,30 @@
     }
   ],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_lock",
+      "name": {
+        "en": "Key lock/unlock [lock]",
+        "pt": "Bloqueio/desbloqueio [lock]"
+      },
+      "description": {
+        "en": "Hold Mode/Enter and Set together for 10 seconds. Software S.Loc requires software unlocking.",
+        "pt": "Segure Mode/Enter e Set juntos por 10 segundos. S.Loc exige desbloqueio por software."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11573063_00_gb",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Key lock/unlock",
+        "applicability": "LK7023; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -434,7 +457,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a49c-5a29-7e5a-9845-7acf3dbea08b/Original/11573063_00_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11573063_00_gb"
     }
   ]
 }

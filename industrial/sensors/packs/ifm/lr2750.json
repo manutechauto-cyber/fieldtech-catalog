@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lr2750",
   "manufacturer": "ifm",
   "model": "LR2750",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lr2750.json",
   "family": "ifm LR",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -351,8 +351,100 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
+  "parameters": [
+    {
+      "id": "manual_tREF",
+      "name": {
+        "en": "Parameter tREF [tREF]",
+        "pt": "Parâmetro tREF [tREF]"
+      },
+      "description": {
+        "en": "Tank adjustment; visible only for LEnG ≥260 mm.",
+        "pt": "Ajuste do tanque; visível apenas com LEnG ≥260 mm."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425804_00_uk",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Parameter tREF",
+        "applicability": "LR2750; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rES",
+      "name": {
+        "en": "Parameter rES [rES]",
+        "pt": "Parâmetro rES [rES]"
+      },
+      "description": {
+        "en": "Restores all settings including tank adjustment.",
+        "pt": "Restaura todos os ajustes, incluindo ajuste do tanque."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425804_00_uk",
+        "pages": [
+          29
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Parameter rES",
+        "applicability": "LR2750; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_nPrb",
+      "name": {
+        "en": "Diagnostic nPrb [nPrb]",
+        "pt": "Diagnóstico nPrb [nPrb]"
+      },
+      "description": {
+        "en": "Check probe attachment and LEnG.",
+        "pt": "Confira fixação da sonda e LEnG."
+      },
+      "value": "nPrb",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425804_00_uk",
+        "pages": [
+          40
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic nPrb",
+        "applicability": "LR2750; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    },
+    {
+      "id": "manual_SEnS",
+      "name": {
+        "en": "Diagnostic SEnS [SEnS]",
+        "pt": "Diagnóstico SEnS [SEnS]"
+      },
+      "description": {
+        "en": "Check foam, layers, deposits, installation and tank adjustment.",
+        "pt": "Confira espuma, camadas, depósitos, instalação e ajuste do tanque."
+      },
+      "value": "SEnS",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425804_00_uk",
+        "pages": [
+          40
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic SEnS",
+        "applicability": "LR2750; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
@@ -367,7 +459,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a459-cfba-7c49-8cd2-bb5f592a70e5/Original/11425804_00_UK.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11425804_00_uk"
     }
   ]
 }

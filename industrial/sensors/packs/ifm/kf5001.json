@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_kf5001",
   "manufacturer": "ifm",
   "model": "KF5001",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/kf5001.json",
   "family": "ifm KF",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -287,7 +287,30 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_mounting",
+      "name": {
+        "en": "Non-flush mounting caution [mounting]",
+        "pt": "Cuidado na montagem não faceada [mounting]"
+      },
+      "description": {
+        "en": "Flush mounting of a non-flush sensor can cause permanent switching; preserve the specified sensing-face clearance.",
+        "pt": "Montagem faceada de sensor não faceado pode causar comutação permanente; preserve espaço livre especificado na face sensora."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_706157_en",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Non-flush mounting caution",
+        "applicability": "KF5001; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -301,7 +324,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a26c-c48d-7efa-a392-c92ada84c247/Original/706157_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_706157_en"
     }
   ]
 }

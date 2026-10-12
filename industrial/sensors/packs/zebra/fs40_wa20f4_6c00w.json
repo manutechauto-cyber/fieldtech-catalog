@@ -5,7 +5,7 @@
   "manufacturer": "Zebra",
   "model": "FS40-WA20F4-6C00W",
   "family": "FS40",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/zebra/fs40_wa20f4_6c00w.json",
   "typeIds": [
     "barcode-1d",
@@ -197,8 +197,92 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
+  "parameters": [
+    {
+      "id": "depth_active_job_69053",
+      "name": {
+        "en": "Active job slot",
+        "pt": "Slot do job ativo"
+      },
+      "description": {
+        "en": "Parameter barcode 69053 selects the active job slot; scan the official slot barcode.",
+        "pt": "Código de parâmetro 69053 seleciona slot de job ativo; leia o código oficial do slot."
+      },
+      "value": {
+        "parameterBarcodeNumber": 69053,
+        "slots": [
+          1,
+          20
+        ]
+      },
+      "unit": null,
+      "source": {
+        "documentId": "exp2_zebra4070",
+        "pages": [
+          79,
+          80,
+          81
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Active job slot",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
+    },
+    {
+      "id": "depth_startup_job_69054",
+      "name": {
+        "en": "Startup job slot",
+        "pt": "Slot do job na inicialização"
+      },
+      "description": {
+        "en": "Parameter barcode 69054 selects the startup job slot; separate from the active slot.",
+        "pt": "Código de parâmetro 69054 seleciona slot de inicialização; independente do slot ativo."
+      },
+      "value": {
+        "parameterBarcodeNumber": 69054,
+        "slots": [
+          1,
+          20
+        ]
+      },
+      "unit": null,
+      "source": {
+        "documentId": "exp2_zebra4070",
+        "pages": [
+          81,
+          82,
+          83
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Startup job slot",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "depth_discovery",
+      "name": {
+        "en": "Device discovery troubleshooting",
+        "pt": "Diagnóstico de descoberta"
+      },
+      "description": {
+        "en": "Check network visibility, Aurora Focus firewall permissions and USB RNDIS driver. For intermittent USB connection, reseat cable and tighten screws.",
+        "pt": "Confira visibilidade na rede, permissões do firewall para Aurora Focus e driver RNDIS USB. Em conexão USB intermitente, recoloque cabo e aperte parafusos."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_zebra4070",
+        "pages": [
+          86
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Device discovery troubleshooting",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
+    }
+  ],
   "procedures": [
     {
       "id": "restart",
@@ -220,6 +304,74 @@
         "pageBasis": "PDF page, 1-based",
         "section": "Power cycle for discovery",
         "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "depth_backup",
+      "name": {
+        "en": "Back up device and jobs",
+        "pt": "Backup do dispositivo e jobs"
+      },
+      "description": {
+        "en": "In View Devices select connected device, choose device configuration/jobs/both, then Create Backup and save a file. Backup interrupts the running job.",
+        "pt": "Em View Devices selecione dispositivo conectado, escolha configuração/jobs/ambos, clique Create Backup e salve arquivo. Backup interrompe o job em execução."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_aurora_focus",
+        "pages": [
+          25,
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Back up device and jobs",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
+    },
+    {
+      "id": "depth_restore",
+      "name": {
+        "en": "Restore device backup",
+        "pt": "Restaurar backup do dispositivo"
+      },
+      "description": {
+        "en": "Select connected device in View Devices, select backup file and click Restore Device; the device reboots. Confirm hardware/firmware compatibility before replacement.",
+        "pt": "Selecione dispositivo conectado em View Devices, selecione arquivo de backup e clique Restore Device; dispositivo reinicia. Confira compatibilidade de hardware/firmware antes da substituição."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_aurora_focus",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Restore device backup",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
+    },
+    {
+      "id": "depth_hardware_reset",
+      "name": {
+        "en": "Hardware factory reset",
+        "pt": "Reset de fábrica por botão"
+      },
+      "description": {
+        "en": "Back up first. Remove all power, hold TRIG, reconnect power, hold about 20 seconds until the documented LED transition, then release within 5 seconds.",
+        "pt": "Faça backup antes. Remova alimentação, segure TRIG, reconecte energia, segure cerca de 20 segundos até transição de LEDs documentada e solte em até 5 segundos."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_zebra4070",
+        "pages": [
+          86,
+          87
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Hardware factory reset",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
       }
     }
   ],
@@ -245,13 +397,34 @@
         "section": "Configuration software",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "depth_documented_software",
+      "name": {
+        "en": "Reviewed software guide",
+        "pt": "Guia de software revisado"
+      },
+      "description": {
+        "en": "Procedures reviewed in Aurora Focus 10.2 guide; installed firmware/application compatibility remains unverified.",
+        "pt": "Procedimentos revisados no guia Aurora Focus 10.2; compatibilidade da aplicação/firmware instalado permanece não verificada."
+      },
+      "value": "Aurora Focus 10.2",
+      "unit": null,
+      "source": {
+        "documentId": "depth_aurora_focus",
+        "pages": [
+          1,
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reviewed software guide",
+        "applicability": "FS40-WA20F4-6C00W; same-type replacement and software/firmware compatibility must be checked"
+      }
     }
   ],
   "configurationUnknowns": [
     "softwareVersionCompatibility",
     "firmwareCompatibility",
-    "backupProcedure",
-    "restoreProcedure",
     "persistentSaveProcedure"
   ]
 }

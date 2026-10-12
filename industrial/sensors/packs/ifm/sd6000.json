@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sd6000",
   "manufacturer": "ifm",
   "model": "SD6000",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sd6000.json",
   "family": "ifm SD",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -461,9 +461,99 @@
         "section": "Software / programming",
         "applicability": "Exact order code SD6000"
       }
+    },
+    {
+      "id": "manual_rEF.P",
+      "name": {
+        "en": "Parameter rEF.P [rEF.P]",
+        "pt": "Parâmetro rEF.P [rEF.P]"
+      },
+      "description": {
+        "en": "Reference pressure for normalised volumetric flow.",
+        "pt": "Pressão de referência para vazão volumétrica normalizada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406634_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Parameter rEF.P",
+        "applicability": "SD6000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rEF.T",
+      "name": {
+        "en": "Parameter rEF.T [rEF.T]",
+        "pt": "Parâmetro rEF.T [rEF.T]"
+      },
+      "description": {
+        "en": "Reference temperature for normalised volumetric flow.",
+        "pt": "Temperatura de referência para vazão volumétrica normalizada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406634_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Parameter rEF.T",
+        "applicability": "SD6000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rTo",
+      "name": {
+        "en": "Parameter rTo [rTo]",
+        "pt": "Parâmetro rTo [rTo]"
+      },
+      "description": {
+        "en": "Manual or time-controlled counter reset.",
+        "pt": "Reset do contador manual ou temporizado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406634_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Parameter rTo",
+        "applicability": "SD6000; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "id": "manual_Err",
+      "name": {
+        "en": "Probe/range error [Err]",
+        "pt": "Erro de sonda/faixa [Err]"
+      },
+      "description": {
+        "en": "Flashing Err: probe error or value above 130% of the range end.",
+        "pt": "Err piscando: erro de sonda ou valor acima de 130% do fim da faixa."
+      },
+      "value": "Err",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406634_en",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Probe/range error",
+        "applicability": "SD6000; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
@@ -478,7 +568,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a2f9-c580-76fd-92d1-5ca1ffa7968b/Original/11406634_EN.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11406634_en"
     }
   ]
 }

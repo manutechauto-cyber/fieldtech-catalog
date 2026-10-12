@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 2,
+  "sensorCatalogVersion": 3,
   "reviewedAt": "2026-10-12",
   "publishedPacks": 398,
   "counts": {
-    "specifications": 2906,
-    "parameters": 714,
-    "diagnostics": 227,
-    "procedures": 101,
-    "software": 70
+    "specifications": 2914,
+    "parameters": 1011,
+    "diagnostics": 415,
+    "procedures": 254,
+    "software": 108
   },
-  "reviewedDocuments": 188,
+  "reviewedDocuments": 226,
   "manufacturerCounts": {
     "Banner Engineering": 91,
     "Baumer": 1,
@@ -23,8 +23,8 @@
     "ifm": 152
   },
   "coverageDepth": {
-    "manual-field-subset": 208,
-    "datasheet-field-subset": 190
+    "manual-field-subset": 313,
+    "datasheet-field-subset": 85
   },
   "scope": "Documented field subsets; 20-reference selection target met, not full manuals or proven worldwide sales ranking",
   "hardwareTested": false,
@@ -36,11 +36,12 @@
     "unresolvedMismatches": 0
   },
   "newReleaseSourceChecks": {
-    "newPackIdentityChecks": 271,
-    "newPackIdentityMatches": 271,
-    "newDocumentChecksumsVerified": 156,
-    "unresolvedIdentityOrChecksumMismatches": 0,
-    "method": "Exact model or both pair components matched after whitespace normalization on cited PDF pages; SHA-256 recalculated from downloaded PDFs. Imported ifm fact values additionally matched the retained PDF during extraction."
+    "updatedPacks": 121,
+    "newFieldReferences": 684,
+    "newOfficialManuals": 38,
+    "newDocumentChecksumsVerified": 38,
+    "method": "Selected manual sections reviewed for field use. Model applicability uses retained exact-model datasheet/manual links, explicit family coverage, or exact pressure-model listing. Shared-family exclusions are applied per model; software guide compatibility remains explicit.",
+    "unresolvedChecksumMismatches": 0
   },
   "coverageByType": [
     {
@@ -200,15 +201,15 @@
   "nextResearchPriorities": [
     {
       "priority": 1,
-      "task": "Deepen datasheet-only pressure, flow, level and temperature packs with exact-model operating manuals, output mappings and commissioning procedures."
+      "task": "Extract exact-variant commissioning and diagnostics for the remaining 85 datasheet-only packs; obtain official manuals for the remaining ifm variants and legacy optical sensors."
     },
     {
       "priority": 2,
-      "task": "Add job backup, restore, license constraints and network commissioning for Zebra, SICK and Omron code readers; expand verified manufacturers such as Cognex and Datalogic."
+      "task": "Extend reviewed manual subsets to complete parameter/diagnostic tables, with unit/range/default and variant/mode conditions."
     },
     {
       "priority": 3,
-      "task": "Validate current replacements for legacy optical models and increase manufacturer diversity per type using exact-model documentation."
+      "task": "Validate wiring/pinouts, current software and firmware compatibility, job migration, and field operation; verify app import separately."
     }
   ],
   "deferredLeads": [
@@ -242,5 +243,23 @@
       "status": "Official reference manual located; exact SKU/license mapping pending; not published",
       "published": false
     }
-  ]
+  ],
+  "previousReleaseSourceChecks": {
+    "newPackIdentityChecks": 271,
+    "newPackIdentityMatches": 271,
+    "newDocumentChecksumsVerified": 156,
+    "unresolvedIdentityOrChecksumMismatches": 0,
+    "method": "Exact model or both pair components matched after whitespace normalization on cited PDF pages; SHA-256 recalculated from downloaded PDFs. Imported ifm fact values additionally matched the retained PDF during extraction."
+  },
+  "remainingDatasheetOnlyPacks": 85,
+  "remainingDatasheetOnlyByManufacturer": {
+    "ifm": 26,
+    "Omron": 20,
+    "SICK": 26,
+    "Turck": 1,
+    "Pepperl+Fuchs": 1,
+    "Baumer": 1,
+    "Datalogic": 10
+  },
+  "completionQueueUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/completion_queue.json"
 }

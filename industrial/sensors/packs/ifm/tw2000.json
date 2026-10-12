@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_tw2000",
   "manufacturer": "ifm",
   "model": "TW2000",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/tw2000.json",
   "family": "ifm TW",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -395,10 +395,100 @@
         "section": "Software / programming",
         "applicability": "Exact order code TW2000"
       }
+    },
+    {
+      "id": "manual_EPSI",
+      "name": {
+        "en": "Emissivity [EPSI]",
+        "pt": "Emissividade [EPSI]"
+      },
+      "description": {
+        "en": "Set emissivity for the measured surface; decreasing emissivity increases displayed temperature.",
+        "pt": "Ajuste emissividade da superfície; reduzir emissividade aumenta a temperatura indicada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80270318_en",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Emissivity",
+        "applicability": "TW2000; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_SC1",
+      "name": {
+        "en": "Output overload [SC1]",
+        "pt": "Sobrecarga da saída [SC1]"
+      },
+      "description": {
+        "en": "SC1 flashes at 2 Hz; OUT1 LED flashes at 4 Hz.",
+        "pt": "SC1 pisca a 2 Hz; LED OUT1 pisca a 4 Hz."
+      },
+      "value": "SC1",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80270318_en",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overload",
+        "applicability": "TW2000; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_emissivity_reference",
+      "name": {
+        "en": "Emissivity reference adjustment [emissivity_reference]",
+        "pt": "Ajuste de referência da emissividade [emissivity_reference]"
+      },
+      "description": {
+        "en": "For TW2000/TW2003, up to 250 °C: use supplied label at 94%, hold object temperature constant, remove label and adjust EPSI to match the reference.",
+        "pt": "Para TW2000/TW2003, até 250 °C: use etiqueta fornecida a 94%, mantenha temperatura constante, retire etiqueta e ajuste EPSI para coincidir com a referência."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80270318_en",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Emissivity reference adjustment",
+        "applicability": "TW2000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_lens_clean",
+      "name": {
+        "en": "Lens cleaning [lens_clean]",
+        "pt": "Limpeza da lente [lens_clean]"
+      },
+      "description": {
+        "en": "Remove dust with air or soft brush; clean gently with lint-free lens cloth to avoid scratches.",
+        "pt": "Remova poeira com ar ou pincel macio; limpe suavemente com pano de lente sem fiapos para evitar riscos."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80270318_en",
+        "pages": [
+          26
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Lens cleaning",
+        "applicability": "TW2000; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -412,7 +502,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a887-1856-7460-b262-ccf778ec8269/Original/80270318_EN.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_80270318_en"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sa5020",
   "manufacturer": "ifm",
   "model": "SA5020",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sa5020.json",
   "family": "ifm SA",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -505,10 +505,99 @@
         "section": "Software / programming",
         "applicability": "Exact order code SA5020"
       }
+    },
+    {
+      "id": "manual_ou1",
+      "name": {
+        "en": "OUT1 function [ou1]",
+        "pt": "Função OUT1 [ou1]"
+      },
+      "description": {
+        "en": "Hysteresis, window or frequency output.",
+        "pt": "Saída de histerese, janela ou frequência."
+      },
+      "value": "Hno / Hnc / Fno / Fnc / FRQ",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458808_01_gb",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT1 function",
+        "applicability": "SA5020; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_ou2",
+      "name": {
+        "en": "OUT2 function [ou2]",
+        "pt": "Função OUT2 [ou2]"
+      },
+      "description": {
+        "en": "Switching, external teach, frequency or current output.",
+        "pt": "Saída de comutação, TEACH externo, frequência ou corrente."
+      },
+      "value": "Hno / Hnc / Fno / Fnc / tch / FRQ / I",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458808_01_gb",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT2 function",
+        "applicability": "SA5020; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_SEL2",
+      "name": {
+        "en": "OUT2 process selection [SEL2]",
+        "pt": "Seleção do processo OUT2 [SEL2]"
+      },
+      "description": {
+        "en": "Select flow or temperature.",
+        "pt": "Selecione vazão ou temperatura."
+      },
+      "value": "FLOW / TEMP",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458808_01_gb",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT2 process selection",
+        "applicability": "SA5020; manual linked in retained official model documentation"
+      }
     }
   ],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_startup",
+      "name": {
+        "en": "Start-up outputs [startup]",
+        "pt": "Saídas na inicialização [startup]"
+      },
+      "description": {
+        "en": "During power-on delay: NO ON, NC OFF, frequency OFF and current output 20 mA.",
+        "pt": "Durante atraso de energização: NA ligado, NF desligado, frequência desligada e saída de corrente em 20 mA."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11458808_01_gb",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Start-up outputs",
+        "applicability": "SA5020; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -522,7 +611,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a494-8943-781b-a572-2fe728932412/Original/11458808_01_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11458808_01_gb"
     }
   ]
 }

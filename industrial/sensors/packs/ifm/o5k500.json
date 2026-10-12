@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_o5k500",
   "manufacturer": "ifm",
   "model": "O5K500",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/o5k500.json",
   "family": "ifm O",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -264,8 +264,54 @@
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_led_8hz",
+      "name": {
+        "en": "Unsuccessful setting [led_8hz]",
+        "pt": "Ajuste sem sucesso [led_8hz]"
+      },
+      "description": {
+        "en": "Yellow LED 8 Hz: contrast insufficient or 15-minute programming time exceeded; old settings retained.",
+        "pt": "LED amarelo 8 Hz: contraste insuficiente ou programação excedeu 15 minutos; ajustes anteriores mantidos."
+      },
+      "value": "led_8hz",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11470792_en",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Unsuccessful setting",
+        "applicability": "O5K500; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_contrast_teach",
+      "name": {
+        "en": "Contrast mark teach [contrast_teach]",
+        "pt": "TEACH da marca de contraste [contrast_teach]"
+      },
+      "description": {
+        "en": "Place spot on mark; hold OUT on 2 seconds, release; place on background, briefly OUT off.",
+        "pt": "Coloque ponto na marca; segure OUT on 2 segundos e solte; coloque no fundo e pressione OUT off brevemente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11470792_en",
+        "pages": [
+          6
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Contrast mark teach",
+        "applicability": "O5K500; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -279,7 +325,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a7ed-2883-7766-8fad-12c1d504e265/Original/11470792_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11470792_en"
     }
   ]
 }

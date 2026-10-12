@@ -8,7 +8,7 @@ Downloadable field-reference catalog. Catalog version 27 contains 118 published 
 
 ## Industrial expansion
 
-[Industrial sensors](industrial/sensors/README.md): 398 published field-reference packs across 23 sensor and industrial code-reader type filters, with at least 20 documented references per type; full manual depth remains incomplete. Selection is inferred field-service priority, not a worldwide sales ranking. Sensor ZIP and unified SQLite downloads are validated.
+[Industrial sensors](industrial/sensors/README.md): 398 published field-reference packs across 23 sensor and industrial code-reader type filters, with at least 20 documented references per type; full manual depth remains incomplete. Selection is inferred field-service priority, not a worldwide sales ranking. Version 3 deepens 121 sensor packs; 85 remain datasheet-only. Sensor ZIP and unified SQLite downloads are validated.
 
 ## Validation and evidence
 

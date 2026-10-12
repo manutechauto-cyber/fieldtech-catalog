@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_tn7511",
   "manufacturer": "ifm",
   "model": "TN7511",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/tn7511.json",
   "family": "ifm TN",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -442,7 +442,30 @@
     }
   ],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_lock",
+      "name": {
+        "en": "Key lock/unlock [lock]",
+        "pt": "Bloqueio/desbloqueio das teclas [lock]"
+      },
+      "description": {
+        "en": "In normal mode, hold up/down together for 10 seconds; Loc/uLoc confirms.",
+        "pt": "Em modo normal, segure subir/descer juntos por 10 segundos; Loc/uLoc confirma."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80231575_en",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Key lock/unlock",
+        "applicability": "TN7511; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -456,7 +479,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a1b9-bf08-74a3-a669-e34ecd80337d/Original/80231575_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_80231575_en"
     }
   ]
 }

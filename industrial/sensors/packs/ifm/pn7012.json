@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_pn7012",
   "manufacturer": "ifm",
   "model": "PN7012",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/pn7012.json",
   "family": "ifm PN",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "PN7 manual confirms exact model and mode 2/3 functions; mode/device-status-specific ranges and complete manual remain unimported.",
+      "pt": "Manual PN7 confirma modelo exato e funções dos modos 2/3; faixas por modo/estado do dispositivo e manual completo ainda não importados."
     }
   },
   "modelEvidence": [
@@ -483,17 +483,658 @@
         "section": "Software / programming",
         "applicability": "Exact order code PN7012"
       }
+    },
+    {
+      "id": "SP1",
+      "name": {
+        "en": "Output 1 set point",
+        "pt": "Ponto de atuação saída 1"
+      },
+      "description": {
+        "en": "Output 1 set point",
+        "pt": "Ponto de atuação saída 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "rP1",
+      "name": {
+        "en": "Output 1 reset point",
+        "pt": "Ponto de retorno saída 1"
+      },
+      "description": {
+        "en": "Output 1 reset point",
+        "pt": "Ponto de retorno saída 1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "SP2",
+      "name": {
+        "en": "Output 2 set point",
+        "pt": "Ponto de atuação saída 2"
+      },
+      "description": {
+        "en": "Output 2 set point",
+        "pt": "Ponto de atuação saída 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "rP2",
+      "name": {
+        "en": "Output 2 reset point",
+        "pt": "Ponto de retorno saída 2"
+      },
+      "description": {
+        "en": "Output 2 reset point",
+        "pt": "Ponto de retorno saída 2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "FH1",
+      "name": {
+        "en": "Upper window OUT1",
+        "pt": "Janela superior OUT1"
+      },
+      "description": {
+        "en": "Upper window OUT1",
+        "pt": "Janela superior OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "FL1",
+      "name": {
+        "en": "Lower window OUT1",
+        "pt": "Janela inferior OUT1"
+      },
+      "description": {
+        "en": "Lower window OUT1",
+        "pt": "Janela inferior OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "ou1",
+      "name": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "description": {
+        "en": "OUT1 function",
+        "pt": "Função OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "ou2",
+      "name": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "description": {
+        "en": "OUT2 function",
+        "pt": "Função OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          19
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "dS1",
+      "name": {
+        "en": "OUT1 on-delay",
+        "pt": "Atraso de ativação OUT1"
+      },
+      "description": {
+        "en": "OUT1 on-delay",
+        "pt": "Atraso de ativação OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "dr1",
+      "name": {
+        "en": "OUT1 off-delay",
+        "pt": "Atraso de desativação OUT1"
+      },
+      "description": {
+        "en": "OUT1 off-delay",
+        "pt": "Atraso de desativação OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "dS2",
+      "name": {
+        "en": "OUT2 on-delay",
+        "pt": "Atraso de ativação OUT2"
+      },
+      "description": {
+        "en": "OUT2 on-delay",
+        "pt": "Atraso de ativação OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "dr2",
+      "name": {
+        "en": "OUT2 off-delay",
+        "pt": "Atraso de desativação OUT2"
+      },
+      "description": {
+        "en": "OUT2 off-delay",
+        "pt": "Atraso de desativação OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "uni",
+      "name": {
+        "en": "Display unit",
+        "pt": "Unidade do display"
+      },
+      "description": {
+        "en": "Display unit",
+        "pt": "Unidade do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "diS",
+      "name": {
+        "en": "Display refresh/orientation",
+        "pt": "Atualização/orientação do display"
+      },
+      "description": {
+        "en": "Display refresh/orientation",
+        "pt": "Atualização/orientação do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "P-n",
+      "name": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "description": {
+        "en": "PNP/NPN logic",
+        "pt": "Lógica PNP/NPN"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "dAP",
+      "name": {
+        "en": "Signal damping",
+        "pt": "Amortecimento do sinal"
+      },
+      "description": {
+        "en": "Signal damping",
+        "pt": "Amortecimento do sinal"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "rES",
+      "name": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "description": {
+        "en": "Factory reset",
+        "pt": "Reset de fábrica"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "coLr",
+      "name": {
+        "en": "Display color",
+        "pt": "Cor do display"
+      },
+      "description": {
+        "en": "Display color",
+        "pt": "Cor do display"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          22
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mode 2/3 parameter setting",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
-  "software": [],
+  "diagnostics": [
+    {
+      "id": "SC",
+      "name": {
+        "en": "Overcurrent OUT1 and OUT2",
+        "pt": "Sobrecorrente OUT1 e OUT2"
+      },
+      "description": {
+        "en": "Overcurrent OUT1 and OUT2",
+        "pt": "Sobrecorrente OUT1 e OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "SC1",
+      "name": {
+        "en": "Overcurrent OUT1",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "description": {
+        "en": "Overcurrent OUT1",
+        "pt": "Sobrecorrente OUT1"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "SC2",
+      "name": {
+        "en": "Overcurrent OUT2",
+        "pt": "Sobrecorrente OUT2"
+      },
+      "description": {
+        "en": "Overcurrent OUT2",
+        "pt": "Sobrecorrente OUT2"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "Loc",
+      "name": {
+        "en": "Local button lock",
+        "pt": "Bloqueio de botões"
+      },
+      "description": {
+        "en": "Local button lock",
+        "pt": "Bloqueio de botões"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "C.Loc",
+      "name": {
+        "en": "IO-Link setting active",
+        "pt": "Parametrização IO-Link ativa"
+      },
+      "description": {
+        "en": "IO-Link setting active",
+        "pt": "Parametrização IO-Link ativa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "S.Loc",
+      "name": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "description": {
+        "en": "Software lock",
+        "pt": "Bloqueio por software"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "OL",
+      "name": {
+        "en": "Above measuring range",
+        "pt": "Acima da faixa"
+      },
+      "description": {
+        "en": "Above measuring range",
+        "pt": "Acima da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          27
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "UL",
+      "name": {
+        "en": "Below measuring range",
+        "pt": "Abaixo da faixa"
+      },
+      "description": {
+        "en": "Below measuring range",
+        "pt": "Abaixo da faixa"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    },
+    {
+      "id": "Err",
+      "name": {
+        "en": "Internal malfunction",
+        "pt": "Falha interna"
+      },
+      "description": {
+        "en": "Internal malfunction",
+        "pt": "Falha interna"
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "save_parameter",
+      "name": {
+        "en": "Confirm parameter",
+        "pt": "Confirmar parâmetro"
+      },
+      "description": {
+        "en": "Select parameter, edit value and briefly confirm with the center button to save.",
+        "pt": "Selecione o parâmetro, edite e confirme brevemente no botão central para salvar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          15
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "iodd_mode",
+      "name": {
+        "en": "IODD/mode match",
+        "pt": "Compatibilidade IODD/modo"
+      },
+      "description": {
+        "en": "Select the IODD matching CMPT; changing the mode resets parameters.",
+        "pt": "Selecione IODD compatível com CMPT; mudar o modo reinicializa os parâmetros."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "pn7",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Field reference",
+        "applicability": "PN7012; operating mode 2/3 only, mode 3 requires BA or later device status"
+      }
+    }
+  ],
   "configurationUnknowns": [
     "softwareName",
     "softwareVersionCompatibility",
     "firmwareCompatibility",
     "backupProcedure",
     "restoreProcedure",
-    "persistentSaveProcedure"
+    "deviceStatusAndOperatingMode"
   ]
 }

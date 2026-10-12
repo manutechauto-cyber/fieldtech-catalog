@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_ki0054",
   "manufacturer": "ifm",
   "model": "KI0054",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/ki0054.json",
   "family": "ifm KI",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -265,7 +265,30 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_empty_teach",
+      "name": {
+        "en": "Empty-state teach [empty_teach]",
+        "pt": "TEACH em vazio [empty_teach]"
+      },
+      "description": {
+        "en": "Level at least 20 mm below sensor. Hold OUT OFF 2...6 s for NO, OUT ON 2...6 s for NC. This resets prior adjustment teach.",
+        "pt": "Nível ao menos 20 mm abaixo do sensor. Segure OUT OFF 2...6 s para NA, OUT ON 2...6 s para NF. Isso apaga TEACH de ajuste anterior."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11451060_en",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Empty-state teach",
+        "applicability": "KI0054; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -279,7 +302,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a942-0c6f-734a-82ca-b24fa561a747/Original/11451060_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11451060_en"
     }
   ]
 }

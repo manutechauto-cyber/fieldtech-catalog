@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_tn2115",
   "manufacturer": "ifm",
   "model": "TN2115",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/tn2115.json",
   "family": "ifm TN",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -439,10 +439,326 @@
         "section": "Software / programming",
         "applicability": "Exact order code TN2115"
       }
+    },
+    {
+      "id": "manual_SP1",
+      "name": {
+        "en": "Switch point OUT1 [SP1]",
+        "pt": "Ponto de comutação OUT1 [SP1]"
+      },
+      "description": {
+        "en": "Upper hysteresis threshold.",
+        "pt": "Limiar superior da histerese."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Switch point OUT1",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rP1",
+      "name": {
+        "en": "Reset point OUT1 [rP1]",
+        "pt": "Ponto de retorno OUT1 [rP1]"
+      },
+      "description": {
+        "en": "Lower hysteresis threshold.",
+        "pt": "Limiar inferior da histerese."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reset point OUT1",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_ASP2",
+      "name": {
+        "en": "Analogue start OUT2 [ASP2]",
+        "pt": "Início analógico OUT2 [ASP2]"
+      },
+      "description": {
+        "en": "Start value of the analogue span.",
+        "pt": "Valor inicial da faixa analógica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Analogue start OUT2",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_AEP2",
+      "name": {
+        "en": "Analogue end OUT2 [AEP2]",
+        "pt": "Fim analógico OUT2 [AEP2]"
+      },
+      "description": {
+        "en": "End value of the analogue span.",
+        "pt": "Valor final da faixa analógica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Analogue end OUT2",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_uni",
+      "name": {
+        "en": "Temperature unit [uni]",
+        "pt": "Unidade de temperatura [uni]"
+      },
+      "description": {
+        "en": "Select degrees Celsius or Fahrenheit.",
+        "pt": "Selecione Celsius ou Fahrenheit."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Temperature unit",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_ou2",
+      "name": {
+        "en": "OUT2 function [ou2]",
+        "pt": "Função OUT2 [ou2]"
+      },
+      "description": {
+        "en": "OUT2 supports switching, current or voltage, including inverted analogue spans.",
+        "pt": "OUT2 permite comutação, corrente ou tensão, incluindo faixas analógicas invertidas."
+      },
+      "value": "Hno / Hnc / Fno / Fnc / I / Ineg / U / Uneg",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          13
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT2 function",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_SC1",
+      "name": {
+        "en": "Diagnostic SC1 [SC1]",
+        "pt": "Diagnóstico SC1 [SC1]"
+      },
+      "description": {
+        "en": "Excessive current at OUT1.",
+        "pt": "Corrente excessiva em OUT1."
+      },
+      "value": "SC1",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic SC1",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_SC2",
+      "name": {
+        "en": "Diagnostic SC2 [SC2]",
+        "pt": "Diagnóstico SC2 [SC2]"
+      },
+      "description": {
+        "en": "Excessive current at OUT2.",
+        "pt": "Corrente excessiva em OUT2."
+      },
+      "value": "SC2",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic SC2",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_OL",
+      "name": {
+        "en": "Diagnostic OL [OL]",
+        "pt": "Diagnóstico OL [OL]"
+      },
+      "description": {
+        "en": "Above the detection zone.",
+        "pt": "Acima da zona de detecção."
+      },
+      "value": "OL",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic OL",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_UL",
+      "name": {
+        "en": "Diagnostic UL [UL]",
+        "pt": "Diagnóstico UL [UL]"
+      },
+      "description": {
+        "en": "Below the detection zone.",
+        "pt": "Abaixo da zona de detecção."
+      },
+      "value": "UL",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic UL",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_C.Loc",
+      "name": {
+        "en": "Diagnostic C.Loc [C.Loc]",
+        "pt": "Diagnóstico C.Loc [C.Loc]"
+      },
+      "description": {
+        "en": "Keys locked while IO-Link communication is active.",
+        "pt": "Teclas bloqueadas enquanto a comunicação IO-Link está ativa."
+      },
+      "value": "C.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic C.Loc",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_S.Loc",
+      "name": {
+        "en": "Diagnostic S.Loc [S.Loc]",
+        "pt": "Diagnóstico S.Loc [S.Loc]"
+      },
+      "description": {
+        "en": "Software lock; unlock using parameter-setting software.",
+        "pt": "Bloqueio por software; desbloqueie no software de parametrização."
+      },
+      "value": "S.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Diagnostic S.Loc",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_lock",
+      "name": {
+        "en": "Key lock/unlock [lock]",
+        "pt": "Bloqueio/desbloqueio das teclas [lock]"
+      },
+      "description": {
+        "en": "In normal mode, hold up/down together for 10 seconds; Loc/uLoc confirms.",
+        "pt": "Em modo normal, segure subir/descer juntos por 10 segundos; Loc/uLoc confirma."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Key lock/unlock",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_reset",
+      "name": {
+        "en": "Factory reset procedure [reset]",
+        "pt": "Procedimento de reset de fábrica [reset]"
+      },
+      "description": {
+        "en": "Record settings. Select rES, Enter, hold up/down until ----, then briefly Enter.",
+        "pt": "Registre ajustes. Selecione rES, Enter, segure subir/descer até ---- e pressione Enter brevemente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_80235797_en",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset procedure",
+        "applicability": "TN2115; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -456,7 +772,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a2b9-3d70-7014-8fd5-be9c96b5b1f8/Original/80235797_EN.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_80235797_en"
     }
   ]
 }

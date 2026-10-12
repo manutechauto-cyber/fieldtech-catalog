@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lw2720",
   "manufacturer": "ifm",
   "model": "LW2720",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lw2720.json",
   "family": "ifm LW",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -351,9 +351,78 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "parameters": [
+    {
+      "id": "manual_upper_blind_zone",
+      "name": {
+        "en": "Upper blind zone [upper_blind_zone]",
+        "pt": "Zona cega superior [upper_blind_zone]"
+      },
+      "description": {
+        "en": "Suppresses reflections near the antenna; level is not measured in this zone.",
+        "pt": "Suprime reflexões perto da antena; nível não é medido nessa zona."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11372800_02_gb",
+        "pages": [
+          32
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Upper blind zone",
+        "applicability": "LW2720; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_incorrect_level",
+      "name": {
+        "en": "Incorrect level reading [incorrect_level]",
+        "pt": "Leitura de nível incorreta [incorrect_level]"
+      },
+      "description": {
+        "en": "Inspect tank geometry and disturbing echoes before treating this as a device fault.",
+        "pt": "Inspecione geometria do tanque e ecos perturbadores antes de considerar falha do dispositivo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11372800_02_gb",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Incorrect level reading",
+        "applicability": "LW2720; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_geometry",
+      "name": {
+        "en": "Tank geometry verification [geometry]",
+        "pt": "Verificação da geometria do tanque [geometry]"
+      },
+      "description": {
+        "en": "Check reference height/offset and detection threshold; configuration errors affect level values.",
+        "pt": "Confira altura de referência/offset e limiar de detecção; erros de configuração afetam os valores de nível."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11372800_02_gb",
+        "pages": [
+          32
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Tank geometry verification",
+        "applicability": "LW2720; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -367,7 +436,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a4c4-497d-7d8a-83a5-bdb003f960fb/Original/11372800_02_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11372800_02_gb"
     }
   ]
 }

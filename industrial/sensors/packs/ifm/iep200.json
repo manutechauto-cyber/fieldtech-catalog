@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_iep200",
   "manufacturer": "ifm",
   "model": "IEP200",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/iep200.json",
   "family": "ifm IEP",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -415,11 +415,79 @@
         "section": "Electrical connection - plug",
         "applicability": "Exact order code IEP200"
       }
+    },
+    {
+      "id": "manual_warmup",
+      "name": {
+        "en": "Accuracy warm-up [warmup]",
+        "pt": "Aquecimento para precisão [warmup]"
+      },
+      "description": {
+        "en": "Specified accuracy is reached after 15 minutes of warm-up.",
+        "pt": "Precisão especificada é atingida após 15 minutos de aquecimento."
+      },
+      "value": 15,
+      "unit": "min",
+      "source": {
+        "documentId": "depth_11548364_01_gb",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Accuracy warm-up",
+        "applicability": "IEP200; manual linked in retained official model documentation"
+      }
     }
   ],
-  "parameters": [],
+  "parameters": [
+    {
+      "id": "manual_switch_mode",
+      "name": {
+        "en": "Switching mode [switch_mode]",
+        "pt": "Modo de comutação [switch_mode]"
+      },
+      "description": {
+        "en": "Single point, two point or window according to the IO-Link smart sensor profile.",
+        "pt": "Ponto único, dois pontos ou janela conforme perfil IO-Link."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11548364_01_gb",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Switching mode",
+        "applicability": "IEP200; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_one_point",
+      "name": {
+        "en": "One-point calibration [one_point]",
+        "pt": "Calibração de um ponto [one_point]"
+      },
+      "description": {
+        "en": "Place the target directly on the sensing face and execute Execute 1 Point calibration.",
+        "pt": "Coloque alvo diretamente na face sensora e execute Execute 1 Point calibration."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11548364_01_gb",
+        "pages": [
+          14
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "One-point calibration",
+        "applicability": "IEP200; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -433,7 +501,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a5c4-3bb1-7c7d-b1b1-bf32b27f9a1b/Original/11548364_01_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11548364_01_gb"
     }
   ]
 }

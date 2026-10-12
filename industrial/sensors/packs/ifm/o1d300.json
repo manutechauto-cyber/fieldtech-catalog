@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_o1d300",
   "manufacturer": "ifm",
   "model": "O1D300",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/o1d300.json",
   "family": "ifm O",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -351,8 +351,76 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
+  "parameters": [
+    {
+      "id": "manual_display_unit",
+      "name": {
+        "en": "Display unit [display_unit]",
+        "pt": "Unidade de indicação [display_unit]"
+      },
+      "description": {
+        "en": "Select centimetres, metres or inches.",
+        "pt": "Selecione centímetros, metros ou polegadas."
+      },
+      "value": "cm / m / inch",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11454904_00_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Display unit",
+        "applicability": "O1D300; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_LoFF",
+      "name": {
+        "en": "Laser disabled [LoFF]",
+        "pt": "Laser desligado [LoFF]"
+      },
+      "description": {
+        "en": "Laser is switched off.",
+        "pt": "Laser está desligado."
+      },
+      "value": "LoFF",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11454904_00_gb",
+        "pages": [
+          32
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Laser disabled",
+        "applicability": "O1D300; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_SC2",
+      "name": {
+        "en": "OUT2 short circuit [SC2]",
+        "pt": "Curto-circuito OUT2 [SC2]"
+      },
+      "description": {
+        "en": "Applies only when OUT2 is configured as a switching output.",
+        "pt": "Aplica-se somente quando OUT2 está configurada como saída de comutação."
+      },
+      "value": "SC2",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11454904_00_gb",
+        "pages": [
+          32
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT2 short circuit",
+        "applicability": "O1D300; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
@@ -367,7 +435,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a4f7-898a-75cf-8431-2920d9cb15e5/Original/11454904_00_GB.pdf?contentdisposition=inline",
       "title": "User Manual",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11454904_00_gb"
     }
   ]
 }

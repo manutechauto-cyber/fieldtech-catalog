@@ -5,7 +5,7 @@
   "manufacturer": "SICK",
   "model": "V2D610R-MMSBE4",
   "family": "Lector61x",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/sick/v2d610r_mmsbe4.json",
   "typeIds": [
     "barcode-1d",
@@ -31,12 +31,12 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
-      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
+      "en": "Selected specifications and save/backup/replacement procedures reviewed; full parameter tables and firmware compatibility incomplete.",
+      "pt": "Especificações e procedimentos de gravação/backup/substituição revisados; tabelas completas e compatibilidade de firmware incompletas."
     }
   },
   "modelEvidence": [
@@ -177,7 +177,74 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "depth_permanent_save",
+      "name": {
+        "en": "Permanently save parameters",
+        "pt": "Salvar parâmetros permanentemente"
+      },
+      "description": {
+        "en": "In SOPAS ET use Parameter > Save parameters to commit working values to device permanent memory.",
+        "pt": "No SOPAS ET use Parameter > Save parameters para gravar valores de trabalho na memória permanente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_lector61_manual",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Permanently save parameters",
+        "applicability": "V2D610R-MMSBE4; same-type replacement and software/firmware compatibility must be checked"
+      }
+    },
+    {
+      "id": "depth_project_backup",
+      "name": {
+        "en": "External .sopas project backup",
+        "pt": "Backup externo de projeto .sopas"
+      },
+      "description": {
+        "en": "Also save the current parameter set as a project file on the computer; a device save alone is not the external backup.",
+        "pt": "Salve também conjunto atual como projeto no computador; salvar no dispositivo não faz o backup externo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_lector61_manual",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "External .sopas project backup",
+        "applicability": "V2D610R-MMSBE4; same-type replacement and software/firmware compatibility must be checked"
+      }
+    },
+    {
+      "id": "depth_replacement",
+      "name": {
+        "en": "Same-type replacement",
+        "pt": "Substituição pelo mesmo tipo"
+      },
+      "description": {
+        "en": "Download the saved .sopas configuration into an identical product type and save it permanently. Optional Lector63x storage cloning requires a compatible parameter set.",
+        "pt": "Transfira configuração .sopas salva para tipo de produto idêntico e grave permanentemente. Clonagem opcional em armazenamento Lector63x exige conjunto compatível."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_lector61_manual",
+        "pages": [
+          50
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Same-type replacement",
+        "applicability": "V2D610R-MMSBE4; same-type replacement and software/firmware compatibility must be checked"
+      }
+    }
+  ],
   "software": [
     {
       "id": "sopas",
@@ -204,9 +271,6 @@
   ],
   "configurationUnknowns": [
     "softwareVersionCompatibility",
-    "firmwareCompatibility",
-    "backupProcedure",
-    "restoreProcedure",
-    "persistentSaveProcedure"
+    "firmwareCompatibility"
   ]
 }

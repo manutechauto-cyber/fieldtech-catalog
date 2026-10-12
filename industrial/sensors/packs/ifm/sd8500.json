@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sd8500",
   "manufacturer": "ifm",
   "model": "SD8500",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sd8500.json",
   "family": "ifm SD",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -461,9 +461,55 @@
         "section": "Software / programming",
         "applicability": "Exact order code SD8500"
       }
+    },
+    {
+      "id": "manual_diS.B",
+      "name": {
+        "en": "Display brightness [diS.B]",
+        "pt": "Brilho do display [diS.B]"
+      },
+      "description": {
+        "en": "25%, 50%, 75%, 100% or OFF; error messages remain available through IO-Link/status LED.",
+        "pt": "25%, 50%, 75%, 100% ou OFF; erros permanecem disponíveis por IO-Link/LED de estado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11564615_01_gb",
+        "pages": [
+          40
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Display brightness",
+        "applicability": "SD8500; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "id": "manual_Flow Error",
+      "name": {
+        "en": "Flow measurement error [Flow Error]",
+        "pt": "Erro de medição da vazão [Flow Error]"
+      },
+      "description": {
+        "en": "Check flow measurement; manual recommends device replacement.",
+        "pt": "Confira medição da vazão; manual recomenda substituição do dispositivo."
+      },
+      "value": "Flow Error",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11564615_01_gb",
+        "pages": [
+          46
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Flow measurement error",
+        "applicability": "SD8500; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
@@ -478,7 +524,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a596-c731-7374-9f59-8895fafe33d8/Original/11564615_01_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11564615_01_gb"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lr3000",
   "manufacturer": "ifm",
   "model": "LR3000",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lr3000.json",
   "family": "ifm LR",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -373,8 +373,122 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
+  "parameters": [
+    {
+      "id": "manual_LEnG",
+      "name": {
+        "en": "Probe length [LEnG]",
+        "pt": "Comprimento da sonda [LEnG]"
+      },
+      "description": {
+        "en": "Configure the installed probe length.",
+        "pt": "Configure o comprimento da sonda instalada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425818_00_uk",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Probe length",
+        "applicability": "LR3000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_OFS",
+      "name": {
+        "en": "Level offset [OFS]",
+        "pt": "Offset de nível [OFS]"
+      },
+      "description": {
+        "en": "Offset for the level indication.",
+        "pt": "Offset da indicação de nível."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425818_00_uk",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Level offset",
+        "applicability": "LR3000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rES",
+      "name": {
+        "en": "Factory reset [rES]",
+        "pt": "Reset de fábrica [rES]"
+      },
+      "description": {
+        "en": "Restores factory settings.",
+        "pt": "Restaura ajustes de fábrica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425818_00_uk",
+        "pages": [
+          28
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset",
+        "applicability": "LR3000; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_E.031",
+      "name": {
+        "en": "Probe/length error [E.031]",
+        "pt": "Erro da sonda/comprimento [E.031]"
+      },
+      "description": {
+        "en": "Check probe attachment and LEnG setting.",
+        "pt": "Confira fixação da sonda e ajuste LEnG."
+      },
+      "value": "E.031",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425818_00_uk",
+        "pages": [
+          36
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Probe/length error",
+        "applicability": "LR3000; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    },
+    {
+      "id": "manual_E.033",
+      "name": {
+        "en": "Disturbed measurement [E.033]",
+        "pt": "Medição perturbada [E.033]"
+      },
+      "description": {
+        "en": "Check foam, turbulence, layers, deposits and installation/configuration.",
+        "pt": "Verifique espuma, turbulência, camadas, depósitos e instalação/configuração."
+      },
+      "value": "E.033",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11425818_00_uk",
+        "pages": [
+          36
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Disturbed measurement",
+        "applicability": "LR3000; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
@@ -389,7 +503,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a45a-7c03-7459-821c-caf34114e4b9/Original/11425818_00_UK.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11425818_00_uk"
     }
   ]
 }

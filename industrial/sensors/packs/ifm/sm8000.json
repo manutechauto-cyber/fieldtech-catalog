@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sm8000",
   "manufacturer": "ifm",
   "model": "SM8000",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sm8000.json",
   "family": "ifm SM",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -463,8 +463,100 @@
       }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_C.Loc",
+      "name": {
+        "en": "IO-Link setting lock [C.Loc]",
+        "pt": "Bloqueio de ajuste IO-Link [C.Loc]"
+      },
+      "description": {
+        "en": "Finish the active IO-Link parameter session.",
+        "pt": "Finalize a sessão ativa de parametrização IO-Link."
+      },
+      "value": "C.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11393456_en",
+        "pages": [
+          34
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link setting lock",
+        "applicability": "SM8000; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_S.Loc",
+      "name": {
+        "en": "Software lock [S.Loc]",
+        "pt": "Bloqueio por software [S.Loc]"
+      },
+      "description": {
+        "en": "Unlock via the parameter-setting software.",
+        "pt": "Desbloqueie pelo software de parametrização."
+      },
+      "value": "S.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11393456_en",
+        "pages": [
+          34
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software lock",
+        "applicability": "SM8000; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_blank_display",
+      "name": {
+        "en": "Blank display check [blank_display]",
+        "pt": "Verificação de display apagado [blank_display]"
+      },
+      "description": {
+        "en": "Check supply and diS setting.",
+        "pt": "Confira alimentação e ajuste diS."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11393456_en",
+        "pages": [
+          34
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Blank display check",
+        "applicability": "SM8000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_reset",
+      "name": {
+        "en": "Factory reset procedure [reset]",
+        "pt": "Procedimento de reset de fábrica [reset]"
+      },
+      "description": {
+        "en": "Record settings; select rES, hold Set until ----, then briefly Mode/Enter.",
+        "pt": "Registre ajustes; selecione rES, segure Set até ---- e pressione Mode/Enter brevemente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11393456_en",
+        "pages": [
+          32
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset procedure",
+        "applicability": "SM8000; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -478,7 +570,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a8f5-1dcf-7382-9f0d-fff4d4604e1e/Original/11393456_EN.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11393456_en"
     }
   ]
 }

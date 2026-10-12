@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_sm9000",
   "manufacturer": "ifm",
   "model": "SM9000",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/sm9000.json",
   "family": "ifm SM",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -439,10 +439,169 @@
         "section": "Software / programming",
         "applicability": "Exact order code SM9000"
       }
+    },
+    {
+      "id": "manual_rTo",
+      "name": {
+        "en": "Totaliser reset [rTo]",
+        "pt": "Reset do totalizador [rTo]"
+      },
+      "description": {
+        "en": "Manual or timed totaliser reset.",
+        "pt": "Reset manual ou temporizado do totalizador."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Totaliser reset",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rES",
+      "name": {
+        "en": "Factory reset [rES]",
+        "pt": "Reset de fábrica [rES]"
+      },
+      "description": {
+        "en": "Restores factory settings.",
+        "pt": "Restaura ajustes de fábrica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Factory reset",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_LFC",
+      "name": {
+        "en": "Low-flow cutoff [LFC]",
+        "pt": "Corte de baixa vazão [LFC]"
+      },
+      "description": {
+        "en": "Flow below this value is evaluated as standstill.",
+        "pt": "Vazão abaixo desse valor é avaliada como parada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Low-flow cutoff",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "manual_C.Loc",
+      "name": {
+        "en": "IO-Link setting lock [C.Loc]",
+        "pt": "Bloqueio de ajuste IO-Link [C.Loc]"
+      },
+      "description": {
+        "en": "Finish the active IO-Link parameter session.",
+        "pt": "Finalize a sessão ativa de parametrização IO-Link."
+      },
+      "value": "C.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link setting lock",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_S.Loc",
+      "name": {
+        "en": "Software lock [S.Loc]",
+        "pt": "Bloqueio por software [S.Loc]"
+      },
+      "description": {
+        "en": "Unlock via the parameter-setting software.",
+        "pt": "Desbloqueie pelo software de parametrização."
+      },
+      "value": "S.Loc",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Software lock",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    },
+    {
+      "id": "manual_SEnS",
+      "name": {
+        "en": "Invalid sensor signal [SEnS]",
+        "pt": "Sinal de sensor inválido [SEnS]"
+      },
+      "description": {
+        "en": "Check that pipe is filled and medium conductivity is at least 20 µS/cm.",
+        "pt": "Confira tubulação cheia e condutividade do meio de pelo menos 20 µS/cm."
+      },
+      "value": "SEnS",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Invalid sensor signal",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      },
+      "severity": "warning"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_blank_display",
+      "name": {
+        "en": "Blank display check [blank_display]",
+        "pt": "Verificação de display apagado [blank_display]"
+      },
+      "description": {
+        "en": "Check supply and diS setting.",
+        "pt": "Confira alimentação e ajuste diS."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11497770_02_gb",
+        "pages": [
+          38
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Blank display check",
+        "applicability": "SM9000; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -456,7 +615,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a5aa-c449-7c5f-82ed-1abf475ac990/Original/11497770_02_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11497770_02_gb"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lmt100",
   "manufacturer": "ifm",
   "model": "LMT100",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lmt100.json",
   "family": "ifm LMT",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -417,10 +417,237 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
-  "software": [],
+  "parameters": [
+    {
+      "id": "manual_SP1",
+      "name": {
+        "en": "Switch point OUT1 [SP1]",
+        "pt": "Ponto de comutação OUT1 [SP1]"
+      },
+      "description": {
+        "en": "4...98%, 1% steps; must exceed rP1.",
+        "pt": "4...98%, passos de 1%; deve superar rP1."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Switch point OUT1",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_rP1",
+      "name": {
+        "en": "Reset point OUT1 [rP1]",
+        "pt": "Ponto de retorno OUT1 [rP1]"
+      },
+      "description": {
+        "en": "2...96%, 1% steps; minimum hysteresis 2%.",
+        "pt": "2...96%, passos de 1%; histerese mínima 2%."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reset point OUT1",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_ou1",
+      "name": {
+        "en": "OUT1 function [ou1]",
+        "pt": "Função OUT1 [ou1]"
+      },
+      "description": {
+        "en": "Hysteresis/window NO/NC; tch changes pin 4 into a teach input.",
+        "pt": "Histerese/janela NA/NF; tch transforma pino 4 em entrada TEACH."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "OUT1 function",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_tSP1",
+      "name": {
+        "en": "Medium teach command [tSP1]",
+        "pt": "Comando TEACH do meio [tSP1]"
+      },
+      "description": {
+        "en": "Full adjustment sets SP1/rP1 to the current medium.",
+        "pt": "Ajuste completo define SP1/rP1 para o meio atual."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          17
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Medium teach command",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "manual_0x5000",
+      "name": {
+        "en": "IO-Link event 0x5000 [0x5000]",
+        "pt": "Evento IO-Link 0x5000 [0x5000]"
+      },
+      "description": {
+        "en": "Hardware fault; replace the sensor.",
+        "pt": "Falha de hardware; substitua o sensor."
+      },
+      "value": "0x5000",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link event 0x5000",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    },
+    {
+      "id": "manual_0x6320",
+      "name": {
+        "en": "IO-Link event 0x6320 [0x6320]",
+        "pt": "Evento IO-Link 0x6320 [0x6320]"
+      },
+      "description": {
+        "en": "Parameter error; verify datasheet and configured values.",
+        "pt": "Erro de parâmetro; confira ficha técnica e valores configurados."
+      },
+      "value": "0x6320",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link event 0x6320",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    },
+    {
+      "id": "manual_0x7710",
+      "name": {
+        "en": "IO-Link event 0x7710 [0x7710]",
+        "pt": "Evento IO-Link 0x7710 [0x7710]"
+      },
+      "description": {
+        "en": "Short circuit; inspect installation.",
+        "pt": "Curto-circuito; inspecione a instalação."
+      },
+      "value": "0x7710",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          20
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link event 0x7710",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      },
+      "severity": "error"
+    }
+  ],
+  "procedures": [
+    {
+      "id": "manual_full_teach",
+      "name": {
+        "en": "Full medium adjustment [full_teach]",
+        "pt": "Ajuste completo do meio [full_teach]"
+      },
+      "description": {
+        "en": "Cover the probe tip completely, execute tSP1 or tSP2 and test the application.",
+        "pt": "Cubra completamente a ponta, execute tSP1 ou tSP2 e teste a aplicação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Full medium adjustment",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    },
+    {
+      "id": "manual_memory_plug",
+      "name": {
+        "en": "Memory-plug transfer [memory_plug]",
+        "pt": "Transferência por memory plug [memory_plug]"
+      },
+      "description": {
+        "en": "Load a suitable set into the memory plug; use a factory-reset same-type sensor, power it through the plug, then remove the plug.",
+        "pt": "Carregue conjunto adequado no memory plug; use sensor do mesmo tipo em ajustes de fábrica, energize através do plug e remova-o."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          16
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Memory-plug transfer",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "manual_io_link",
+      "name": {
+        "en": "IO-Link Data Storage [io_link]",
+        "pt": "Data Storage IO-Link [io_link]"
+      },
+      "description": {
+        "en": "Same-type replacement can restore master-stored parameters when enabled in master and sensor. Open permits download; Locked refuses it.",
+        "pt": "Substituição pelo mesmo tipo pode restaurar parâmetros do mestre quando habilitada no mestre e sensor. Open permite descarga; Locked recusa."
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11406185_01_gb",
+        "pages": [
+          18
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link Data Storage",
+        "applicability": "LMT100; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "configurationUnknowns": [
     "softwareName",
     "softwareVersionCompatibility",
@@ -433,7 +660,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a472-af23-700d-bf3a-4e7a37fbdef3/Original/11406185_01_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11406185_01_gb"
     }
   ]
 }

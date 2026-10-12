@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_lk8123",
   "manufacturer": "ifm",
   "model": "LK8123",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/lk8123.json",
   "family": "ifm LK",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Verified datasheet facts plus selected exact-applicability operating-manual sections; remaining parameters, wiring and software compatibility still require review.",
+      "pt": "Fatos da ficha técnica e seções selecionadas de manual com aplicabilidade conferida; parâmetros restantes, ligação e compatibilidade de software ainda exigem revisão."
     }
   },
   "modelEvidence": [
@@ -420,7 +420,30 @@
     }
   ],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "manual_save_parameter",
+      "name": {
+        "en": "Save parameter [save_parameter]",
+        "pt": "Salvar parâmetro [save_parameter]"
+      },
+      "description": {
+        "en": "Select with Mode/Enter, hold SET to change after 5 seconds, then briefly Mode/Enter to save.",
+        "pt": "Selecione com Mode/Enter, segure SET para alterar após 5 segundos e pressione Mode/Enter brevemente para salvar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11573065_00_gb",
+        "pages": [
+          21
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Save parameter",
+        "applicability": "LK8123; manual linked in retained official model documentation"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -434,7 +457,8 @@
     {
       "url": "https://media.ifm.com/dam/01a0a496-f0f6-7050-bfa6-77761c53772b/Original/11573065_00_GB.pdf?contentdisposition=inline",
       "title": "Operating instructions",
-      "reviewStatus": "linked-from-official-model-page; contents not yet extracted"
+      "reviewStatus": "Selected field sections extracted; full manual and hardware validation incomplete",
+      "documentId": "depth_11573065_00_gb"
     }
   ]
 }
