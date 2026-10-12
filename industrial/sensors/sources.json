@@ -2486,6 +2486,116 @@
       "retrievedAt": "2026-10-12",
       "pageBasis": "PDF page, 1-based",
       "official": true
+    },
+    {
+      "id": "ops4_e3nx",
+      "url": "https://www.omron-ap.com/data_pdf/mnu/e3nx-fa__series_inst-9531335-8e.pdf?id=3161",
+      "title": "E3NX-FA standard series Instruction Sheet",
+      "revision": "9531335-8E",
+      "pageCount": 8,
+      "sha256": "31e2537acc3b67aa9b7a8674c441d371c8a4bde40cab12a4851fee8fea19bc94",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_e3nxil",
+      "url": "https://www.omron-ap.com/data_pdf/mnu/e3nx-fa__-il__inst-5830568-0b.pdf?id=3161",
+      "title": "E3NX-FA IO-Link Instruction Sheet",
+      "revision": "5830568-0B",
+      "pageCount": 6,
+      "sha256": "b481a83eedf89940040d97a3ee51d95857f138cbbef41964e3919850ed66edb8",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_e3x",
+      "url": "https://www.omron-ap.com/data_pdf/mnu/e3x-hdseries_inst-4018719-1c.pdf?id=3103",
+      "title": "E3X-HD Instruction Sheet",
+      "revision": "4018719-1C",
+      "pageCount": 6,
+      "sha256": "f5c7d31e3f3057214a58a27c33a188e3e158f65b4946463df8e4c754cfac78bc",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_tla",
+      "url": "https://www.datasensing.com/FileDocumenti/Articoli/Manuali-Installazione/ENG/TL46A_contrastsensors_manual_ENG.pdf",
+      "title": "Datalogic TL46-A Instruction Manual",
+      "revision": "821001993 Rev.C",
+      "pageCount": 1,
+      "sha256": "02027c40703afed9462362b31f8ed28aa89cb0081329d4922144ce0ac8ade261",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_tlw",
+      "url": "https://www.datasensing.com/FileDocumenti/Articoli/Manuali-Installazione/ENG/TL46W_contrastsensors_manual_ENG.pdf",
+      "title": "Datalogic TL46-W Instruction Manual",
+      "revision": "826003065 Rev.G",
+      "pageCount": 1,
+      "sha256": "3167c831ceda143b83ca7f7018bae9194c7c0533a8777503c5d8173518b71b27",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_tlwl",
+      "url": "https://www.datasensing.com/FileDocumenti/Articoli/Manuali-Installazione/ENG/TL46WL_contrastsensors_manual_ENG.pdf",
+      "title": "Datalogic TL46-WL Instruction Manual",
+      "revision": "826003006 Rev.H",
+      "pageCount": 1,
+      "sha256": "de1f6476572700ece65d74c93c2e38701716c6eaf1c02af730c29babfc6df58b",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_tlwlf",
+      "url": "https://www.datalogic.com/upload/ia/manuals/1332416337_53714_e2903f22ce19843f4bf7f8d3e2c4ad5d.pdf",
+      "title": "Datalogic TL46-WLF Instruction Manual",
+      "revision": "Retained Datalogic instruction manual revision; see original PDF",
+      "pageCount": 2,
+      "sha256": "116bcbc62ec70b2460c336c637fc08d89a74f1bfd15244f0c56f5adea816bd86",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_wl4",
+      "url": "https://www.sick.com/media/docs/2/22/222/operating_instructions_wl4sl_g_3_photoelectric_reflex_sensor_de_en_fr_pt_it_es_ja_zh_im0048222.pdf",
+      "title": "WL4SL(G)-3 Operating Instructions",
+      "revision": "8015555.1P2Z 1124",
+      "pageCount": 2,
+      "sha256": "d71accc9d209ddd4d5005984d8ea64667bb1b747ef38f9aef988700343262d33",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_wse4",
+      "url": "https://www.sick.com/media/docs/9/09/709/operating_instructions_wse4sl_3v_through_beam_photoelectric_sensor_with_visible_redlight_laser_de_en_fr_it_pt_es_zh_ja_im0048709.pdf",
+      "title": "WSE4SL-3V Operating Instructions",
+      "revision": "8015537.1P2Z 1124",
+      "pageCount": 2,
+      "sha256": "1cf323b25efa446d00bc5a9cc28c240788e9c851c2cebd425285afc57004929f",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "ops4_wse9",
+      "url": "https://www.sick.com/media/docs/7/17/517/operating_instructions_wse9l_3_through_beam_photoelectric_sensors_with_visible_redlight_de_en_fr_pt_it_es_zh_ja_im0047517.pdf",
+      "title": "WSE9L-3 Operating Instructions",
+      "revision": "8015317.1R36 0225",
+      "pageCount": 2,
+      "sha256": "bab37bc88301731b5ee807ddec92dff74f676752b06b9655f23e88c3acc45d57",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
     }
   ]
 }

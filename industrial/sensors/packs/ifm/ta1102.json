@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_ta1102",
   "manufacturer": "ifm",
   "model": "TA1102",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/ta1102.json",
   "family": "ifm TA",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Exact datasheet identity and explicitly scoped shared operating-manual functions; full manual and exact wiring not imported.",
+      "pt": "Identidade exata da ficha técnica e funções de manual compartilhado com escopo explícito; manual completo e ligação exata não importados."
     }
   },
   "modelEvidence": [
@@ -395,10 +395,166 @@
       }
     }
   ],
-  "parameters": [],
+  "parameters": [
+    {
+      "id": "manual_OU",
+      "name": {
+        "en": "Current direction [OU]",
+        "pt": "Sentido da corrente [OU]"
+      },
+      "description": {
+        "en": "Normal or inverted current span.",
+        "pt": "Faixa de corrente normal ou invertida."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Current direction",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    },
+    {
+      "id": "manual_ASP",
+      "name": {
+        "en": "Analogue start [ASP]",
+        "pt": "Início analógico [ASP]"
+      },
+      "description": {
+        "en": "Start temperature; depends on normal/inverted span.",
+        "pt": "Temperatura inicial; depende da faixa normal/invertida."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Analogue start",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    },
+    {
+      "id": "manual_AEP",
+      "name": {
+        "en": "Analogue end [AEP]",
+        "pt": "Fim analógico [AEP]"
+      },
+      "description": {
+        "en": "End temperature; depends on normal/inverted span.",
+        "pt": "Temperatura final; depende da faixa normal/invertida."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Analogue end",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    },
+    {
+      "id": "manual_COF",
+      "name": {
+        "en": "Zero calibration [COF]",
+        "pt": "Calibração do zero [COF]"
+      },
+      "description": {
+        "en": "Offset adjustment ±10 °C, in 0.1 °C steps.",
+        "pt": "Ajuste de offset ±10 °C, em passos de 0,1 °C."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Zero calibration",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    },
+    {
+      "id": "manual_FOU",
+      "name": {
+        "en": "Fault output [FOU]",
+        "pt": "Saída em falha [FOU]"
+      },
+      "description": {
+        "en": "On selects 21.1 mA; OFF selects 3.5 mA for internal faults.",
+        "pt": "On seleciona 21,1 mA; OFF seleciona 3,5 mA em falhas internas."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Fault output",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    },
+    {
+      "id": "manual_Uni",
+      "name": {
+        "en": "Temperature unit [Uni]",
+        "pt": "Unidade de temperatura [Uni]"
+      },
+      "description": {
+        "en": "Celsius or Fahrenheit.",
+        "pt": "Celsius ou Fahrenheit."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Temperature unit",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    }
+  ],
   "diagnostics": [],
   "procedures": [],
-  "software": [],
+  "software": [
+    {
+      "id": "manual_io_link",
+      "name": {
+        "en": "IO-Link configuration [io_link]",
+        "pt": "Configuração IO-Link [io_link]"
+      },
+      "description": {
+        "en": "Use a suitable PC/PLC IO-Link tool to read, change, save and transfer settings to identical types.",
+        "pt": "Use ferramenta IO-Link de PC/CLP para ler, alterar, salvar e transferir ajustes a tipos idênticos."
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "depth_11577876_00_gb",
+        "pages": [
+          10
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link configuration",
+        "applicability": "TA1102; explicit TA1xxx / TA2xxx operating-manual scope"
+      }
+    }
+  ],
   "configurationUnknowns": [
     "softwareName",
     "softwareVersionCompatibility",

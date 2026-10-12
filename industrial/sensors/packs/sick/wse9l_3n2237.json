@@ -5,7 +5,7 @@
   "manufacturer": "SICK",
   "model": "WSE9L-3N2237",
   "family": "W9L-3",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
   "typeIds": [
     "laser-through-beam",
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy 2013 manufacturer reference; present availability and firmware compatibility have not been established.",
-      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware não foram estabelecidas."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -154,8 +155,98 @@
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_weak_light",
+      "name": {
+        "en": "Insufficient received light",
+        "pt": "Luz recebida insuficiente"
+      },
+      "description": {
+        "en": "Unlit/flashing receiver indication can mean too little light; realign, clean optics and verify application conditions.",
+        "pt": "Indicação apagada/piscando pode indicar pouca luz; realinhe, limpe óptica e confira condições da aplicação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wse9",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Insufficient received light",
+        "applicability": "WSE9L-3N2237; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_alignment",
+      "name": {
+        "en": "Align emitter and receiver",
+        "pt": "Alinhar emissor e receptor"
+      },
+      "description": {
+        "en": "Adjust sender horizontally/vertically around receiver switching points, then centre the beam on the receiver.",
+        "pt": "Ajuste emissor horizontal/verticalmente ao redor dos pontos de comutação e centralize feixe no receptor."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wse9",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Align emitter and receiver",
+        "applicability": "WSE9L-3N2237; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_teach",
+      "name": {
+        "en": "Standard sensitivity teach",
+        "pt": "TEACH padrão de sensibilidade"
+      },
+      "description": {
+        "en": "Hold teach longer than 2 seconds until yellow LED relights, then release; documented performance reserve is 4.",
+        "pt": "Segure TEACH por mais de 2 segundos até LED amarelo reacender e solte; reserva funcional documentada é 4."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wse9",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Standard sensitivity teach",
+        "applicability": "WSE9L-3N2237; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_maintenance",
+      "name": {
+        "en": "Optics and connection checks",
+        "pt": "Verificação de óptica e conexões"
+      },
+      "description": {
+        "en": "Clean external optical surfaces and check screws/connectors regularly.",
+        "pt": "Limpe superfícies ópticas externas e confira parafusos/conectores regularmente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wse9",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Optics and connection checks",
+        "applicability": "WSE9L-3N2237; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

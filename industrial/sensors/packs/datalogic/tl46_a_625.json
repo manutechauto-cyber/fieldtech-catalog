@@ -5,7 +5,7 @@
   "manufacturer": "Datalogic",
   "model": "TL46-A-625",
   "family": "TL46",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/datalogic/tl46_a_625.json",
   "typeIds": [
     "contrast"
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy Datalogic guide; exact current Datasensing replacement and IO-Link revisions not verified.",
-      "pt": "Guia legado Datalogic; substituto Datasensing atual e revisões IO-Link não verificados."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -219,10 +220,144 @@
         "section": "Setting controls",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "ops4_delay",
+      "name": {
+        "en": "Minimum output pulse",
+        "pt": "Pulso mínimo de saída"
+      },
+      "description": {
+        "en": "Delay extends the active output pulse to at least 20 ms.",
+        "pt": "Delay estende pulso ativo da saída para ao menos 20 ms."
+      },
+      "value": 20,
+      "unit": "ms",
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Minimum output pulse",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_sensitivity",
+      "name": {
+        "en": "Sensitivity knob",
+        "pt": "Potenciômetro de sensibilidade"
+      },
+      "description": {
+        "en": "Clockwise increases sensitivity; counterclockwise decreases it. Set Light/Dark mode first.",
+        "pt": "Sentido horário aumenta sensibilidade; anti-horário reduz. Selecione modo claro/escuro antes."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensitivity knob",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_overload",
+      "name": {
+        "en": "Output overload",
+        "pt": "Sobrecarga da saída"
+      },
+      "description": {
+        "en": "Digital output overload is indicated by rapid READY LED blinking.",
+        "pt": "Sobrecarga da saída digital é indicada por READY piscando rapidamente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overload",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_mounting",
+      "name": {
+        "en": "Mounting screws",
+        "pt": "Parafusos de montagem"
+      },
+      "description": {
+        "en": "Use M5 threaded holes with at most 6 mm depth; longer screws can damage the device.",
+        "pt": "Use furos roscados M5 com profundidade máxima de 6 mm; parafusos maiores podem danificar dispositivo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting screws",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_delay_input",
+      "name": {
+        "en": "Delay input",
+        "pt": "Entrada Delay"
+      },
+      "description": {
+        "en": "Grey Delay wire at supply enables pulse extension; at 0 V or unconnected disables it.",
+        "pt": "Fio cinza Delay na alimentação habilita extensão; em 0 V ou desconectado desabilita."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Delay input",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_contrast_adjust",
+      "name": {
+        "en": "Contrast adjustment",
+        "pt": "Ajuste do contraste"
+      },
+      "description": {
+        "en": "Find mark and background switching positions using arrow guidance, reverse by half the background adjustment turns, then verify switching on the mark.",
+        "pt": "Encontre posições de comutação da marca/fundo usando setas, retorne metade das voltas de ajuste do fundo e confira comutação na marca."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tla",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Contrast adjustment",
+        "applicability": "TL46-A-625; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

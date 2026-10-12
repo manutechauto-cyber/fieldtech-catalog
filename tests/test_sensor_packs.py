@@ -112,3 +112,20 @@ class SensorPackTests(unittest.TestCase):
             self.assertIn('SP2',ids)
             self.assertNotIn('ASP2',ids)
             self.assertIn('mode 2/3',p['coverage']['limitations']['en'])
+
+    def test_omron_fiber_bank_and_io_link_limits(self):
+        _,standard=self.load('E3NX-FA11 2M');_,advanced=self.load('E3NX-FA21 2M');_,io=self.load('E3NX-FA51-IL3 2M')
+        self.assertNotIn('ops4_bank',{x['id'] for x in standard['parameters']})
+        self.assertIn('ops4_bank',{x['id'] for x in advanced['parameters']})
+        self.assertNotIn('ops4_user_save',{x['id'] for x in io['procedures']})
+        self.assertEqual(next(x['value'] for x in io['parameters'] if x['id']=='ops4_SHS'),50)
+        self.assertFalse(any(x['source']['documentId']=='ops4_e3nxil' for x in standard['parameters']))
+
+    def test_datalogic_delay_is_variant_specific(self):
+        _,basic=self.load('TL46-W-815');_,enhanced=self.load('TL46-WLF-815')
+        self.assertEqual(next(x['value'] for x in basic['parameters'] if x['id']=='ops4_delay'),20)
+        self.assertEqual(next(x['value'] for x in enhanced['parameters'] if x['id']=='ops4_dLOn'),{'min':0,'max':100,'step':1})
+        self.assertNotIn('ops4_dLOn',{x['id'] for x in basic['parameters']})
+        _,knob=self.load('TL46-A-415')
+        self.assertIn('ops4_sensitivity',{x['id'] for x in knob['parameters']})
+        self.assertNotIn('ops4_mark_background',{x['id'] for x in knob['procedures']})

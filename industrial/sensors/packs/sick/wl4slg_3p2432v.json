@@ -5,7 +5,7 @@
   "manufacturer": "SICK",
   "model": "WL4SLG-3P2432V",
   "family": "W4SLG-3V",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
   "typeIds": [
     "laser-retroreflective",
@@ -32,13 +32,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy 2013 manufacturer reference; present availability and current firmware compatibility remain unknown.",
-      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware permanecem desconhecidas."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -155,8 +156,98 @@
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_weak_light",
+      "name": {
+        "en": "Insufficient received light",
+        "pt": "Luz recebida insuficiente"
+      },
+      "description": {
+        "en": "Unlit/flashing receiver indicator: realign, clean optics or check application conditions.",
+        "pt": "Indicador apagado/piscando: realinhe, limpe óptica ou confira condições da aplicação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wl4",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Insufficient received light",
+        "applicability": "WL4SLG-3P2432V; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_alignment",
+      "name": {
+        "en": "Reflector alignment",
+        "pt": "Alinhamento do refletor"
+      },
+      "description": {
+        "en": "Aim at reflector centre, maintain a clear optical path, and use the reflector type recommended for the application.",
+        "pt": "Mire no centro do refletor, mantenha caminho óptico livre e use refletor recomendado para aplicação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wl4",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reflector alignment",
+        "applicability": "WL4SLG-3P2432V; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_transparent_teach",
+      "name": {
+        "en": "Transparent-object teach",
+        "pt": "TEACH de objetos transparentes"
+      },
+      "description": {
+        "en": "With reflector aligned and clear path, hold TEACH longer than 2 seconds until yellow LED relights; threshold tracking is enabled.",
+        "pt": "Com refletor alinhado e caminho livre, segure TEACH por mais de 2 segundos até LED amarelo reacender; rastreamento do limiar é habilitado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wl4",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Transparent-object teach",
+        "applicability": "WL4SLG-3P2432V; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_opaque_teach",
+      "name": {
+        "en": "Opaque-object teach",
+        "pt": "TEACH de objetos opacos"
+      },
+      "description": {
+        "en": "Hold TEACH longer than 8 seconds until yellow LED flashes; release for opaque mode with threshold tracking disabled.",
+        "pt": "Segure TEACH por mais de 8 segundos até LED amarelo piscar; solte para modo opaco com rastreamento do limiar desabilitado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_wl4",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Opaque-object teach",
+        "applicability": "WL4SLG-3P2432V; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

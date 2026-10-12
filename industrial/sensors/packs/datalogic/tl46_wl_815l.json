@@ -5,7 +5,7 @@
   "manufacturer": "Datalogic",
   "model": "TL46-WL-815L",
   "family": "TL46",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/datalogic/tl46_wl_815l.json",
   "typeIds": [
     "contrast"
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy Datalogic guide; exact current Datasensing replacement and IO-Link revisions not verified.",
-      "pt": "Guia legado Datalogic; substituto Datasensing atual e revisões IO-Link não verificados."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -219,10 +220,166 @@
         "section": "Setting controls",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "ops4_delay",
+      "name": {
+        "en": "Minimum output pulse",
+        "pt": "Pulso mínimo de saída"
+      },
+      "description": {
+        "en": "Delay extends the active output pulse to at least 20 ms.",
+        "pt": "Delay estende pulso ativo da saída para ao menos 20 ms."
+      },
+      "value": 20,
+      "unit": "ms",
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Minimum output pulse",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_overload",
+      "name": {
+        "en": "Output overload",
+        "pt": "Sobrecarga da saída"
+      },
+      "description": {
+        "en": "Digital output overload is indicated by rapid READY LED blinking.",
+        "pt": "Sobrecarga da saída digital é indicada por READY piscando rapidamente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overload",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_teach_failed",
+      "name": {
+        "en": "Insufficient contrast",
+        "pt": "Contraste insuficiente"
+      },
+      "description": {
+        "en": "Slow READY blinking after acquisition means failed teach; return to the prior setting and retry.",
+        "pt": "READY piscando lentamente após aquisição indica TEACH falho; volte ao ajuste anterior e repita."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Insufficient contrast",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_mounting",
+      "name": {
+        "en": "Mounting screws",
+        "pt": "Parafusos de montagem"
+      },
+      "description": {
+        "en": "Use M5 threaded holes with at most 6 mm depth; longer screws can damage the device.",
+        "pt": "Use furos roscados M5 com profundidade máxima de 6 mm; parafusos maiores podem danificar dispositivo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting screws",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_mark_background",
+      "name": {
+        "en": "Mark/background teach",
+        "pt": "TEACH marca/fundo"
+      },
+      "description": {
+        "en": "Keep mark still during acquisition, then teach background; the sensor automatically selects RGB emission and Light/Dark mode.",
+        "pt": "Mantenha marca imóvel durante aquisição e depois ensine fundo; sensor seleciona emissão RGB e modo claro/escuro automaticamente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mark/background teach",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_unlock",
+      "name": {
+        "en": "Unlock settings",
+        "pt": "Desbloquear ajustes"
+      },
+      "description": {
+        "en": "Hold white button for 5 seconds until KEYLOCK LED turns on; keyboard relocks after 2 minutes without use.",
+        "pt": "Segure botão branco por 5 segundos até KEYLOCK acender; teclas bloqueiam após 2 minutos sem uso."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Unlock settings",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_save_threshold",
+      "name": {
+        "en": "Save threshold",
+        "pt": "Salvar limiar"
+      },
+      "description": {
+        "en": "Confirm with white button or wait 30 seconds after the last adjustment for automatic save.",
+        "pt": "Confirme com botão branco ou aguarde 30 segundos após último ajuste para gravação automática."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwl",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Save threshold",
+        "applicability": "TL46-WL-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 
-VENDOR_DOMAINS={'SICK':('sick.com',),'Banner Engineering':('bannerengineering.com',),'Omron':('omron.eu','omron.com.au','ia.omron.com','omron-ap.com','omron.com.tw'),'ifm':('ifm.com',),'Pepperl+Fuchs':('pepperl-fuchs.com',),'Turck':('turck.us',),'Baumer':('baumer.com',),'Zebra':('zebra.com',),'Datalogic':('datalogic.com',)}
+VENDOR_DOMAINS={'SICK':('sick.com',),'Banner Engineering':('bannerengineering.com',),'Omron':('omron.eu','omron.com.au','ia.omron.com','omron-ap.com','omron.com.tw'),'ifm':('ifm.com',),'Pepperl+Fuchs':('pepperl-fuchs.com',),'Turck':('turck.us',),'Baumer':('baumer.com',),'Zebra':('zebra.com',),'Datalogic':('datalogic.com','datasensing.com')}
 SECTIONS=('specifications','parameters','diagnostics','procedures','software')
 
 def require(condition,message):

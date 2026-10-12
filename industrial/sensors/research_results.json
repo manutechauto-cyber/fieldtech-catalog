@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 3,
+  "sensorCatalogVersion": 4,
   "reviewedAt": "2026-10-12",
   "publishedPacks": 398,
   "counts": {
     "specifications": 2914,
-    "parameters": 1011,
-    "diagnostics": 415,
-    "procedures": 254,
-    "software": 108
+    "parameters": 1137,
+    "diagnostics": 522,
+    "procedures": 360,
+    "software": 113
   },
-  "reviewedDocuments": 226,
+  "reviewedDocuments": 236,
   "manufacturerCounts": {
     "Banner Engineering": 91,
     "Baumer": 1,
@@ -23,8 +23,8 @@
     "ifm": 152
   },
   "coverageDepth": {
-    "manual-field-subset": 313,
-    "datasheet-field-subset": 85
+    "manual-field-subset": 357,
+    "datasheet-field-subset": 41
   },
   "scope": "Documented field subsets; 20-reference selection target met, not full manuals or proven worldwide sales ranking",
   "hardwareTested": false,
@@ -36,11 +36,11 @@
     "unresolvedMismatches": 0
   },
   "newReleaseSourceChecks": {
-    "updatedPacks": 121,
-    "newFieldReferences": 684,
-    "newOfficialManuals": 38,
-    "newDocumentChecksumsVerified": 38,
-    "method": "Selected manual sections reviewed for field use. Model applicability uses retained exact-model datasheet/manual links, explicit family coverage, or exact pressure-model listing. Shared-family exclusions are applied per model; software guide compatibility remains explicit.",
+    "updatedPacks": 44,
+    "newFieldReferences": 344,
+    "newOfficialManuals": 10,
+    "newDocumentChecksumsVerified": 10,
+    "method": "Reviewed English operating sections with model-family and electrical/feature-variant conditions. Bank/EEPROM functions are filtered for standard Omron models; IO-Link uses its own instruction sheet. Three ifm variants use explicit shared-manual scope.",
     "unresolvedChecksumMismatches": 0
   },
   "coverageByType": [
@@ -201,7 +201,7 @@
   "nextResearchPriorities": [
     {
       "priority": 1,
-      "task": "Extract exact-variant commissioning and diagnostics for the remaining 85 datasheet-only packs; obtain official manuals for the remaining ifm variants and legacy optical sensors."
+      "task": "Obtain exact-applicability operating manuals for the remaining 41 datasheet-only packs, especially fixed-function ifm inductive/cylinder variants, SICK W9 optics and Omron MicroHAWK."
     },
     {
       "priority": 2,
@@ -245,21 +245,31 @@
     }
   ],
   "previousReleaseSourceChecks": {
-    "newPackIdentityChecks": 271,
-    "newPackIdentityMatches": 271,
-    "newDocumentChecksumsVerified": 156,
-    "unresolvedIdentityOrChecksumMismatches": 0,
-    "method": "Exact model or both pair components matched after whitespace normalization on cited PDF pages; SHA-256 recalculated from downloaded PDFs. Imported ifm fact values additionally matched the retained PDF during extraction."
+    "updatedPacks": 121,
+    "newFieldReferences": 684,
+    "newOfficialManuals": 38,
+    "newDocumentChecksumsVerified": 38,
+    "method": "Selected manual sections reviewed for field use. Model applicability uses retained exact-model datasheet/manual links, explicit family coverage, or exact pressure-model listing. Shared-family exclusions are applied per model; software guide compatibility remains explicit.",
+    "unresolvedChecksumMismatches": 0
   },
-  "remainingDatasheetOnlyPacks": 85,
+  "remainingDatasheetOnlyPacks": 41,
   "remainingDatasheetOnlyByManufacturer": {
-    "ifm": 26,
-    "Omron": 20,
-    "SICK": 26,
+    "ifm": 23,
+    "SICK": 14,
     "Turck": 1,
     "Pepperl+Fuchs": 1,
     "Baumer": 1,
-    "Datalogic": 10
+    "Omron": 1
   },
-  "completionQueueUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/completion_queue.json"
+  "completionQueueUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/completion_queue.json",
+  "manualAccessNotes": [
+    {
+      "manufacturer": "Datalogic / Datasensing",
+      "status": "Public legacy Datalogic manuals were obtained. Some current download links request email registration/CAPTCHA; no personal data was submitted. Legacy instructions do not establish current model availability."
+    },
+    {
+      "manufacturer": "SICK",
+      "status": "Some model-product URLs returned HTTP 403 and two presumed W9 manual URLs returned 404. These failed requests were not registered as evidence; WTB9L/WL9L remain pending."
+    }
+  ]
 }

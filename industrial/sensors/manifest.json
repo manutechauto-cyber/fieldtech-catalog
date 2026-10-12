@@ -1319,7 +1319,7 @@
       "packId": "sensor_omron_e3x_hd11_2m",
       "manufacturer": "Omron",
       "model": "E3X-HD11 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd11_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd11_2m.json"
     },
@@ -1327,7 +1327,7 @@
       "packId": "sensor_omron_e3x_hd14",
       "manufacturer": "Omron",
       "model": "E3X-HD14",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd14.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd14.json"
     },
@@ -1335,7 +1335,7 @@
       "packId": "sensor_omron_e3x_hd41_2m",
       "manufacturer": "Omron",
       "model": "E3X-HD41 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd41_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd41_2m.json"
     },
@@ -1343,7 +1343,7 @@
       "packId": "sensor_omron_e3x_hd44",
       "manufacturer": "Omron",
       "model": "E3X-HD44",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd44.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd44.json"
     },
@@ -1351,7 +1351,7 @@
       "packId": "sensor_omron_e3x_hd6",
       "manufacturer": "Omron",
       "model": "E3X-HD6",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd6.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd6.json"
     },
@@ -1359,7 +1359,7 @@
       "packId": "sensor_omron_e3x_hd8",
       "manufacturer": "Omron",
       "model": "E3X-HD8",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3x_hd8.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3x_hd8.json"
     },
@@ -3207,7 +3207,7 @@
       "packId": "sensor_ifm_ta1102",
       "manufacturer": "ifm",
       "model": "TA1102",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ta1102.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta1102.json"
     },
@@ -3215,7 +3215,7 @@
       "packId": "sensor_ifm_lmt202",
       "manufacturer": "ifm",
       "model": "LMT202",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/lmt202.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/lmt202.json"
     },
@@ -3223,7 +3223,7 @@
       "packId": "sensor_omron_e3nx_fa11_2m",
       "manufacturer": "Omron",
       "model": "E3NX-FA11 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa11_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa11_2m.json"
     },
@@ -3231,7 +3231,7 @@
       "packId": "sensor_omron_e3nx_fa41_2m",
       "manufacturer": "Omron",
       "model": "E3NX-FA41 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa41_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa41_2m.json"
     },
@@ -3239,7 +3239,7 @@
       "packId": "sensor_omron_e3nx_fa6",
       "manufacturer": "Omron",
       "model": "E3NX-FA6",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa6.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa6.json"
     },
@@ -3247,7 +3247,7 @@
       "packId": "sensor_omron_e3nx_fa8",
       "manufacturer": "Omron",
       "model": "E3NX-FA8",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa8.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa8.json"
     },
@@ -3255,7 +3255,7 @@
       "packId": "sensor_omron_e3nx_fa21_2m",
       "manufacturer": "Omron",
       "model": "E3NX-FA21 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa21_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa21_2m.json"
     },
@@ -3263,7 +3263,7 @@
       "packId": "sensor_omron_e3nx_fa51_2m",
       "manufacturer": "Omron",
       "model": "E3NX-FA51 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa51_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa51_2m.json"
     },
@@ -3271,7 +3271,7 @@
       "packId": "sensor_omron_e3nx_fa7",
       "manufacturer": "Omron",
       "model": "E3NX-FA7",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa7.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa7.json"
     },
@@ -3279,7 +3279,7 @@
       "packId": "sensor_omron_e3nx_fa9",
       "manufacturer": "Omron",
       "model": "E3NX-FA9",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa9.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa9.json"
     },
@@ -3287,7 +3287,7 @@
       "packId": "sensor_omron_e3nx_fa24",
       "manufacturer": "Omron",
       "model": "E3NX-FA24",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa24.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa24.json"
     },
@@ -3295,7 +3295,7 @@
       "packId": "sensor_omron_e3nx_fa54",
       "manufacturer": "Omron",
       "model": "E3NX-FA54",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa54.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54.json"
     },
@@ -3303,7 +3303,7 @@
       "packId": "sensor_omron_e3nx_fa54tw",
       "manufacturer": "Omron",
       "model": "E3NX-FA54TW",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa54tw.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54tw.json"
     },
@@ -3311,7 +3311,7 @@
       "packId": "sensor_omron_e3nx_fa51_il3_2m",
       "manufacturer": "Omron",
       "model": "E3NX-FA51-IL3 2M",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json"
     },
@@ -3319,7 +3319,7 @@
       "packId": "sensor_omron_e3nx_fa54_il3",
       "manufacturer": "Omron",
       "model": "E3NX-FA54-IL3",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/e3nx_fa54_il3.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/e3nx_fa54_il3.json"
     },
@@ -3327,7 +3327,7 @@
       "packId": "sensor_ifm_ta2405",
       "manufacturer": "ifm",
       "model": "TA2405",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ta2405.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ta2405.json"
     },
@@ -3559,7 +3559,7 @@
       "packId": "sensor_sick_wse9l_3n2237",
       "manufacturer": "SICK",
       "model": "WSE9L-3N2237",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3n2237.json"
     },
@@ -3567,7 +3567,7 @@
       "packId": "sensor_sick_wse9l_3n2437",
       "manufacturer": "SICK",
       "model": "WSE9L-3N2437",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse9l_3n2437.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3n2437.json"
     },
@@ -3575,7 +3575,7 @@
       "packId": "sensor_sick_wse9l_3p1137",
       "manufacturer": "SICK",
       "model": "WSE9L-3P1137",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse9l_3p1137.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p1137.json"
     },
@@ -3583,7 +3583,7 @@
       "packId": "sensor_sick_wse9l_3p2237",
       "manufacturer": "SICK",
       "model": "WSE9L-3P2237",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse9l_3p2237.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p2237.json"
     },
@@ -3591,7 +3591,7 @@
       "packId": "sensor_sick_wse9l_3p2437",
       "manufacturer": "SICK",
       "model": "WSE9L-3P2437",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse9l_3p2437.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse9l_3p2437.json"
     },
@@ -3647,7 +3647,7 @@
       "packId": "sensor_sick_wse4sl_3n1137v",
       "manufacturer": "SICK",
       "model": "WSE4SL-3N1137V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse4sl_3n1137v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3n1137v.json"
     },
@@ -3655,7 +3655,7 @@
       "packId": "sensor_sick_wse4sl_3p2237v",
       "manufacturer": "SICK",
       "model": "WSE4SL-3P2237V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse4sl_3p2237v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3p2237v.json"
     },
@@ -3663,7 +3663,7 @@
       "packId": "sensor_sick_wse4sl_3p2437v",
       "manufacturer": "SICK",
       "model": "WSE4SL-3P2437V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wse4sl_3p2437v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wse4sl_3p2437v.json"
     },
@@ -3735,7 +3735,7 @@
       "packId": "sensor_sick_wl4slg_3p1132v",
       "manufacturer": "SICK",
       "model": "WL4SLG-3P1132V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl4slg_3p1132v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p1132v.json"
     },
@@ -3743,7 +3743,7 @@
       "packId": "sensor_sick_wl4slg_3p2232v",
       "manufacturer": "SICK",
       "model": "WL4SLG-3P2232V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl4slg_3p2232v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p2232v.json"
     },
@@ -3751,7 +3751,7 @@
       "packId": "sensor_sick_wl4slg_3p2432v",
       "manufacturer": "SICK",
       "model": "WL4SLG-3P2432V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p2432v.json"
     },
@@ -3759,7 +3759,7 @@
       "packId": "sensor_sick_wl4slg_3p3432v",
       "manufacturer": "SICK",
       "model": "WL4SLG-3P3432V",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl4slg_3p3432v.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl4slg_3p3432v.json"
     },
@@ -3839,7 +3839,7 @@
       "packId": "sensor_datalogic_tl46_a_415",
       "manufacturer": "Datalogic",
       "model": "TL46-A-415",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_a_415.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_415.json"
     },
@@ -3847,7 +3847,7 @@
       "packId": "sensor_datalogic_tl46_a_425",
       "manufacturer": "Datalogic",
       "model": "TL46-A-425",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_a_425.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_425.json"
     },
@@ -3855,7 +3855,7 @@
       "packId": "sensor_datalogic_tl46_a_615",
       "manufacturer": "Datalogic",
       "model": "TL46-A-615",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_a_615.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_615.json"
     },
@@ -3863,7 +3863,7 @@
       "packId": "sensor_datalogic_tl46_a_625",
       "manufacturer": "Datalogic",
       "model": "TL46-A-625",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_a_625.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_a_625.json"
     },
@@ -3871,7 +3871,7 @@
       "packId": "sensor_datalogic_tl46_w_815",
       "manufacturer": "Datalogic",
       "model": "TL46-W-815",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_w_815.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_w_815.json"
     },
@@ -3879,7 +3879,7 @@
       "packId": "sensor_datalogic_tl46_w_815l",
       "manufacturer": "Datalogic",
       "model": "TL46-W-815L",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_w_815l.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_w_815l.json"
     },
@@ -3887,7 +3887,7 @@
       "packId": "sensor_datalogic_tl46_wl_815",
       "manufacturer": "Datalogic",
       "model": "TL46-WL-815",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_wl_815.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wl_815.json"
     },
@@ -3895,7 +3895,7 @@
       "packId": "sensor_datalogic_tl46_wl_815l",
       "manufacturer": "Datalogic",
       "model": "TL46-WL-815L",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_wl_815l.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wl_815l.json"
     },
@@ -3903,7 +3903,7 @@
       "packId": "sensor_datalogic_tl46_wlf_815",
       "manufacturer": "Datalogic",
       "model": "TL46-WLF-815",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_wlf_815.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wlf_815.json"
     },
@@ -3911,7 +3911,7 @@
       "packId": "sensor_datalogic_tl46_wlf_815l",
       "manufacturer": "Datalogic",
       "model": "TL46-WLF-815L",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/datalogic/tl46_wlf_815l.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/datalogic/tl46_wlf_815l.json"
     },
@@ -4118,7 +4118,7 @@
     ],
     "publicationEnabled": true
   },
-  "sensorCatalogVersion": 3,
+  "sensorCatalogVersion": 4,
   "sourceRegistryUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/sources.json",
   "releaseUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/release.json"
 }

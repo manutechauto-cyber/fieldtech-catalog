@@ -5,7 +5,7 @@
   "manufacturer": "Datalogic",
   "model": "TL46-WLF-815L",
   "family": "TL46",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/datalogic/tl46_wlf_815l.json",
   "typeIds": [
     "contrast"
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy Datalogic guide; exact current Datasensing replacement and IO-Link revisions not verified.",
-      "pt": "Guia legado Datalogic; substituto Datasensing atual e revisões IO-Link não verificados."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -219,10 +220,196 @@
         "section": "Setting controls",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "ops4_dLOn",
+      "name": {
+        "en": "On-delay",
+        "pt": "Atraso de ativação"
+      },
+      "description": {
+        "en": "Delay configurable from 0 to 100 ms in 1 ms steps.",
+        "pt": "Atraso configurável de 0 a 100 ms em passos de 1 ms."
+      },
+      "value": {
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "unit": "ms",
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "On-delay",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_dLOF",
+      "name": {
+        "en": "Off-delay",
+        "pt": "Atraso de desativação"
+      },
+      "description": {
+        "en": "Delay configurable from 0 to 100 ms in 1 ms steps.",
+        "pt": "Atraso configurável de 0 a 100 ms em passos de 1 ms."
+      },
+      "value": {
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "unit": "ms",
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Off-delay",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_HYSt",
+      "name": {
+        "en": "Hysteresis",
+        "pt": "Histerese"
+      },
+      "description": {
+        "en": "Select high, normal or low hysteresis.",
+        "pt": "Selecione histerese alta, normal ou baixa."
+      },
+      "value": "High / Normal / Low",
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Hysteresis",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_overload",
+      "name": {
+        "en": "Output overload",
+        "pt": "Sobrecarga da saída"
+      },
+      "description": {
+        "en": "Digital output overload is indicated by _SC_ on the display.",
+        "pt": "Sobrecarga da saída digital é indicada por _SC_ no display."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overload",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_FAIL",
+      "name": {
+        "en": "Static teach failed",
+        "pt": "TEACH estático falhou"
+      },
+      "description": {
+        "en": "FAIL flashes when mark/background contrast is insufficient.",
+        "pt": "FAIL pisca quando contraste marca/fundo é insuficiente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Static teach failed",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_Lo",
+      "name": {
+        "en": "Dynamic teach failed",
+        "pt": "TEACH dinâmico falhou"
+      },
+      "description": {
+        "en": "Lo flashes after unsuccessful dynamic acquisition.",
+        "pt": "Lo pisca após aquisição dinâmica sem sucesso."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Dynamic teach failed",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_mounting",
+      "name": {
+        "en": "Mounting screws",
+        "pt": "Parafusos de montagem"
+      },
+      "description": {
+        "en": "Use M5 threaded holes with at most 6 mm depth; longer screws can damage the device.",
+        "pt": "Use furos roscados M5 com profundidade máxima de 6 mm; parafusos maiores podem danificar dispositivo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting screws",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_dynamic",
+      "name": {
+        "en": "Dynamic teach",
+        "pt": "TEACH dinâmico"
+      },
+      "description": {
+        "en": "Set Light/Dark using white input, hold SET until dYn flashes at about 4 seconds, keep pressed during target movement and release to finish.",
+        "pt": "Selecione claro/escuro pela entrada branca, segure SET até dYn piscar em cerca de 4 segundos, mantenha durante movimento do alvo e solte para finalizar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_tlwlf",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Dynamic teach",
+        "applicability": "TL46-WLF-815L; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 3,
+  "sensorCatalogVersion": 4,
   "scope": "Research gaps, not a claim that an empty section implies the feature is supported or absent",
   "packs": [
     {
@@ -18,678 +18,6 @@
       "configurationUnknowns": [
         "softwareVersionCompatibility",
         "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_a_415",
-      "model": "TL46-A-415",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_a_415.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_a_425",
-      "model": "TL46-A-425",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_a_425.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_a_615",
-      "model": "TL46-A-615",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_a_615.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_a_625",
-      "model": "TL46-A-625",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_a_625.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_w_815",
-      "model": "TL46-W-815",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_w_815.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_w_815l",
-      "model": "TL46-W-815L",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_w_815l.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_wl_815",
-      "model": "TL46-WL-815",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_wl_815.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_wl_815l",
-      "model": "TL46-WL-815L",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_wl_815l.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_wlf_815",
-      "model": "TL46-WLF-815",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_datalogic_tl46_wlf_815l",
-      "model": "TL46-WLF-815L",
-      "manufacturer": "Datalogic",
-      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815l.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability",
-        "currentDatasensingEquivalent",
-        "ioLinkVariantCompatibility"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa11_2m",
-      "model": "E3NX-FA11 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa11_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa21_2m",
-      "model": "E3NX-FA21 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa21_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa24",
-      "model": "E3NX-FA24",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa24.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa41_2m",
-      "model": "E3NX-FA41 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa41_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa51_2m",
-      "model": "E3NX-FA51 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa51_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa51_il3_2m",
-      "model": "E3NX-FA51-IL3 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa54",
-      "model": "E3NX-FA54",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa54.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa54_il3",
-      "model": "E3NX-FA54-IL3",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa54_il3.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa54tw",
-      "model": "E3NX-FA54TW",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa54tw.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa6",
-      "model": "E3NX-FA6",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa6.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa7",
-      "model": "E3NX-FA7",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa7.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa8",
-      "model": "E3NX-FA8",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa8.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3nx_fa9",
-      "model": "E3NX-FA9",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3nx_fa9.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd11_2m",
-      "model": "E3X-HD11 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd11_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd14",
-      "model": "E3X-HD14",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd14.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd41_2m",
-      "model": "E3X-HD41 2M",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd41_2m.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd44",
-      "model": "E3X-HD44",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd44.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd6",
-      "model": "E3X-HD6",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd6.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_e3x_hd8",
-      "model": "E3X-HD8",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/e3x_hd8.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
         "backupProcedure",
         "restoreProcedure",
         "persistentSaveProcedure"
@@ -783,98 +111,6 @@
         "softwareVersionCompatibility",
         "firmwareCompatibility",
         "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wl4slg_3p1132v",
-      "model": "WL4SLG-3P1132V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wl4slg_3p1132v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wl4slg_3p2232v",
-      "model": "WL4SLG-3P2232V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wl4slg_3p2232v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wl4slg_3p2432v",
-      "model": "WL4SLG-3P2432V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wl4slg_3p3432v",
-      "model": "WL4SLG-3P3432V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wl4slg_3p3432v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
         "backupProcedure",
         "restoreProcedure",
         "persistentSaveProcedure"
@@ -1002,190 +238,6 @@
       "model": "WL9L-3P3432",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3p3432.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse4sl_3n1137v",
-      "model": "WSE4SL-3N1137V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse4sl_3n1137v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse4sl_3p2237v",
-      "model": "WSE4SL-3P2237V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse4sl_3p2237v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse4sl_3p2437v",
-      "model": "WSE4SL-3P2437V",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse4sl_3p2437v.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse9l_3n2237",
-      "model": "WSE9L-3N2237",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse9l_3n2437",
-      "model": "WSE9L-3N2437",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse9l_3n2437.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse9l_3p1137",
-      "model": "WSE9L-3P1137",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse9l_3p1137.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse9l_3p2237",
-      "model": "WSE9L-3P2237",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse9l_3p2237.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_sick_wse9l_3p2437",
-      "model": "WSE9L-3P2437",
-      "manufacturer": "SICK",
-      "path": "industrial/sensors/packs/sick/wse9l_3p2437.json",
       "priority": 1,
       "coverageScope": "datasheet-field-subset",
       "emptySections": [
@@ -1630,30 +682,6 @@
       "hardwareTested": false
     },
     {
-      "packId": "sensor_ifm_lmt202",
-      "model": "LMT202",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/lmt202.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
       "packId": "sensor_ifm_mfh211",
       "model": "MFH211",
       "manufacturer": "ifm",
@@ -1898,54 +926,6 @@
       "model": "OC5220",
       "manufacturer": "ifm",
       "path": "industrial/sensors/packs/ifm/oc5220.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ta1102",
-      "model": "TA1102",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ta1102.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ta2405",
-      "model": "TA2405",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ta2405.json",
       "priority": 1,
       "coverageScope": "datasheet-field-subset",
       "emptySections": [
@@ -3990,6 +2970,492 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_datalogic_tl46_a_415",
+      "model": "TL46-A-415",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_a_415.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_425",
+      "model": "TL46-A-425",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_a_425.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_615",
+      "model": "TL46-A-615",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_a_615.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_a_625",
+      "model": "TL46-A-625",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_a_625.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_w_815",
+      "model": "TL46-W-815",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_w_815.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_w_815l",
+      "model": "TL46-W-815L",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_w_815l.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wl_815",
+      "model": "TL46-WL-815",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_wl_815.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wl_815l",
+      "model": "TL46-WL-815L",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_wl_815l.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wlf_815",
+      "model": "TL46-WLF-815",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_datalogic_tl46_wlf_815l",
+      "model": "TL46-WLF-815L",
+      "manufacturer": "Datalogic",
+      "path": "industrial/sensors/packs/datalogic/tl46_wlf_815l.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability",
+        "currentDatasensingEquivalent",
+        "ioLinkVariantCompatibility"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa11_2m",
+      "model": "E3NX-FA11 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa11_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa21_2m",
+      "model": "E3NX-FA21 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa21_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa24",
+      "model": "E3NX-FA24",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa24.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa41_2m",
+      "model": "E3NX-FA41 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa41_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa51_2m",
+      "model": "E3NX-FA51 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa51_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa51_il3_2m",
+      "model": "E3NX-FA51-IL3 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa51_il3_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54",
+      "model": "E3NX-FA54",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa54.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54_il3",
+      "model": "E3NX-FA54-IL3",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa54_il3.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa54tw",
+      "model": "E3NX-FA54TW",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa54tw.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa6",
+      "model": "E3NX-FA6",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa6.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa7",
+      "model": "E3NX-FA7",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa7.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa8",
+      "model": "E3NX-FA8",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa8.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3nx_fa9",
+      "model": "E3NX-FA9",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3nx_fa9.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
       "packId": "sensor_omron_e3s_dcn21",
       "model": "E3S-DCN21",
       "manufacturer": "Omron",
@@ -4046,6 +3512,132 @@
       "configurationUnknowns": [
         "softwareVersionCompatibility",
         "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd11_2m",
+      "model": "E3X-HD11 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd11_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd14",
+      "model": "E3X-HD14",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd14.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd41_2m",
+      "model": "E3X-HD41 2M",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd41_2m.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd44",
+      "model": "E3X-HD44",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd44.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd6",
+      "model": "E3X-HD6",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd6.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_omron_e3x_hd8",
+      "model": "E3X-HD8",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/e3x_hd8.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
         "backupProcedure",
         "restoreProcedure",
         "persistentSaveProcedure"
@@ -5747,6 +5339,258 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_sick_wl4slg_3p1132v",
+      "model": "WL4SLG-3P1132V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wl4slg_3p1132v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p2232v",
+      "model": "WL4SLG-3P2232V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wl4slg_3p2232v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p2432v",
+      "model": "WL4SLG-3P2432V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wl4slg_3p2432v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wl4slg_3p3432v",
+      "model": "WL4SLG-3P3432V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wl4slg_3p3432v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3n1137v",
+      "model": "WSE4SL-3N1137V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse4sl_3n1137v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3p2237v",
+      "model": "WSE4SL-3P2237V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse4sl_3p2237v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse4sl_3p2437v",
+      "model": "WSE4SL-3P2437V",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse4sl_3p2437v.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse9l_3n2237",
+      "model": "WSE9L-3N2237",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse9l_3n2237.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse9l_3n2437",
+      "model": "WSE9L-3N2437",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse9l_3n2437.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p1137",
+      "model": "WSE9L-3P1137",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse9l_3p1137.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p2237",
+      "model": "WSE9L-3P2237",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse9l_3p2237.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_sick_wse9l_3p2437",
+      "model": "WSE9L-3P2437",
+      "manufacturer": "SICK",
+      "path": "industrial/sensors/packs/sick/wse9l_3p2437.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
       "packId": "sensor_zebra_fs40_sr20d4_2c00w",
       "model": "FS40-SR20D4-2C00W",
       "manufacturer": "Zebra",
@@ -6823,6 +6667,25 @@
       "model": "LMT121",
       "manufacturer": "ifm",
       "path": "industrial/sensors/packs/ifm/lmt121.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_lmt202",
+      "model": "LMT202",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/lmt202.json",
       "priority": 2,
       "coverageScope": "manual-field-subset",
       "emptySections": [],
@@ -8318,6 +8181,28 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_ifm_ta1102",
+      "model": "TA1102",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ta1102.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "diagnostics",
+        "procedures"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
       "packId": "sensor_ifm_ta2105",
       "model": "TA2105",
       "manufacturer": "ifm",
@@ -8344,6 +8229,28 @@
       "model": "TA2115",
       "manufacturer": "ifm",
       "path": "industrial/sensors/packs/ifm/ta2115.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "diagnostics",
+        "procedures"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_ta2405",
+      "model": "TA2405",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ta2405.json",
       "priority": 2,
       "coverageScope": "manual-field-subset",
       "emptySections": [

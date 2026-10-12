@@ -5,7 +5,7 @@
   "manufacturer": "Omron",
   "model": "E3NX-FA54",
   "family": "E3NX-FA",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/omron/e3nx_fa54.json",
   "typeIds": [
     "fiber-optic"
@@ -30,13 +30,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
-      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
-    }
+      "en": "Selected commissioning/diagnostic sections reviewed; complete manual, exact pinout and firmware compatibility remain incomplete. Legacy documents do not establish present availability.",
+      "pt": "Seções selecionadas de ajuste/diagnóstico revisadas; manual completo, pinagem exata e compatibilidade de firmware ainda incompletos. Documentos legados não confirmam disponibilidade atual."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -196,10 +197,281 @@
         "section": "Response modes",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "ops4_output_switch",
+      "name": {
+        "en": "Light/Dark switching",
+        "pt": "Comutação claro/escuro"
+      },
+      "description": {
+        "en": "Through-beam detection uses Dark ON; reflective detection uses Light ON for output active with a workpiece.",
+        "pt": "Detecção por barreira usa Dark ON; reflexiva usa Light ON para saída ativa com alvo."
+      },
+      "value": "Light ON / Dark ON",
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Light/Dark switching",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_threshold",
+      "name": {
+        "en": "Threshold adjustment",
+        "pt": "Ajuste do limiar"
+      },
+      "description": {
+        "en": "UP/DOWN adjusts the threshold; holding changes it faster.",
+        "pt": "UP/DOWN ajusta o limiar; manter pressionado acelera a alteração."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Threshold adjustment",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_DPC",
+      "name": {
+        "en": "Dynamic Power Control",
+        "pt": "Controle dinâmico de potência"
+      },
+      "description": {
+        "en": "After tuning, DPC compensates incident-light changes; recommended for through-beam/retroreflective use.",
+        "pt": "Após TEACH, DPC compensa mudanças na luz recebida; recomendado para barreira/retroreflexivo."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Dynamic Power Control",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_key_lock",
+      "name": {
+        "en": "Key lock",
+        "pt": "Bloqueio de teclas"
+      },
+      "description": {
+        "en": "Disables button operation; use the manual key combination for at least 3 seconds to toggle.",
+        "pt": "Desabilita operação das teclas; use combinação do manual por ao menos 3 segundos para alternar."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Key lock",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_bank",
+      "name": {
+        "en": "Bank selection",
+        "pt": "Seleção de banco"
+      },
+      "description": {
+        "en": "Four parameter banks on advanced-function models; do not assign to standard single-output models.",
+        "pt": "Quatro bancos em modelos de função avançada; não atribuir aos modelos padrão de saída única."
+      },
+      "value": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Bank selection",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_eeprom_write",
+      "name": {
+        "en": "External-input EEPROM writes",
+        "pt": "Gravações EEPROM por entrada externa"
+      },
+      "description": {
+        "en": "Disabling writes avoids repeatedly storing external-input changes; check this setting before expecting those changes to persist.",
+        "pt": "Desabilitar gravações evita armazenar repetidamente mudanças de entrada externa; confira ajuste antes de esperar persistência."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "External-input EEPROM writes",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
     }
   ],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "ops4_dpc_error",
+      "name": {
+        "en": "DPC error",
+        "pt": "Erro DPC"
+      },
+      "description": {
+        "en": "Clean fibre sensing surfaces and recover the original received light, then repeat Smart Tuning.",
+        "pt": "Limpe superfícies das fibras e recupere luz recebida original; depois repita Smart Tuning."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "DPC error",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_eeprom_error",
+      "name": {
+        "en": "EEPROM error",
+        "pt": "Erro EEPROM"
+      },
+      "description": {
+        "en": "Cycle power; if unresolved, perform the documented settings reset.",
+        "pt": "Reenergize; se persistir, execute reset de ajustes documentado."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "EEPROM error",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_overcurrent",
+      "name": {
+        "en": "Output overcurrent",
+        "pt": "Sobrecorrente na saída"
+      },
+      "description": {
+        "en": "Check output load, wiring and short circuit against the exact-model ratings.",
+        "pt": "Confira carga, ligação e curto-circuito segundo limites do modelo exato."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output overcurrent",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_blank_display",
+      "name": {
+        "en": "Blank digital display",
+        "pt": "Display digital apagado"
+      },
+      "description": {
+        "en": "Check power/cable if fully blank; check Eco mode when only digital indication is absent.",
+        "pt": "Confira alimentação/cabo se tudo apagado; confira modo Eco se apenas indicação digital ausente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Blank digital display",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "ops4_two_point",
+      "name": {
+        "en": "Two-point tuning",
+        "pt": "TEACH de dois pontos"
+      },
+      "description": {
+        "en": "Use S.TUNE once with the workpiece present and once absent; tuning selects the midpoint between the two received light levels.",
+        "pt": "Use S.TUNE uma vez com alvo presente e uma vez ausente; TEACH seleciona ponto médio entre os dois níveis de luz."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Two-point tuning",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    },
+    {
+      "id": "ops4_user_save",
+      "name": {
+        "en": "User-save settings",
+        "pt": "Salvar ajustes do usuário"
+      },
+      "description": {
+        "en": "User Save preserves the current user setting; User Reset reads that saved setting. E3NX user saving/resetting applies to bank-common settings.",
+        "pt": "User Save preserva ajuste atual; User Reset recupera ajuste salvo. No E3NX, gravação/reset do usuário se aplica a ajustes comuns dos bancos."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "ops4_e3nx",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "User-save settings",
+        "applicability": "E3NX-FA54; explicit standard/IO-Link subfamily, no unreviewed wiring inferred"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",
