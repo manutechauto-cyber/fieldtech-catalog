@@ -129,3 +129,28 @@ class SensorPackTests(unittest.TestCase):
         _,knob=self.load('TL46-A-415')
         self.assertIn('ops4_sensitivity',{x['id'] for x in knob['parameters']})
         self.assertNotIn('ops4_mark_background',{x['id'] for x in knob['procedures']})
+
+    def test_installation_supplement_is_distinct_from_operating_manual(self):
+        entry,p=self.load('IFS204')
+        self.assertEqual(p['coverage']['scope'],'installation-field-subset')
+        self.assertFalse(p['coverage']['fullManualTranscribed'])
+        sources=copy.deepcopy(self.sources)
+        for x in p['procedures']:
+            sources[x['source']['documentId']].pop('kind',None)
+        with self.assertRaisesRegex(ValueError,'Installation provenance'):
+            validate_pack(p,entry,self.type_ids,sources)
+
+    def test_fixed_cylinder_variants_do_not_inherit_io_link(self):
+        for model in ('MK5100','MK5103','MK5110','MK5114','MK5140','MK5156','MK5351'):
+            _,p=self.load(model)
+            self.assertFalse(any(x['id'].startswith('close5_') for x in p['software']))
+            self.assertIn('close5_alignment',{x['id'] for x in p['procedures']})
+        _,p=self.load('KI6000')
+        self.assertIn('close5_io_link',{x['id'] for x in p['software']})
+
+    def test_f430_run_and_camera_save_are_separate(self):
+        _,p=self.load('F430-F000N12M-RRA')
+        rows={x['id']:x for x in p['procedures']}
+        self.assertIn('automatically downloads',rows['close5_run_job']['description']['en'])
+        self.assertIn('separate steps',rows['close5_save_job']['description']['en'])
+        self.assertIn('firmwareCompatibility',p['configurationUnknowns'])

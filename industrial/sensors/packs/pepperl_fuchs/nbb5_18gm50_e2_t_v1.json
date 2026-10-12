@@ -5,7 +5,7 @@
   "manufacturer": "Pepperl+Fuchs",
   "model": "NBB5-18GM50-E2-T-V1",
   "family": "NBB5",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json",
   "typeIds": [
     "inductive"
@@ -149,6 +149,54 @@
         "pageBasis": "PDF page, 1-based",
         "section": "Connection",
         "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "close5_pins",
+      "name": {
+        "en": "Connector pins",
+        "pt": "Pinos do conector"
+      },
+      "description": {
+        "en": "Exact-model connector has three pins.",
+        "pt": "Conector do modelo exato tem três pinos."
+      },
+      "value": 3,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Connector pins",
+        "applicability": "NBB5-18GM50-E2-T-V1; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_wire_colours",
+      "name": {
+        "en": "Pin/core colours",
+        "pt": "Cores dos pinos/condutores"
+      },
+      "description": {
+        "en": "Pin 1 brown, pin 3 blue, pin 4 black.",
+        "pt": "Pino 1 marrom, pino 3 azul, pino 4 preto."
+      },
+      "value": {
+        "1": "BN",
+        "3": "BU",
+        "4": "BK"
+      },
+      "unit": null,
+      "source": {
+        "documentId": "exp2_pepperl_nbb5",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Pin/core colours",
+        "applicability": "NBB5-18GM50-E2-T-V1; exact model documentation or explicitly named F430-F family"
       }
     }
   ],

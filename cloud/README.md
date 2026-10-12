@@ -21,7 +21,7 @@ Version compatibility is `databaseSchemaVersion`; content changes are identified
 | sensor_types | Type, priority, target and classification payload |
 | sensor_candidates | Exact-model research leads and review status; not published devices |
 
-Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor catalog version 4 includes 398 published field subsets from 236 official PDFs across 9 manufacturers. With 118 drive packs, the unified snapshot contains 516 device packs. All 23 sensor filters have at least 20 documented references. The reference-selection target is met; full operating-manual extraction remains incomplete. There are 357 manual field subsets and 41 datasheet-only subsets; version 4 deepens 44 additional sensor packs. No sales ranking or hardware validation is asserted.
+Drive payloads retain their original verification flags, including legacy basic subsets. Database publication does not upgrade the evidence quality of a pack. Sensor catalog version 5 includes 398 published field subsets from 241 official document references (238 distinct PDFs) across 9 manufacturers. With 118 drive packs, the unified snapshot contains 516 device packs. All 23 sensor filters have at least 20 documented references. The reference-selection target is met; full operating-manual extraction remains incomplete. There are 366 operating-manual field subsets, 12 installation supplements and 20 datasheet-only subsets; version 5 deepens 22 sensor packs. No sales ranking or hardware validation is asserted.
 
 ## Incremental updates
 

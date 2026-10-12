@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_oc5220",
   "manufacturer": "ifm",
   "model": "OC5220",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/oc5220.json",
   "family": "ifm OC",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "installation-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
     }
   },
   "modelEvidence": [
@@ -243,7 +243,74 @@
   ],
   "parameters": [],
   "diagnostics": [],
-  "procedures": [],
+  "procedures": [
+    {
+      "id": "close5_interference",
+      "name": {
+        "en": "Optical mutual interference",
+        "pt": "Interferência óptica mútua"
+      },
+      "description": {
+        "en": "When devices are adjacent/opposed, follow the optical layout diagrams; do not infer distances from an unrelated sensor example.",
+        "pt": "Com dispositivos adjacentes/opostos, siga diagramas ópticos; não deduza distâncias de exemplos de outro sensor."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_11688217_00_gb",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Optical mutual interference",
+        "applicability": "OC5220; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_connection",
+      "name": {
+        "en": "Exact-model connection",
+        "pt": "Ligação do modelo exato"
+      },
+      "description": {
+        "en": "Disconnect power and connect according to the exact datasheet/type label; generic wiring examples do not establish the special variant pinout.",
+        "pt": "Desenergize e conecte pela ficha/etiqueta exata; exemplos genéricos não definem pinagem de variante especial."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_11688217_00_gb",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Exact-model connection",
+        "applicability": "OC5220; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_reflection",
+      "name": {
+        "en": "Reflective-target alignment",
+        "pt": "Alinhamento com alvo refletivo"
+      },
+      "description": {
+        "en": "For reflective objects/backgrounds, a sensor angle around 5...10 degrees may help; verify with the actual mark and background.",
+        "pt": "Com alvo/fundo refletivo, ângulo de cerca de 5...10 graus pode ajudar; confira com marca e fundo reais."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_11688217_00_gb",
+        "pages": [
+          5
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Reflective-target alignment",
+        "applicability": "OC5220; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -253,5 +320,12 @@
     "restoreProcedure",
     "persistentSaveProcedure"
   ],
-  "manualReferences": []
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a5a6-ee5c-7f1d-ae78-4bc84258733b/Original/11688217_00_GB.pdf?contentdisposition=inline",
+      "title": "Info card",
+      "documentId": "close5_11688217_00_gb",
+      "reviewStatus": "Selected installation/operating sections reviewed; complete manual pending"
+    }
+  ]
 }

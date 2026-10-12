@@ -1119,7 +1119,7 @@
       "packId": "sensor_ifm_igt200",
       "manufacturer": "ifm",
       "model": "IGT200",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igt200.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igt200.json"
     },
@@ -1135,7 +1135,7 @@
       "packId": "sensor_ifm_ki6000",
       "manufacturer": "ifm",
       "model": "KI6000",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ki6000.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ki6000.json"
     },
@@ -1967,7 +1967,7 @@
       "packId": "sensor_ifm_ifs340",
       "manufacturer": "ifm",
       "model": "IFS340",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs340.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs340.json"
     },
@@ -1975,7 +1975,7 @@
       "packId": "sensor_ifm_ifs244",
       "manufacturer": "ifm",
       "model": "IFS244",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs244.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs244.json"
     },
@@ -1983,7 +1983,7 @@
       "packId": "sensor_ifm_igs232",
       "manufacturer": "ifm",
       "model": "IGS232",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs232.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs232.json"
     },
@@ -1991,7 +1991,7 @@
       "packId": "sensor_ifm_igs324",
       "manufacturer": "ifm",
       "model": "IGS324",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs324.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs324.json"
     },
@@ -1999,7 +1999,7 @@
       "packId": "sensor_ifm_igs204",
       "manufacturer": "ifm",
       "model": "IGS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs204.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs204.json"
     },
@@ -2007,7 +2007,7 @@
       "packId": "sensor_ifm_ifs204",
       "manufacturer": "ifm",
       "model": "IFS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs204.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/ifs204.json"
     },
@@ -2015,7 +2015,7 @@
       "packId": "sensor_ifm_igs206",
       "manufacturer": "ifm",
       "model": "IGS206",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs206.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/igs206.json"
     },
@@ -2023,7 +2023,7 @@
       "packId": "sensor_ifm_iis204",
       "manufacturer": "ifm",
       "model": "IIS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/iis204.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iis204.json"
     },
@@ -2031,7 +2031,7 @@
       "packId": "sensor_ifm_iis206",
       "manufacturer": "ifm",
       "model": "IIS206",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/iis206.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/iis206.json"
     },
@@ -2703,7 +2703,7 @@
       "packId": "sensor_ifm_mk5351",
       "manufacturer": "ifm",
       "model": "MK5351",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5351.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5351.json"
     },
@@ -2711,7 +2711,7 @@
       "packId": "sensor_ifm_mk5100",
       "manufacturer": "ifm",
       "model": "MK5100",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5100.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5100.json"
     },
@@ -2727,7 +2727,7 @@
       "packId": "sensor_ifm_mk5103",
       "manufacturer": "ifm",
       "model": "MK5103",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5103.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5103.json"
     },
@@ -2735,7 +2735,7 @@
       "packId": "sensor_ifm_mk5140",
       "manufacturer": "ifm",
       "model": "MK5140",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5140.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5140.json"
     },
@@ -2743,7 +2743,7 @@
       "packId": "sensor_ifm_mk5114",
       "manufacturer": "ifm",
       "model": "MK5114",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5114.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5114.json"
     },
@@ -2751,7 +2751,7 @@
       "packId": "sensor_ifm_mk5110",
       "manufacturer": "ifm",
       "model": "MK5110",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5110.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5110.json"
     },
@@ -2759,7 +2759,7 @@
       "packId": "sensor_ifm_mk5156",
       "manufacturer": "ifm",
       "model": "MK5156",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5156.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5156.json"
     },
@@ -2871,7 +2871,7 @@
       "packId": "sensor_ifm_oc5220",
       "manufacturer": "ifm",
       "model": "OC5220",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/oc5220.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/oc5220.json"
     },
@@ -3159,7 +3159,7 @@
       "packId": "sensor_turck_bi5_s18_az3x",
       "manufacturer": "Turck",
       "model": "BI5-S18-AZ3X",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/turck/bi5_s18_az3x.json"
     },
@@ -3167,7 +3167,7 @@
       "packId": "sensor_pepperl_fuchs_nbb5_18gm50_e2_t_v1",
       "manufacturer": "Pepperl+Fuchs",
       "model": "NBB5-18GM50-E2-T-V1",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json"
     },
@@ -4063,7 +4063,7 @@
       "packId": "sensor_omron_f430_f000n12m_rra",
       "manufacturer": "Omron",
       "model": "F430-F000N12M-RRA",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/omron/f430_f000n12m_rra.json"
     }
@@ -4118,7 +4118,7 @@
     ],
     "publicationEnabled": true
   },
-  "sensorCatalogVersion": 4,
+  "sensorCatalogVersion": 5,
   "sourceRegistryUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/sources.json",
   "releaseUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/release.json"
 }

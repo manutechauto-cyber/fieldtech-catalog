@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_mk5100",
   "manufacturer": "ifm",
   "model": "MK5100",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/mk5100.json",
   "family": "ifm MK",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
     }
   },
   "modelEvidence": [
@@ -198,8 +198,76 @@
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "close5_magnetic_interference",
+      "name": {
+        "en": "Magnetic surroundings",
+        "pt": "Entorno magnético"
+      },
+      "description": {
+        "en": "Nearby magnetisable components can change switching characteristics.",
+        "pt": "Componentes magnetizáveis próximos podem alterar características de comutação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_701949_en",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Magnetic surroundings",
+        "applicability": "MK5100; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "close5_installation",
+      "name": {
+        "en": "Cylinder installation",
+        "pt": "Instalação no cilindro"
+      },
+      "description": {
+        "en": "Position the sensing face at the required piston detection point on a non-magnetisable cylinder.",
+        "pt": "Posicione face sensora no ponto de detecção desejado do pistão em cilindro não magnetizável."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_701949_en",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Cylinder installation",
+        "applicability": "MK5100; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_alignment",
+      "name": {
+        "en": "Piston position adjustment",
+        "pt": "Ajuste de posição do pistão"
+      },
+      "description": {
+        "en": "Move piston to detection position, align using the switched-output LED, secure in the slot and mark the position with the supplied placeholder.",
+        "pt": "Mova pistão à posição desejada, alinhe pelo LED de saída, fixe no rasgo e marque posição com espaçador fornecido."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_701949_en",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Piston position adjustment",
+        "applicability": "MK5100; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -209,5 +277,12 @@
     "restoreProcedure",
     "persistentSaveProcedure"
   ],
-  "manualReferences": []
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a864-358b-7266-8540-bb6141904c82/Original/701949_EN.pdf?contentdisposition=inline",
+      "title": "Installation Instructions",
+      "documentId": "close5_701949_en",
+      "reviewStatus": "Selected installation/operating sections reviewed; complete manual pending"
+    }
+  ]
 }

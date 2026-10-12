@@ -5,7 +5,7 @@
   "manufacturer": "Turck",
   "model": "BI5-S18-AZ3X",
   "family": "BI5",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json",
   "typeIds": [
     "inductive"
@@ -30,13 +30,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "installation-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Only recorded facts are verified; software/firmware version compatibility remains unknown.",
-      "pt": "Somente fatos registrados foram verificados; compatibilidade de software/firmware permanece desconhecida."
-    }
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -150,11 +151,79 @@
         "section": "Connection",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "close5_nut_torque",
+      "name": {
+        "en": "Housing nut torque",
+        "pt": "Torque da porca do corpo"
+      },
+      "description": {
+        "en": "Maximum housing nut tightening torque is 2 Nm.",
+        "pt": "Torque máximo de aperto da porca do corpo é 2 Nm."
+      },
+      "value": 2,
+      "unit": "Nm",
+      "source": {
+        "documentId": "exp2_turck_bi5",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Housing nut torque",
+        "applicability": "BI5-S18-AZ3X; exact model documentation or explicitly named F430-F family"
+      }
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "close5_minimum_current",
+      "name": {
+        "en": "Minimum load current",
+        "pt": "Corrente mínima da carga"
+      },
+      "description": {
+        "en": "The two-wire output requires at least 3 mA operating current; residual current is up to 1.7 mA.",
+        "pt": "Saída de dois fios exige corrente de operação mínima de 3 mA; corrente residual chega a 1,7 mA."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_turck_bi5",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Minimum load current",
+        "applicability": "BI5-S18-AZ3X; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "close5_mounting",
+      "name": {
+        "en": "Mounting diagram",
+        "pt": "Diagrama de montagem"
+      },
+      "description": {
+        "en": "Preserve D/W/T/S/G clearances in the exact-model diagram; quick-mount brackets can change switching distance.",
+        "pt": "Preserve espaços D/W/T/S/G do diagrama do modelo; suportes de engate rápido podem alterar distância de comutação."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "exp2_turck_bi5",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting diagram",
+        "applicability": "BI5-S18-AZ3X; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

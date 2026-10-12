@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_ifs244",
   "manufacturer": "ifm",
   "model": "IFS244",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/ifs244.json",
   "family": "ifm IFS",
   "typeIds": [
@@ -30,13 +30,13 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "installation-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "parameterExtractionComplete": false,
     "limitations": {
-      "en": "Published specifications are matched to PDF pages. Manual parameter tables and diagnostic codes are not imported.",
-      "pt": "Especificações publicadas conferidas nas páginas do PDF. Tabelas de parâmetros e códigos de diagnóstico do manual não foram importados."
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
     }
   },
   "modelEvidence": [
@@ -264,8 +264,98 @@
     }
   ],
   "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "diagnostics": [
+    {
+      "id": "close5_load_effect",
+      "name": {
+        "en": "Protected output switches off",
+        "pt": "Saída protegida desliga"
+      },
+      "description": {
+        "en": "On short-circuit-protected units, high inrush or low-resistance loads may activate protection; compare the load with the datasheet.",
+        "pt": "Em unidades protegidas contra curto, corrente de partida alta ou carga de baixa resistência pode ativar proteção; compare carga com ficha técnica."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_1d2226_en",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Protected output switches off",
+        "applicability": "IFS244; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "close5_clearance",
+      "name": {
+        "en": "Mounting clearance",
+        "pt": "Espaço livre na montagem"
+      },
+      "description": {
+        "en": "Apply flush/non-flush clearance diagrams using the exact model dimensions and nominal range from its datasheet.",
+        "pt": "Aplique diagramas de espaço livre faceado/não faceado usando dimensões e distância nominal da ficha do modelo exato."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_1d2226_en",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting clearance",
+        "applicability": "IFS244; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_supply",
+      "name": {
+        "en": "Power supply check",
+        "pt": "Verificação da alimentação"
+      },
+      "description": {
+        "en": "Use stabilised, smoothed DC within the exact-model voltage/ripple limits.",
+        "pt": "Use CC estabilizada e filtrada dentro dos limites de tensão/ondulação do modelo exato."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_1d2226_en",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Power supply check",
+        "applicability": "IFS244; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_repeatability",
+      "name": {
+        "en": "Repeatable approach",
+        "pt": "Aproximação repetível"
+      },
+      "description": {
+        "en": "Closer target placement improves switching repeatability; use the actual target and verify sensing margin.",
+        "pt": "Alvo mais próximo melhora repetibilidade; use alvo real e confira margem de detecção."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_1d2226_en",
+        "pages": [
+          2
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Repeatable approach",
+        "applicability": "IFS244; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareName",
@@ -275,5 +365,12 @@
     "restoreProcedure",
     "persistentSaveProcedure"
   ],
-  "manualReferences": []
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a429-1040-7847-b76f-a3289f451877/Original/1D2226_EN.pdf?contentdisposition=inline",
+      "title": "Info card",
+      "documentId": "close5_1d2226_en",
+      "reviewStatus": "Selected installation/operating sections reviewed; complete manual pending"
+    }
+  ]
 }

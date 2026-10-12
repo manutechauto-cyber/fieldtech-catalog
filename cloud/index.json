@@ -1582,7 +1582,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IFS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs204.json"
     },
     {
@@ -1590,7 +1590,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IFS244",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs244.json"
     },
     {
@@ -1598,7 +1598,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IFS340",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ifs340.json"
     },
     {
@@ -1622,7 +1622,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IGS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs204.json"
     },
     {
@@ -1630,7 +1630,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IGS206",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs206.json"
     },
     {
@@ -1638,7 +1638,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IGS232",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs232.json"
     },
     {
@@ -1646,7 +1646,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IGS324",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igs324.json"
     },
     {
@@ -1654,7 +1654,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IGT200",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/igt200.json"
     },
     {
@@ -1678,7 +1678,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IIS204",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/iis204.json"
     },
     {
@@ -1686,7 +1686,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "IIS206",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/iis206.json"
     },
     {
@@ -1838,7 +1838,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "KI6000",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/ki6000.json"
     },
     {
@@ -2094,7 +2094,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5100",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5100.json"
     },
     {
@@ -2102,7 +2102,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5103",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5103.json"
     },
     {
@@ -2110,7 +2110,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5110",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5110.json"
     },
     {
@@ -2118,7 +2118,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5114",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5114.json"
     },
     {
@@ -2126,7 +2126,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5140",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5140.json"
     },
     {
@@ -2134,7 +2134,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5156",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5156.json"
     },
     {
@@ -2150,7 +2150,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "MK5351",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5351.json"
     },
     {
@@ -2190,7 +2190,7 @@
       "category": "sensors",
       "manufacturer": "ifm",
       "model": "OC5220",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/oc5220.json"
     },
     {
@@ -3422,7 +3422,7 @@
       "category": "sensors",
       "manufacturer": "Omron",
       "model": "F430-F000N12M-RRA",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json"
     },
     {
@@ -3438,7 +3438,7 @@
       "category": "sensors",
       "manufacturer": "Pepperl+Fuchs",
       "model": "NBB5-18GM50-E2-T-V1",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/pepperl_fuchs/nbb5_18gm50_e2_t_v1.json"
     },
     {
@@ -3782,7 +3782,7 @@
       "category": "sensors",
       "manufacturer": "Turck",
       "model": "BI5-S18-AZ3X",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json"
     },
     {

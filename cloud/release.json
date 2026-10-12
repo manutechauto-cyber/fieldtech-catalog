@@ -11,13 +11,13 @@
   "bundle": {
     "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/industrial_database.b64",
     "encoding": "base64-zip",
-    "sha256": "68ae9d06fcbb171f3b217b3757dfa331193aa3179b5232e82817a08bba076de4",
-    "bytes": 300549
+    "sha256": "03d8f03d5913103443be83d4e5c33908f85a18a32bcb00bfac8781276d0187d1",
+    "bytes": 307868
   },
   "database": {
     "filename": "fieldtech-industrial.sqlite",
-    "sha256": "a6b6ba06bef486dea32c93621922aca13ce44388fb6b1d8f0d28a7ea8089fb1b",
-    "bytes": 4485120
+    "sha256": "b85b98550dcb651ac590ee4b0d0d83ccc76d83dd96a53b7e5a6ea622a459003c",
+    "bytes": 4550656
   },
   "indexUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/cloud/index.json",
   "scope": "Downloadable read-only catalog; no live Supabase deployment is asserted"

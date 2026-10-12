@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 4,
+  "sensorCatalogVersion": 5,
   "scope": "Research gaps, not a claim that an empty section implies the feature is supported or absent",
   "packs": [
     {
@@ -23,30 +23,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_omron_f430_f000n12m_rra",
-      "model": "F430-F000N12M-RRA",
-      "manufacturer": "Omron",
-      "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure",
-        "currentAvailability"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Manufacturer PDF re-download returned HTTP 403; retained prior evidence preserved"
     },
     {
       "packId": "sensor_pepperl_fuchs_nbb5_18gm50_e2_t_v1",
@@ -69,7 +47,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_mzt8_28vps_kub",
@@ -93,7 +72,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wfs3_40p415",
@@ -116,7 +96,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3n2232",
@@ -139,7 +120,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3n2432",
@@ -162,7 +144,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3p1132",
@@ -185,7 +168,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3p2232",
@@ -208,7 +192,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3p2432",
@@ -231,7 +216,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wl9l_3p3432",
@@ -254,7 +240,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3n2261",
@@ -277,7 +264,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3n2461",
@@ -300,7 +288,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3p1161",
@@ -323,7 +312,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3p2261",
@@ -346,7 +336,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3p2461",
@@ -369,7 +360,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_sick_wtb9l_3p3461",
@@ -392,294 +384,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_turck_bi5_s18_az3x",
-      "model": "BI5-S18-AZ3X",
-      "manufacturer": "Turck",
-      "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ifs204",
-      "model": "IFS204",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ifs204.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ifs244",
-      "model": "IFS244",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ifs244.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ifs340",
-      "model": "IFS340",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ifs340.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_igs204",
-      "model": "IGS204",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/igs204.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_igs206",
-      "model": "IGS206",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/igs206.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_igs232",
-      "model": "IGS232",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/igs232.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_igs324",
-      "model": "IGS324",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/igs324.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_igt200",
-      "model": "IGT200",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/igt200.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_iis204",
-      "model": "IIS204",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/iis204.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_iis206",
-      "model": "IIS206",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/iis206.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_ki6000",
-      "model": "KI6000",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/ki6000.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "supportedOperatingSystems",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
     },
     {
       "packId": "sensor_ifm_mfh211",
@@ -703,7 +409,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "No English document returned by US/DE official model-download listings on 2026-10-12"
     },
     {
       "packId": "sensor_ifm_mfh215",
@@ -727,151 +434,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5100",
-      "model": "MK5100",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5100.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5103",
-      "model": "MK5103",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5103.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5110",
-      "model": "MK5110",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5110.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5114",
-      "model": "MK5114",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5114.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5140",
-      "model": "MK5140",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5140.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5156",
-      "model": "MK5156",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5156.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "No English document returned by US/DE official model-download listings on 2026-10-12"
     },
     {
       "packId": "sensor_ifm_mk5245",
@@ -895,55 +459,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_mk5351",
-      "model": "MK5351",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/mk5351.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
-    },
-    {
-      "packId": "sensor_ifm_oc5220",
-      "model": "OC5220",
-      "manufacturer": "ifm",
-      "path": "industrial/sensors/packs/ifm/oc5220.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
-      "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
-        "software"
-      ],
-      "configurationUnknowns": [
-        "softwareName",
-        "softwareVersionCompatibility",
-        "firmwareCompatibility",
-        "backupProcedure",
-        "restoreProcedure",
-        "persistentSaveProcedure"
-      ],
-      "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "No English document returned by US/DE official model-download listings on 2026-10-12"
     },
     {
       "packId": "sensor_ifm_tt1081",
@@ -967,7 +484,8 @@
         "persistentSaveProcedure"
       ],
       "fullManualReviewComplete": false,
-      "hardwareTested": false
+      "hardwareTested": false,
+      "manualResearchStatus": "No English document returned by US/DE official model-download listings on 2026-10-12"
     },
     {
       "packId": "sensor_banner_q4xfilaf110_q8",
@@ -4990,6 +4508,25 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_omron_f430_f000n12m_rra",
+      "model": "F430-F000N12M-RRA",
+      "manufacturer": "Omron",
+      "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure",
+        "currentAvailability"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
       "packId": "sensor_pepperl_fuchs_df12_11_3k_145_151",
       "model": "DF12-11-3K/145/151",
       "manufacturer": "Pepperl+Fuchs",
@@ -5591,6 +5128,28 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_turck_bi5_s18_az3x",
+      "model": "BI5-S18-AZ3X",
+      "manufacturer": "Turck",
+      "path": "industrial/sensors/packs/turck/bi5_s18_az3x.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
       "packId": "sensor_zebra_fs40_sr20d4_2c00w",
       "model": "FS40-SR20D4-2C00W",
       "manufacturer": "Zebra",
@@ -5935,6 +5494,75 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_ifm_ifs204",
+      "model": "IFS204",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ifs204.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_ifs244",
+      "model": "IFS244",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ifs244.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_ifs340",
+      "model": "IFS340",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ifs340.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
       "packId": "sensor_ifm_igp200",
       "model": "IGP200",
       "manufacturer": "ifm",
@@ -5979,6 +5607,121 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_ifm_igs204",
+      "model": "IGS204",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/igs204.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_igs206",
+      "model": "IGS206",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/igs206.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_igs232",
+      "model": "IGS232",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/igs232.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_igs324",
+      "model": "IGS324",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/igs324.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_igt200",
+      "model": "IGT200",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/igt200.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
       "packId": "sensor_ifm_iip200",
       "model": "IIP200",
       "manufacturer": "ifm",
@@ -6021,6 +5764,52 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_iis204",
+      "model": "IIS204",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/iis204.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
+    },
+    {
+      "packId": "sensor_ifm_iis206",
+      "model": "IIS206",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/iis206.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
     },
     {
       "packId": "sensor_ifm_kf5001",
@@ -6427,6 +6216,25 @@
         "softwareName",
         "softwareVersionCompatibility",
         "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_ki6000",
+      "model": "KI6000",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/ki6000.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [],
+      "configurationUnknowns": [
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "supportedOperatingSystems",
         "backupProcedure",
         "restoreProcedure",
         "persistentSaveProcedure"
@@ -7060,6 +6868,160 @@
       "hardwareTested": false
     },
     {
+      "packId": "sensor_ifm_mk5100",
+      "model": "MK5100",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5100.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5103",
+      "model": "MK5103",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5103.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5110",
+      "model": "MK5110",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5110.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5114",
+      "model": "MK5114",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5114.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5140",
+      "model": "MK5140",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5140.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5156",
+      "model": "MK5156",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5156.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_mk5351",
+      "model": "MK5351",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/mk5351.json",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
+      "emptySections": [
+        "parameters",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false
+    },
+    {
       "packId": "sensor_ifm_o1d300",
       "model": "O1D300",
       "manufacturer": "ifm",
@@ -7142,6 +7104,30 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false
+    },
+    {
+      "packId": "sensor_ifm_oc5220",
+      "model": "OC5220",
+      "manufacturer": "ifm",
+      "path": "industrial/sensors/packs/ifm/oc5220.json",
+      "priority": 2,
+      "coverageScope": "installation-field-subset",
+      "emptySections": [
+        "parameters",
+        "diagnostics",
+        "software"
+      ],
+      "configurationUnknowns": [
+        "softwareName",
+        "softwareVersionCompatibility",
+        "firmwareCompatibility",
+        "backupProcedure",
+        "restoreProcedure",
+        "persistentSaveProcedure"
+      ],
+      "fullManualReviewComplete": false,
+      "hardwareTested": false,
+      "manualResearchStatus": "Installation supplement reviewed; original full operating manual and exact-model details still pending"
     },
     {
       "packId": "sensor_ifm_opu200",

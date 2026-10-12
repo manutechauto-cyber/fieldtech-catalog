@@ -1737,7 +1737,8 @@
       "sha256": "3a169580c0c0f4e579a35faff080d1cca5cb0e98ed1987972a6993965ef92d13",
       "retrievedAt": "2026-10-12",
       "pageBasis": "PDF page, 1-based",
-      "official": true
+      "official": true,
+      "kind": "datasheet-with-installation"
     },
     {
       "id": "exp2_qcm50",
@@ -2593,6 +2594,66 @@
       "revision": "8015317.1R36 0225",
       "pageCount": 2,
       "sha256": "bab37bc88301731b5ee807ddec92dff74f676752b06b9655f23e88c3acc45d57",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "close5_1d2226_en",
+      "url": "https://media.ifm.com/dam/01a0a429-1040-7847-b76f-a3289f451877/Original/1D2226_EN.pdf?contentdisposition=inline",
+      "title": "Info card — 1D2226_EN",
+      "revision": "1D2226 / 06 11/2018",
+      "kind": "installation-supplement",
+      "pageCount": 4,
+      "sha256": "4a3a512bb8f6f41085491bdcf8ca1da4584c91ced4db9c2b38027f44a4d06b38",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "close5_11688217_00_gb",
+      "url": "https://media.ifm.com/dam/01a0a5a6-ee5c-7f1d-ae78-4bc84258733b/Original/11688217_00_GB.pdf?contentdisposition=inline",
+      "title": "Info card — 11688217_00_GB",
+      "revision": "11688217 / 00 04/2026",
+      "kind": "installation-supplement",
+      "pageCount": 5,
+      "sha256": "9b5a81b5eb402421f7917833667804dcb1fd9ca897aef12294eafbd3047b0a96",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "close5_701949_en",
+      "url": "https://media.ifm.com/dam/01a0a864-358b-7266-8540-bb6141904c82/Original/701949_EN.pdf?contentdisposition=inline",
+      "title": "Installation Instructions — 701949_EN",
+      "revision": "701949 / 02 05/2015",
+      "kind": "installation-supplement",
+      "pageCount": 3,
+      "sha256": "707d10e2da804d0dedb4cb883737a8d1dccb48488111333ed2088aa2d0a5e625",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "close5_706413_en",
+      "url": "https://media.ifm.com/dam/01a0a3c4-0d95-7a37-a5fb-3ec23b2da5b9/Original/706413_EN.pdf?contentdisposition=inline",
+      "title": "User Manual — 706413_EN",
+      "revision": "706413 / 01 06/2019",
+      "kind": "operating-manual",
+      "pageCount": 9,
+      "sha256": "3f8e17d823ffad925e79618f7e726dd0c5705ce5456f5d95c92fb148d0d2d90a",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true
+    },
+    {
+      "id": "close5_f430",
+      "url": "https://files.omron.eu/downloads/latest/manual/en/z433_microhawk_f_series_0f_users_manual_en.pdf",
+      "title": "MicroHAWK F Series Smart Camera User Manual",
+      "revision": "Z433-E-05 (84-9000402-02-E)",
+      "kind": "operating-manual",
+      "pageCount": 166,
+      "sha256": "7c4cb111e9f8c89a6e162761928e4b6c2a3040f82e7f5eea69558e41733a8ae0",
       "retrievedAt": "2026-10-12",
       "pageBasis": "PDF page, 1-based",
       "official": true

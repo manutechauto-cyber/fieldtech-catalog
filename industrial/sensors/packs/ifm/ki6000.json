@@ -5,7 +5,7 @@
   "manufacturer": "ifm",
   "model": "KI6000",
   "family": "KI",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/ki6000.json",
   "typeIds": [
     "capacitive"
@@ -30,13 +30,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Only retained facts are verified. Unlisted features and software versions remain unknown.",
-      "pt": "Somente fatos registrados foram verificados. Recursos ausentes e versões de software permanecem desconhecidos."
-    }
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -174,10 +175,124 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
-  "software": [],
+  "parameters": [
+    {
+      "id": "close5_sensitivity",
+      "name": {
+        "en": "Sensing range potentiometer",
+        "pt": "Potenciômetro de distância"
+      },
+      "description": {
+        "en": "Adjust the sensing range using the range potentiometer.",
+        "pt": "Ajuste distância de detecção pelo potenciômetro correspondente."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_706413_en",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Sensing range potentiometer",
+        "applicability": "KI6000; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_NO_NC",
+      "name": {
+        "en": "Switching function potentiometer",
+        "pt": "Potenciômetro da função da saída"
+      },
+      "description": {
+        "en": "Use the switching-function potentiometer for normally open/closed selection on the documented two-potentiometer variant.",
+        "pt": "Use potenciômetro da função da saída para selecionar NA/NF na variante documentada com dois potenciômetros."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_706413_en",
+        "pages": [
+          7
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Switching function potentiometer",
+        "applicability": "KI6000; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "close5_yellow_led",
+      "name": {
+        "en": "Output LED indication",
+        "pt": "Indicação do LED de saída"
+      },
+      "description": {
+        "en": "Yellow LED on means output enabled; off means output disabled, independent of the programmed output configuration.",
+        "pt": "LED amarelo aceso indica saída habilitada; apagado indica saída desabilitada, independentemente da configuração da saída."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_706413_en",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Output LED indication",
+        "applicability": "KI6000; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "close5_mounting",
+      "name": {
+        "en": "Mounting material",
+        "pt": "Material da montagem"
+      },
+      "description": {
+        "en": "Quasi-flush sensors may be flush in non-conductive material but require non-flush installation in conductive material.",
+        "pt": "Sensores quase faceados podem ficar faceados em material não condutor, mas exigem montagem não faceada em material condutor."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_706413_en",
+        "pages": [
+          4
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Mounting material",
+        "applicability": "KI6000; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "software": [
+    {
+      "id": "close5_io_link",
+      "name": {
+        "en": "IO-Link configuration",
+        "pt": "Configuração IO-Link"
+      },
+      "description": {
+        "en": "An IO-Link master and matching IODD are required for parameter/process-data access; version compatibility is unverified.",
+        "pt": "Mestre IO-Link e IODD correspondente são necessários para parâmetros/dados de processo; compatibilidade de versões não verificada."
+      },
+      "value": "IO-Link",
+      "unit": null,
+      "source": {
+        "documentId": "close5_706413_en",
+        "pages": [
+          8
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "IO-Link configuration",
+        "applicability": "KI6000; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "configurationUnknowns": [
     "softwareVersionCompatibility",
     "firmwareCompatibility",
@@ -185,5 +300,13 @@
     "backupProcedure",
     "restoreProcedure",
     "persistentSaveProcedure"
+  ],
+  "manualReferences": [
+    {
+      "url": "https://media.ifm.com/dam/01a0a3c4-0d95-7a37-a5fb-3ec23b2da5b9/Original/706413_EN.pdf?contentdisposition=inline",
+      "title": "User Manual",
+      "documentId": "close5_706413_en",
+      "reviewStatus": "Selected installation/operating sections reviewed; complete manual pending"
+    }
   ]
 }

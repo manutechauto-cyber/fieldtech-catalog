@@ -41,7 +41,10 @@ def validate_pack(pack,entry,type_ids,registry):
             require(doc['url'].startswith('https://') and any(host==d or host.endswith('.'+d) for d in domains),'Nonofficial vendor source')
             require(src['pages'] and all(isinstance(n,int) and not isinstance(n,bool) and 1<=n<=doc['pageCount'] for n in src['pages']),'Invalid source page')
             require(src['applicability'] and src['section'],'Source scope/section missing')
-    require(pack['coverage']['scope'] in ('manual-field-subset','datasheet-field-subset'),'Missing scope')
+    require(pack['coverage']['scope'] in ('manual-field-subset','datasheet-field-subset','installation-field-subset'),'Missing scope')
+    if pack['coverage']['scope']=='installation-field-subset':
+        require(pack['procedures'],'Installation subset needs procedures')
+        require(any(registry[x['source']['documentId']].get('kind') in ('installation-supplement','datasheet-with-installation') for x in pack['procedures']),'Installation provenance missing')
     require(pack['coverage']['fullManualTranscribed'] is False,'Full manual not imported')
     require(pack['configurationUnknowns'] is not None,'Unknowns must be explicit')
 

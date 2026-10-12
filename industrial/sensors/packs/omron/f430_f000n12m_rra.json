@@ -5,7 +5,7 @@
   "manufacturer": "Omron",
   "model": "F430-F000N12M-RRA",
   "family": "MicroHAWK F430-F",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/omron/f430_f000n12m_rra.json",
   "typeIds": [
     "barcode-1d",
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Exact example SKU in retained 2020 manufacturer guide; no generated combinations or current availability claim.",
-      "pt": "SKU exato de exemplo no guia de 2020; sem combinações geradas nem confirmação de disponibilidade atual."
-    }
+      "en": "Selected original operating/installation instructions; installation supplements are not full manuals. Complete parameter tables and exact wiring remain unreviewed.",
+      "pt": "Instruções originais selecionadas de operação/instalação; suplementos de instalação não são manuais completos. Tabelas completas e ligação exata ainda não revisadas."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -178,9 +179,210 @@
       }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "parameters": [
+    {
+      "id": "close5_Exposure",
+      "name": {
+        "en": "Exposure",
+        "pt": "Exposição"
+      },
+      "description": {
+        "en": "Adjust in the AutoVISION Image view; verify the actual application.",
+        "pt": "Ajuste na tela Image do AutoVISION; confira na aplicação real."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          82
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Exposure",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_Gain",
+      "name": {
+        "en": "Gain",
+        "pt": "Ganho"
+      },
+      "description": {
+        "en": "Adjust in the AutoVISION Image view; verify the actual application.",
+        "pt": "Ajuste na tela Image do AutoVISION; confira na aplicação real."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          82
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Gain",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_Focus",
+      "name": {
+        "en": "Focus",
+        "pt": "Foco"
+      },
+      "description": {
+        "en": "Adjust in the AutoVISION Image view; verify the actual application.",
+        "pt": "Ajuste na tela Image do AutoVISION; confira na aplicação real."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          82
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Focus",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_Lighting",
+      "name": {
+        "en": "Lighting mode",
+        "pt": "Modo de iluminação"
+      },
+      "description": {
+        "en": "Adjust in the AutoVISION Image view; verify the actual application.",
+        "pt": "Ajuste na tela Image do AutoVISION; confira na aplicação real."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          82
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Lighting mode",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_Trigger",
+      "name": {
+        "en": "Trigger",
+        "pt": "Disparo"
+      },
+      "description": {
+        "en": "Trigger is configured in the AutoVISION Edit view.",
+        "pt": "Disparo é configurado na tela Edit do AutoVISION."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          83
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Trigger",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "close5_MODE",
+      "name": {
+        "en": "Camera ready indication",
+        "pt": "Indicação de câmera pronta"
+      },
+      "description": {
+        "en": "Steady MODE LED: unit ready; off: unit not ready.",
+        "pt": "MODE aceso continuamente: unidade pronta; apagado: não pronta."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          77
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Camera ready indication",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "close5_network",
+      "name": {
+        "en": "Initial network connection",
+        "pt": "Conexão inicial de rede"
+      },
+      "description": {
+        "en": "Documented factory IP is 192.168.188.2; set PC in the same range, then verify current camera settings before changing an installed network.",
+        "pt": "IP de fábrica documentado é 192.168.188.2; configure PC na mesma faixa e confira ajustes atuais antes de alterar rede instalada."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          82
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Initial network connection",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_run_job",
+      "name": {
+        "en": "Download and run job",
+        "pt": "Transferir e executar job"
+      },
+      "description": {
+        "en": "Opening Run automatically downloads the job to the camera and starts it.",
+        "pt": "Abrir Run transfere job automaticamente à câmera e o inicia."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          83
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Download and run job",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    },
+    {
+      "id": "close5_save_job",
+      "name": {
+        "en": "Save job on camera",
+        "pt": "Salvar job na câmera"
+      },
+      "description": {
+        "en": "Use Save to Camera on the File menu bar; job download/run and camera save are separate steps.",
+        "pt": "Use Save to Camera na barra File; transferir/executar job e salvar na câmera são etapas separadas."
+      },
+      "value": null,
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          83
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Save job on camera",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
+      }
+    }
+  ],
   "software": [
     {
       "id": "license",
@@ -202,6 +404,28 @@
         "pageBasis": "PDF page, 1-based",
         "section": "Included software license",
         "applicability": "Listed exact model"
+      }
+    },
+    {
+      "id": "close5_autovision",
+      "name": {
+        "en": "AutoVISION job configuration",
+        "pt": "Configuração de job AutoVISION"
+      },
+      "description": {
+        "en": "Use AutoVISION for camera selection and job setup; the reviewed guide applies to F430-F with the included code-reading license.",
+        "pt": "Use AutoVISION para selecionar câmera e configurar job; guia revisado se aplica ao F430-F com licença de leitura incluída."
+      },
+      "value": "AutoVISION",
+      "unit": null,
+      "source": {
+        "documentId": "close5_f430",
+        "pages": [
+          80
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "AutoVISION job configuration",
+        "applicability": "F430-F000N12M-RRA; exact model documentation or explicitly named F430-F family"
       }
     }
   ],
