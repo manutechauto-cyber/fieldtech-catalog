@@ -154,3 +154,22 @@ class SensorPackTests(unittest.TestCase):
         self.assertIn('automatically downloads',rows['close5_run_job']['description']['en'])
         self.assertIn('separate steps',rows['close5_save_job']['description']['en'])
         self.assertIn('firmwareCompatibility',p['configurationUnknowns'])
+
+    def test_w9_opaque_teach_knob_and_output_polarities(self):
+        for model in ('WL9L-3P2432','WL9L-3N2432'):
+            _,p=self.load(model)
+            rows={x['id']:x for x in p['parameters']}
+            self.assertEqual(rows['retry6_opaque_teach']['value'],'> 2')
+            self.assertEqual(rows['retry6_standard_reserve']['value'],4)
+            self.assertIn('LG',rows['retry6_opaque_teach']['source']['applicability'])
+            self.assertFalse(any('8 seconds' in x['description']['en'] for x in p['procedures']))
+            state=next(x['description']['en'] for x in p['diagnostics'] if x['id']=='retry6_output_state')
+            self.assertIn('light path free',state)
+            self.assertIn('HIGH' if '-3P' in model else 'LOW',state)
+        for model in ('WTB9L-3P2461','WTB9L-3N2461'):
+            _,p=self.load(model)
+            self.assertIn('retry6_distance_knob',{x['id'] for x in p['parameters']})
+            self.assertNotIn('retry6_opaque_teach',{x['id'] for x in p['parameters']})
+            state=next(x['description']['en'] for x in p['diagnostics'] if x['id']=='retry6_output_state')
+            self.assertIn('object detected',state)
+            self.assertIn('HIGH' if '-3P' in model else 'LOW',state)

@@ -5,7 +5,7 @@
   "manufacturer": "SICK",
   "model": "WL9L-3P2232",
   "family": "W9L-3",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/sick/wl9l_3p2232.json",
   "typeIds": [
     "laser-retroreflective",
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy 2013 manufacturer reference; present availability and firmware compatibility have not been established.",
-      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware não foram estabelecidas."
-    }
+      "en": "Selected 2025 operating instructions supplement the legacy exact-model catalog. Complete wiring, firmware compatibility and field operation remain unverified.",
+      "pt": "Instruções selecionadas de 2025 complementam o catálogo antigo do modelo exato. Fiação completa, compatibilidade de firmware e operação em campo seguem sem validação."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -151,11 +152,278 @@
         "section": "Output polarity",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "retry6_load_current",
+      "name": {
+        "en": "Maximum output current",
+        "pt": "Corrente máxima de saída"
+      },
+      "description": {
+        "en": "Output current limit is 100 mA.",
+        "pt": "O limite da corrente de saída é 100 mA."
+      },
+      "value": 100,
+      "unit": "mA",
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "Response time is at most 0.5 ms for this variant.",
+        "pt": "O tempo de resposta é de no máximo 0,5 ms nesta variante."
+      },
+      "value": 0.5,
+      "unit": "ms",
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_switch_rate",
+      "name": {
+        "en": "Signal sequence",
+        "pt": "Sequência de sinais"
+      },
+      "description": {
+        "en": "Signal sequence is 1000 per second for this variant.",
+        "pt": "A sequência de sinais é de 1000 por segundo nesta variante."
+      },
+      "value": 1000,
+      "unit": "Hz",
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "parameters": [
+    {
+      "id": "retry6_opaque_teach",
+      "name": {
+        "en": "Opaque-object TEACH duration",
+        "pt": "Duração do TEACH para objetos opacos"
+      },
+      "description": {
+        "en": "Hold TEACH longer than 2 seconds, until yellow LED lights again.",
+        "pt": "Mantenha TEACH por mais de 2 segundos, até o LED amarelo acender novamente."
+      },
+      "value": "> 2",
+      "unit": "s",
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2, WL9xxL (not LG)",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_standard_reserve",
+      "name": {
+        "en": "Standard performance reserve",
+        "pt": "Reserva de funcionamento padrão"
+      },
+      "description": {
+        "en": "Standard teach sets performance reserve to 4.",
+        "pt": "O TEACH padrão ajusta a reserva de funcionamento para 4."
+      },
+      "value": 4,
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2, WL9xxL (not LG)",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "retry6_output_state",
+      "name": {
+        "en": "Q output interpretation",
+        "pt": "Interpretação da saída Q"
+      },
+      "description": {
+        "en": "PNP: light path free gives Q HIGH; load connects to M. Complementary output is inverted.",
+        "pt": "PNP: caminho óptico livre produz Q HIGH; carga ligada a M. A saída complementar é invertida."
+      },
+      "value": "PNP: light path free gives Q HIGH; load connects to M. Complementary output is inverted.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 3",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_receiver_light",
+      "name": {
+        "en": "Receiver LED off or blinking",
+        "pt": "LED de recepção apagado ou piscando"
+      },
+      "description": {
+        "en": "Reception is absent or insufficient; realign, clean optics or check application conditions.",
+        "pt": "A recepção é ausente ou insuficiente; realinhe, limpe as lentes ou verifique as condições da aplicação."
+      },
+      "value": "Reception is absent or insufficient; realign, clean optics or check application conditions.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "retry6_connect",
+      "name": {
+        "en": "Connect without power",
+        "pt": "Conectar sem alimentação"
+      },
+      "description": {
+        "en": "Mount securely; connect cable or socket with supply switched off.",
+        "pt": "Fixe o sensor; conecte o cabo ou conector com a alimentação desligada."
+      },
+      "value": "Mount securely; connect cable or socket with supply switched off.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 1",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_clean",
+      "name": {
+        "en": "Lens and connection checks",
+        "pt": "Verificação de lentes e conexões"
+      },
+      "description": {
+        "en": "Clean exposed optical surfaces and check screw and plug connections periodically.",
+        "pt": "Limpe as superfícies ópticas expostas e verifique periodicamente parafusos e conectores."
+      },
+      "value": "Clean exposed optical surfaces and check screw and plug connections periodically.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Maintenance",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_reflector_alignment",
+      "name": {
+        "en": "Align sensor and reflector",
+        "pt": "Alinhar sensor e refletor"
+      },
+      "description": {
+        "en": "Aim centrally at a suitable reflector at 90 degrees; keep the beam path clear and respect reflector range.",
+        "pt": "Aponte ao centro de um refletor adequado a 90 graus; mantenha o feixe livre e respeite a faixa do refletor."
+      },
+      "value": "Aim centrally at a suitable reflector at 90 degrees; keep the beam path clear and respect reflector range.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_standard_teach",
+      "name": {
+        "en": "Standard opaque-object teach",
+        "pt": "TEACH padrão para objetos opacos"
+      },
+      "description": {
+        "en": "With reflector aligned and path clear, hold TEACH >2 s until yellow LED returns, then release.",
+        "pt": "Com refletor alinhado e caminho livre, mantenha TEACH >2 s até o LED amarelo reacender e solte."
+      },
+      "value": "With reflector aligned and path clear, hold TEACH >2 s until yellow LED returns, then release.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2, WL9xxL (not LG)",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    },
+    {
+      "id": "retry6_maximum_reserve",
+      "name": {
+        "en": "Maximum performance reserve",
+        "pt": "Reserva máxima de funcionamento"
+      },
+      "description": {
+        "en": "Aim into open space, teach >2 s until yellow LED returns, release, then realign to reflector.",
+        "pt": "Aponte ao espaço livre, execute TEACH >2 s até o LED amarelo reacender, solte e realinhe ao refletor."
+      },
+      "value": "Aim into open space, teach >2 s until yellow LED returns, release, then realign to reflector.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wl9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2, WL9xxL (not LG)",
+        "applicability": "WL9L-3P2232: WL9xxL-3xxxxx opaque-object variant; WL9xxLG transparent modes excluded"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

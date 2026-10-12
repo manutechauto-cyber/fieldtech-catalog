@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 5,
+  "sensorCatalogVersion": 6,
   "reviewedAt": "2026-10-12",
   "publishedPacks": 398,
   "counts": {
-    "specifications": 2917,
-    "parameters": 1144,
-    "diagnostics": 542,
-    "procedures": 412,
+    "specifications": 2954,
+    "parameters": 1162,
+    "diagnostics": 574,
+    "procedures": 460,
     "software": 115
   },
-  "reviewedDocuments": 241,
+  "reviewedDocuments": 243,
   "manufacturerCounts": {
     "Banner Engineering": 91,
     "Baumer": 1,
@@ -23,9 +23,9 @@
     "ifm": 152
   },
   "coverageDepth": {
-    "manual-field-subset": 366,
+    "manual-field-subset": 378,
     "installation-field-subset": 12,
-    "datasheet-field-subset": 20
+    "datasheet-field-subset": 8
   },
   "scope": "Documented field subsets; 20-reference selection target met, not full manuals or proven worldwide sales ranking",
   "hardwareTested": false,
@@ -37,12 +37,27 @@
     "unresolvedMismatches": 0
   },
   "newReleaseSourceChecks": {
-    "updatedPacks": 22,
-    "newFieldReferences": 84,
-    "newOfficialDocuments": 5,
-    "newDocumentChecksumsVerified": 5,
-    "reusedDocumentChecksumsVerified": 2,
-    "method": "Exact-model ifm download listings include Info card and Installation Instructions labels. These supplements are separated from operating-manual excerpts. IGS324 uses the generic inductive-sensor supplement with explicit scope; no model-specific ratings inferred. Turck mounting instructions reuse the identical retained PDF; Pepperl connector facts reuse its verified retained PDF.",
+    "updatedPacks": 13,
+    "newFieldReferences": 135,
+    "newOfficialDocuments": 2,
+    "newDocumentChecksumsVerified": 2,
+    "reusedDocumentChecksumsVerified": 1,
+    "updatedModels": [
+      "MK5245",
+      "WL9L-3N2232",
+      "WL9L-3N2432",
+      "WL9L-3P1132",
+      "WL9L-3P2232",
+      "WL9L-3P2432",
+      "WL9L-3P3432",
+      "WTB9L-3N2261",
+      "WTB9L-3N2461",
+      "WTB9L-3P1161",
+      "WTB9L-3P2261",
+      "WTB9L-3P2461",
+      "WTB9L-3P3461"
+    ],
+    "method": "Downloaded original SICK CDN WTB9L-3 and WL9L(G)-3 operating PDFs; reviewed English PDF page 1 and diagrams visually. Opaque WL9L models exclude transparent LG teach modes. PNP/NPN output and class-1 WTB timing remain variant-specific. Re-downloaded exact MK5245 EN-US datasheet matches retained SHA-256; page-3 diagrams reviewed visually. MK5245 stays datasheet-only.",
     "unresolvedChecksumMismatches": 0
   },
   "coverageByType": [
@@ -203,7 +218,7 @@
   "nextResearchPriorities": [
     {
       "priority": 1,
-      "task": "Obtain exact-applicability operating manuals for 20 datasheet-only packs and deepen 12 installation-only supplements; then complete manual tables and wiring for the published subsets."
+      "task": "Obtain exact-applicability operating manuals for 8 datasheet-only packs and deepen 12 installation-only supplements; then complete manual tables and wiring for the published subsets."
     },
     {
       "priority": 2,
@@ -247,16 +262,17 @@
     }
   ],
   "previousReleaseSourceChecks": {
-    "updatedPacks": 44,
-    "newFieldReferences": 344,
-    "newOfficialManuals": 10,
-    "newDocumentChecksumsVerified": 10,
-    "method": "Reviewed English operating sections with model-family and electrical/feature-variant conditions. Bank/EEPROM functions are filtered for standard Omron models; IO-Link uses its own instruction sheet. Three ifm variants use explicit shared-manual scope.",
+    "updatedPacks": 22,
+    "newFieldReferences": 84,
+    "newOfficialDocuments": 5,
+    "newDocumentChecksumsVerified": 5,
+    "reusedDocumentChecksumsVerified": 2,
+    "method": "Exact-model ifm download listings include Info card and Installation Instructions labels. These supplements are separated from operating-manual excerpts. IGS324 uses the generic inductive-sensor supplement with explicit scope; no model-specific ratings inferred. Turck mounting instructions reuse the identical retained PDF; Pepperl connector facts reuse its verified retained PDF.",
     "unresolvedChecksumMismatches": 0
   },
-  "remainingDatasheetOnlyPacks": 20,
+  "remainingDatasheetOnlyPacks": 8,
   "remainingDatasheetOnlyByManufacturer": {
-    "SICK": 14,
+    "SICK": 2,
     "ifm": 4,
     "Pepperl+Fuchs": 1,
     "Baumer": 1
@@ -268,23 +284,19 @@
       "status": "Public legacy Datalogic manuals were obtained. Some current download links request email registration/CAPTCHA; no personal data was submitted. Legacy instructions do not establish current model availability."
     },
     {
-      "manufacturer": "SICK",
-      "status": "Some model-product URLs returned HTTP 403 and two presumed W9 manual URLs returned 404. These failed requests were not registered as evidence; WTB9L/WL9L remain pending."
-    },
-    {
-      "manufacturer": "ifm",
-      "status": "US and DE English download listings returned no documentation for MFH211, MFH215, MK5245 and TT1081. No absence of features or manuals is inferred."
-    },
-    {
       "manufacturer": "Baumer",
       "model": "FZAM 18P1155",
       "status": "Re-download of retained manufacturer PDF returned HTTP 403. No newly retrieved content published."
     },
     {
       "manufacturer": "SICK",
-      "status": "No original operating PDFs obtained for remaining W9, MZT8 and WFS variants. Eight additional W9 filename candidates produced no verified PDF. Third-party copies were not promoted to official evidence."
+      "status": "WTB9L-3 and WL9L(G)-3 operating PDFs obtained from official CDN and applied to 12 exact catalog variants. No applicable original operating PDF obtained for MZT8-28VPS-KUB or WFS3-40P415; IO-Link WFS variant instructions were excluded."
+    },
+    {
+      "manufacturer": "ifm",
+      "status": "Fresh US English documentation listings for MFH211, MFH215, MK5245 and TT1081 returned only a contact list, no operating manual. MK5245 exact retained EN-US datasheet re-download verified; added positioning LED and wire facts without changing datasheet scope. Empty listings do not establish manual or feature absence."
     }
   ],
-  "uniqueReviewedPDFs": 238,
+  "uniqueReviewedPDFs": 240,
   "installationOnlyPacks": 12
 }

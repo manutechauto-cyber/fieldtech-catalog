@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sensorCatalogVersion": 5,
+  "sensorCatalogVersion": 6,
   "scope": "Research gaps, not a claim that an empty section implies the feature is supported or absent",
   "packs": [
     {
@@ -104,12 +104,9 @@
       "model": "WL9L-3N2232",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3n2232.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -121,19 +118,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wl9l_3n2432",
       "model": "WL9L-3N2432",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3n2432.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -145,19 +139,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wl9l_3p1132",
       "model": "WL9L-3P1132",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3p1132.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -169,19 +160,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wl9l_3p2232",
       "model": "WL9L-3P2232",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3p2232.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -193,19 +181,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wl9l_3p2432",
       "model": "WL9L-3P2432",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3p2432.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -217,19 +202,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wl9l_3p3432",
       "model": "WL9L-3P3432",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wl9l_3p3432.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -241,19 +223,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3n2261",
       "model": "WTB9L-3N2261",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3n2261.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -265,19 +244,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3n2461",
       "model": "WTB9L-3N2461",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3n2461.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -289,19 +265,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3p1161",
       "model": "WTB9L-3P1161",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3p1161.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -313,19 +286,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3p2261",
       "model": "WTB9L-3P2261",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3p2261.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -337,19 +307,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3p2461",
       "model": "WTB9L-3P2461",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3p2461.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -361,19 +328,16 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_sick_wtb9l_3p3461",
       "model": "WTB9L-3P3461",
       "manufacturer": "SICK",
       "path": "industrial/sensors/packs/sick/wtb9l_3p3461.json",
-      "priority": 1,
-      "coverageScope": "datasheet-field-subset",
+      "priority": 2,
+      "coverageScope": "manual-field-subset",
       "emptySections": [
-        "parameters",
-        "diagnostics",
-        "procedures",
         "software"
       ],
       "configurationUnknowns": [
@@ -385,7 +349,7 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "Original operating manual not obtained; retained datasheet facts remain published"
+      "manualResearchStatus": "Original 2025 SICK operating PDF reviewed; selected field facts added; full manual depth pending"
     },
     {
       "packId": "sensor_ifm_mfh211",
@@ -446,7 +410,6 @@
       "coverageScope": "datasheet-field-subset",
       "emptySections": [
         "parameters",
-        "diagnostics",
         "procedures",
         "software"
       ],
@@ -460,7 +423,7 @@
       ],
       "fullManualReviewComplete": false,
       "hardwareTested": false,
-      "manualResearchStatus": "No English document returned by US/DE official model-download listings on 2026-10-12"
+      "manualResearchStatus": "Exact datasheet hash verified; LED positioning and cable facts added; operating manual not obtained"
     },
     {
       "packId": "sensor_ifm_tt1081",

@@ -2657,6 +2657,30 @@
       "retrievedAt": "2026-10-12",
       "pageBasis": "PDF page, 1-based",
       "official": true
+    },
+    {
+      "id": "retry6_wtb9l",
+      "url": "https://cdn.sick.com/media/docs/4/24/524/operating_instructions_wtb9l_3_photoelectric_proximity_sensor_with_visible_redlight_laser_de_en_fr_it_ja_pt_es_zh_im0047524.pdf",
+      "title": "WTB9L-3 Operating Instructions",
+      "revision": "8015315.1R36, 0225",
+      "pageCount": 2,
+      "sha256": "681b2960a5bb7c9ef17fcacc36e0a9df7ec905c5650f62154eff45691684aa31",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true,
+      "kind": "operating-instructions"
+    },
+    {
+      "id": "retry6_wl9l",
+      "url": "https://cdn.sick.com/media/docs/5/25/525/operating_instructions_wl9l_g_3_photoelectric_reflex_sensor_with_visible_redlight_de_en_fr_it_ja_pt_es_zh_im0047525.pdf",
+      "title": "WL9L(G)-3 Operating Instructions",
+      "revision": "8015316.1R36, 0225",
+      "pageCount": 2,
+      "sha256": "9386f7d137230b1d7b5096e24caf9dd3bf4612ef73e84cfad809e8d55cd844b0",
+      "retrievedAt": "2026-10-12",
+      "pageBasis": "PDF page, 1-based",
+      "official": true,
+      "kind": "operating-instructions"
     }
   ]
 }

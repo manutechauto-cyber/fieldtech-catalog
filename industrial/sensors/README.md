@@ -1,6 +1,6 @@
 # FieldTech Industrial Sensors
 
-Sensor catalog version 5: **398 published packs** across 9 manufacturers and 23 type filters. Each pack is a selected field reference. Source checks cover 241 official document references (238 distinct PDFs); electrical operation has not been tested.
+Sensor catalog version 6: **398 published packs** across 9 manufacturers and 23 type filters. Each pack is a selected field reference. Source checks cover 243 official document references (240 distinct PDFs); electrical operation has not been tested.
 
 ## Coverage and research scope
 
@@ -32,7 +32,7 @@ The initial target of 20 references per type is met. Selection is inferred field
 | Leitor industrial de códigos 1D | 21 | 0 |
 | Leitor industrial de códigos 2D | 20 | 0 |
 
-**No remaining selection positions**, but manual depth remains incomplete: **20 datasheet-field-subset**, **12 installation-field-subset**, **366 manual-field-subset**. No pack claims a full manual transcription. Datasheet packs contain verified identity/specifications and selected options; empty diagnostics or software sections explicitly require more research. Legacy documents establish the recorded facts, without confirming current availability or firmware compatibility.
+**No remaining selection positions**, but manual depth remains incomplete: **8 datasheet-field-subset**, **12 installation-field-subset**, **378 manual-field-subset**. No pack claims a full manual transcription. Datasheet packs contain verified identity/specifications and selected options; empty diagnostics or software sections explicitly require more research. Legacy documents establish the recorded facts, without confirming current availability or firmware compatibility.
 
 ## Published manufacturers
 
@@ -77,7 +77,7 @@ Current values include units/ranges only where reviewed. Unknown fields do not m
 
 ## Next manual research
 
-Version 5 deepens 22 packs with 84 references, using five new original documents and two verified retained PDFs. Of the previous 41 datasheet-only packs, nine now have operating-manual excerpts, twelve have installation supplements, and twenty remain datasheet-only. Version 4 previously deepened 44 packs. Version 3 previously deepened 121 packs. Pressure, flow, temperature and level variants now include selected commissioning/diagnostic references. Zebra backup interrupts jobs and restore reboots the device; SICK permanent saving and external project backup are separate. Prioritize the remaining 20 datasheet-only packs and the 12 installation-only supplements, then complete parameter/diagnostic tables, wiring and software compatibility. [Per-pack completion queue](completion_queue.json) retains explicit gaps. [Research report](research_results.json) retains deferred leads and scope limitations. Zebra FS decoder licenses are recorded per exact SKU; VS camera variants are not counted as barcode readers. The Omron F430 example pack includes the A code-reading license, not the S vision-only license.
+Version 5 deepens 22 packs with 84 references, using five new original documents and two verified retained PDFs. Of the previous 41 datasheet-only packs, nine now have operating-manual excerpts, twelve have installation supplements, and twenty remain datasheet-only. Version 4 previously deepened 44 packs. Version 3 previously deepened 121 packs. Pressure, flow, temperature and level variants now include selected commissioning/diagnostic references. Zebra backup interrupts jobs and restore reboots the device; SICK permanent saving and external project backup are separate. Prioritize the remaining 8 datasheet-only packs and the 12 installation-only supplements, then complete parameter/diagnostic tables, wiring and software compatibility. [Per-pack completion queue](completion_queue.json) retains explicit gaps. [Research report](research_results.json) retains deferred leads and scope limitations. Zebra FS decoder licenses are recorded per exact SKU; VS camera variants are not counted as barcode readers. The Omron F430 example pack includes the A code-reading license, not the S vision-only license.
 
 ## Validation and incremental build
 
@@ -97,3 +97,9 @@ Omron standard amplifiers and IO-Link variants use distinct instruction sheets. 
 ## Installation evidence is separate from operating manuals
 
 `installation-field-subset` contains selected installation instructions or Info cards, with source kind and applicability retained. It does not establish a complete operating manual, configurable software, alarm tables or an exact pinout. Fixed MK variants do not inherit MK59 IO-Link functions. F430 job download/run and Save to Camera are separate actions. Source registry counts refer to document records; duplicate retained PDF bytes are counted separately only when their provenance records differ.
+
+## W9 laser sensors reviewed in version 6
+
+Version 6 deepens 13 packs with 135 source references. Two original SICK operating PDFs add selected field instructions to six WTB9L-3 and six WL9L-3 variants. WTB models use a distance knob and background rejection checks. WL9L opaque-object models use TEACH >2 s and standard performance reserve 4; transparent WL9LG modes are excluded. PNP/NPN output states retain their different polarity and load connections. The exact retained MK5245 datasheet hash was verified before adding its LED positioning indications and cable assignment; it remains datasheet-only. Full manual extraction, complete wiring and field tests remain pending.
+
+[WTB9L-3 operating instructions](https://cdn.sick.com/media/docs/4/24/524/operating_instructions_wtb9l_3_photoelectric_proximity_sensor_with_visible_redlight_laser_de_en_fr_it_ja_pt_es_zh_im0047524.pdf) · [WL9L(G)-3 operating instructions](https://cdn.sick.com/media/docs/5/25/525/operating_instructions_wl9l_g_3_photoelectric_reflex_sensor_with_visible_redlight_de_en_fr_it_ja_pt_es_zh_im0047525.pdf). Revision 0225 for both; selected facts cite physical PDF page 1.

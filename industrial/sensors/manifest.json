@@ -11,7 +11,7 @@
     "rankingUnit": "Exact orderable model; transmitter/receiver pair counts once",
     "deduplication": "One canonical pack per exact model/compatible pair; multiple type listings may reference it",
     "publicationGate": "Exact model and regional variant, official manual, per-fact evidence and validated downloadable pack",
-    "note": "Target 20 per type remains open. First release is documentation-led, not a model-level worldwide sales ranking. Multiple electrical/connector variants do not establish independent popularity."
+    "note": "Target 20 per type is met. Selection remains documentation-led, not a model-level worldwide sales ranking. Multiple electrical/connector variants do not establish independent popularity."
   },
   "types": [
     {
@@ -2719,7 +2719,7 @@
       "packId": "sensor_ifm_mk5245",
       "manufacturer": "ifm",
       "model": "MK5245",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/ifm/mk5245.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/ifm/mk5245.json"
     },
@@ -3511,7 +3511,7 @@
       "packId": "sensor_sick_wl9l_3n2232",
       "manufacturer": "SICK",
       "model": "WL9L-3N2232",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3n2232.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3n2232.json"
     },
@@ -3519,7 +3519,7 @@
       "packId": "sensor_sick_wl9l_3n2432",
       "manufacturer": "SICK",
       "model": "WL9L-3N2432",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3n2432.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3n2432.json"
     },
@@ -3527,7 +3527,7 @@
       "packId": "sensor_sick_wl9l_3p1132",
       "manufacturer": "SICK",
       "model": "WL9L-3P1132",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3p1132.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p1132.json"
     },
@@ -3535,7 +3535,7 @@
       "packId": "sensor_sick_wl9l_3p2232",
       "manufacturer": "SICK",
       "model": "WL9L-3P2232",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3p2232.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p2232.json"
     },
@@ -3543,7 +3543,7 @@
       "packId": "sensor_sick_wl9l_3p2432",
       "manufacturer": "SICK",
       "model": "WL9L-3P2432",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3p2432.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p2432.json"
     },
@@ -3551,7 +3551,7 @@
       "packId": "sensor_sick_wl9l_3p3432",
       "manufacturer": "SICK",
       "model": "WL9L-3P3432",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wl9l_3p3432.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wl9l_3p3432.json"
     },
@@ -3599,7 +3599,7 @@
       "packId": "sensor_sick_wtb9l_3n2261",
       "manufacturer": "SICK",
       "model": "WTB9L-3N2261",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3n2261.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3n2261.json"
     },
@@ -3607,7 +3607,7 @@
       "packId": "sensor_sick_wtb9l_3n2461",
       "manufacturer": "SICK",
       "model": "WTB9L-3N2461",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3n2461.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3n2461.json"
     },
@@ -3615,7 +3615,7 @@
       "packId": "sensor_sick_wtb9l_3p1161",
       "manufacturer": "SICK",
       "model": "WTB9L-3P1161",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3p1161.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p1161.json"
     },
@@ -3623,7 +3623,7 @@
       "packId": "sensor_sick_wtb9l_3p2261",
       "manufacturer": "SICK",
       "model": "WTB9L-3P2261",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3p2261.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p2261.json"
     },
@@ -3631,7 +3631,7 @@
       "packId": "sensor_sick_wtb9l_3p2461",
       "manufacturer": "SICK",
       "model": "WTB9L-3P2461",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3p2461.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p2461.json"
     },
@@ -3639,7 +3639,7 @@
       "packId": "sensor_sick_wtb9l_3p3461",
       "manufacturer": "SICK",
       "model": "WTB9L-3P3461",
-      "version": 1,
+      "version": 2,
       "path": "industrial/sensors/packs/sick/wtb9l_3p3461.json",
       "url": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/packs/sick/wtb9l_3p3461.json"
     },
@@ -4118,7 +4118,7 @@
     ],
     "publicationEnabled": true
   },
-  "sensorCatalogVersion": 5,
+  "sensorCatalogVersion": 6,
   "sourceRegistryUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/sources.json",
   "releaseUrl": "https://raw.githubusercontent.com/manutechauto-cyber/fieldtech-catalog/main/industrial/sensors/release.json"
 }

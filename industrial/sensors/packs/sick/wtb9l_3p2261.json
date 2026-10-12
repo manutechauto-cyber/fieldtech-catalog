@@ -5,7 +5,7 @@
   "manufacturer": "SICK",
   "model": "WTB9L-3P2261",
   "family": "W9L-3",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/sick/wtb9l_3p2261.json",
   "typeIds": [
     "laser-diffuse",
@@ -31,13 +31,14 @@
     "reviewedAt": "2026-10-12"
   },
   "coverage": {
-    "scope": "datasheet-field-subset",
+    "scope": "manual-field-subset",
     "fullManualTranscribed": false,
     "pinoutImported": false,
     "limitations": {
-      "en": "Legacy 2013 manufacturer reference; present availability and firmware compatibility have not been established.",
-      "pt": "Referência do fabricante de 2013; disponibilidade atual e compatibilidade de firmware não foram estabelecidas."
-    }
+      "en": "Selected 2025 operating instructions supplement the legacy exact-model catalog. Complete wiring, firmware compatibility and field operation remain unverified.",
+      "pt": "Instruções selecionadas de 2025 complementam o catálogo antigo do modelo exato. Fiação completa, compatibilidade de firmware e operação em campo seguem sem validação."
+    },
+    "parameterExtractionComplete": false
   },
   "modelEvidence": [
     {
@@ -151,11 +152,234 @@
         "section": "Supply",
         "applicability": "Listed exact model"
       }
+    },
+    {
+      "id": "retry6_load_current",
+      "name": {
+        "en": "Maximum output current",
+        "pt": "Corrente máxima de saída"
+      },
+      "description": {
+        "en": "Output current limit is 100 mA.",
+        "pt": "O limite da corrente de saída é 100 mA."
+      },
+      "value": 100,
+      "unit": "mA",
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_response",
+      "name": {
+        "en": "Response time",
+        "pt": "Tempo de resposta"
+      },
+      "description": {
+        "en": "Response time is at most 0.5 ms for this variant.",
+        "pt": "O tempo de resposta é de no máximo 0,5 ms nesta variante."
+      },
+      "value": 0.5,
+      "unit": "ms",
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_switch_rate",
+      "name": {
+        "en": "Signal sequence",
+        "pt": "Sequência de sinais"
+      },
+      "description": {
+        "en": "Signal sequence is 1000 per second for this variant.",
+        "pt": "A sequência de sinais é de 1000 por segundo nesta variante."
+      },
+      "value": 1000,
+      "unit": "Hz",
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Technical data",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
     }
   ],
-  "parameters": [],
-  "diagnostics": [],
-  "procedures": [],
+  "parameters": [
+    {
+      "id": "retry6_distance_knob",
+      "name": {
+        "en": "Sensing distance adjustment",
+        "pt": "Ajuste da distância"
+      },
+      "description": {
+        "en": "Use the rotary knob to set the sensing distance.",
+        "pt": "Use o potenciômetro para ajustar a distância de detecção."
+      },
+      "value": "Use the rotary knob to set the sensing distance.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "retry6_output_state",
+      "name": {
+        "en": "Q output interpretation",
+        "pt": "Interpretação da saída Q"
+      },
+      "description": {
+        "en": "PNP: object detected gives Q HIGH; load connects to M. Complementary output is inverted.",
+        "pt": "PNP: objeto detectado produz Q HIGH; carga ligada a M. A saída complementar é invertida."
+      },
+      "value": "PNP: object detected gives Q HIGH; load connects to M. Complementary output is inverted.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 3",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_no_target_light",
+      "name": {
+        "en": "Target reception missing or blinking",
+        "pt": "Recepção do alvo ausente ou piscando"
+      },
+      "description": {
+        "en": "Re-align, clean optics or check the application conditions.",
+        "pt": "Realinhe, limpe as lentes ou verifique as condições da aplicação."
+      },
+      "value": "Re-align, clean optics or check the application conditions.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_background_light",
+      "name": {
+        "en": "LED remains active without target",
+        "pt": "LED continua ativo sem alvo"
+      },
+      "description": {
+        "en": "Background influence is excessive; reduce sensing distance or reassess the application.",
+        "pt": "A influência do fundo é excessiva; reduza a distância ou reavalie a aplicação."
+      },
+      "value": "Background influence is excessive; reduce sensing distance or reassess the application.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    }
+  ],
+  "procedures": [
+    {
+      "id": "retry6_connect",
+      "name": {
+        "en": "Connect without power",
+        "pt": "Conectar sem alimentação"
+      },
+      "description": {
+        "en": "Mount securely; connect cable or socket with supply switched off.",
+        "pt": "Fixe o sensor; conecte o cabo ou conector com a alimentação desligada."
+      },
+      "value": "Mount securely; connect cable or socket with supply switched off.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 1",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_clean",
+      "name": {
+        "en": "Lens and connection checks",
+        "pt": "Verificação de lentes e conexões"
+      },
+      "description": {
+        "en": "Clean exposed optical surfaces and check screw and plug connections periodically.",
+        "pt": "Limpe as superfícies ópticas expostas e verifique periodicamente parafusos e conectores."
+      },
+      "value": "Clean exposed optical surfaces and check screw and plug connections periodically.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Maintenance",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    },
+    {
+      "id": "retry6_distance_setup",
+      "name": {
+        "en": "Set detection and reject background",
+        "pt": "Ajustar detecção e rejeitar o fundo"
+      },
+      "description": {
+        "en": "Start at maximum setting; align on target, then remove it and reduce distance until the receiver LED goes off.",
+        "pt": "Comece no ajuste máximo; alinhe ao alvo, retire-o e reduza a distância até o LED de recepção apagar."
+      },
+      "value": "Start at maximum setting; align on target, then remove it and reduce distance until the receiver LED goes off.",
+      "unit": null,
+      "source": {
+        "documentId": "retry6_wtb9l",
+        "pages": [
+          1
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Starting Operation 2",
+        "applicability": "WTB9L-3P2261: WTB9xxL-3xx6x class-1 variant"
+      }
+    }
+  ],
   "software": [],
   "configurationUnknowns": [
     "softwareVersionCompatibility",

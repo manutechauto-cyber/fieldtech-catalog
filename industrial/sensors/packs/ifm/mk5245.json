@@ -4,7 +4,7 @@
   "packId": "sensor_ifm_mk5245",
   "manufacturer": "ifm",
   "model": "MK5245",
-  "version": 1,
+  "version": 2,
   "path": "industrial/sensors/packs/ifm/mk5245.json",
   "family": "ifm MK",
   "typeIds": [
@@ -195,10 +195,77 @@
         "section": "Mechanical data",
         "applicability": "Exact order code MK5245"
       }
+    },
+    {
+      "id": "retry6_wire_mapping",
+      "name": {
+        "en": "Cable wire assignment",
+        "pt": "Função dos fios do cabo"
+      },
+      "description": {
+        "en": "Brown BN = L+; blue BU = L-; black BK = switching output, with load to L-.",
+        "pt": "Marrom BN = L+; azul BU = L-; preto BK = saída de comutação, com carga ligada a L-."
+      },
+      "value": "Brown BN = L+; blue BU = L-; black BK = switching output, with load to L-.",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_mk5245_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Electrical connection diagram",
+        "applicability": "Exact MK5245 datasheet; positioning indication is not a functional-safety rating"
+      }
     }
   ],
   "parameters": [],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "id": "retry6_critical_area",
+      "name": {
+        "en": "Critical edge indication",
+        "pt": "Indicação da borda crítica"
+      },
+      "description": {
+        "en": "LED2 flashes at 2 Hz in the critical positioning edge area.",
+        "pt": "O LED2 pisca a 2 Hz na borda crítica de posicionamento."
+      },
+      "value": 2,
+      "unit": "Hz",
+      "source": {
+        "documentId": "ifm_mk5245_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Setting aid, diagram A",
+        "applicability": "Exact MK5245 datasheet; positioning indication is not a functional-safety rating"
+      }
+    },
+    {
+      "id": "retry6_stable_area",
+      "name": {
+        "en": "Stable switching-area indication",
+        "pt": "Indicação da área estável de comutação"
+      },
+      "description": {
+        "en": "LED1 is on inside the safe switching area shown in diagram B; this describes positioning, not functional safety.",
+        "pt": "O LED1 acende na área segura de comutação da figura B; a indicação descreve posicionamento, sem classificação de segurança funcional."
+      },
+      "value": "LED1 is on inside the safe switching area shown in diagram B; this describes positioning, not functional safety.",
+      "unit": null,
+      "source": {
+        "documentId": "ifm_mk5245_datasheet_v2",
+        "pages": [
+          3
+        ],
+        "pageBasis": "PDF page, 1-based",
+        "section": "Setting aid, diagram B",
+        "applicability": "Exact MK5245 datasheet; positioning indication is not a functional-safety rating"
+      }
+    }
+  ],
   "procedures": [],
   "software": [],
   "configurationUnknowns": [
